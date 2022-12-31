@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html",
-          "hash": "RbtevIJcT89q+gKthPcCmQ=="
+          "hash": "HdfCQkxeInRC2c89OxKPUw=="
         }
       },
       "is_incremental": false,
@@ -1187,11 +1187,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/intro.md",
+      "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/intro.html",
-          "hash": "6Oj2TokZTbHEIfcf8tqDJw=="
+          "relative_path": "manual/index.html",
+          "hash": "seExYb0AgyrUl1zCidBF6Q=="
         }
       },
       "is_incremental": false,
@@ -1227,7 +1227,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "HDKR5KEVu2L/VMdyOuVh7w=="
+          "hash": "5DWjbvYnDQSyE9BTanQwfg=="
         }
       },
       "is_incremental": false,
@@ -1239,7 +1239,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "qNi0YCirePcePRAU523cPA=="
+          "hash": "RA4fr8GzRS+5rZO3qZUV/A=="
         }
       },
       "is_incremental": false,
