@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Entities (Advanced) </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Entities (Advanced) ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="entities-advanced">Entities (Advanced)</h1>
+
+<p>For those who plan to use ECS in your project or want to squeeze as much performance as possible, you can directly use entities and their agent components. All you need to do is add your <code>Agents</code> to ECS `SubScene.</p>
+<blockquote>
+<p><b>Note.</b> If you are not familiar with ECS. I highly recommend first learning the basics of <a href="https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/index.html">ECS</a>, before continuing this section.</p>
+</blockquote>
+<p>Almost all agents will have these components (Static agents might not have <code>AgentBody</code>):</p>
+<table>
+<thead>
+<tr>
+<th>Core Component</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>Agent tag.</td>
+</tr>
+<tr>
+<td>AgentBody</td>
+<td>Agent's body movement.</td>
+</tr>
+<tr>
+<td>AgentShape</td>
+<td>Represents agent shape in space.</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://en.wikipedia.org/wiki/Boids">Boids</a> components based on Craig Reynolds. Only exception is <code>AgentSonarAvoid</code> which is novel solution.</p>
+<table>
+<thead>
+<tr>
+<th>Boids Component</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AgentSteering</td>
+<td>Agent's steering towards destination with arrival.</td>
+</tr>
+<tr>
+<td>AgentSeparation</td>
+<td>Agent separation from nearby agents.</td>
+</tr>
+<tr>
+<td>AgentSonarAvoid</td>
+<td>Agent avoidance of nearby agents using Sonar Avoidance algorithm.</td>
+</tr>
+<tr>
+<td>AgentCollider</td>
+<td>This component tags, if agent should collide with nearby agents.</td>
+</tr>
+</tbody>
+</table>
+<p>NavMesh components enable navigation on Unity builtin NavMesh system.</p>
+<table>
+<thead>
+<tr>
+<th>NavMesh Component</th>
+<th>Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NavMeshPath</td>
+<td>Agent NavMesh path.</td>
+</tr>
+<tr>
+<td>NavMeshNode</td>
+<td>Agent NavMesh single node of path.</td>
+</tr>
+</tbody>
+</table>
+<p>For example, if you have agents that have components: <code>Agent</code>, <code>AgentBody</code>, <code>AgentShape</code>, <code>AgentSteering</code>, <code>AgentSonarAvoid</code>, <code>AgentCollider</code>, <code>NavMeshPath</code> and <code>NavMeshNode</code>.</p>
+<p>Execution logic would be:</p>
+<ol>
+<li><code>NavMeshPath</code> would request new path into <code>DynamicBuffer&lt;NavMeshNode&gt;</code>.</li>
+<li><code>AgentSteering</code> would compute steering direction into <code>AgentBody</code>.</li>
+<li><code>DynamicBuffer&lt;NavMeshNode&gt;</code> would modify steering direction of <code>AgentBody</code> by following path locations.</li>
+<li><code>AgentSonarAvoid</code> would modify steering direction of <code>AgentBody</code> to account for avoiding nearby <code>Agents</code>.</li>
+<li><code>AgentSteering</code> and <code>AgentBody</code> would be used to translate <code>Agent</code> position.</li>
+<li><code>NavMeshPath</code> would be used to correct position to make sure <code>Agent</code> is still in Nav Mesh.</li>
+</ol>
+<h1 id="debug">Debug</h1>
+<p>In case you find some behaviors working unexpectedly, it is recommended to try debug gizmos functionality. This can be enabled per entity by adding component <code>DrawGizmos</code> to it.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

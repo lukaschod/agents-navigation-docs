@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sonar Avoidance </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Sonar Avoidance ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="sonar-avoidance">Sonar Avoidance</h1>
+
+<p>Component <code>Agent Sonar Avoid</code> is based on this previous package version called <a href="https://assetstore.unity.com/packages/tools/ai/local-avoidance-214347">Local Avoidance 2.0</a>. Users can still use <code>SonarAvoidance</code> directly without ECS interface.</p>
+<p>This local avoidance uses novel solution called<code> SonarAvoidance</code>. Idea is very simple. Interest point constructs sonar volume shaped in circle, that scans for nearby obstacles. Each obstacle cuts into the volume. Once all obstacles are scanned, the best direction can be calculated from it.</p>
+<p>The solution is designed to be lightweight so it could be moved into any design. Thus the whole functionality is contained of single struct called <code>SonarAvoidance</code>.</p>
+<h2 id="constructor">Constructor</h2>
+<p>Sonar can be created with simple constructor.</p>
+<pre><code>var sonar = new SonarAvoidance(position, direction, up, innerRadius, outerRadius, speed);
+</code></pre>
+<img src="images/Sonar.PNG" width="400">
+<h2 id="circular-obstacle">Circular Obstacle</h2>
+<p>Circular shape obstacles usually used for other agents.</p>
+<pre><code>bool success = sonar.InsertObstacle(obstaclePosition, obstacleVelocity, obstacleRadius);
+</code></pre>
+<img src="images/StaticObstacle.PNG" width="400">
+<p><em>Obstacle with 0 velocity</em></p>
+<img src="images/DynamicObstacle.PNG" width="400">
+<p><em>Obstacle with negative y axis velocity</em></p>
+<blockquote>
+<p><b>Note:</b> Blue points shows where sonar would collide with collider red point at specific time. There can be multiple collision points.</p>
+</blockquote>
+<h2 id="directional-obstacle">Directional Obstacle</h2>
+<p>Directional shape obstacles usually used for limiting agent vision.</p>
+<pre><code>bool success = sonar.InsertObstacle(obstacleDirection, obstacleRadius);
+</code></pre>
+<img src="images/DirectionalObstacle.PNG" width="400">
+<p><em>With negative x direction and 180 degress</em></p>
+<h2 id="cleanup">Cleanup</h2>
+<p>If you want to re-use the structure for next frame you can clear it.</p>
+<pre><code>sonar.Clear()
+</code></pre>
+<p>Or destroyed with dispose interface.</p>
+<pre><code>sonar.Dispose();
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
