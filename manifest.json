@@ -1,0 +1,1305 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Lukas/Source/AgentsNavigation/Packages/com.projectdawn.navigation/Documentation~/.docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Circle.html",
+          "hash": "jxXbCvAda1Xo5126G9ch4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.html",
+          "hash": "sm2jlQM3W78X9t69MzoJig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.Line.CutResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Line.CutResult.html",
+          "hash": "ffAhMkBpiUxOsLBc1HODxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Line.html",
+          "hash": "lZlQtC0WPJLI1bYRFzNneg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.html",
+          "hash": "vaCYy15p2jSeQhi+M3VduQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html",
+          "hash": "8ee9W0ThSDJGL/gR9CaU1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.html",
+          "hash": "/W18swJnzClW4EAagECvQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html",
+          "hash": "biYG+AOm0HD0haG+UREhHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.html",
+          "hash": "o/+gw14NyUJ4U9RfL2Bg5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Agent.html",
+          "hash": "poMedJShYL5fIMawSt1NEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html",
+          "hash": "nKKpPpaJB8BGbyl/4wnmVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentBody.html",
+          "hash": "pps/fwO+1gIzz4+LfnKfzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentCollider.html",
+          "hash": "xlarhc4/zwfve2listi66g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentColliderGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html",
+          "hash": "gwg+U/iP0rbFMbS5svMadg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.html",
+          "hash": "FenGpqjp3mcUo1JoHpGR0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.html",
+          "hash": "y94sxrM53e3MsZakkqt/LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.html",
+          "hash": "KHIpNlmwz5chp1gaqSR2FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.html",
+          "hash": "Eo8XVMwK1AJBZO0r8v9w8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoid.html",
+          "hash": "v2zEuLiR5gTNCjcSmfknZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html",
+          "hash": "gBaccyjLghVmxb613Jh27g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSeparation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSeparation.html",
+          "hash": "v927aVj78NRrUdqrhrrqzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.html",
+          "hash": "nb6eFQZpIatmcImK2p+nfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentShape.html",
+          "hash": "VH1KVl2ExeNKnIdnOynX+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.html",
+          "hash": "skAkOd/dCwkkdG2GTg8DSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html",
+          "hash": "Olv3KL8H61b4bYllQwkM8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html",
+          "hash": "cj9NfWlc3fDXEocwZhouYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html",
+          "hash": "25QR3eMAH05TnPE2WdkUsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.html",
+          "hash": "MuZKlr2TGi9wMj+9p02ebw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSteering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSteering.html",
+          "hash": "15aYjT3vM/Ig7ZVgTKKNXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.html",
+          "hash": "F35yeGi7nCJLJcrDK5N5uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.html",
+          "hash": "Ai9KJskiB6Qm6FcghAD6xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.html",
+          "hash": "kZeXFzyQqd78WlWlppR/mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.html",
+          "hash": "LQstxdDX3en0Dkeg5NyX/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.DrawGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.DrawGizmos.html",
+          "hash": "+xQKUk/g4ZfGMrxYUSMMHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.FlockEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.FlockEntity.html",
+          "hash": "v8eaaTNEqcVaJvccMQGuew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.FlockGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.FlockGroup.html",
+          "hash": "aIVhKGNfNAboW++WDNCSbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.html",
+          "hash": "ZrzImTJS2m7cIAvBC7eYcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.GeometryUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.GeometryUtils.html",
+          "hash": "/LLbJamFVBQlzy71if4SDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html",
+          "hash": "YVHMPbN1wRA/XrpvzVBexg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.html",
+          "hash": "w/2lhBqTmXdQHJmqRIWkEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.GizmosSystem.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.Singleton.html",
+          "hash": "58a0YiPWIv52BCkkLS2g2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.GizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.html",
+          "hash": "VI/bvKrXcQgZkN1P9ZZMJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html",
+          "hash": "RbtevIJcT89q+gKthPcCmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html",
+          "hash": "McPvPPBxjdz2hpjdJQ5e7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html",
+          "hash": "9jBeuox94YUbS8ftoPOtgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html",
+          "hash": "xnHVvasI5eJtiTyhL0OniA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html",
+          "hash": "MfnkHmruQHW1jMysEoqghA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentMotionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html",
+          "hash": "tEemwv6eGR6cyeQYLUAJzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html",
+          "hash": "inRaNzZ0hsOXTjQ8jTuMFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html",
+          "hash": "GUgNpA2VownTsjb03looSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html",
+          "hash": "gALxv+LKBdDwSEpOJPJhnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html",
+          "hash": "TIMrhf3wUTjFJb6y3MCpPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html",
+          "hash": "4mWmBvigNw10iJlOA5pELg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html",
+          "hash": "QmbC4B5nhPcxtWTQeW5qeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SelectionGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SelectionGizmosSystem.html",
+          "hash": "DxCrz/rb96kfEkGldTUT6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html",
+          "hash": "dtqX+Z+lHF2h3YKkDPll0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.html",
+          "hash": "A+w/hobp6d/3BXTOSCGHtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.html",
+          "hash": "VNPsaH8pzLKeLWy3pFRxIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.html",
+          "hash": "nVdbDx8hdbHoiKLlRC9xuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.html",
+          "hash": "qUIbxi+r+/La9xTJ6zklpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.html",
+          "hash": "oBvd6MbPK5rapoTp4rJwqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshGizmosSystem.html",
+          "hash": "NMTJNLRNTxJp+mqRQ0HYMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshNode.html",
+          "hash": "H+hBdVngfTjeqzTAQL9T+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPath.html",
+          "hash": "LQnL8tnaGV2z8gcWR6yIQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPathState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPathState.html",
+          "hash": "FUxAabhNSP3qep5KEezQ4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPathSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPathSystem.html",
+          "hash": "QXzW/3OnuDzx9OlOgHIL8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPositionSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPositionSystem.html",
+          "hash": "pKtw3xlmnC59gI2y88YlUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQueryHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryHandle.html",
+          "hash": "BEyuanZPc7lB/EUnHQH3jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html",
+          "hash": "dw/mGy5pozWGH8gSgat+rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html",
+          "hash": "eU8fLSRA9QaPNlGRdLyoIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.html",
+          "hash": "yEQ3wbDjiqSGN78Jen2USg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.html",
+          "hash": "p5AAbWM+h7gCnBw/G4Iyaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.PathUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.PathUtils.html",
+          "hash": "Ce++q7SqIashSoVRjZU6Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.ShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.ShapeType.html",
+          "hash": "++ehP0tYFU4A2qBsRta4UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.SonarAvoidMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.SonarAvoidMode.html",
+          "hash": "IFbfphH7IpQFpWyxJPDjEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.html",
+          "hash": "G4A47UiCF51y9IX4c6QQTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.html",
+          "hash": "YKmXsCjwa5jEmSLeNN2xIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "117BJs3EwKYUrlTBON+fuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "MGQ/D/wGXt/qV3Jq6wNICQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog.html",
+          "hash": "MnsZfFxfFGHyCdeobyxF7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "mIaJr2CLTdJV4HKUCynJRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring.html",
+          "hash": "yel6D300Z7nC+6c7CziE3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/entities.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/entities.html",
+          "hash": "mr9JewUgKYnL+h14iuZ+kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/hybrid.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/hybrid.html",
+          "hash": "4aL8Z519efVyopkfhEPJkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Agent.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Agent.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/AgentCircleShape.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/AgentCircleShape.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/AgentCollider.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/AgentCollider.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/AgentCylindreShape.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/AgentCylindreShape.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/AgentNavMesh.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/AgentNavMesh.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/AgentSeperation.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/AgentSeperation.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/AgentSonarAvoid.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/AgentSonarAvoid.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/DirectionalObstacle.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/DirectionalObstacle.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/DynamicObstacle.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/DynamicObstacle.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Mass.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Mass.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Scenario0.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Scenario0.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Sonar.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Sonar.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/SpatialPartitioningSettings.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/SpatialPartitioningSettings.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/StaticObstacle.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/StaticObstacle.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/Zerg.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/Zerg.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/intro.html",
+          "hash": "6Oj2TokZTbHEIfcf8tqDJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/samples.html",
+          "hash": "uqhHjz/LAT2TMmqcFn/SLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/sonar-avoidance.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/sonar-avoidance.html",
+          "hash": "QMQns86WtoYrYj0KzClE9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "HDKR5KEVu2L/VMdyOuVh7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "qNi0YCirePcePRAU523cPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 77,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

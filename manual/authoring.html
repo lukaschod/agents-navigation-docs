@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Authoring (Beginner) </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Authoring (Beginner) ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="authoring-beginner">Authoring (Beginner)</h1>
+
+<p>Authoring is <code>MonoBehaviour</code> components for Game Objects used for synchronizing or baking Entities components.
+These components only contain authoring information and not tied to logic.</p>
+<p>As this package is designed to be modular, most of the navigation behaviors spread across many components.
+This enables a high variety of customizability as are user can add and remove behaviors even per agent.</p>
+<h2 id="agent">Agent</h2>
+<p>This is the main component that marks <code>GameObject</code>/<code>Entity</code> as <code>Agent</code>.
+In this package, everything that participates in navigation will be <code>Agent</code>, no matter if it is just a static obstacle or dynamic.</p>
+<p>If the agent type is set to <code>Steering</code> it will also include <code>Steering</code> and <code>Arrival</code> behaviors.
+This will allow the agent to steer towards destination and smooth stop.</p>
+<img src="images/Agent.PNG" width="400">
+<h2 id="agent-cylinder-shape">Agent Cylinder Shape</h2>
+<p>This component specifies the agent shape that will be used in navigation. Cylinder shape will indicate that the agent should be simulated in 3d space with Y as an up axis.</p>
+<img src="images/AgentCylindreShape.PNG" width="400">
+<h2 id="agent-circle-shape">Agent Circle Shape</h2>
+<p>This component specifies the agent shape that will be used in navigation. The circle shape will indicate that the agent should be simulated in 2d space with Z as an up axis.</p>
+<img src="images/AgentCircleShape.PNG" width="400">
+<h2 id="agent-collider">Agent Collider</h2>
+<p>This component will enable collisions between agents.</p>
+<img src="images/AgentCollider.PNG" width="400">
+<h2 id="agent-sonar-avoid">Agent Sonar Avoid</h2>
+<p>This component will enable avoidance between nearby agents using the Sonar Avoidance solution. It implements <a href="https://assetstore.unity.com/packages/tools/ai/local-avoidance-214347">Local Avoidance</a> package.</p>
+<img src="images/AgentSonarAvoid.PNG" width="400">
+<h2 id="agent-nav-mesh">Agent Nav Mesh</h2>
+<p>This component will enable these agents to use Unity's builtin NavMesh system. For more information check <a href="https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.0/manual/index.html">AI Navigation</a>.</p>
+<img src="images/AgentNavMesh.PNG" width="400">
+<h2 id="agent-separation">Agent Separation</h2>
+<p>This component enables one of the Boids behaviors called separation. It is very similar to <code>Agent Collider</code> key difference, that it uses velocity for avoidance and is less strict.</p>
+<img src="images/AgentSeperation.PNG" width="400">
+<h2 id="spatial-partitioning-settings">Spatial Partitioning Settings</h2>
+<p>This component is singleton and allows modifying some properties of spatial partitioning.</p>
+<img src="images/SpatialPartitioningSettings.PNG" width="400">
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

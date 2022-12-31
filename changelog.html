@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Changelog </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Changelog ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="305---2022-12-26">[3.0.5] - 2022-12-26</h2>
+<ul>
+<li>Fixed NavMeshAgent correctly stop if path destination can not be mapped to navmesh</li>
+<li>Added NavMeshPath failed state and also prints the error in editor</li>
+<li>Added NavMeshAgent/NavMeshPath added new property MappingExtent that allows controling the maximum distance the agent will be mapped</li>
+</ul>
+<h2 id="304---2022-12-23">[3.0.4] - 2022-12-23</h2>
+<ul>
+<li>Fixed NavMeshAgent correctly handle partial paths (Paths where destination can not be reached)</li>
+<li>Fixed few more cases where NavMesh update would result in &quot;Any jobs using NavMeshQuery must be completed before we mutate the NavMesh.&quot;</li>
+<li>Fixed NavMeshAgent in some cases reusing path from other agent</li>
+<li>Changed Zerg scene camera to be centered around controllable units</li>
+</ul>
+<h2 id="303---2022-12-17">[3.0.3] - 2022-12-17</h2>
+<ul>
+<li>Added to EntityBehaviour OnEnable and OnDisable</li>
+<li>Added error message box to AgentNavMeshAuthoring, if game objects also has NavMeshObstacle</li>
+<li>Added SetDestination method to AgentAuthoring</li>
+<li>Changed that if agent is not near any NavMesh it will throw error instead moved to the center of the world</li>
+<li>Fixed few cases where NavMesh update would result in &quot;Any jobs using NavMeshQuery must be completed before we mutate the NavMesh.&quot;</li>
+</ul>
+<h2 id="302---2022-12-15">[3.0.2] - 2022-12-15</h2>
+<ul>
+<li>Fixed NavMesh at the end of destination throwing error <code>System.IndexOutOfRangeException: Index {0} is out of range of '{1}' Length</code>.</li>
+<li>Fixed transform sync from game object to entity not override transform in most calls.</li>
+</ul>
+<h2 id="301---2022-12-08">[3.0.1] - 2022-12-08</h2>
+<ul>
+<li>Added correct documentation</li>
+<li>Added com.unity.modules.ui dependency as samples uses ui</li>
+<li>Removed second navmesh surface from zerg samples</li>
+</ul>
+<h2 id="300---2022-11-30">[3.0.0] - 2022-11-30</h2>
+<ul>
+<li>Release as Agents Navigation</li>
+</ul>
+<h2 id="200---2022-06-9">[2.0.0] - 2022-06-9</h2>
+<ul>
+<li>Changing velocity avoidance with new smart algorithm</li>
+<li>Changing package to use new Package Manager workflow</li>
+<li>Updating documentation to be more clear and reflect new API changes</li>
+<li>Adding zerg sample</li>
+</ul>
+<h2 id="103---2022-05-14">[1.0.3] - 2022-05-14</h2>
+<ul>
+<li>Adding new demo scene &quot;8 - Jobified Boids Navmesh Demo&quot;</li>
+</ul>
+<h2 id="102---2022-03-19">[1.0.2] - 2022-03-19</h2>
+<ul>
+<li>Fixing memory leaks in demo scenes</li>
+</ul>
+<h2 id="101---2022-03-08">[1.0.1] - 2022-03-08</h2>
+<ul>
+<li>Updated jobs demo to not use physics and small bug fix</li>
+</ul>
+<h2 id="100---2022-02-22">[1.0.0] - 2022-02-22</h2>
+<ul>
+<li>Package released</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
