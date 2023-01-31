@@ -70,6 +70,22 @@ references:
   commentId: T:ProjectDawn.LocalAvoidance.Intersection
   fullName: ProjectDawn.LocalAvoidance.Intersection
   nameWithType: Intersection
+- uid: ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment(ProjectDawn.LocalAvoidance.Circle,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2@,Unity.Mathematics.float2@)
+  name: IntersectionOfCircleAndSegment(Circle, float2, float2, out float2, out float2)
+  href: api/ProjectDawn.LocalAvoidance.Intersection.html#ProjectDawn_LocalAvoidance_Intersection_IntersectionOfCircleAndSegment_ProjectDawn_LocalAvoidance_Circle_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2__Unity_Mathematics_float2__
+  commentId: M:ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment(ProjectDawn.LocalAvoidance.Circle,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2@,Unity.Mathematics.float2@)
+  name.vb: IntersectionOfCircleAndSegment(Circle, float2, float2, ByRef float2, ByRef float2)
+  fullName: ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment(ProjectDawn.LocalAvoidance.Circle, Unity.Mathematics.float2, Unity.Mathematics.float2, out Unity.Mathematics.float2, out Unity.Mathematics.float2)
+  fullName.vb: ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment(ProjectDawn.LocalAvoidance.Circle, Unity.Mathematics.float2, Unity.Mathematics.float2, ByRef Unity.Mathematics.float2, ByRef Unity.Mathematics.float2)
+  nameWithType: Intersection.IntersectionOfCircleAndSegment(Circle, float2, float2, out float2, out float2)
+  nameWithType.vb: Intersection.IntersectionOfCircleAndSegment(Circle, float2, float2, ByRef float2, ByRef float2)
+- uid: ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment*
+  name: IntersectionOfCircleAndSegment
+  href: api/ProjectDawn.LocalAvoidance.Intersection.html#ProjectDawn_LocalAvoidance_Intersection_IntersectionOfCircleAndSegment_
+  commentId: Overload:ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.Intersection.IntersectionOfCircleAndSegment
+  nameWithType: Intersection.IntersectionOfCircleAndSegment
 - uid: ProjectDawn.LocalAvoidance.Intersection.IntersectionOfTwoMovingCircles(ProjectDawn.LocalAvoidance.Circle,Unity.Mathematics.float2,ProjectDawn.LocalAvoidance.Circle,System.Single,System.Single,ProjectDawn.LocalAvoidance.Line@,ProjectDawn.LocalAvoidance.Line@)
   name: IntersectionOfTwoMovingCircles(Circle, float2, Circle, Single, Single, out Line, out Line)
   href: api/ProjectDawn.LocalAvoidance.Intersection.html#ProjectDawn_LocalAvoidance_Intersection_IntersectionOfTwoMovingCircles_ProjectDawn_LocalAvoidance_Circle_Unity_Mathematics_float2_ProjectDawn_LocalAvoidance_Circle_System_Single_System_Single_ProjectDawn_LocalAvoidance_Line__ProjectDawn_LocalAvoidance_Line__
@@ -277,33 +293,12 @@ references:
   commentId: T:ProjectDawn.LocalAvoidance.SonarAvoidance
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance
   nameWithType: SonarAvoidance
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(ProjectDawn.LocalAvoidance.SonarAvoidance@,Unity.Collections.Allocator)
-  name: SonarAvoidance(SonarAvoidance, Allocator)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance__ctor_ProjectDawn_LocalAvoidance_SonarAvoidance__Unity_Collections_Allocator_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(ProjectDawn.LocalAvoidance.SonarAvoidance@,Unity.Collections.Allocator)
-  name.vb: SonarAvoidance(ByRef SonarAvoidance, Allocator)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.SonarAvoidance(ProjectDawn.LocalAvoidance.SonarAvoidance, Unity.Collections.Allocator)
-  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.SonarAvoidance(ByRef ProjectDawn.LocalAvoidance.SonarAvoidance, Unity.Collections.Allocator)
-  nameWithType: SonarAvoidance.SonarAvoidance(SonarAvoidance, Allocator)
-  nameWithType.vb: SonarAvoidance.SonarAvoidance(ByRef SonarAvoidance, Allocator)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(Unity.Collections.Allocator)
   name: SonarAvoidance(Allocator)
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance__ctor_Unity_Collections_Allocator_
   commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(Unity.Collections.Allocator)
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.SonarAvoidance(Unity.Collections.Allocator)
   nameWithType: SonarAvoidance.SonarAvoidance(Allocator)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,System.Single,Unity.Collections.Allocator)
-  name: SonarAvoidance(float3, float3, float3, Single, Single, Single, Allocator)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance__ctor_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_System_Single_Unity_Collections_Allocator_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,System.Single,Unity.Collections.Allocator)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.SonarAvoidance(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, System.Single, Unity.Collections.Allocator)
-  nameWithType: SonarAvoidance.SonarAvoidance(float3, float3, float3, Single, Single, Single, Allocator)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(Unity.Mathematics.float3,Unity.Mathematics.quaternion,System.Single,System.Single,System.Single,Unity.Collections.Allocator)
-  name: SonarAvoidance(float3, quaternion, Single, Single, Single, Allocator)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance__ctor_Unity_Mathematics_float3_Unity_Mathematics_quaternion_System_Single_System_Single_System_Single_Unity_Collections_Allocator_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor(Unity.Mathematics.float3,Unity.Mathematics.quaternion,System.Single,System.Single,System.Single,Unity.Collections.Allocator)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.SonarAvoidance(Unity.Mathematics.float3, Unity.Mathematics.quaternion, System.Single, System.Single, System.Single, Unity.Collections.Allocator)
-  nameWithType: SonarAvoidance.SonarAvoidance(float3, quaternion, Single, Single, Single, Allocator)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.#ctor*
   name: SonarAvoidance
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance__ctor_
@@ -324,6 +319,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Clear
   nameWithType: SonarAvoidance.Clear
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom(ProjectDawn.LocalAvoidance.SonarAvoidance@)
+  name: CopyFrom(SonarAvoidance)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_CopyFrom_ProjectDawn_LocalAvoidance_SonarAvoidance__
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom(ProjectDawn.LocalAvoidance.SonarAvoidance@)
+  name.vb: CopyFrom(ByRef SonarAvoidance)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom(ProjectDawn.LocalAvoidance.SonarAvoidance)
+  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom(ByRef ProjectDawn.LocalAvoidance.SonarAvoidance)
+  nameWithType: SonarAvoidance.CopyFrom(SonarAvoidance)
+  nameWithType.vb: SonarAvoidance.CopyFrom(ByRef SonarAvoidance)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom*
+  name: CopyFrom
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_CopyFrom_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.CopyFrom
+  nameWithType: SonarAvoidance.CopyFrom
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DirectionToRotation(Unity.Mathematics.float3,Unity.Mathematics.float3)
   name: DirectionToRotation(float3, float3)
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DirectionToRotation_Unity_Mathematics_float3_Unity_Mathematics_float3_
@@ -357,6 +368,15 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle
   nameWithType: SonarAvoidance.DrawObstacle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3)
+  name: DrawObstacle<T>(T, float3, float3)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacle__1___0_Unity_Mathematics_float3_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3)
+  name.vb: DrawObstacle(Of T)(T, float3, float3)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle<T>(T, Unity.Mathematics.float3, Unity.Mathematics.float3)
+  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle(Of T)(T, Unity.Mathematics.float3, Unity.Mathematics.float3)
+  nameWithType: SonarAvoidance.DrawObstacle<T>(T, float3, float3)
+  nameWithType.vb: SonarAvoidance.DrawObstacle(Of T)(T, float3, float3)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
   name: DrawObstacle<T>(T, float3, float3, Single, Int32)
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacle__1___0_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Int32_
@@ -436,6 +456,25 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle
   nameWithType: SonarAvoidance.IDrawCircle.DrawCircle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine
+  name: SonarAvoidance.IDrawLine
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html
+  commentId: T:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine
+  nameWithType: SonarAvoidance.IDrawLine
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
+  name: DrawLine(float3, float3, Color)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawLine_DrawLine_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine(Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color)
+  nameWithType: SonarAvoidance.IDrawLine.DrawLine(float3, float3, Color)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine*
+  name: DrawLine
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawLine_DrawLine_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine
+  nameWithType: SonarAvoidance.IDrawLine.DrawLine
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InnerRadius
   name: InnerRadius
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InnerRadius
@@ -468,6 +507,45 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacle
   nameWithType: SonarAvoidance.InsertObstacle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3,System.Single)
+  name: InsertObstacleCircle(float3, Single)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleCircle_Unity_Mathematics_float3_System_Single_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3,System.Single)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3, System.Single)
+  nameWithType: SonarAvoidance.InsertObstacleCircle(float3, Single)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle*
+  name: InsertObstacleCircle
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleCircle_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle
+  nameWithType: SonarAvoidance.InsertObstacleCircle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLine(Unity.Mathematics.float3,Unity.Mathematics.float3)
+  name: InsertObstacleLine(float3, float3)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleLine_Unity_Mathematics_float3_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLine(Unity.Mathematics.float3,Unity.Mathematics.float3)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLine(Unity.Mathematics.float3, Unity.Mathematics.float3)
+  nameWithType: SonarAvoidance.InsertObstacleLine(float3, float3)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLine*
+  name: InsertObstacleLine
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleLine_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLine
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLine
+  nameWithType: SonarAvoidance.InsertObstacleLine
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLineIgnoreRadius(Unity.Mathematics.float3,Unity.Mathematics.float3)
+  name: InsertObstacleLineIgnoreRadius(float3, float3)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleLineIgnoreRadius_Unity_Mathematics_float3_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLineIgnoreRadius(Unity.Mathematics.float3,Unity.Mathematics.float3)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLineIgnoreRadius(Unity.Mathematics.float3, Unity.Mathematics.float3)
+  nameWithType: SonarAvoidance.InsertObstacleLineIgnoreRadius(float3, float3)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLineIgnoreRadius*
+  name: InsertObstacleLineIgnoreRadius
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleLineIgnoreRadius_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLineIgnoreRadius
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleLineIgnoreRadius
+  nameWithType: SonarAvoidance.InsertObstacleLineIgnoreRadius
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IsCreated
   name: IsCreated
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IsCreated
@@ -520,18 +598,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Rotation
   nameWithType: SonarAvoidance.Rotation
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,System.Single)
-  name: Set(float3, float3, float3, Single, Single, Single)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_Set_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_System_Single_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,System.Single)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, System.Single)
-  nameWithType: SonarAvoidance.Set(float3, float3, float3, Single, Single, Single)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.quaternion,System.Single,System.Single,System.Single)
-  name: Set(float3, quaternion, Single, Single, Single)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_Set_Unity_Mathematics_float3_Unity_Mathematics_quaternion_System_Single_System_Single_System_Single_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.quaternion,System.Single,System.Single,System.Single)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3, Unity.Mathematics.quaternion, System.Single, System.Single, System.Single)
-  nameWithType: SonarAvoidance.Set(float3, quaternion, Single, Single, Single)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,System.Single)
+  name: Set(float3, float3, float3, float3, Single, Single, Single)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_Set_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_System_Single_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,System.Single)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, System.Single)
+  nameWithType: SonarAvoidance.Set(float3, float3, float3, float3, Single, Single, Single)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.quaternion,System.Single,System.Single,System.Single)
+  name: Set(float3, float3, quaternion, Single, Single, Single)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_Set_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_quaternion_System_Single_System_Single_System_Single_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.quaternion,System.Single,System.Single,System.Single)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Set(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.quaternion, System.Single, System.Single, System.Single)
+  nameWithType: SonarAvoidance.Set(float3, float3, quaternion, Single, Single, Single)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.Set*
   name: Set
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_Set_
@@ -552,6 +630,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Speed
   nameWithType: SonarAvoidance.Speed
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.quaternion@)
+  name: TryDirectionToRotation(float3, float3, out quaternion)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_TryDirectionToRotation_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_quaternion__
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.quaternion@)
+  name.vb: TryDirectionToRotation(float3, float3, ByRef quaternion)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation(Unity.Mathematics.float3, Unity.Mathematics.float3, out Unity.Mathematics.quaternion)
+  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation(Unity.Mathematics.float3, Unity.Mathematics.float3, ByRef Unity.Mathematics.quaternion)
+  nameWithType: SonarAvoidance.TryDirectionToRotation(float3, float3, out quaternion)
+  nameWithType.vb: SonarAvoidance.TryDirectionToRotation(float3, float3, ByRef quaternion)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation*
+  name: TryDirectionToRotation
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_TryDirectionToRotation_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation
+  isSpec: "True"
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.TryDirectionToRotation
+  nameWithType: SonarAvoidance.TryDirectionToRotation
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility
   name: SonarAvoidanceUtility
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html
@@ -571,6 +665,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawClosestDirection
   nameWithType: SonarAvoidanceUtility.DrawClosestDirection
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3)
+  name: DrawObstacle(SonarAvoidance, float3, float3)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacle_ProjectDawn_LocalAvoidance_SonarAvoidance_Unity_Mathematics_float3_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance, Unity.Mathematics.float3, Unity.Mathematics.float3)
+  nameWithType: SonarAvoidanceUtility.DrawObstacle(SonarAvoidance, float3, float3)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
   name: DrawObstacle(SonarAvoidance, float3, float3, Single, Int32)
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacle_ProjectDawn_LocalAvoidance_SonarAvoidance_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Int32_
@@ -1666,15 +1766,15 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.ParallelWriter
   nameWithType: GizmosCommandBuffer.ParallelWriter.ParallelWriter
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color)
-  name: DrawAAConvexPolygon(NativeArray<float3>, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawAAConvexPolygon_Unity_Collections_NativeArray_Unity_Mathematics_float3__UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color)
-  name.vb: DrawAAConvexPolygon(NativeArray(Of float3), Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray<Unity.Mathematics.float3>, UnityEngine.Color)
-  fullName.vb: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray(Of Unity.Mathematics.float3), UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(NativeArray<float3>, Color)
-  nameWithType.vb: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(NativeArray(Of float3), Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color,System.Boolean)
+  name: DrawAAConvexPolygon(NativeArray<float3>, Color, Boolean)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawAAConvexPolygon_Unity_Collections_NativeArray_Unity_Mathematics_float3__UnityEngine_Color_System_Boolean_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color,System.Boolean)
+  name.vb: DrawAAConvexPolygon(NativeArray(Of float3), Color, Boolean)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray<Unity.Mathematics.float3>, UnityEngine.Color, System.Boolean)
+  fullName.vb: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray(Of Unity.Mathematics.float3), UnityEngine.Color, System.Boolean)
+  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(NativeArray<float3>, Color, Boolean)
+  nameWithType.vb: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(NativeArray(Of float3), Color, Boolean)
 - uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon*
   name: DrawAAConvexPolygon
   href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawAAConvexPolygon_
@@ -1708,6 +1808,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine
   nameWithType: GizmosCommandBuffer.ParallelWriter.DrawLine
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color,System.Boolean)
+  name: DrawQuad(float3, float3, float3, float3, Color, Boolean)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawQuad_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_System_Boolean_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color,System.Boolean)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color, System.Boolean)
+  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawQuad(float3, float3, float3, float3, Color, Boolean)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad*
+  name: DrawQuad
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawQuad_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad
+  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawQuad
 - uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
   name: DrawSolidArc(float3, float3, float3, Single, Single, Color)
   href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawSolidArc_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_UnityEngine_Color_
@@ -1871,6 +1984,24 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.AgentAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring
   nameWithType: AgentAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Acceleration
+  name: Acceleration
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_Acceleration
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAuthoring.Acceleration
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Acceleration
+  nameWithType: AgentAuthoring.Acceleration
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.AngularSpeed
+  name: AngularSpeed
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_AngularSpeed
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAuthoring.AngularSpeed
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.AngularSpeed
+  nameWithType: AgentAuthoring.AngularSpeed
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.AutoBreaking
+  name: AutoBreaking
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_AutoBreaking
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAuthoring.AutoBreaking
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.AutoBreaking
+  nameWithType: AgentAuthoring.AutoBreaking
 - uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultBody
   name: DefaultBody
   href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_DefaultBody
@@ -1962,12 +2093,36 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestination
   nameWithType: AgentAuthoring.SetDestination
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Speed
+  name: Speed
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_Speed
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAuthoring.Speed
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Speed
+  nameWithType: AgentAuthoring.Speed
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.StoppingDistance
+  name: StoppingDistance
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_StoppingDistance
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAuthoring.StoppingDistance
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.StoppingDistance
+  nameWithType: AgentAuthoring.StoppingDistance
 - uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring
   name: AgentAvoidAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html
   commentId: T:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring
   nameWithType: AgentAvoidAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Angle
+  name: Angle
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Angle
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Angle
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Angle
+  nameWithType: AgentAvoidAuthoring.Angle
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.BlockedStop
+  name: BlockedStop
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_BlockedStop
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.BlockedStop
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.BlockedStop
+  nameWithType: AgentAvoidAuthoring.BlockedStop
 - uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.DefaultAvoid
   name: DefaultAvoid
   href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_DefaultAvoid
@@ -2007,6 +2162,24 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.HasEntityAvoid
   nameWithType: AgentAvoidAuthoring.HasEntityAvoid
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Mode
+  name: Mode
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Mode
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Mode
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Mode
+  nameWithType: AgentAvoidAuthoring.Mode
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Radius
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Radius
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Radius
+  nameWithType: AgentAvoidAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.UseWalls
+  name: UseWalls
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_UseWalls
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.UseWalls
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.UseWalls
+  nameWithType: AgentAvoidAuthoring.UseWalls
 - uid: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring
   name: AgentCircleShapeAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html
@@ -2052,6 +2225,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.HasEntityShape
   nameWithType: AgentCircleShapeAuthoring.HasEntityShape
+- uid: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCircleShapeAuthoring_Radius
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Radius
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Radius
+  nameWithType: AgentCircleShapeAuthoring.Radius
 - uid: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring
   name: AgentColliderAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html
@@ -2103,6 +2282,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.HasEntityShape
   nameWithType: AgentCylinderShapeAuthoring.HasEntityShape
+- uid: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Height
+  name: Height
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCylinderShapeAuthoring_Height
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Height
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Height
+  nameWithType: AgentCylinderShapeAuthoring.Height
+- uid: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCylinderShapeAuthoring_Radius
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Radius
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Radius
+  nameWithType: AgentCylinderShapeAuthoring.Radius
 - uid: ProjectDawn.Navigation.Hybrid.AgentMotionType
   name: AgentMotionType
   href: api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html
@@ -2133,6 +2324,24 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring
   nameWithType: AgentNavMeshAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AgentTypeId
+  name: AgentTypeId
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_AgentTypeId
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AgentTypeId
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AgentTypeId
+  nameWithType: AgentNavMeshAuthoring.AgentTypeId
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AreaMask
+  name: AreaMask
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_AreaMask
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AreaMask
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AreaMask
+  nameWithType: AgentNavMeshAuthoring.AreaMask
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AutoRepath
+  name: AutoRepath
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_AutoRepath
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AutoRepath
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.AutoRepath
+  nameWithType: AgentNavMeshAuthoring.AutoRepath
 - uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath
   name: DefaulPath
   href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_DefaulPath
@@ -2172,6 +2381,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.HasEntityPath
   nameWithType: AgentNavMeshAuthoring.HasEntityPath
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.MappingExtent
+  name: MappingExtent
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_MappingExtent
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.MappingExtent
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.MappingExtent
+  nameWithType: AgentNavMeshAuthoring.MappingExtent
 - uid: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring
   name: AgentReciprocalAvoidAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html
@@ -2217,6 +2432,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.HasEntityAvoid
   nameWithType: AgentReciprocalAvoidAuthoring.HasEntityAvoid
+- uid: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentReciprocalAvoidAuthoring_Radius
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Radius
+  fullName: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Radius
+  nameWithType: AgentReciprocalAvoidAuthoring.Radius
 - uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring
   name: AgentSeparationAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html
@@ -2262,6 +2483,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.HasEntitySeparation
   nameWithType: AgentSeparationAuthoring.HasEntitySeparation
+- uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_Radius
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
+  nameWithType: AgentSeparationAuthoring.Radius
 - uid: ProjectDawn.Navigation.Hybrid.EntityBehaviour
   name: EntityBehaviour
   href: api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html
@@ -2293,6 +2520,18 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring
   nameWithType: FlockGroupAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Alignment
+  name: Alignment
+  href: api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_FlockGroupAuthoring_Alignment
+  commentId: F:ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Alignment
+  fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Alignment
+  nameWithType: FlockGroupAuthoring.Alignment
+- uid: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Cohesion
+  name: Cohesion
+  href: api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_FlockGroupAuthoring_Cohesion
+  commentId: F:ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Cohesion
+  fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Cohesion
+  nameWithType: FlockGroupAuthoring.Cohesion
 - uid: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.DefaulFlockGroup
   name: DefaulFlockGroup
   href: api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_FlockGroupAuthoring_DefaulFlockGroup
@@ -2345,6 +2584,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.HasEntityFlockGroup
   nameWithType: FlockGroupAuthoring.HasEntityFlockGroup
+- uid: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Leader
+  name: Leader
+  href: api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_FlockGroupAuthoring_Leader
+  commentId: F:ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Leader
+  fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Leader
+  nameWithType: FlockGroupAuthoring.Leader
+- uid: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_FlockGroupAuthoring_Radius
+  commentId: F:ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Radius
+  fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Radius
+  nameWithType: FlockGroupAuthoring.Radius
 - uid: ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem
   name: ReadAgentTransformSystem
   href: api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html
@@ -2424,6 +2675,18 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
   nameWithType: SpatialPartitioningSettingsAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.AgentCapacity
+  name: AgentCapacity
+  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_AgentCapacity
+  commentId: F:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.AgentCapacity
+  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.AgentCapacity
+  nameWithType: SpatialPartitioningSettingsAuthoring.AgentCapacity
+- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
+  name: CellSize
+  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize
+  commentId: F:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
+  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
+  nameWithType: SpatialPartitioningSettingsAuthoring.CellSize
 - uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings
   name: DefaultSettings
   href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings
@@ -2555,6 +2818,132 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.ISpatialQueryVolume.Execute
   nameWithType: ISpatialQueryVolume.Execute
+- uid: ProjectDawn.Navigation.NavMeshBoundary
+  name: NavMeshBoundary
+  href: api/ProjectDawn.Navigation.NavMeshBoundary.html
+  commentId: T:ProjectDawn.Navigation.NavMeshBoundary
+  fullName: ProjectDawn.Navigation.NavMeshBoundary
+  nameWithType: NavMeshBoundary
+- uid: ProjectDawn.Navigation.NavMeshBoundary.Location
+  name: Location
+  href: api/ProjectDawn.Navigation.NavMeshBoundary.html#ProjectDawn_Navigation_NavMeshBoundary_Location
+  commentId: F:ProjectDawn.Navigation.NavMeshBoundary.Location
+  fullName: ProjectDawn.Navigation.NavMeshBoundary.Location
+  nameWithType: NavMeshBoundary.Location
+- uid: ProjectDawn.Navigation.NavMeshBoundary.Radius
+  name: Radius
+  href: api/ProjectDawn.Navigation.NavMeshBoundary.html#ProjectDawn_Navigation_NavMeshBoundary_Radius
+  commentId: F:ProjectDawn.Navigation.NavMeshBoundary.Radius
+  fullName: ProjectDawn.Navigation.NavMeshBoundary.Radius
+  nameWithType: NavMeshBoundary.Radius
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem
+  name: NavMeshBoundaryGizmosSystem
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem
+  nameWithType: NavMeshBoundaryGizmosSystem
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate(ref SystemState)
+  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate
+  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy
+  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate
+  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem
+  name: NavMeshBoundarySystem
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html
+  commentId: T:ProjectDawn.Navigation.NavMeshBoundarySystem
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem
+  nameWithType: NavMeshBoundarySystem
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundarySystem.OnCreate(ref SystemState)
+  nameWithType.vb: NavMeshBoundarySystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate
+  nameWithType: NavMeshBoundarySystem.OnCreate
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundarySystem.OnDestroy(ref SystemState)
+  nameWithType.vb: NavMeshBoundarySystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy
+  nameWithType: NavMeshBoundarySystem.OnDestroy
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundarySystem.OnUpdate(ref SystemState)
+  nameWithType.vb: NavMeshBoundarySystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate
+  nameWithType: NavMeshBoundarySystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshFunnel
   name: NavMeshFunnel
   href: api/ProjectDawn.Navigation.NavMeshFunnel.html
@@ -2629,60 +3018,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshFunnel.TryCreateStraightPath
   nameWithType: NavMeshFunnel.TryCreateStraightPath
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem
-  name: NavMeshGizmosSystem
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html
-  commentId: T:ProjectDawn.Navigation.NavMeshGizmosSystem
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem
-  nameWithType: NavMeshGizmosSystem
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html#ProjectDawn_Navigation_NavMeshGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html#ProjectDawn_Navigation_NavMeshGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem.OnCreate
-  nameWithType: NavMeshGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html#ProjectDawn_Navigation_NavMeshGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html#ProjectDawn_Navigation_NavMeshGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem.OnDestroy
-  nameWithType: NavMeshGizmosSystem.OnDestroy
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html#ProjectDawn_Navigation_NavMeshGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshGizmosSystem.OnUpdate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshGizmosSystem.html#ProjectDawn_Navigation_NavMeshGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshGizmosSystem.OnUpdate
-  nameWithType: NavMeshGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshNode
   name: NavMeshNode
   href: api/ProjectDawn.Navigation.NavMeshNode.html
@@ -2695,6 +3030,60 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshNode.Value
   fullName: ProjectDawn.Navigation.NavMeshNode.Value
   nameWithType: NavMeshNode.Value
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem
+  name: NavMeshNodesGizmosSystem
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.NavMeshNodesGizmosSystem
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem
+  nameWithType: NavMeshNodesGizmosSystem
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshNodesGizmosSystem.OnCreate(ref SystemState)
+  nameWithType.vb: NavMeshNodesGizmosSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate
+  nameWithType: NavMeshNodesGizmosSystem.OnCreate
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshNodesGizmosSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: NavMeshNodesGizmosSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy
+  nameWithType: NavMeshNodesGizmosSystem.OnDestroy
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshNodesGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: NavMeshNodesGizmosSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate
+  nameWithType: NavMeshNodesGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshPath
   name: NavMeshPath
   href: api/ProjectDawn.Navigation.NavMeshPath.html
@@ -3165,6 +3554,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPolygons
   nameWithType: NavMeshQuerySystem.Singleton.GetPolygons
+- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints(UnityEngine.Experimental.AI.PolygonId,UnityEngine.Experimental.AI.PolygonId,UnityEngine.Vector3@,UnityEngine.Vector3@)
+  name: GetPortalPoints(PolygonId, PolygonId, out Vector3, out Vector3)
+  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html#ProjectDawn_Navigation_NavMeshQuerySystem_Singleton_GetPortalPoints_UnityEngine_Experimental_AI_PolygonId_UnityEngine_Experimental_AI_PolygonId_UnityEngine_Vector3__UnityEngine_Vector3__
+  commentId: M:ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints(UnityEngine.Experimental.AI.PolygonId,UnityEngine.Experimental.AI.PolygonId,UnityEngine.Vector3@,UnityEngine.Vector3@)
+  name.vb: GetPortalPoints(PolygonId, PolygonId, ByRef Vector3, ByRef Vector3)
+  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints(UnityEngine.Experimental.AI.PolygonId, UnityEngine.Experimental.AI.PolygonId, out UnityEngine.Vector3, out UnityEngine.Vector3)
+  fullName.vb: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints(UnityEngine.Experimental.AI.PolygonId, UnityEngine.Experimental.AI.PolygonId, ByRef UnityEngine.Vector3, ByRef UnityEngine.Vector3)
+  nameWithType: NavMeshQuerySystem.Singleton.GetPortalPoints(PolygonId, PolygonId, out Vector3, out Vector3)
+  nameWithType.vb: NavMeshQuerySystem.Singleton.GetPortalPoints(PolygonId, PolygonId, ByRef Vector3, ByRef Vector3)
+- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints*
+  name: GetPortalPoints
+  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html#ProjectDawn_Navigation_NavMeshQuerySystem_Singleton_GetPortalPoints_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetPortalPoints
+  nameWithType: NavMeshQuerySystem.Singleton.GetPortalPoints
 - uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.GetStatus(ProjectDawn.Navigation.NavMeshQueryHandle)
   name: GetStatus(NavMeshQueryHandle)
   href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html#ProjectDawn_Navigation_NavMeshQuerySystem_Singleton_GetStatus_ProjectDawn_Navigation_NavMeshQueryHandle_
@@ -3332,6 +3737,37 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshSteeringSystem.OnUpdate
   nameWithType: NavMeshSteeringSystem.OnUpdate
+- uid: ProjectDawn.Navigation.NavMeshWall
+  name: NavMeshWall
+  href: api/ProjectDawn.Navigation.NavMeshWall.html
+  commentId: T:ProjectDawn.Navigation.NavMeshWall
+  fullName: ProjectDawn.Navigation.NavMeshWall
+  nameWithType: NavMeshWall
+- uid: ProjectDawn.Navigation.NavMeshWall.#ctor(Unity.Mathematics.float3,Unity.Mathematics.float3)
+  name: NavMeshWall(float3, float3)
+  href: api/ProjectDawn.Navigation.NavMeshWall.html#ProjectDawn_Navigation_NavMeshWall__ctor_Unity_Mathematics_float3_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.Navigation.NavMeshWall.#ctor(Unity.Mathematics.float3,Unity.Mathematics.float3)
+  fullName: ProjectDawn.Navigation.NavMeshWall.NavMeshWall(Unity.Mathematics.float3, Unity.Mathematics.float3)
+  nameWithType: NavMeshWall.NavMeshWall(float3, float3)
+- uid: ProjectDawn.Navigation.NavMeshWall.#ctor*
+  name: NavMeshWall
+  href: api/ProjectDawn.Navigation.NavMeshWall.html#ProjectDawn_Navigation_NavMeshWall__ctor_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshWall.#ctor
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshWall.NavMeshWall
+  nameWithType: NavMeshWall.NavMeshWall
+- uid: ProjectDawn.Navigation.NavMeshWall.End
+  name: End
+  href: api/ProjectDawn.Navigation.NavMeshWall.html#ProjectDawn_Navigation_NavMeshWall_End
+  commentId: F:ProjectDawn.Navigation.NavMeshWall.End
+  fullName: ProjectDawn.Navigation.NavMeshWall.End
+  nameWithType: NavMeshWall.End
+- uid: ProjectDawn.Navigation.NavMeshWall.Start
+  name: Start
+  href: api/ProjectDawn.Navigation.NavMeshWall.html#ProjectDawn_Navigation_NavMeshWall_Start
+  commentId: F:ProjectDawn.Navigation.NavMeshWall.Start
+  fullName: ProjectDawn.Navigation.NavMeshWall.Start
+  nameWithType: NavMeshWall.Start
 - uid: ProjectDawn.Navigation.PathUtils
   name: PathUtils
   href: api/ProjectDawn.Navigation.PathUtils.html

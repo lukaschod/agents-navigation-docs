@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Lukas/Source/AgentsNavigation/Packages/com.projectdawn.navigation/Documentation~/.docfx_project",
+  "source_base_path": "C:/Users/Lukas/Source/AssetStore/AgentsNavigation/Packages/com.projectdawn.navigation/Documentation~/.docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.Circle.html",
-          "hash": "jxXbCvAda1Xo5126G9ch4Q=="
+          "hash": "MUHCGSlrLH5Bs9ugCJi7ww=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.html",
-          "hash": "sm2jlQM3W78X9t69MzoJig=="
+          "hash": "RIdOvt+0lQd9Z0RCsoVqeQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.Line.CutResult.html",
-          "hash": "ffAhMkBpiUxOsLBc1HODxg=="
+          "hash": "w4wPNol1WmcSKbVPdRIgrw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.Line.html",
-          "hash": "lZlQtC0WPJLI1bYRFzNneg=="
+          "hash": "OyP5hOB636kH3+M4mprkAA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.html",
-          "hash": "vaCYy15p2jSeQhi+M3VduQ=="
+          "hash": "KKjQQ6v85RefsSGmxRAi4Q=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html",
-          "hash": "8ee9W0ThSDJGL/gR9CaU1g=="
+          "hash": "RVedkRoC7LTmMgBicT0GFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html",
+          "hash": "LU6vlXsZQHrC25vNP4BdUA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.html",
-          "hash": "/W18swJnzClW4EAagECvQA=="
+          "hash": "AAekZJRpQmpV/+IxnVSD3A=="
         }
       },
       "is_incremental": false,
@@ -102,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html",
-          "hash": "biYG+AOm0HD0haG+UREhHA=="
+          "hash": "OeE8INLbELk4LYSxJblJKA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.html",
-          "hash": "o/+gw14NyUJ4U9RfL2Bg5Q=="
+          "hash": "TM0CGfSooQbxotlFw4G/Kw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Agent.html",
-          "hash": "poMedJShYL5fIMawSt1NEQ=="
+          "hash": "wm73HhvKne2vg+Vu8o5PSQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html",
-          "hash": "nKKpPpaJB8BGbyl/4wnmVg=="
+          "hash": "vvEklhWJSNAwUGn5Un1Vdw=="
         }
       },
       "is_incremental": false,
@@ -150,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentBody.html",
-          "hash": "pps/fwO+1gIzz4+LfnKfzA=="
+          "hash": "iGcYrlzN1APB9gUbJ9aQpw=="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentCollider.html",
-          "hash": "xlarhc4/zwfve2listi66g=="
+          "hash": "KOzq4K0FzWNOcLwhmETygw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html",
-          "hash": "gwg+U/iP0rbFMbS5svMadg=="
+          "hash": "M2iBtgeYAKD44fEdLmdHtA=="
         }
       },
       "is_incremental": false,
@@ -186,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.html",
-          "hash": "FenGpqjp3mcUo1JoHpGR0w=="
+          "hash": "FVtpfvy+MdM6Ty45MiFHYQ=="
         }
       },
       "is_incremental": false,
@@ -198,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.html",
-          "hash": "y94sxrM53e3MsZakkqt/LQ=="
+          "hash": "CNJrr6tNWtZMZ0hHKbGMZQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.html",
-          "hash": "KHIpNlmwz5chp1gaqSR2FA=="
+          "hash": "cI7gXcMBkf8Br2hC+hTj/w=="
         }
       },
       "is_incremental": false,
@@ -222,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.html",
-          "hash": "Eo8XVMwK1AJBZO0r8v9w8Q=="
+          "hash": "ujjXXLm8dc0+JVVIPltczQ=="
         }
       },
       "is_incremental": false,
@@ -234,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoid.html",
-          "hash": "v2zEuLiR5gTNCjcSmfknZg=="
+          "hash": "Pn4hBkUtbCE+M50SOYHSiA=="
         }
       },
       "is_incremental": false,
@@ -246,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html",
-          "hash": "gBaccyjLghVmxb613Jh27g=="
+          "hash": "BfZX6GeMnKbF78mJJ8jxXA=="
         }
       },
       "is_incremental": false,
@@ -258,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSeparation.html",
-          "hash": "v927aVj78NRrUdqrhrrqzg=="
+          "hash": "UgKzDrD5AQheTm24rxBHkg=="
         }
       },
       "is_incremental": false,
@@ -270,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.html",
-          "hash": "nb6eFQZpIatmcImK2p+nfA=="
+          "hash": "J/zIMqN1nAxftxNUAJ3e1g=="
         }
       },
       "is_incremental": false,
@@ -282,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentShape.html",
-          "hash": "VH1KVl2ExeNKnIdnOynX+Q=="
+          "hash": "lCibsWHzjNgwA1J+IYpx3g=="
         }
       },
       "is_incremental": false,
@@ -294,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.html",
-          "hash": "skAkOd/dCwkkdG2GTg8DSg=="
+          "hash": "zriQD1GN+EKsfIyl6y1WyA=="
         }
       },
       "is_incremental": false,
@@ -306,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html",
-          "hash": "Olv3KL8H61b4bYllQwkM8Q=="
+          "hash": "LaYmUl9Wl006V4HwGqztFQ=="
         }
       },
       "is_incremental": false,
@@ -318,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html",
-          "hash": "cj9NfWlc3fDXEocwZhouYg=="
+          "hash": "5G1k7U5kKruERnHpjvrQww=="
         }
       },
       "is_incremental": false,
@@ -330,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html",
-          "hash": "25QR3eMAH05TnPE2WdkUsw=="
+          "hash": "MTh4hcz/KJ6lRYcfMW+HNA=="
         }
       },
       "is_incremental": false,
@@ -342,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.html",
-          "hash": "MuZKlr2TGi9wMj+9p02ebw=="
+          "hash": "kQQX+UdzJkUw77m0cqmODQ=="
         }
       },
       "is_incremental": false,
@@ -354,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSteering.html",
-          "hash": "15aYjT3vM/Ig7ZVgTKKNXA=="
+          "hash": "5zHteOu1sfSeXrE3rSOFfQ=="
         }
       },
       "is_incremental": false,
@@ -366,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.html",
-          "hash": "F35yeGi7nCJLJcrDK5N5uw=="
+          "hash": "OOmEVL4uVV4/Vsbk5wcoGQ=="
         }
       },
       "is_incremental": false,
@@ -378,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.html",
-          "hash": "Ai9KJskiB6Qm6FcghAD6xg=="
+          "hash": "iITNP6c0W+uOnCayfQ1hmQ=="
         }
       },
       "is_incremental": false,
@@ -390,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.html",
-          "hash": "kZeXFzyQqd78WlWlppR/mg=="
+          "hash": "ehvPIBth+7zfQzhSNxgAwg=="
         }
       },
       "is_incremental": false,
@@ -402,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.html",
-          "hash": "LQstxdDX3en0Dkeg5NyX/w=="
+          "hash": "RIjyLpfuAJC9/ayQHFSGXw=="
         }
       },
       "is_incremental": false,
@@ -414,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.DrawGizmos.html",
-          "hash": "+xQKUk/g4ZfGMrxYUSMMHQ=="
+          "hash": "el4vgRph2x6tQfQIPg3juQ=="
         }
       },
       "is_incremental": false,
@@ -426,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.FlockEntity.html",
-          "hash": "v8eaaTNEqcVaJvccMQGuew=="
+          "hash": "XEdhdFF6c3iIuGS5jYGQGA=="
         }
       },
       "is_incremental": false,
@@ -438,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.FlockGroup.html",
-          "hash": "aIVhKGNfNAboW++WDNCSbA=="
+          "hash": "81UZ9EJ41YYuRoKYxpW5wA=="
         }
       },
       "is_incremental": false,
@@ -450,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.html",
-          "hash": "ZrzImTJS2m7cIAvBC7eYcQ=="
+          "hash": "RoSapGOCWgoegynpDkBXRw=="
         }
       },
       "is_incremental": false,
@@ -462,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.GeometryUtils.html",
-          "hash": "/LLbJamFVBQlzy71if4SDg=="
+          "hash": "kOKBCRc/IUm8GKd66/wdKQ=="
         }
       },
       "is_incremental": false,
@@ -474,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html",
-          "hash": "YVHMPbN1wRA/XrpvzVBexg=="
+          "hash": "8ryjDtWDqhDC7GKpHiqjTA=="
         }
       },
       "is_incremental": false,
@@ -486,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.html",
-          "hash": "w/2lhBqTmXdQHJmqRIWkEA=="
+          "hash": "khTb9bohJLIU6s7k+Y+64A=="
         }
       },
       "is_incremental": false,
@@ -498,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.Singleton.html",
-          "hash": "58a0YiPWIv52BCkkLS2g2w=="
+          "hash": "j+9OxzcOjnoVonrUaMCjVA=="
         }
       },
       "is_incremental": false,
@@ -510,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.html",
-          "hash": "VI/bvKrXcQgZkN1P9ZZMJQ=="
+          "hash": "B75gMEH0dKLYZVYPFOAk/A=="
         }
       },
       "is_incremental": false,
@@ -522,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html",
-          "hash": "5lyyDQQ2Y9ZQq/ZIpsMlgA=="
+          "hash": "uz4ajxj+sQwBthXFWbQGDA=="
         }
       },
       "is_incremental": false,
@@ -534,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html",
-          "hash": "uPKJARjW+dfW+eL/H1auyA=="
+          "hash": "L/csOPsVp05BgKTM3slLqg=="
         }
       },
       "is_incremental": false,
@@ -546,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html",
-          "hash": "Pnd2+6+8KVev2e0wH3/K8A=="
+          "hash": "anW1OGxyIfSIYDstBBzNxA=="
         }
       },
       "is_incremental": false,
@@ -558,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html",
-          "hash": "vxsEdHbv5uxLLIhutW3M+Q=="
+          "hash": "Rn/bO3tSlJjvutK1blg3GA=="
         }
       },
       "is_incremental": false,
@@ -570,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html",
-          "hash": "ITataqeMa998a3b9wVbTLg=="
+          "hash": "bYKyoZbTo8WGeTE0J9W77A=="
         }
       },
       "is_incremental": false,
@@ -582,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html",
-          "hash": "tEemwv6eGR6cyeQYLUAJzg=="
+          "hash": "GO8KVlIBoB3smPLhErGEXw=="
         }
       },
       "is_incremental": false,
@@ -594,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html",
-          "hash": "tN8RLeG0J0iLIcTHMkuoFg=="
+          "hash": "dWjjqKFNYfjV9/7VHArbaw=="
         }
       },
       "is_incremental": false,
@@ -606,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html",
-          "hash": "GUgNpA2VownTsjb03looSQ=="
+          "hash": "cEZoubVFgyB08fpdUjghpA=="
         }
       },
       "is_incremental": false,
@@ -618,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html",
-          "hash": "PEmPls6lHYWESbdxkhdiSw=="
+          "hash": "IF/7etV0h5E5asq8hPNMWQ=="
         }
       },
       "is_incremental": false,
@@ -630,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html",
-          "hash": "TIMrhf3wUTjFJb6y3MCpPg=="
+          "hash": "1CtOgzBPUmafpev+EUrSog=="
         }
       },
       "is_incremental": false,
@@ -642,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html",
-          "hash": "4mWmBvigNw10iJlOA5pELg=="
+          "hash": "eY0hMYoB/tp9s5L2NI9DLw=="
         }
       },
       "is_incremental": false,
@@ -654,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html",
-          "hash": "QmbC4B5nhPcxtWTQeW5qeA=="
+          "hash": "8BVjCv4dny2Oep48M9Dv0g=="
         }
       },
       "is_incremental": false,
@@ -666,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.SelectionGizmosSystem.html",
-          "hash": "DxCrz/rb96kfEkGldTUT6w=="
+          "hash": "ncXZxcPOe7aa0ODchmtlcQ=="
         }
       },
       "is_incremental": false,
@@ -678,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html",
-          "hash": "wpx7KK7W5mYhoaq6Ugq3CQ=="
+          "hash": "MZkIV0a81QcZIUNxTcFgOg=="
         }
       },
       "is_incremental": false,
@@ -690,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.html",
-          "hash": "A+w/hobp6d/3BXTOSCGHtw=="
+          "hash": "5xeGp3O1viVvKI/avYfRZA=="
         }
       },
       "is_incremental": false,
@@ -714,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.html",
-          "hash": "nVdbDx8hdbHoiKLlRC9xuw=="
+          "hash": "KlzjDqEuekeORsOYcykzSA=="
         }
       },
       "is_incremental": false,
@@ -726,7 +738,43 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.html",
-          "hash": "qUIbxi+r+/La9xTJ6zklpA=="
+          "hash": "/JHgv/Pbcx5oXlYxipBQQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshBoundary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundary.html",
+          "hash": "DZFJSY3WaC2APDRx0AjKYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html",
+          "hash": "6AStRIafWrsC2JhnQydiIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshBoundarySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundarySystem.html",
+          "hash": "3yoGFvw0a8xqw5oS2ljgAQ=="
         }
       },
       "is_incremental": false,
@@ -738,19 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.html",
-          "hash": "oBvd6MbPK5rapoTp4rJwqw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshGizmosSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshGizmosSystem.html",
-          "hash": "NMTJNLRNTxJp+mqRQ0HYMw=="
+          "hash": "cc9nY/21LGVfBZ1+PKDGhA=="
         }
       },
       "is_incremental": false,
@@ -762,7 +798,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshNode.html",
-          "hash": "H+hBdVngfTjeqzTAQL9T+g=="
+          "hash": "5eJfSDYLKxYw+vjiMV8UzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html",
+          "hash": "5FHWjJNlkXg0rSdYuBdmyw=="
         }
       },
       "is_incremental": false,
@@ -774,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshPath.html",
-          "hash": "LQnL8tnaGV2z8gcWR6yIQA=="
+          "hash": "FzKTiCgdLomXtOnaK3s1Zg=="
         }
       },
       "is_incremental": false,
@@ -786,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshPathState.html",
-          "hash": "FUxAabhNSP3qep5KEezQ4g=="
+          "hash": "Yt6tBMIJjeHHsDRkwoN/6g=="
         }
       },
       "is_incremental": false,
@@ -798,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshPathSystem.html",
-          "hash": "/c8oxYESdJkMeRjFJefOkg=="
+          "hash": "NSouQ6+eTu6qPRTSCt4A7g=="
         }
       },
       "is_incremental": false,
@@ -810,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshPositionSystem.html",
-          "hash": "pKtw3xlmnC59gI2y88YlUQ=="
+          "hash": "82Jq3QlXmAZHrDZfGXug7g=="
         }
       },
       "is_incremental": false,
@@ -822,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryHandle.html",
-          "hash": "BEyuanZPc7lB/EUnHQH3jA=="
+          "hash": "tsFHQuf6n9HCZgyjM+fBTA=="
         }
       },
       "is_incremental": false,
@@ -834,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html",
-          "hash": "dw/mGy5pozWGH8gSgat+rA=="
+          "hash": "yCJ0o5l79fcR0YHiH2kU2A=="
         }
       },
       "is_incremental": false,
@@ -846,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html",
-          "hash": "yhRyvD3eBLhd4y+ntYEQ/Q=="
+          "hash": "Wr0NZw0IvimCckyGmLLPxg=="
         }
       },
       "is_incremental": false,
@@ -858,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.html",
-          "hash": "yEQ3wbDjiqSGN78Jen2USg=="
+          "hash": "rBrFoKeKUiLsHIXhvBSqmA=="
         }
       },
       "is_incremental": false,
@@ -870,7 +918,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.html",
-          "hash": "p5AAbWM+h7gCnBw/G4Iyaw=="
+          "hash": "pow+BMENwL0B0BhT7fPgoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshWall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshWall.html",
+          "hash": "eVxMQW0BvLHRe22A6FO+Hg=="
         }
       },
       "is_incremental": false,
@@ -882,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.PathUtils.html",
-          "hash": "Ce++q7SqIashSoVRjZU6Eg=="
+          "hash": "K84MMD7HGqyBIeJND/20jw=="
         }
       },
       "is_incremental": false,
@@ -894,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.ShapeType.html",
-          "hash": "++ehP0tYFU4A2qBsRta4UA=="
+          "hash": "1GVtrhOtr7CyNdA9VfvBZw=="
         }
       },
       "is_incremental": false,
@@ -906,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.SonarAvoidMode.html",
-          "hash": "IFbfphH7IpQFpWyxJPDjEA=="
+          "hash": "1ZfCCEFmODcdikG/dL/PCw=="
         }
       },
       "is_incremental": false,
@@ -918,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.html",
-          "hash": "G4A47UiCF51y9IX4c6QQTA=="
+          "hash": "BlJJbLNiL+4SU+QxEGyZsg=="
         }
       },
       "is_incremental": false,
@@ -930,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.html",
-          "hash": "YKmXsCjwa5jEmSLeNN2xIg=="
+          "hash": "oxANh8msSA0VBXqGF0eKow=="
         }
       },
       "is_incremental": false,
@@ -954,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MGQ/D/wGXt/qV3Jq6wNICQ=="
+          "hash": "Nci4Fryn/oj60WN3bV80OA=="
         }
       },
       "is_incremental": false,
@@ -966,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "MnsZfFxfFGHyCdeobyxF7A=="
+          "hash": "WxZdFxp560RGpa4BiucvEg=="
         }
       },
       "is_incremental": false,
@@ -1132,6 +1192,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "manual/images/PackageManager.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/PackageManager.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "manual/images/Scenario0.PNG",
       "output": {
         "resource": {
@@ -1191,7 +1262,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "seExYb0AgyrUl1zCidBF6Q=="
+          "hash": "vTRDB2NfRBzi+apzKMBxmA=="
         }
       },
       "is_incremental": false,
@@ -1203,7 +1274,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/samples.html",
-          "hash": "uqhHjz/LAT2TMmqcFn/SLg=="
+          "hash": "xNvqYvpomGFBIe8wwBRSUQ=="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1337,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 77,
+          "total_file_count": 82,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

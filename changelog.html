@@ -73,11 +73,29 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="310---2023-1-31">[3.1.0] - 2023-1-31</h2>
+<ul>
+<li>Added new feature to local avoidance <code>Walls</code> that accounts for navmesh.</li>
+<li>Added new property to AgentNavMeshAuthoring UseWalls.</li>
+<li>Changed standing agents now puch each other.</li>
+<li>Fixed local avoidance gizmos drawing.</li>
+<li>Fixed then desination either above or below agent would result in error.</li>
+<li>Fixed path failure case then it is out of nodes and path is in progress.</li>
+</ul>
+<h2 id="306---2023-1-11">[3.0.6] - 2023-1-11</h2>
+<ul>
+<li>Fixed NavMesh path sometimes discarding destination</li>
+<li>Fixed error drop when selecting agent in subscene &quot;The targets array should not be used inside OnSceneGUI or OnPreviewGUI. Use the single target property instead.
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&amp;)&quot;</li>
+</ul>
 <h2 id="305---2022-12-26">[3.0.5] - 2022-12-26</h2>
 <ul>
 <li>Fixed NavMeshAgent correctly stop if path destination can not be mapped to navmesh</li>
+<li>Fixed that even with OutOfNodes still returns best possible path</li>
 <li>Added NavMeshPath failed state and also prints the error in editor</li>
 <li>Added NavMeshAgent/NavMeshPath added new property MappingExtent that allows controling the maximum distance the agent will be mapped</li>
+<li>Added documentation links to components and package</li>
+<li>Changed documentation to hidden folder as now it is on webpage</li>
 </ul>
 <h2 id="304---2022-12-23">[3.0.4] - 2022-12-23</h2>
 <ul>
