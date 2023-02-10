@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NavMeshPathSystem
+    <title>Struct NavMeshNodesGizmosSystem
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NavMeshPathSystem
+    <meta name="title" content="Struct NavMeshNodesGizmosSystem
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,13 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.NavMeshPathSystem">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem">
   
   
-  <h1 id="ProjectDawn_Navigation_NavMeshPathSystem" data-uid="ProjectDawn.Navigation.NavMeshPathSystem" class="text-break">Struct NavMeshPathSystem
+  <h1 id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem" class="text-break">Struct NavMeshNodesGizmosSystem
   </h1>
-  <div class="markdown level0 summary"><p>System that controls agent NavMesh path.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
@@ -111,26 +110,26 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.html">ProjectDawn.Navigation</a></h6>
-  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
-  <h5 id="ProjectDawn_Navigation_NavMeshPathSystem_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.Editor.html">ProjectDawn.Navigation.Editor</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Editor.dll</h6>
+  <h5 id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[BurstCompile]
-[UpdateInGroup(typeof(AgentSystemGroup))]
-[UpdateBefore(typeof(AgentSteeringSystemGroup))]
-public struct NavMeshPathSystem : ISystem</code></pre>
+[RequireMatchingQueriesForUpdate]
+[UpdateInGroup(typeof(AgentGizmosSystemGroup))]
+public struct NavMeshNodesGizmosSystem : ISystem</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPathSystem_OnCreate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPathSystem.OnCreate(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPathSystem.cs/#L18">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Editor/NavMeshNodesGizmosSystem.cs/#L16">View Source</a>
   </span>
-  <a id="ProjectDawn_Navigation_NavMeshPathSystem_OnCreate_" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnCreate*"></a>
-  <h4 id="ProjectDawn_Navigation_NavMeshPathSystem_OnCreate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnCreate(Unity.Entities.SystemState@)">OnCreate(ref SystemState)</h4>
+  <a id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate*"></a>
+  <h4 id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)">OnCreate(ref SystemState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -156,13 +155,13 @@ public struct NavMeshPathSystem : ISystem</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPathSystem_OnDestroy_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPathSystem.cs/#L20">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Editor/NavMeshNodesGizmosSystem.cs/#L18">View Source</a>
   </span>
-  <a id="ProjectDawn_Navigation_NavMeshPathSystem_OnDestroy_" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy*"></a>
-  <h4 id="ProjectDawn_Navigation_NavMeshPathSystem_OnDestroy_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy(Unity.Entities.SystemState@)">OnDestroy(ref SystemState)</h4>
+  <a id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy*"></a>
+  <h4 id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)">OnDestroy(ref SystemState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -188,13 +187,13 @@ public struct NavMeshPathSystem : ISystem</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPathSystem.cs/#L22">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Editor/NavMeshNodesGizmosSystem.cs/#L20">View Source</a>
   </span>
-  <a id="ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate*"></a>
-  <h4 id="ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
+  <a id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate*"></a>
+  <h4 id="ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -231,10 +230,10 @@ public void OnUpdate(ref SystemState state)</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPathSystem.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPathSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPathSystem.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Editor/NavMeshNodesGizmosSystem.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

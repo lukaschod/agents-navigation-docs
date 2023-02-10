@@ -361,31 +361,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.Dispose
   nameWithType: SonarAvoidance.Dispose
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle*
-  name: DrawObstacle
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacle_
-  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle*
+  name: DrawObstacleCircle
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacleCircle_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle
   isSpec: "True"
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle
-  nameWithType: SonarAvoidance.DrawObstacle
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3)
-  name: DrawObstacle<T>(T, float3, float3)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacle__1___0_Unity_Mathematics_float3_Unity_Mathematics_float3_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3)
-  name.vb: DrawObstacle(Of T)(T, float3, float3)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle<T>(T, Unity.Mathematics.float3, Unity.Mathematics.float3)
-  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle(Of T)(T, Unity.Mathematics.float3, Unity.Mathematics.float3)
-  nameWithType: SonarAvoidance.DrawObstacle<T>(T, float3, float3)
-  nameWithType.vb: SonarAvoidance.DrawObstacle(Of T)(T, float3, float3)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
-  name: DrawObstacle<T>(T, float3, float3, Single, Int32)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacle__1___0_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Int32_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
-  name.vb: DrawObstacle(Of T)(T, float3, float3, Single, Int32)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle<T>(T, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Int32)
-  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacle(Of T)(T, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Int32)
-  nameWithType: SonarAvoidance.DrawObstacle<T>(T, float3, float3, Single, Int32)
-  nameWithType.vb: SonarAvoidance.DrawObstacle(Of T)(T, float3, float3, Single, Int32)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle
+  nameWithType: SonarAvoidance.DrawObstacleCircle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
+  name: DrawObstacleCircle<T>(T, float3, float3, Single, Int32)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawObstacleCircle__1___0_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Int32_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle``1(``0,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
+  name.vb: DrawObstacleCircle(Of T)(T, float3, float3, Single, Int32)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle<T>(T, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Int32)
+  fullName.vb: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawObstacleCircle(Of T)(T, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Int32)
+  nameWithType: SonarAvoidance.DrawObstacleCircle<T>(T, float3, float3, Single, Int32)
+  nameWithType.vb: SonarAvoidance.DrawObstacleCircle(Of T)(T, float3, float3, Single, Int32)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.DrawSonar*
   name: DrawSonar
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_DrawSonar_
@@ -443,12 +434,12 @@ references:
   commentId: T:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle
   nameWithType: SonarAvoidance.IDrawCircle
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle(Unity.Mathematics.float3,System.Single,UnityEngine.Color)
-  name: DrawCircle(float3, Single, Color)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawCircle_DrawCircle_Unity_Mathematics_float3_System_Single_UnityEngine_Color_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle(Unity.Mathematics.float3,System.Single,UnityEngine.Color)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle(Unity.Mathematics.float3, System.Single, UnityEngine.Color)
-  nameWithType: SonarAvoidance.IDrawCircle.DrawCircle(float3, Single, Color)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
+  name: DrawCircle(float3, float3, Single, Color)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawCircle_DrawCircle_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_UnityEngine_Color_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle(Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, UnityEngine.Color)
+  nameWithType: SonarAvoidance.IDrawCircle.DrawCircle(float3, float3, Single, Color)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle*
   name: DrawCircle
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawCircle_DrawCircle_
@@ -456,25 +447,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.DrawCircle
   nameWithType: SonarAvoidance.IDrawCircle.DrawCircle
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine
-  name: SonarAvoidance.IDrawLine
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html
-  commentId: T:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine
-  nameWithType: SonarAvoidance.IDrawLine
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
-  name: DrawLine(float3, float3, Color)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawLine_DrawLine_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine(Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color)
-  nameWithType: SonarAvoidance.IDrawLine.DrawLine(float3, float3, Color)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine*
-  name: DrawLine
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.html#ProjectDawn_LocalAvoidance_SonarAvoidance_IDrawLine_DrawLine_
-  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine
-  isSpec: "True"
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawLine.DrawLine
-  nameWithType: SonarAvoidance.IDrawLine.DrawLine
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InnerRadius
   name: InnerRadius
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InnerRadius
@@ -665,25 +637,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawClosestDirection
   nameWithType: SonarAvoidanceUtility.DrawClosestDirection
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3)
-  name: DrawObstacle(SonarAvoidance, float3, float3)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacle_ProjectDawn_LocalAvoidance_SonarAvoidance_Unity_Mathematics_float3_Unity_Mathematics_float3_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance, Unity.Mathematics.float3, Unity.Mathematics.float3)
-  nameWithType: SonarAvoidanceUtility.DrawObstacle(SonarAvoidance, float3, float3)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
-  name: DrawObstacle(SonarAvoidance, float3, float3, Single, Int32)
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacle_ProjectDawn_LocalAvoidance_SonarAvoidance_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Int32_
-  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle(ProjectDawn.LocalAvoidance.SonarAvoidance, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Int32)
-  nameWithType: SonarAvoidanceUtility.DrawObstacle(SonarAvoidance, float3, float3, Single, Int32)
-- uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle*
-  name: DrawObstacle
-  href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacle_
-  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacleCircle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
+  name: DrawObstacleCircle(SonarAvoidance, float3, float3, Single, Int32)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacleCircle_ProjectDawn_LocalAvoidance_SonarAvoidance_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Int32_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacleCircle(ProjectDawn.LocalAvoidance.SonarAvoidance,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Int32)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacleCircle(ProjectDawn.LocalAvoidance.SonarAvoidance, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Int32)
+  nameWithType: SonarAvoidanceUtility.DrawObstacleCircle(SonarAvoidance, float3, float3, Single, Int32)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacleCircle*
+  name: DrawObstacleCircle
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawObstacleCircle_
+  commentId: Overload:ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacleCircle
   isSpec: "True"
-  fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacle
-  nameWithType: SonarAvoidanceUtility.DrawObstacle
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawObstacleCircle
+  nameWithType: SonarAvoidanceUtility.DrawObstacleCircle
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.DrawSonar(ProjectDawn.LocalAvoidance.SonarAvoidance)
   name: DrawSonar(SonarAvoidance)
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html#ProjectDawn_LocalAvoidance_SonarAvoidanceUtility_DrawSonar_ProjectDawn_LocalAvoidance_SonarAvoidance_
@@ -709,60 +675,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Agent
   fullName: ProjectDawn.Navigation.Agent
   nameWithType: Agent
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem
-  name: AgentAvoidGizmosSystem
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html
-  commentId: T:ProjectDawn.Navigation.AgentAvoidGizmosSystem
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem
-  nameWithType: AgentAvoidGizmosSystem
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_AgentAvoidGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentAvoidGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: AgentAvoidGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_AgentAvoidGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnCreate
-  nameWithType: AgentAvoidGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_AgentAvoidGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentAvoidGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentAvoidGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_AgentAvoidGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnDestroy
-  nameWithType: AgentAvoidGizmosSystem.OnDestroy
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_AgentAvoidGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentAvoidGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentAvoidGizmosSystem.OnUpdate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_AgentAvoidGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentAvoidGizmosSystem.OnUpdate
-  nameWithType: AgentAvoidGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentBody
   name: AgentBody
   href: api/ProjectDawn.Navigation.AgentBody.html
@@ -831,60 +743,6 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentCollider
   fullName: ProjectDawn.Navigation.AgentCollider
   nameWithType: AgentCollider
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem
-  name: AgentColliderGizmosSystem
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html
-  commentId: T:ProjectDawn.Navigation.AgentColliderGizmosSystem
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem
-  nameWithType: AgentColliderGizmosSystem
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_AgentColliderGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentColliderGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: AgentColliderGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_AgentColliderGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnCreate
-  nameWithType: AgentColliderGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_AgentColliderGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentColliderGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentColliderGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_AgentColliderGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnDestroy
-  nameWithType: AgentColliderGizmosSystem.OnDestroy
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_AgentColliderGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentColliderGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentColliderGizmosSystem.OnUpdate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_AgentColliderGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentColliderGizmosSystem.OnUpdate
-  nameWithType: AgentColliderGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentColliderSystem
   name: AgentColliderSystem
   href: api/ProjectDawn.Navigation.AgentColliderSystem.html
@@ -1331,12 +1189,6 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings
   fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings
   nameWithType: AgentSpatialPartitioningSystem.Settings
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.AgentCapacity
-  name: AgentCapacity
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Settings_AgentCapacity
-  commentId: F:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.AgentCapacity
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.AgentCapacity
-  nameWithType: AgentSpatialPartitioningSystem.Settings.AgentCapacity
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.CellSize
   name: CellSize
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Settings_CellSize
@@ -1543,6 +1395,234 @@ references:
   commentId: T:ProjectDawn.Navigation.DrawGizmos
   fullName: ProjectDawn.Navigation.DrawGizmos
   nameWithType: DrawGizmos
+- uid: ProjectDawn.Navigation.Editor
+  name: ProjectDawn.Navigation.Editor
+  href: api/ProjectDawn.Navigation.Editor.html
+  commentId: N:ProjectDawn.Navigation.Editor
+  fullName: ProjectDawn.Navigation.Editor
+  nameWithType: ProjectDawn.Navigation.Editor
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem
+  name: AgentAvoidGizmosSystem
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem
+  nameWithType: AgentAvoidGizmosSystem
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentAvoidGizmosSystem.OnCreate(ref SystemState)
+  nameWithType.vb: AgentAvoidGizmosSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate
+  nameWithType: AgentAvoidGizmosSystem.OnCreate
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentAvoidGizmosSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: AgentAvoidGizmosSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy
+  nameWithType: AgentAvoidGizmosSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentAvoidGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: AgentAvoidGizmosSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate
+  nameWithType: AgentAvoidGizmosSystem.OnUpdate
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem
+  name: AgentColliderGizmosSystem
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem
+  nameWithType: AgentColliderGizmosSystem
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentColliderGizmosSystem.OnCreate(ref SystemState)
+  nameWithType.vb: AgentColliderGizmosSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate
+  nameWithType: AgentColliderGizmosSystem.OnCreate
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentColliderGizmosSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: AgentColliderGizmosSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy
+  nameWithType: AgentColliderGizmosSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentColliderGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: AgentColliderGizmosSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate
+  nameWithType: AgentColliderGizmosSystem.OnUpdate
+- uid: ProjectDawn.Navigation.Editor.AgentGizmosSystemGroup
+  name: AgentGizmosSystemGroup
+  href: api/ProjectDawn.Navigation.Editor.AgentGizmosSystemGroup.html
+  commentId: T:ProjectDawn.Navigation.Editor.AgentGizmosSystemGroup
+  fullName: ProjectDawn.Navigation.Editor.AgentGizmosSystemGroup
+  nameWithType: AgentGizmosSystemGroup
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem
+  name: NavMeshBoundaryGizmosSystem
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem
+  nameWithType: NavMeshBoundaryGizmosSystem
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate(ref SystemState)
+  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate
+  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy
+  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate
+  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem
+  name: NavMeshNodesGizmosSystem
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem
+  nameWithType: NavMeshNodesGizmosSystem
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshNodesGizmosSystem.OnCreate(ref SystemState)
+  nameWithType.vb: NavMeshNodesGizmosSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate
+  nameWithType: NavMeshNodesGizmosSystem.OnCreate
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshNodesGizmosSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: NavMeshNodesGizmosSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy
+  nameWithType: NavMeshNodesGizmosSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: NavMeshNodesGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: NavMeshNodesGizmosSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate
+  nameWithType: NavMeshNodesGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.FlockEntity
   name: FlockEntity
   href: api/ProjectDawn.Navigation.FlockEntity.html
@@ -2093,12 +2173,38 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestination
   nameWithType: AgentAuthoring.SetDestination
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestinationDeferred(Unity.Mathematics.float3)
+  name: SetDestinationDeferred(float3)
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_SetDestinationDeferred_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestinationDeferred(Unity.Mathematics.float3)
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestinationDeferred(Unity.Mathematics.float3)
+  nameWithType: AgentAuthoring.SetDestinationDeferred(float3)
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestinationDeferred*
+  name: SetDestinationDeferred
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_SetDestinationDeferred_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestinationDeferred
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestinationDeferred
+  nameWithType: AgentAuthoring.SetDestinationDeferred
 - uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Speed
   name: Speed
   href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_Speed
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentAuthoring.Speed
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Speed
   nameWithType: AgentAuthoring.Speed
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Stop
+  name: Stop()
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_Stop
+  commentId: M:ProjectDawn.Navigation.Hybrid.AgentAuthoring.Stop
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Stop()
+  nameWithType: AgentAuthoring.Stop()
+- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Stop*
+  name: Stop
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_Stop_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentAuthoring.Stop
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.Stop
+  nameWithType: AgentAuthoring.Stop
 - uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.StoppingDistance
   name: StoppingDistance
   href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_StoppingDistance
@@ -2489,6 +2595,79 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
   nameWithType: AgentSeparationAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem
+  name: AgentSetDestinationDeferredSystem
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem
+  nameWithType: AgentSetDestinationDeferredSystem
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentSetDestinationDeferredSystem.OnCreate(ref SystemState)
+  nameWithType.vb: AgentSetDestinationDeferredSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnCreate
+  nameWithType: AgentSetDestinationDeferredSystem.OnCreate
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentSetDestinationDeferredSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: AgentSetDestinationDeferredSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnDestroy
+  nameWithType: AgentSetDestinationDeferredSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: AgentSetDestinationDeferredSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: AgentSetDestinationDeferredSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.OnUpdate
+  nameWithType: AgentSetDestinationDeferredSystem.OnUpdate
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton
+  name: AgentSetDestinationDeferredSystem.Singleton
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton
+  nameWithType: AgentSetDestinationDeferredSystem.Singleton
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred(Unity.Entities.Entity,Unity.Mathematics.float3)
+  name: SetDestinationDeferred(Entity, float3)
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton_SetDestinationDeferred_Unity_Entities_Entity_Unity_Mathematics_float3_
+  commentId: M:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred(Unity.Entities.Entity,Unity.Mathematics.float3)
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred(Unity.Entities.Entity, Unity.Mathematics.float3)
+  nameWithType: AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred(Entity, float3)
+- uid: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred*
+  name: SetDestinationDeferred
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.html#ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton_SetDestinationDeferred_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred
+  nameWithType: AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred
 - uid: ProjectDawn.Navigation.Hybrid.EntityBehaviour
   name: EntityBehaviour
   href: api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html
@@ -2675,12 +2854,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
   nameWithType: SpatialPartitioningSettingsAuthoring
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.AgentCapacity
-  name: AgentCapacity
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_AgentCapacity
-  commentId: F:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.AgentCapacity
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.AgentCapacity
-  nameWithType: SpatialPartitioningSettingsAuthoring.AgentCapacity
 - uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
   name: CellSize
   href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize
@@ -2836,60 +3009,6 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshBoundary.Radius
   fullName: ProjectDawn.Navigation.NavMeshBoundary.Radius
   nameWithType: NavMeshBoundary.Radius
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem
-  name: NavMeshBoundaryGizmosSystem
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html
-  commentId: T:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem
-  nameWithType: NavMeshBoundaryGizmosSystem
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnCreate
-  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnDestroy
-  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnUpdate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_NavMeshBoundaryGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshBoundaryGizmosSystem.OnUpdate
-  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshBoundarySystem
   name: NavMeshBoundarySystem
   href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html
@@ -3030,60 +3149,6 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshNode.Value
   fullName: ProjectDawn.Navigation.NavMeshNode.Value
   nameWithType: NavMeshNode.Value
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem
-  name: NavMeshNodesGizmosSystem
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html
-  commentId: T:ProjectDawn.Navigation.NavMeshNodesGizmosSystem
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem
-  nameWithType: NavMeshNodesGizmosSystem
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshNodesGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshNodesGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnCreate
-  nameWithType: NavMeshNodesGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshNodesGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshNodesGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnDestroy
-  nameWithType: NavMeshNodesGizmosSystem.OnDestroy
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshNodesGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshNodesGizmosSystem.OnUpdate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_NavMeshNodesGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshNodesGizmosSystem.OnUpdate
-  nameWithType: NavMeshNodesGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshPath
   name: NavMeshPath
   href: api/ProjectDawn.Navigation.NavMeshPath.html

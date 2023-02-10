@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NavMeshNode
+    <title>Struct AgentSetDestinationDeferredSystem.Singleton
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NavMeshNode
+    <meta name="title" content="Struct AgentSetDestinationDeferredSystem.Singleton
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,17 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.NavMeshNode">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton">
   
   
-  <h1 id="ProjectDawn_Navigation_NavMeshNode" data-uid="ProjectDawn.Navigation.NavMeshNode" class="text-break">Struct NavMeshNode
+  <h1 id="ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton" data-uid="ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton" class="text-break">Struct AgentSetDestinationDeferredSystem.Singleton
   </h1>
-  <div class="markdown level0 summary"><p>Agent NavMesh single node of path.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Unity.Entities.IBufferElementData</span></div>
+    <div><span class="xref">Unity.Entities.IComponentData</span></div>
+    <div><span class="xref">Unity.Entities.IQueryTypeParameter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -111,47 +111,57 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.html">ProjectDawn.Navigation</a></h6>
-  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
-  <h5 id="ProjectDawn_Navigation_NavMeshNode_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.Hybrid.html">ProjectDawn.Navigation.Hybrid</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Hybrid.dll</h6>
+  <h5 id="ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct NavMeshNode : IBufferElementData</code></pre>
+    <pre><code class="lang-csharp hljs">public struct Singleton : IComponentData, IQueryTypeParameter</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshNode_Value.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshNode.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton_SetDestinationDeferred_Unity_Entities_Entity_Unity_Mathematics_float3_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred(Unity.Entities.Entity%2CUnity.Mathematics.float3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPath.cs/#L82">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSetDestinationDeferredSystem.cs/#L82">View Source</a>
   </span>
-  <h4 id="ProjectDawn_Navigation_NavMeshNode_Value" data-uid="ProjectDawn.Navigation.NavMeshNode.Value">Value</h4>
-  <div class="markdown level1 summary"><p>Polygon id of NavMesh node.</p>
-</div>
+  <a id="ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton_SetDestinationDeferred_" data-uid="ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred*"></a>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton_SetDestinationDeferred_Unity_Entities_Entity_Unity_Mathematics_float3_" data-uid="ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.SetDestinationDeferred(Unity.Entities.Entity,Unity.Mathematics.float3)">SetDestinationDeferred(Entity, float3)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PolygonId Value</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetDestinationDeferred(Entity entity, float3 destination)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Experimental.AI.PolygonId</span></td>
+        <td><span class="xref">Unity.Entities.Entity</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Mathematics.float3</span></td>
+        <td><span class="parametername">destination</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Unity.Entities.IBufferElementData</span>
+      <span class="xref">Unity.Entities.IComponentData</span>
+  </div>
+  <div>
+      <span class="xref">Unity.Entities.IQueryTypeParameter</span>
   </div>
 </article>
           </div>
@@ -161,10 +171,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshNode.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentSetDestinationDeferredSystem_Singleton.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPath.cs/#L77" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSetDestinationDeferredSystem.cs/#L77" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
