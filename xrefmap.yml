@@ -485,6 +485,12 @@ references:
   commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3,System.Single)
   fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3, System.Single)
   nameWithType: SonarAvoidance.InsertObstacleCircle(float3, Single)
+- uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single)
+  name: InsertObstacleCircle(float3, float3, Single)
+  href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleCircle_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_
+  commentId: M:ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single)
+  fullName: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle(Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single)
+  nameWithType: SonarAvoidance.InsertObstacleCircle(float3, float3, Single)
 - uid: ProjectDawn.LocalAvoidance.SonarAvoidance.InsertObstacleCircle*
   name: InsertObstacleCircle
   href: api/ProjectDawn.LocalAvoidance.SonarAvoidance.html#ProjectDawn_LocalAvoidance_SonarAvoidance_InsertObstacleCircle_
@@ -2775,6 +2781,79 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.Radius
   nameWithType: FlockGroupAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker
+  name: NavMeshSurfaceBaker
+  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker
+  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker
+  nameWithType: NavMeshSurfaceBaker
+- uid: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.Bake(Unity.AI.Navigation.NavMeshSurface)
+  name: Bake(NavMeshSurface)
+  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html#ProjectDawn_Navigation_Hybrid_NavMeshSurfaceBaker_Bake_Unity_AI_Navigation_NavMeshSurface_
+  commentId: M:ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.Bake(Unity.AI.Navigation.NavMeshSurface)
+  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.Bake(Unity.AI.Navigation.NavMeshSurface)
+  nameWithType: NavMeshSurfaceBaker.Bake(NavMeshSurface)
+- uid: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.Bake*
+  name: Bake
+  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html#ProjectDawn_Navigation_Hybrid_NavMeshSurfaceBaker_Bake_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.Bake
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.Bake
+  nameWithType: NavMeshSurfaceBaker.Bake
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem
+  name: ReadAgentRectTransformSystem
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem
+  nameWithType: ReadAgentRectTransformSystem
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_ReadAgentRectTransformSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: ReadAgentRectTransformSystem.OnCreate(ref SystemState)
+  nameWithType.vb: ReadAgentRectTransformSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_ReadAgentRectTransformSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnCreate
+  nameWithType: ReadAgentRectTransformSystem.OnCreate
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_ReadAgentRectTransformSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: ReadAgentRectTransformSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: ReadAgentRectTransformSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_ReadAgentRectTransformSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnDestroy
+  nameWithType: ReadAgentRectTransformSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_ReadAgentRectTransformSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: ReadAgentRectTransformSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: ReadAgentRectTransformSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_ReadAgentRectTransformSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.OnUpdate
+  nameWithType: ReadAgentRectTransformSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem
   name: ReadAgentTransformSystem
   href: api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html
@@ -2899,6 +2978,60 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.HasEntitySettings
   nameWithType: SpatialPartitioningSettingsAuthoring.HasEntitySettings
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem
+  name: WriteAgentRectTransformSystem
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem
+  nameWithType: WriteAgentRectTransformSystem
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate(Unity.Entities.SystemState@)
+  name: OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_WriteAgentRectTransformSystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate(Unity.Entities.SystemState@)
+  name.vb: OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: WriteAgentRectTransformSystem.OnCreate(ref SystemState)
+  nameWithType.vb: WriteAgentRectTransformSystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate*
+  name: OnCreate
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_WriteAgentRectTransformSystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnCreate
+  nameWithType: WriteAgentRectTransformSystem.OnCreate
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy(Unity.Entities.SystemState@)
+  name: OnDestroy(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_WriteAgentRectTransformSystem_OnDestroy_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy(Unity.Entities.SystemState@)
+  name.vb: OnDestroy(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy(ByRef Unity.Entities.SystemState)
+  nameWithType: WriteAgentRectTransformSystem.OnDestroy(ref SystemState)
+  nameWithType.vb: WriteAgentRectTransformSystem.OnDestroy(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_WriteAgentRectTransformSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnDestroy
+  nameWithType: WriteAgentRectTransformSystem.OnDestroy
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_WriteAgentRectTransformSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: WriteAgentRectTransformSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: WriteAgentRectTransformSystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html#ProjectDawn_Navigation_Hybrid_WriteAgentRectTransformSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.OnUpdate
+  nameWithType: WriteAgentRectTransformSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem
   name: WriteAgentTransformSystem
   href: api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.html
@@ -3063,6 +3196,88 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate
   nameWithType: NavMeshBoundarySystem.OnUpdate
+- uid: ProjectDawn.Navigation.NavMeshData
+  name: NavMeshData
+  href: api/ProjectDawn.Navigation.NavMeshData.html
+  commentId: T:ProjectDawn.Navigation.NavMeshData
+  fullName: ProjectDawn.Navigation.NavMeshData
+  nameWithType: NavMeshData
+- uid: ProjectDawn.Navigation.NavMeshData.Equals(ProjectDawn.Navigation.NavMeshData)
+  name: Equals(NavMeshData)
+  href: api/ProjectDawn.Navigation.NavMeshData.html#ProjectDawn_Navigation_NavMeshData_Equals_ProjectDawn_Navigation_NavMeshData_
+  commentId: M:ProjectDawn.Navigation.NavMeshData.Equals(ProjectDawn.Navigation.NavMeshData)
+  fullName: ProjectDawn.Navigation.NavMeshData.Equals(ProjectDawn.Navigation.NavMeshData)
+  nameWithType: NavMeshData.Equals(NavMeshData)
+- uid: ProjectDawn.Navigation.NavMeshData.Equals*
+  name: Equals
+  href: api/ProjectDawn.Navigation.NavMeshData.html#ProjectDawn_Navigation_NavMeshData_Equals_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshData.Equals
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshData.Equals
+  nameWithType: NavMeshData.Equals
+- uid: ProjectDawn.Navigation.NavMeshData.GetHashCode
+  name: GetHashCode()
+  href: api/ProjectDawn.Navigation.NavMeshData.html#ProjectDawn_Navigation_NavMeshData_GetHashCode
+  commentId: M:ProjectDawn.Navigation.NavMeshData.GetHashCode
+  fullName: ProjectDawn.Navigation.NavMeshData.GetHashCode()
+  nameWithType: NavMeshData.GetHashCode()
+- uid: ProjectDawn.Navigation.NavMeshData.GetHashCode*
+  name: GetHashCode
+  href: api/ProjectDawn.Navigation.NavMeshData.html#ProjectDawn_Navigation_NavMeshData_GetHashCode_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshData.GetHashCode
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshData.GetHashCode
+  nameWithType: NavMeshData.GetHashCode
+- uid: ProjectDawn.Navigation.NavMeshData.Value
+  name: Value
+  href: api/ProjectDawn.Navigation.NavMeshData.html#ProjectDawn_Navigation_NavMeshData_Value
+  commentId: F:ProjectDawn.Navigation.NavMeshData.Value
+  fullName: ProjectDawn.Navigation.NavMeshData.Value
+  nameWithType: NavMeshData.Value
+- uid: ProjectDawn.Navigation.NavMeshDataInstance
+  name: NavMeshDataInstance
+  href: api/ProjectDawn.Navigation.NavMeshDataInstance.html
+  commentId: T:ProjectDawn.Navigation.NavMeshDataInstance
+  fullName: ProjectDawn.Navigation.NavMeshDataInstance
+  nameWithType: NavMeshDataInstance
+- uid: ProjectDawn.Navigation.NavMeshDataInstance.Value
+  name: Value
+  href: api/ProjectDawn.Navigation.NavMeshDataInstance.html#ProjectDawn_Navigation_NavMeshDataInstance_Value
+  commentId: F:ProjectDawn.Navigation.NavMeshDataInstance.Value
+  fullName: ProjectDawn.Navigation.NavMeshDataInstance.Value
+  nameWithType: NavMeshDataInstance.Value
+- uid: ProjectDawn.Navigation.NavMeshDataSystem
+  name: NavMeshDataSystem
+  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html
+  commentId: T:ProjectDawn.Navigation.NavMeshDataSystem
+  fullName: ProjectDawn.Navigation.NavMeshDataSystem
+  nameWithType: NavMeshDataSystem
+- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
+  name: OnDestroy()
+  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnDestroy
+  commentId: M:ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
+  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy()
+  nameWithType: NavMeshDataSystem.OnDestroy()
+- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy*
+  name: OnDestroy
+  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnDestroy_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
+  nameWithType: NavMeshDataSystem.OnDestroy
+- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
+  name: OnUpdate()
+  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnUpdate
+  commentId: M:ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
+  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate()
+  nameWithType: NavMeshDataSystem.OnUpdate()
+- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
+  nameWithType: NavMeshDataSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshFunnel
   name: NavMeshFunnel
   href: api/ProjectDawn.Navigation.NavMeshFunnel.html

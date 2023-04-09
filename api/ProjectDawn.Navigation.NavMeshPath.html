@@ -90,6 +90,7 @@
     <h5>Implements</h5>
     <div><span class="xref">Unity.Entities.IComponentData</span></div>
     <div><span class="xref">Unity.Entities.IQueryTypeParameter</span></div>
+    <div><span class="xref">Unity.Entities.IEnableableComponent</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,7 +117,7 @@
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
   <h5 id="ProjectDawn_Navigation_NavMeshPath_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct NavMeshPath : IComponentData, IQueryTypeParameter</code></pre>
+    <pre><code class="lang-csharp hljs">public struct NavMeshPath : IComponentData, IQueryTypeParameter, IEnableableComponent</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -367,6 +368,9 @@ The higher the value, the bigger the performance cost.</p>
   </div>
   <div>
       <span class="xref">Unity.Entities.IQueryTypeParameter</span>
+  </div>
+  <div>
+      <span class="xref">Unity.Entities.IEnableableComponent</span>
   </div>
 </article>
           </div>

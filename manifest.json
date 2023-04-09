@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Lukas/Source/AssetStore/AgentsNavigation/Packages/com.projectdawn.navigation/Documentation~/.docfx_project",
+  "source_base_path": "C:/Users/Lukas/Source/AssetStore/AgentsNavigation/Temp/.docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.html",
-          "hash": "xzgJrpuYFG4l6jdthZDUNg=="
+          "hash": "YJbLlTOvJNK5IIl4Z16P3A=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.html",
-          "hash": "AJMLUxkkaG/39A/LOYMT7g=="
+          "hash": "2giCttrNe0EM8hb3vlv6SQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html",
-          "hash": "vuJ9+UiYvOfTbWxikAHeSQ=="
+          "hash": "zDDNa4J9/YigpaQzRdNeHQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.html",
-          "hash": "URo5wwYRFEkR/j/DWgQAaw=="
+          "hash": "79ecPSTO+ydEDePR+obvOg=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html",
-          "hash": "02eZAZldhEHKSEqigdf0Vw=="
+          "hash": "ablXXSdQ0At7GQx48QNbsQ=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.html",
-          "hash": "Uy260nk4YxQNQuP6UZBHjw=="
+          "hash": "VOrlqhYZGdDfj5vlX4GnZQ=="
         }
       },
       "is_incremental": false,
@@ -722,6 +722,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html",
+          "hash": "JEOzgMwumkesG8BCD7+aiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html",
+          "hash": "kJwSzB6yagAki0NG+r60uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.yml",
       "output": {
         ".html": {
@@ -758,6 +782,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html",
+          "hash": "DOmsHj+gcKPKBrAgDhrdGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.yml",
       "output": {
         ".html": {
@@ -774,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.html",
-          "hash": "48RWVtQTkcVuOHbDRyHbEw=="
+          "hash": "zkwSo00KvUSoFQ9uplp3lg=="
         }
       },
       "is_incremental": false,
@@ -830,6 +866,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshData.html",
+          "hash": "kzt+S1u4wFmr23wJvJBsyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstance.html",
+          "hash": "UZ3dfh5ag4qI4FVb6WMxVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.html",
+          "hash": "Q8J/DUqDSfR3JLyEXCwreQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.yml",
       "output": {
         ".html": {
@@ -858,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshPath.html",
-          "hash": "WHXhm8sJTxKMeagv8QmXJw=="
+          "hash": "hvhimdK7kV2RyI+1k1O/cA=="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.html",
-          "hash": "327GDejPGMkgVaG4ueC2tA=="
+          "hash": "Xm4gPmYj5H7D1dFEr8tYkg=="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "j4FKKISzm/eSDSTyOFs3iQ=="
+          "hash": "AjEAmrkLrFXw4SDw4+guVg=="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "vdT+LANz8cQ5uNmpjPkKnQ=="
+          "hash": "8T1ClocCY6TRwjeXXmyMNQ=="
         }
       },
       "is_incremental": false,
@@ -1385,7 +1457,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 85,
+          "total_file_count": 91,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
