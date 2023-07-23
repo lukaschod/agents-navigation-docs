@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Authoring (Beginner) </title>
+    <title>Settings </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Authoring (Beginner) ">
+    <meta name="title" content="Settings ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,39 +77,13 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="authoring-beginner">Authoring (Beginner)</h1>
+<h1 id="settings">Settings</h1>
 
-<p>Authoring is <code>MonoBehaviour</code> components for Game Objects used for synchronizing or baking Entities components.
-These components only contain authoring information and not tied to logic.</p>
-<p>As this package is designed to be modular, most of the navigation behaviors spread across many components.
-This enables a high variety of customizability as are user can add and remove behaviors even per agent.</p>
-<h2 id="agent">Agent</h2>
-<p>This is the main component that marks <code>GameObject</code>/<code>Entity</code> as <code>Agent</code>.
-In this package, everything that participates in navigation will be <code>Agent</code>, no matter if it is just a static obstacle or dynamic.</p>
-<p>If the agent type is set to <code>Steering</code> it will also include <code>Steering</code> and <code>Arrival</code> behaviors.
-This will allow the agent to steer towards destination and smooth stop.</p>
-<img src="images/Agent.PNG" width="400">
-<h2 id="agent-cylinder-shape">Agent Cylinder Shape</h2>
-<p>This component specifies the agent shape that will be used in navigation. Cylinder shape will indicate that the agent should be simulated in 3d space with Y as an up axis.</p>
-<img src="images/AgentCylindreShape.PNG" width="400">
-<h2 id="agent-circle-shape">Agent Circle Shape</h2>
-<p>This component specifies the agent shape that will be used in navigation. The circle shape will indicate that the agent should be simulated in 2d space with Z as an up axis.</p>
-<img src="images/AgentCircleShape.PNG" width="400">
-<h2 id="agent-collider">Agent Collider</h2>
-<p>This component will enable collisions between agents.</p>
-<img src="images/AgentCollider.PNG" width="400">
-<h2 id="agent-sonar-avoid">Agent Sonar Avoid</h2>
-<p>This component will enable avoidance between nearby agents using the Sonar Avoidance solution. It implements <a href="https://assetstore.unity.com/packages/tools/ai/local-avoidance-214347">Local Avoidance</a> package.</p>
-<img src="images/AgentSonarAvoid.PNG" width="400">
-<h2 id="agent-nav-mesh">Agent Nav Mesh</h2>
-<p>This component will enable these agents to use Unity's builtin NavMesh system. For more information check <a href="https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.0/manual/index.html">AI Navigation</a>.</p>
-<img src="images/AgentNavMesh.PNG" width="400">
-<h2 id="agent-separation">Agent Separation</h2>
-<p>This component enables one of the Boids behaviors called separation. It is very similar to <code>Agent Collider</code> key difference, that it uses velocity for avoidance and is less strict.</p>
-<img src="images/AgentSeperation.PNG" width="400">
-<h2 id="spatial-partitioning-settings">Spatial Partitioning Settings</h2>
-<p>This component is singleton and allows modifying some properties of spatial partitioning.</p>
-<img src="images/SpatialPartitioningSettings.PNG" width="400">
+<p>Settings in this package are approached slightly differently than typical Unity settings. All settings are stored as components in the scene and are singletons. This approach allows having multiple settings in the scene and switching between them at runtime.</p>
+<p>For example, to change nav mesh settings, you need to create a singleton game object and add the <code>Nav Mesh Settings</code> component to it.</p>
+<h2 id="project-settings">Project Settings</h2>
+<p>Agents navigation also contains a tab in the <code>Project Settings window</code> where all scene setting components are shown in one place.</p>
+<img src="images/settings.png" width="600">
 </article>
           </div>
           

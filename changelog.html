@@ -73,7 +73,31 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
-<h2 id="315---2023-3-29">[3.1.5] - 2023-3-29</h2>
+<h2 id="320---2023-07-16">[3.2.0] - 2023-07-16</h2>
+<ul>
+<li>Added NavMeshSettings singleton</li>
+<li>Added settings component mirroring in the project settings under new tab Agents Navigation</li>
+<li>Added new component Agent Smart Stop from Zerg Samples</li>
+<li>Added default configurations for AgentBody/AgentSteering/AgentCollider/AgentShape/AgentSeparation/NavMeshPath</li>
+<li>Added EntityNodes to AgentNavMeshAuthoring</li>
+<li>Added warning for agent authoring in case no shape is added</li>
+<li>Added error then NavMeshQuerySystem is attempted to be created in edit mode</li>
+<li>Changed velocity to account collision with agents and navmesh</li>
+<li>Changed SonarAvoidance radius scale with velocity</li>
+<li>Changed SonarAvoidance  to be float2 now. First value represents angle of velocity obstacle and second one maximum allowed angle</li>
+<li>Changed AgentCylindreShapeAuthoring icon (I hope you will enjoy new one)</li>
+<li>Fixed SonarAvoidance Walls no longer produces extremely small paths</li>
+<li>Fixed hybrid mode have correct LocalTransform scale 1</li>
+<li>Fixed spatial partitioning to use same same query to avoid inconsistencies</li>
+<li>Fixed component UI updating previous frames values</li>
+</ul>
+<h2 id="316---2023-04-11">[3.1.6] - 2023-04-11</h2>
+<ul>
+<li>Changed seperation algorithm</li>
+<li>Added weight property to seperation</li>
+<li>Fixed NavMesh Area Mask correctly work with no sequential layers</li>
+</ul>
+<h2 id="315---2023-03-29">[3.1.5] - 2023-03-29</h2>
 <ul>
 <li>Added NavMeshSurface surface baker and now it can be baked in subscene</li>
 <li>Added sample scene low level sonar avoidance to show its usage</li>
@@ -83,27 +107,27 @@
 <li>Fixed acceleration correctling working with huge values</li>
 <li>Fixed sonar avoidance quality regression from 3.1</li>
 </ul>
-<h2 id="314---2023-2-22">[3.1.4] - 2023-2-22</h2>
+<h2 id="314---2023-02-22">[3.1.4] - 2023-02-22</h2>
 <ul>
 <li>Changed com.unity.entities package version from 1.0.0-pre.15 to 1.0.0-pre.44</li>
 <li>Fixed AgenAuthroing.Stop to correctly set velocity to zero</li>
 </ul>
-<h2 id="313---2023-2-16">[3.1.3] - 2023-2-16</h2>
+<h2 id="313---2023-02-16">[3.1.3] - 2023-02-16</h2>
 <ul>
 <li>Added support for RectTransform</li>
 </ul>
-<h2 id="312---2023-2-10">[3.1.2] - 2023-2-10</h2>
+<h2 id="312---2023-02-10">[3.1.2] - 2023-02-10</h2>
 <ul>
 <li>Added SetDestinationDeferred to agent</li>
 <li>Fixed navmesh area mask editor property work correctly</li>
 <li>Changed agent capacity automatically resizing, removed AgentCapacity property for SpatialPartitioningSettings</li>
 <li>Changed gizmos system to be in the same group AgentGizmosSystemGroup</li>
 </ul>
-<h2 id="311---2023-2-07">[3.1.1] - 2023-2-07</h2>
+<h2 id="311---2023-02-07">[3.1.1] - 2023-02-07</h2>
 <ul>
 <li>Fixed compilation issue as one of the assembly was not set to Editor</li>
 </ul>
-<h2 id="310---2023-1-31">[3.1.0] - 2023-1-31</h2>
+<h2 id="310---2023-01-31">[3.1.0] - 2023-01-31</h2>
 <ul>
 <li>Added new feature to local avoidance <code>Walls</code> that accounts for navmesh.</li>
 <li>Added new property to AgentNavMeshAuthoring UseWalls.</li>
@@ -112,7 +136,7 @@
 <li>Fixed then desination either above or below agent would result in error.</li>
 <li>Fixed path failure case then it is out of nodes and path is in progress.</li>
 </ul>
-<h2 id="306---2023-1-11">[3.0.6] - 2023-1-11</h2>
+<h2 id="306---2023-01-11">[3.0.6] - 2023-01-11</h2>
 <ul>
 <li>Fixed NavMesh path sometimes discarding destination</li>
 <li>Fixed error drop when selecting agent in subscene &quot;The targets array should not be used inside OnSceneGUI or OnPreviewGUI. Use the single target property instead.
@@ -157,7 +181,7 @@ UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&amp;)&quot;</li>
 <ul>
 <li>Release as Agents Navigation</li>
 </ul>
-<h2 id="200---2022-06-9">[2.0.0] - 2022-06-9</h2>
+<h2 id="200---2022-06-09">[2.0.0] - 2022-06-09</h2>
 <ul>
 <li>Changing velocity avoidance with new smart algorithm</li>
 <li>Changing package to use new Package Manager workflow</li>

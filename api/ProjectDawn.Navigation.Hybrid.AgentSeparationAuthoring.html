@@ -347,6 +347,12 @@
       <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
     </div>
     <div>
@@ -365,7 +371,13 @@
       <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
@@ -374,13 +386,37 @@
       <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.ToString()</span>
@@ -446,6 +482,37 @@ protected float Radius</code></pre>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_Weight.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Weight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L18">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_Weight" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Weight">Weight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Range(0F, 1F)]
+protected float Weight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -453,7 +520,7 @@ protected float Radius</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_DefaulSeparation.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L23">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L25">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_DefaulSeparation_" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_DefaulSeparation" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation">DefaulSeparation</h4>
@@ -484,7 +551,7 @@ protected float Radius</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_EntitySeparation.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.EntitySeparation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L32">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L35">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_EntitySeparation_" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.EntitySeparation*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_EntitySeparation" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.EntitySeparation">EntitySeparation</h4>
@@ -516,7 +583,7 @@ Accessing this property is potentially heavy operation as it will require wait f
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_HasEntitySeparation.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.HasEntitySeparation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L41">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSeparationAuthoring.cs/#L44">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_HasEntitySeparation_" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.HasEntitySeparation*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_HasEntitySeparation" data-uid="ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.HasEntitySeparation">HasEntitySeparation</h4>

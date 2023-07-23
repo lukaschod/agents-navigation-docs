@@ -185,7 +185,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentBody_IsStopped.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentBody.IsStopped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L30">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L31">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentBody_IsStopped" data-uid="ProjectDawn.Navigation.AgentBody.IsStopped">IsStopped</h4>
   <div class="markdown level1 summary"><p>This property holds the stop or resume condition of the agent.</p>
@@ -215,10 +215,11 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentBody_RemainingDistance.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentBody.RemainingDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L26">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L27">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentBody_RemainingDistance" data-uid="ProjectDawn.Navigation.AgentBody.RemainingDistance">RemainingDistance</h4>
-  <div class="markdown level1 summary"><p>The distance between the agent's position and the destination.</p>
+  <div class="markdown level1 summary"><p>The distance between the agent's position and the destination.
+With NavMesh this value will return partial remaining distance not full path.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -270,6 +271,39 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentBody_Default.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentBody.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L36">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_AgentBody_Default_" data-uid="ProjectDawn.Navigation.AgentBody.Default*"></a>
+  <h4 id="ProjectDawn_Navigation_AgentBody_Default" data-uid="ProjectDawn.Navigation.AgentBody.Default">Default</h4>
+  <div class="markdown level1 summary"><p>Returns default configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AgentBody Default { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.AgentBody.html">AgentBody</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -277,7 +311,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentBody_SetDestination_Unity_Mathematics_float3_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentBody.SetDestination(Unity.Mathematics.float3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L35">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L44">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_AgentBody_SetDestination_" data-uid="ProjectDawn.Navigation.AgentBody.SetDestination*"></a>
   <h4 id="ProjectDawn_Navigation_AgentBody_SetDestination_Unity_Mathematics_float3_" data-uid="ProjectDawn.Navigation.AgentBody.SetDestination(Unity.Mathematics.float3)">SetDestination(float3)</h4>
@@ -310,7 +344,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentBody_Stop.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentBody.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L44">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Body/AgentBody.cs/#L53">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_AgentBody_Stop_" data-uid="ProjectDawn.Navigation.AgentBody.Stop*"></a>
   <h4 id="ProjectDawn_Navigation_AgentBody_Stop" data-uid="ProjectDawn.Navigation.AgentBody.Stop">Stop()</h4>

@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Quick Start </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Quick Start ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="quick-start">Quick Start</h1>
+
+<p>This package is set up to support both <code>GameObject</code> (using components that inherit <code>MonoBehaviour</code> class) and <code>Entity</code> (ECS package) workflows. Here is a quick start guide to get you started with each workflow.</p>
+<h2 id="gameobjects">GameObjects</h2>
+<ol>
+<li><p>Create a game object using the menu item &quot;GameObject &gt; AI &gt; Agents Navigation &gt; Agent Cylinder&quot;.</p>
+</li>
+<li><p>Create a new script &quot;AgentSetDestination.cs&quot; and attach it to the agent game object.</p>
+</li>
+</ol>
+<pre><code class="lang-csharp">using UnityEngine;
+using ProjectDawn.Navigation.Hybrid;
+
+public class AgentSetDestination : MonoBehaviour
+{
+    public Transform Target;
+    void Start()
+    {
+        GetComponent&lt;AgentAuthoring&gt;().SetDestination(Target.position);
+    }
+}
+</code></pre>
+<p>Create another game object that will be used as a target for the script <code>AgentSetDestination.cs</code>, and assign it to the <code>Target</code> field.</p>
+<p>Finally, click play, and the agent should start moving towards the target.</p>
+<p><img src="images/quick-start-game-objects.png" alt="Quick Start Game Objects"></p>
+<blockquote>
+<p><strong>Note:</strong> This minimal setup will only include the steering behavior and will not include any avoidance.</p>
+</blockquote>
+<h3 id="other-behaviors">Other Behaviors</h3>
+<p>To add additional behaviors to the agent, you can add them as components to the agent game object. For more detailed information about each behavior, check the <a href="game-objects.html">Game Objects</a> section.</p>
+<ul>
+<li><code>Agent Collider</code>: This component will enable collisions between agents.</li>
+<li><code>Agent Sonar Avoid</code>: This component will enable avoidance between nearby agents using the Sonar Avoidance solution.</li>
+<li><code>Agent Nav Mesh</code>: This component will enable the agent to navigate using Unity Nav Mesh.</li>
+</ul>
+<p>...</p>
+<h2 id="entities-sub-scene">Entities Sub-scene</h2>
+<p>Before jumping into this section, make sure you are familiar with <a href="https://docs.unity3d.com/Packages/com.unity.entities@latest">Entities and Baking concepts</a> and have <a href="https://docs.unity3d.com/Packages/com.unity.entities.graphics@latest">Entities Graphics setup</a>.</p>
+<p>Assuming you have already followed the previous section on Game Objects, you can now convert your game object agent to an entity agent. To do this, create a new sub-scene and add your <code>Agent Cylinder</code> and <code>Destination</code> game objects to it.</p>
+<p>Extend the previous script <code>AgentSetDestination.cs</code> with ECS component, baker, and system that will set the agent's destination using the <code>AgentBody</code> component.</p>
+<pre><code class="lang-csharp">using UnityEngine;
+using ProjectDawn.Navigation.Hybrid;
+using Unity.Entities;
+using Unity.Mathematics;
+using ProjectDawn.Navigation;
+
+public class AgentSetDestination : MonoBehaviour
+{
+    public Transform Target;
+    void Start()
+    {
+        GetComponent&lt;AgentAuthoring&gt;().SetDestination(Target.position);
+    }
+}
+
+// ECS component
+public struct SetDestination : IComponentData
+{
+    public float3 Value;
+}
+
+// Bakes mono component into ecs component
+class AgentSetDestinationBaker : Baker&lt;AgentSetDestination&gt;
+{
+    public override void Bake(AgentSetDestination authoring)
+    {
+        AddComponent(GetEntity(TransformUsageFlags.Dynamic),
+            new SetDestination { Value = authoring.Target.position });
+    }
+}
+
+// Sets agents destination
+partial struct AgentSetDestinationSystem : ISystem
+{
+    public void OnUpdate(ref SystemState systemState)
+    {
+        foreach (var (destination, body) in SystemAPI.Query&lt;RefRO&lt;SetDestination&gt;, RefRW&lt;AgentBody&gt;&gt;())
+        {
+            body.ValueRW.SetDestination(destination.ValueRO.Value);
+        }
+    }
+}
+</code></pre>
+<p>Finally, click play, and the agent should start moving towards the target.</p>
+<img src="images/quick-start-entities-subscene.png" width="800">
+<h2 id="entities-code">Entities Code</h2>
+<p>This section will show you how to create an agent using code. This is useful when you want to create agents dynamically.</p>
+<blockquote>
+<p><strong>Note:</strong> It is always recommended to use the sub-scene workflow when possible.</p>
+</blockquote>
+<pre><code class="lang-csharp">var entity = EntityManager.CreateEntity();
+// Agent tag is required for agent to work
+EntityManager.AddComponent&lt;Agent&gt;(entity);
+// AgentBody for dynamic agents
+EntityManager.AddComponentData(entity, AgentBody.Default);
+// AgentSteering for steering behaviour
+EntityManager.AddComponentData(entity, AgentSteering.Default);
+// AgentShape for default cylinder shape
+EntityManager.AddComponentData(entity, AgentShape.Default);
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

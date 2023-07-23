@@ -347,6 +347,12 @@
       <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
     </div>
     <div>
@@ -365,7 +371,13 @@
       <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
@@ -374,13 +386,37 @@
       <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.ToString()</span>
@@ -421,7 +457,7 @@ public class AgentAvoidAuthoring : MonoBehaviour</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Angle.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Angle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L20">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L21">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Angle" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Angle">Angle</h4>
   <div class="markdown level1 summary"></div>
@@ -429,7 +465,7 @@ public class AgentAvoidAuthoring : MonoBehaviour</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[SerializeField]
-[Range(0F, 180F)]
+[Range(0F, 360F)]
 protected float Angle</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -452,7 +488,7 @@ protected float Angle</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_BlockedStop.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.BlockedStop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L26">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L31">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_BlockedStop" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.BlockedStop">BlockedStop</h4>
   <div class="markdown level1 summary"></div>
@@ -479,10 +515,41 @@ protected bool BlockedStop</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_MaxAngle.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.MaxAngle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L25">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_MaxAngle" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.MaxAngle">MaxAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Range(0F, 360F)]
+protected float MaxAngle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Mode.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Mode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L23">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L28">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Mode" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Mode">Mode</h4>
   <div class="markdown level1 summary"></div>
@@ -542,7 +609,7 @@ protected float Radius</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_UseWalls.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.UseWalls%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L29">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L34">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_UseWalls" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.UseWalls">UseWalls</h4>
   <div class="markdown level1 summary"></div>
@@ -574,7 +641,7 @@ protected bool UseWalls</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_DefaultAvoid.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.DefaultAvoid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L36">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L41">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_DefaultAvoid_" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.DefaultAvoid*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_DefaultAvoid" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.DefaultAvoid">DefaultAvoid</h4>
@@ -605,7 +672,7 @@ protected bool UseWalls</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_EntityAvoid.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.EntityAvoid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L48">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L54">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_EntityAvoid_" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.EntityAvoid*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_EntityAvoid" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.EntityAvoid">EntityAvoid</h4>
@@ -637,7 +704,7 @@ Accessing this property is potentially heavy operation as it will require wait f
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_HasEntityAvoid.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.HasEntityAvoid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L57">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentSonarAvoidAuthoring.cs/#L63">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_HasEntityAvoid_" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.HasEntityAvoid*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_HasEntityAvoid" data-uid="ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.HasEntityAvoid">HasEntityAvoid</h4>

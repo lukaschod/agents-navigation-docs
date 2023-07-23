@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Hybrid (Intermediate) </title>
+    <title>Agent Separation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Hybrid (Intermediate) ">
+    <meta name="title" content="Agent Separation ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -77,13 +77,10 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="hybrid-intermediate">Hybrid (Intermediate)</h1>
+<h1 id="agent-separation">Agent Separation</h1>
 
-<p>If <code>GameObject</code> is not in ECS <code>SubScene</code> it will fallback to hybrid mode that will allow OOP interaction with agent components.</p>
-<p>Internally, it still creates an entity in the default world for each agent and synchronizes their positions.</p>
-<blockquote>
-<p><b>Note.</b> Reading or writing properties can be costly as it will require synchronization of jobs.</p>
-</blockquote>
+<p>This component enables one of the Boids behaviors called separation. It is very lightweight algorithm and quite recommended for games that do not require good quality avoidance.</p>
+<img src="../../images/AgentSeperation.PNG" width="400">
 </article>
           </div>
           
@@ -116,8 +113,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
   </body>
 </html>

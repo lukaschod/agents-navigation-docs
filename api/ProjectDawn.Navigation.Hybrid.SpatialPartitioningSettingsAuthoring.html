@@ -92,16 +92,16 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><a class="xref" href="ProjectDawn.Navigation.Hybrid.EntityBehaviour.html">EntityBehaviour</a></div>
+    <div class="level5"><a class="xref" href="ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html">SettingsBehaviour</a></div>
     <div class="level6"><span class="xref">SpatialPartitioningSettingsAuthoring</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="ProjectDawn.Navigation.Hybrid.EntityBehaviour.html#ProjectDawn_Navigation_Hybrid_EntityBehaviour_m_Entity">EntityBehaviour.m_Entity</a>
+      <a class="xref" href="ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html#ProjectDawn_Navigation_Hybrid_SettingsBehaviour_Types">SettingsBehaviour.Types</a>
     </div>
     <div>
-      <a class="xref" href="ProjectDawn.Navigation.Hybrid.EntityBehaviour.html#ProjectDawn_Navigation_Hybrid_EntityBehaviour_GetOrCreateEntity">EntityBehaviour.GetOrCreateEntity()</a>
+      <a class="xref" href="ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html#ProjectDawn_Navigation_Hybrid_SettingsBehaviour_FindTypesInAssemblies">SettingsBehaviour.FindTypesInAssemblies()</a>
     </div>
     <div>
       <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
@@ -353,6 +353,12 @@
       <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
     </div>
     <div>
@@ -371,7 +377,13 @@
       <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
@@ -380,13 +392,37 @@
       <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
     </div>
     <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type)</span>
+    </div>
+    <div>
       <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Object.ToString()</span>
@@ -417,7 +453,7 @@
     <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Agents Navigation/Settings/Spatial Partitioning Settings&quot;)]
 [DisallowMultipleComponent]
 [HelpURL(&quot;https://lukaschod.github.io/agents-navigation-docs/manual/authoring.html&quot;)]
-public class SpatialPartitioningSettingsAuthoring : EntityBehaviour</code></pre>
+public class SpatialPartitioningSettingsAuthoring : SettingsBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -426,14 +462,15 @@ public class SpatialPartitioningSettingsAuthoring : EntityBehaviour</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L13">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L14">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize">CellSize</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The size of single partition.&quot;)]
+[SerializeField]
 protected float3 CellSize</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -451,6 +488,38 @@ protected float3 CellSize</code></pre>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_QueryCapacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L19">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_QueryCapacity" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity">QueryCapacity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;TODO&quot;)]
+[SerializeField]
+[HideInInspector]
+protected int QueryCapacity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -458,7 +527,7 @@ protected float3 CellSize</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L18">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L24">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings_" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings">DefaultSettings</h4>
@@ -484,24 +553,24 @@ protected float3 CellSize</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_EntitySettings.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.EntitySettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L27">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L30">View Source</a>
   </span>
-  <a id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_EntitySettings_" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.EntitySettings*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_EntitySettings" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.EntitySettings">EntitySettings</h4>
-  <div class="markdown level1 summary"><p><a class="xref" href="ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html">AgentSpatialPartitioningSystem.Settings</a> component of this Entity.
-Accessing this property is potentially heavy operation as it will require wait for agent jobs to finish.</p>
-</div>
+  <a id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity_" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity*"></a>
+  <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity">GetOrCreateEntity()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AgentSpatialPartitioningSystem.Settings EntitySettings { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override Entity GetOrCreateEntity()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -511,42 +580,13 @@ Accessing this property is potentially heavy operation as it will require wait f
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html">AgentSpatialPartitioningSystem.Settings</a></td>
+        <td><span class="xref">Unity.Entities.Entity</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_HasEntitySettings.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.HasEntitySettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L36">View Source</a>
-  </span>
-  <a id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_HasEntitySettings_" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.HasEntitySettings*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_HasEntitySettings" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.HasEntitySettings">HasEntitySettings</h4>
-  <div class="markdown level1 summary"><p>Returns true if entity has <a class="xref" href="ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html">AgentSpatialPartitioningSystem.Settings</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasEntitySettings { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html#ProjectDawn_Navigation_Hybrid_SettingsBehaviour_GetOrCreateEntity">SettingsBehaviour.GetOrCreateEntity()</a></div>
 </article>
           </div>
           
