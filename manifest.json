@@ -1357,15 +1357,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/game-objects/shape.md",
       "output": {
         ".html": {
           "relative_path": "manual/game-objects/shape.html",
-          "hash": "l9vsVeX3pXrd9k4FKi78CA=="
+          "hash": "Ex40kDGZsTG58PjHWeBDLQ=="
         }
       },
       "is_incremental": false,
