@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.html",
-          "hash": "RkELfHxWxb0Ix4p9fXGCYA=="
+          "hash": "y0LgLfZXLPVjGnzBriQWkQ=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html",
-          "hash": "IggwiS1hmfv3B6HMB4z/qA=="
+          "hash": "pkLbtiUYt7PwwcBZrQJ4rg=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html",
-          "hash": "ibk0+a5+2yFXN10eYs/l/Q=="
+          "hash": "I9RCjvM5HcVDmGP09CLipA=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.html",
-          "hash": "NmquAWsC1FGtmpM8eKvZdg=="
+          "hash": "JX3rHVFuF8bzWYRa8PPpmQ=="
         }
       },
       "is_incremental": false,
@@ -398,6 +398,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentsNavigationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentsNavigationSettings.html",
+          "hash": "exvRkQWEJFygP7sEYneeeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.ColliderSubSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.ColliderSubSettings.html",
+          "hash": "pRD5VXlf4PXaUWXFGe6MBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.DrawGizmos.yml",
       "output": {
         ".html": {
@@ -446,6 +470,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html",
+          "hash": "OebPwR4RH6rU9rORSUH7+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.yml",
       "output": {
         ".html": {
@@ -470,11 +506,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html",
+          "hash": "xdC6ZWxEKMJ+ipUeV5zhvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.html",
-          "hash": "h6Tc3v78uqv1J45ndujvHQ=="
+          "hash": "EkfQBawk4AlIUAcbU2oQ/w=="
         }
       },
       "is_incremental": false,
@@ -666,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html",
-          "hash": "3My7dl0H8eredsHGJrojxA=="
+          "hash": "gf6vbRCY6EzD+f9brboHFw=="
         }
       },
       "is_incremental": false,
@@ -734,30 +782,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.html",
-          "hash": "j3a7jiIdXpN1K2GVdPT69g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.Editor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.Editor.html",
-          "hash": "qqgRu1yd4aYj53qxfGheNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.yml",
       "output": {
         ".html": {
@@ -786,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html",
-          "hash": "JRMPICsiL+Tb9I6UCy1pYw=="
+          "hash": "4/p5NUzvnO7grm9MZfVc9Q=="
         }
       },
       "is_incremental": false,
@@ -842,23 +866,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SettingsSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SettingsSystem.html",
-          "hash": "LQCKsgFhbVECQK9GLn7Vqw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html",
-          "hash": "yshCh6nO4C4Fd+YcwB2Ykg=="
+          "hash": "xvuLDISeDLH3hPmtyP0oYQ=="
         }
       },
       "is_incremental": false,
@@ -894,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.html",
-          "hash": "a2AtcnQp/5SyMUq+lCPiIg=="
+          "hash": "y3FvO6k9KEQck9BAS4ZVMw=="
         }
       },
       "is_incremental": false,
@@ -906,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.html",
-          "hash": "I9e2aDHJ8zwy7amLb3rb4g=="
+          "hash": "k7bBnmmpBzozwcg2kgNang=="
         }
       },
       "is_incremental": false,
@@ -918,7 +930,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.html",
-          "hash": "NL7QI7djcbV+XlI5kQDRcQ=="
+          "hash": "+xQIT718k3m5+dUVRk4ExQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.ISubSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.ISubSettings.html",
+          "hash": "3PGu0VhcIt/QAqR5KkUD9g=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html",
-          "hash": "byKOfhxP6sRCrjPiyMBHEA=="
+          "hash": "dG8qLlGeCaJI4pUhOt6Arw=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html",
-          "hash": "PDkiLJ+iDBPsQ+/R+r7M7g=="
+          "hash": "d+meFyxs74NmNZLO88R7ug=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html",
-          "hash": "MKu9IBQD/7dKFpIyrP0Vyw=="
+          "hash": "V1qe4tfZg7xYhdAQB+meVQ=="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.html",
-          "hash": "FGc7I/jwdNUTM2uw/jqe+Q=="
+          "hash": "K23Yhdj6rn64rzguBgt3IQ=="
         }
       },
       "is_incremental": false,
@@ -1178,6 +1202,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html",
+          "hash": "8PbO8BWfTDHZiFtqcrGRdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.yml",
       "output": {
         ".html": {
@@ -1194,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.html",
-          "hash": "EhyZXUlwcTNVmVwfxFhF4g=="
+          "hash": "fDJZRHRRxFHx5NxS4O7Hbw=="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OA1DwTZn5ipE1Tz+hN7cTg=="
+          "hash": "sRl1kA70J8m0tKZEVUZqxg=="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "1q+SGlJBdketjSS4upHNZQ=="
+          "hash": "FwS06tW16c+J3uW5BvsPUg=="
         }
       },
       "is_incremental": false,
@@ -1503,17 +1539,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "manual/images/SpatialPartitioningSettings.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "manual/images/SpatialPartitioningSettings.PNG"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "manual/images/StaticObstacle.PNG",
       "output": {
         "resource": {
@@ -1558,17 +1583,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "manual/images/nav-mesh-settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "manual/images/nav-mesh-settings.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "manual/images/quick-start-entities-subscene.png",
       "output": {
         "resource": {
@@ -1584,6 +1598,17 @@
       "output": {
         "resource": {
           "relative_path": "manual/images/quick-start-game-objects.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/settings-no-asset.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/settings-no-asset.png"
         }
       },
       "is_incremental": false,
@@ -1687,7 +1712,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/settings.html",
-          "hash": "h4c4SMDOHp1ReEk3bOZa1w=="
+          "hash": "7FQVAEkMYcDpFgXp7z+eOA=="
         }
       },
       "is_incremental": false,
@@ -1695,23 +1720,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/settings/nav-mesh-settings.md",
+      "source_relative_path": "manual/settings/custom-subsettings.md",
       "output": {
         ".html": {
-          "relative_path": "manual/settings/nav-mesh-settings.html",
-          "hash": "K721gT++L/mvUn32tS0MmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/settings/spatial-partitioning-settings.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/settings/spatial-partitioning-settings.html",
-          "hash": "l3ZTJkIy8UA7tTC/TfUzAQ=="
+          "relative_path": "manual/settings/custom-subsettings.html",
+          "hash": "Aehc/xa0n45isE7B355o+A=="
         }
       },
       "is_incremental": false,
@@ -1735,7 +1748,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "DT/P1bGCHlJTf8nbQnZMMg=="
+          "hash": "vpaQoXsfJbmhyYazu0LFTA=="
         }
       },
       "is_incremental": false,
@@ -1768,13 +1781,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 21,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 99,
+          "total_file_count": 102,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

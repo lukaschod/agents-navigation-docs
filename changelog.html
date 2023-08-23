@@ -73,6 +73,15 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="330---2023-08-20">[3.3.0] - 2023-08-20</h2>
+<ul>
+<li>Added collider settings</li>
+<li>Added spatial partitioning cylinder and circle query with limited neighbour count</li>
+<li>Added map mapping to icons for a reduced aliasing</li>
+<li>Changed project settings from scene based to project wide</li>
+<li>Changed separation to use current shape of agent</li>
+<li>Changed com.unity.entities version to 1.0.14</li>
+</ul>
 <h2 id="320---2023-07-16">[3.2.0] - 2023-07-16</h2>
 <ul>
 <li>Added NavMeshSettings singleton</li>
@@ -164,6 +173,7 @@ UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&amp;)&quot;</li>
 <li>Added error message box to AgentNavMeshAuthoring, if game objects also has NavMeshObstacle</li>
 <li>Added SetDestination method to AgentAuthoring</li>
 <li>Changed that if agent is not near any NavMesh it will throw error instead moved to the center of the world</li>
+<li>Changed dependency com.unity.entities version to 1.0.14</li>
 <li>Fixed few cases where NavMesh update would result in &quot;Any jobs using NavMeshQuery must be completed before we mutate the NavMesh.&quot;</li>
 </ul>
 <h2 id="302---2022-12-15">[3.0.2] - 2022-12-15</h2>

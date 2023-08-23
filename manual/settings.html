@@ -79,11 +79,14 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="settings">Settings</h1>
 
-<p>Settings in this package are approached slightly differently than typical Unity settings. All settings are stored as components in the scene and are singletons. This approach allows having multiple settings in the scene and switching between them at runtime.</p>
-<p>For example, to change nav mesh settings, you need to create a singleton game object and add the <code>Nav Mesh Settings</code> component to it.</p>
-<h2 id="project-settings">Project Settings</h2>
-<p>Agents navigation also contains a tab in the <code>Project Settings window</code> where all scene setting components are shown in one place.</p>
+<p>Settings in this package can be found in <a href="https://docs.unity3d.com/Manual/comp-ManagerGroup.html">Project Settings</a> window tab called Agents Navigation.
+The first field references project wide settings asset that stores serialized fields of the settings.</p>
+<img src="images/settings-no-asset.png" width="600">
+<p>To change settings you will need to create scriptable object <code>Agents Navigation Settings</code>. It can be done using menu item <code>Assets&gt;Create&gt;AI&gt;Agents Navigation Settings</code> and then referenced to the field.</p>
 <img src="images/settings.png" width="600">
+<blockquote>
+<p><strong>Note:</strong> Then setting asset is referenced it will be automatically stored in player settings <a href="https://docs.unity3d.com/ScriptReference/PlayerSettings.GetPreloadedAssets.html">preloaded assets</a>. In case no asset is referenced the default settings will be used.</p>
+</blockquote>
 </article>
           </div>
           

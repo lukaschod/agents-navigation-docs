@@ -1147,6 +1147,93 @@ references:
   commentId: F:ProjectDawn.Navigation.AgentSmartStop.HiveMindStop
   fullName: ProjectDawn.Navigation.AgentSmartStop.HiveMindStop
   nameWithType: AgentSmartStop.HiveMindStop
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings
+  name: AgentsNavigationSettings
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html
+  commentId: T:ProjectDawn.Navigation.AgentsNavigationSettings
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings
+  nameWithType: AgentsNavigationSettings
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.#ctor
+  name: AgentsNavigationSettings()
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings__ctor
+  commentId: M:ProjectDawn.Navigation.AgentsNavigationSettings.#ctor
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.AgentsNavigationSettings()
+  nameWithType: AgentsNavigationSettings.AgentsNavigationSettings()
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.#ctor*
+  name: AgentsNavigationSettings
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings__ctor_
+  commentId: Overload:ProjectDawn.Navigation.AgentsNavigationSettings.#ctor
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.AgentsNavigationSettings
+  nameWithType: AgentsNavigationSettings.AgentsNavigationSettings
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.Contains(System.Type)
+  name: Contains(Type)
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_Contains_System_Type_
+  commentId: M:ProjectDawn.Navigation.AgentsNavigationSettings.Contains(System.Type)
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.Contains(System.Type)
+  nameWithType: AgentsNavigationSettings.Contains(Type)
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.Contains*
+  name: Contains
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_Contains_
+  commentId: Overload:ProjectDawn.Navigation.AgentsNavigationSettings.Contains
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.Contains
+  nameWithType: AgentsNavigationSettings.Contains
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.FindTypesInAssemblies
+  name: FindTypesInAssemblies()
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_FindTypesInAssemblies
+  commentId: M:ProjectDawn.Navigation.AgentsNavigationSettings.FindTypesInAssemblies
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.FindTypesInAssemblies()
+  nameWithType: AgentsNavigationSettings.FindTypesInAssemblies()
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.FindTypesInAssemblies*
+  name: FindTypesInAssemblies
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_FindTypesInAssemblies_
+  commentId: Overload:ProjectDawn.Navigation.AgentsNavigationSettings.FindTypesInAssemblies
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.FindTypesInAssemblies
+  nameWithType: AgentsNavigationSettings.FindTypesInAssemblies
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.Get*
+  name: Get
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_Get_
+  commentId: Overload:ProjectDawn.Navigation.AgentsNavigationSettings.Get
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.Get
+  nameWithType: AgentsNavigationSettings.Get
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.Get``1
+  name: Get<T>()
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_Get__1
+  commentId: M:ProjectDawn.Navigation.AgentsNavigationSettings.Get``1
+  name.vb: Get(Of T)()
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.Get<T>()
+  fullName.vb: ProjectDawn.Navigation.AgentsNavigationSettings.Get(Of T)()
+  nameWithType: AgentsNavigationSettings.Get<T>()
+  nameWithType.vb: AgentsNavigationSettings.Get(Of T)()
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.Instance
+  name: Instance
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_Instance
+  commentId: P:ProjectDawn.Navigation.AgentsNavigationSettings.Instance
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.Instance
+  nameWithType: AgentsNavigationSettings.Instance
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.Instance*
+  name: Instance
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_Instance_
+  commentId: Overload:ProjectDawn.Navigation.AgentsNavigationSettings.Instance
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.Instance
+  nameWithType: AgentsNavigationSettings.Instance
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.SubSettings
+  name: SubSettings
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_SubSettings
+  commentId: P:ProjectDawn.Navigation.AgentsNavigationSettings.SubSettings
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.SubSettings
+  nameWithType: AgentsNavigationSettings.SubSettings
+- uid: ProjectDawn.Navigation.AgentsNavigationSettings.SubSettings*
+  name: SubSettings
+  href: api/ProjectDawn.Navigation.AgentsNavigationSettings.html#ProjectDawn_Navigation_AgentsNavigationSettings_SubSettings_
+  commentId: Overload:ProjectDawn.Navigation.AgentsNavigationSettings.SubSettings
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentsNavigationSettings.SubSettings
+  nameWithType: AgentsNavigationSettings.SubSettings
 - uid: ProjectDawn.Navigation.AgentSonarAvoid
   name: AgentSonarAvoid
   href: api/ProjectDawn.Navigation.AgentSonarAvoid.html
@@ -1341,6 +1428,31 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCapacity
   nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCapacity
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle*
+  name: QueryCircle
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCircle_
+  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCircle
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle``1(Unity.Mathematics.float3,System.Single,``0@)
+  name: QueryCircle<T>(float3, Single, ref T)
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCircle__1_Unity_Mathematics_float3_System_Single___0__
+  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle``1(Unity.Mathematics.float3,System.Single,``0@)
+  name.vb: QueryCircle(Of T)(float3, Single, ByRef T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle<T>(Unity.Mathematics.float3, System.Single, ref T)
+  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle(Of T)(Unity.Mathematics.float3, System.Single, ByRef T)
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCircle<T>(float3, Single, ref T)
+  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCircle(Of T)(float3, Single, ByRef T)
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle``1(Unity.Mathematics.float3,System.Single,System.Int32,``0@)
+  name: QueryCircle<T>(float3, Single, Int32, ref T)
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCircle__1_Unity_Mathematics_float3_System_Single_System_Int32___0__
+  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle``1(Unity.Mathematics.float3,System.Single,System.Int32,``0@)
+  name.vb: QueryCircle(Of T)(float3, Single, Int32, ByRef T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle<T>(Unity.Mathematics.float3, System.Single, System.Int32, ref T)
+  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCircle(Of T)(Unity.Mathematics.float3, System.Single, System.Int32, ByRef T)
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCircle<T>(float3, Single, Int32, ref T)
+  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCircle(Of T)(float3, Single, Int32, ByRef T)
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder*
   name: QueryCylinder
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinder_
@@ -1357,22 +1469,31 @@ references:
   fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder(Of T)(Unity.Mathematics.float3, System.Single, System.Single, ByRef T)
   nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinder<T>(float3, Single, Single, ref T)
   nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCylinder(Of T)(float3, Single, Single, ByRef T)
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes*
-  name: QueryCylindreBoxes
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylindreBoxes_
-  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder``1(Unity.Mathematics.float3,System.Single,System.Single,System.Int32,``0@)
+  name: QueryCylinder<T>(float3, Single, Single, Int32, ref T)
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinder__1_Unity_Mathematics_float3_System_Single_System_Single_System_Int32___0__
+  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder``1(Unity.Mathematics.float3,System.Single,System.Single,System.Int32,``0@)
+  name.vb: QueryCylinder(Of T)(float3, Single, Single, Int32, ByRef T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder<T>(Unity.Mathematics.float3, System.Single, System.Single, System.Int32, ref T)
+  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder(Of T)(Unity.Mathematics.float3, System.Single, System.Single, System.Int32, ByRef T)
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinder<T>(float3, Single, Single, Int32, ref T)
+  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCylinder(Of T)(float3, Single, Single, Int32, ByRef T)
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells*
+  name: QueryCylinderCells
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinderCells_
+  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells
   isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes``1(Unity.Mathematics.float3,System.Single,System.Single,``0)
-  name: QueryCylindreBoxes<T>(float3, Single, Single, T)
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylindreBoxes__1_Unity_Mathematics_float3_System_Single_System_Single___0_
-  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes``1(Unity.Mathematics.float3,System.Single,System.Single,``0)
-  name.vb: QueryCylindreBoxes(Of T)(float3, Single, Single, T)
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes<T>(Unity.Mathematics.float3, System.Single, System.Single, T)
-  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes(Of T)(Unity.Mathematics.float3, System.Single, System.Single, T)
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes<T>(float3, Single, Single, T)
-  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCylindreBoxes(Of T)(float3, Single, Single, T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells``1(Unity.Mathematics.float3,System.Single,System.Single,``0)
+  name: QueryCylinderCells<T>(float3, Single, Single, T)
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinderCells__1_Unity_Mathematics_float3_System_Single_System_Single___0_
+  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells``1(Unity.Mathematics.float3,System.Single,System.Single,``0)
+  name.vb: QueryCylinderCells(Of T)(float3, Single, Single, T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells<T>(Unity.Mathematics.float3, System.Single, System.Single, T)
+  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells(Of T)(Unity.Mathematics.float3, System.Single, System.Single, T)
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells<T>(float3, Single, Single, T)
+  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells(Of T)(float3, Single, Single, T)
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryLine*
   name: QueryLine
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryLine_
@@ -1389,22 +1510,6 @@ references:
   fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryLine(Of T)(Unity.Mathematics.float3, Unity.Mathematics.float3, ByRef T)
   nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryLine<T>(float3, float3, ref T)
   nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryLine(Of T)(float3, float3, ByRef T)
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes*
-  name: QueryProximityCylinderBoxes
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryProximityCylinderBoxes_
-  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes``1(Unity.Mathematics.float3,System.Single,System.Single,System.Int32,``0)
-  name: QueryProximityCylinderBoxes<T>(float3, Single, Single, Int32, T)
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryProximityCylinderBoxes__1_Unity_Mathematics_float3_System_Single_System_Single_System_Int32___0_
-  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes``1(Unity.Mathematics.float3,System.Single,System.Single,System.Int32,``0)
-  name.vb: QueryProximityCylinderBoxes(Of T)(float3, Single, Single, Int32, T)
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes<T>(Unity.Mathematics.float3, System.Single, System.Single, System.Int32, T)
-  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes(Of T)(Unity.Mathematics.float3, System.Single, System.Single, System.Int32, T)
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes<T>(float3, Single, Single, Int32, T)
-  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryProximityCylinderBoxes(Of T)(float3, Single, Single, Int32, T)
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphere*
   name: QuerySphere
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphere_
@@ -1421,22 +1526,22 @@ references:
   fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphere(Of T)(Unity.Mathematics.float3, System.Single, ByRef T)
   nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphere<T>(float3, Single, ref T)
   nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QuerySphere(Of T)(float3, Single, ByRef T)
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes*
-  name: QuerySphereBoxes
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphereBoxes_
-  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells*
+  name: QuerySphereCells
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphereCells_
+  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells
   isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes``1(Unity.Mathematics.float3,System.Single,``0)
-  name: QuerySphereBoxes<T>(float3, Single, T)
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphereBoxes__1_Unity_Mathematics_float3_System_Single___0_
-  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes``1(Unity.Mathematics.float3,System.Single,``0)
-  name.vb: QuerySphereBoxes(Of T)(float3, Single, T)
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes<T>(Unity.Mathematics.float3, System.Single, T)
-  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes(Of T)(Unity.Mathematics.float3, System.Single, T)
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes<T>(float3, Single, T)
-  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QuerySphereBoxes(Of T)(float3, Single, T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphereCells
+- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells``1(Unity.Mathematics.float3,System.Single,``0)
+  name: QuerySphereCells<T>(float3, Single, T)
+  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphereCells__1_Unity_Mathematics_float3_System_Single___0_
+  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells``1(Unity.Mathematics.float3,System.Single,``0)
+  name.vb: QuerySphereCells(Of T)(float3, Single, T)
+  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells<T>(Unity.Mathematics.float3, System.Single, T)
+  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells(Of T)(Unity.Mathematics.float3, System.Single, T)
+  nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphereCells<T>(float3, Single, T)
+  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QuerySphereCells(Of T)(float3, Single, T)
 - uid: ProjectDawn.Navigation.AgentSteering
   name: AgentSteering
   href: api/ProjectDawn.Navigation.AgentSteering.html
@@ -1558,6 +1663,25 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentTransformSystemGroup
   fullName: ProjectDawn.Navigation.AgentTransformSystemGroup
   nameWithType: AgentTransformSystemGroup
+- uid: ProjectDawn.Navigation.ColliderSubSettings
+  name: ColliderSubSettings
+  href: api/ProjectDawn.Navigation.ColliderSubSettings.html
+  commentId: T:ProjectDawn.Navigation.ColliderSubSettings
+  fullName: ProjectDawn.Navigation.ColliderSubSettings
+  nameWithType: ColliderSubSettings
+- uid: ProjectDawn.Navigation.ColliderSubSettings.Iterations
+  name: Iterations
+  href: api/ProjectDawn.Navigation.ColliderSubSettings.html#ProjectDawn_Navigation_ColliderSubSettings_Iterations
+  commentId: P:ProjectDawn.Navigation.ColliderSubSettings.Iterations
+  fullName: ProjectDawn.Navigation.ColliderSubSettings.Iterations
+  nameWithType: ColliderSubSettings.Iterations
+- uid: ProjectDawn.Navigation.ColliderSubSettings.Iterations*
+  name: Iterations
+  href: api/ProjectDawn.Navigation.ColliderSubSettings.html#ProjectDawn_Navigation_ColliderSubSettings_Iterations_
+  commentId: Overload:ProjectDawn.Navigation.ColliderSubSettings.Iterations
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.ColliderSubSettings.Iterations
+  nameWithType: ColliderSubSettings.Iterations
 - uid: ProjectDawn.Navigation.DrawGizmos
   name: DrawGizmos
   href: api/ProjectDawn.Navigation.DrawGizmos.html
@@ -1684,6 +1808,25 @@ references:
   commentId: T:ProjectDawn.Navigation.Editor.AgentGizmosSystemGroup
   fullName: ProjectDawn.Navigation.Editor.AgentGizmosSystemGroup
   nameWithType: AgentGizmosSystemGroup
+- uid: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor
+  name: AgentsNavigationSettingsEditor
+  href: api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html
+  commentId: T:ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor
+  fullName: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor
+  nameWithType: AgentsNavigationSettingsEditor
+- uid: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html#ProjectDawn_Navigation_Editor_AgentsNavigationSettingsEditor_OnInspectorGUI
+  commentId: M:ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.OnInspectorGUI
+  fullName: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.OnInspectorGUI()
+  nameWithType: AgentsNavigationSettingsEditor.OnInspectorGUI()
+- uid: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html#ProjectDawn_Navigation_Editor_AgentsNavigationSettingsEditor_OnInspectorGUI_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.OnInspectorGUI
+  nameWithType: AgentsNavigationSettingsEditor.OnInspectorGUI
 - uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem
   name: NavMeshBoundaryGizmosSystem
   href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html
@@ -1792,6 +1935,25 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate
   nameWithType: NavMeshNodesGizmosSystem.OnUpdate
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField
+  name: ScriptingDefineToggleField
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html
+  commentId: T:ProjectDawn.Navigation.Editor.ScriptingDefineToggleField
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField
+  nameWithType: ScriptingDefineToggleField
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw(UnityEngine.GUIContent,System.String)
+  name: Draw(GUIContent, String)
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html#ProjectDawn_Navigation_Editor_ScriptingDefineToggleField_Draw_UnityEngine_GUIContent_System_String_
+  commentId: M:ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw(UnityEngine.GUIContent,System.String)
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw(UnityEngine.GUIContent, System.String)
+  nameWithType: ScriptingDefineToggleField.Draw(GUIContent, String)
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw*
+  name: Draw
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html#ProjectDawn_Navigation_Editor_ScriptingDefineToggleField_Draw_
+  commentId: Overload:ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw
+  nameWithType: ScriptingDefineToggleField.Draw
 - uid: ProjectDawn.Navigation.FlockEntity
   name: FlockEntity
   href: api/ProjectDawn.Navigation.FlockEntity.html
@@ -2944,31 +3106,6 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.m_HiveMindStop
   fullName: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.m_HiveMindStop
   nameWithType: AgentSmartStopAuthoring.m_HiveMindStop
-- uid: ProjectDawn.Navigation.Hybrid.Editor
-  name: ProjectDawn.Navigation.Hybrid.Editor
-  href: api/ProjectDawn.Navigation.Hybrid.Editor.html
-  commentId: N:ProjectDawn.Navigation.Hybrid.Editor
-  fullName: ProjectDawn.Navigation.Hybrid.Editor
-  nameWithType: ProjectDawn.Navigation.Hybrid.Editor
-- uid: ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField
-  name: ScriptingDefineToggleField
-  href: api/ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.html
-  commentId: T:ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField
-  fullName: ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField
-  nameWithType: ScriptingDefineToggleField
-- uid: ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.Draw(UnityEngine.GUIContent,System.String)
-  name: Draw(GUIContent, String)
-  href: api/ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.html#ProjectDawn_Navigation_Hybrid_Editor_ScriptingDefineToggleField_Draw_UnityEngine_GUIContent_System_String_
-  commentId: M:ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.Draw(UnityEngine.GUIContent,System.String)
-  fullName: ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.Draw(UnityEngine.GUIContent, System.String)
-  nameWithType: ScriptingDefineToggleField.Draw(GUIContent, String)
-- uid: ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.Draw*
-  name: Draw
-  href: api/ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.html#ProjectDawn_Navigation_Hybrid_Editor_ScriptingDefineToggleField_Draw_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.Draw
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.Draw
-  nameWithType: ScriptingDefineToggleField.Draw
 - uid: ProjectDawn.Navigation.Hybrid.EntityBehaviour
   name: EntityBehaviour
   href: api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html
@@ -3285,30 +3422,6 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.SettingsBehaviour.Types
   fullName: ProjectDawn.Navigation.Hybrid.SettingsBehaviour.Types
   nameWithType: SettingsBehaviour.Types
-- uid: ProjectDawn.Navigation.Hybrid.SettingsSystem
-  name: SettingsSystem
-  href: api/ProjectDawn.Navigation.Hybrid.SettingsSystem.html
-  commentId: T:ProjectDawn.Navigation.Hybrid.SettingsSystem
-  fullName: ProjectDawn.Navigation.Hybrid.SettingsSystem
-  nameWithType: SettingsSystem
-- uid: ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)
-  name: ISystem.OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Hybrid.SettingsSystem.html#ProjectDawn_Navigation_Hybrid_SettingsSystem_Unity_Entities_ISystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)
-  name.vb: Unity.Entities.ISystem.OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity.Entities.ISystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity.Entities.ISystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: SettingsSystem.ISystem.OnCreate(ref SystemState)
-  nameWithType.vb: SettingsSystem.Unity.Entities.ISystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity#Entities#ISystem#OnCreate*
-  name: ISystem.OnCreate
-  href: api/ProjectDawn.Navigation.Hybrid.SettingsSystem.html#ProjectDawn_Navigation_Hybrid_SettingsSystem_Unity_Entities_ISystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity#Entities#ISystem#OnCreate
-  isSpec: "True"
-  name.vb: Unity.Entities.ISystem.OnCreate
-  fullName: ProjectDawn.Navigation.Hybrid.SettingsSystem.Unity.Entities.ISystem.OnCreate
-  nameWithType: SettingsSystem.ISystem.OnCreate
-  nameWithType.vb: SettingsSystem.Unity.Entities.ISystem.OnCreate
 - uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
   name: SpatialPartitioningSettingsAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html
@@ -3347,12 +3460,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
   nameWithType: SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity
-  name: QueryCapacity
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_QueryCapacity
-  commentId: F:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity
-  nameWithType: SpatialPartitioningSettingsAuthoring.QueryCapacity
 - uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem
   name: WriteAgentRectTransformSystem
   href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html
@@ -3499,6 +3606,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.ISpatialQueryVolume.Execute
   nameWithType: ISpatialQueryVolume.Execute
+- uid: ProjectDawn.Navigation.ISubSettings
+  name: ISubSettings
+  href: api/ProjectDawn.Navigation.ISubSettings.html
+  commentId: T:ProjectDawn.Navigation.ISubSettings
+  fullName: ProjectDawn.Navigation.ISubSettings
+  nameWithType: ISubSettings
 - uid: ProjectDawn.Navigation.NavMeshBoundary
   name: NavMeshBoundary
   href: api/ProjectDawn.Navigation.NavMeshBoundary.html
@@ -4551,6 +4664,38 @@ references:
   commentId: F:ProjectDawn.Navigation.SonarAvoidMode.IgnoreBehindAgents
   fullName: ProjectDawn.Navigation.SonarAvoidMode.IgnoreBehindAgents
   nameWithType: SonarAvoidMode.IgnoreBehindAgents
+- uid: ProjectDawn.Navigation.SpatialPartitioningSubSettings
+  name: SpatialPartitioningSubSettings
+  href: api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html
+  commentId: T:ProjectDawn.Navigation.SpatialPartitioningSubSettings
+  fullName: ProjectDawn.Navigation.SpatialPartitioningSubSettings
+  nameWithType: SpatialPartitioningSubSettings
+- uid: ProjectDawn.Navigation.SpatialPartitioningSubSettings.CellSize
+  name: CellSize
+  href: api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html#ProjectDawn_Navigation_SpatialPartitioningSubSettings_CellSize
+  commentId: P:ProjectDawn.Navigation.SpatialPartitioningSubSettings.CellSize
+  fullName: ProjectDawn.Navigation.SpatialPartitioningSubSettings.CellSize
+  nameWithType: SpatialPartitioningSubSettings.CellSize
+- uid: ProjectDawn.Navigation.SpatialPartitioningSubSettings.CellSize*
+  name: CellSize
+  href: api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html#ProjectDawn_Navigation_SpatialPartitioningSubSettings_CellSize_
+  commentId: Overload:ProjectDawn.Navigation.SpatialPartitioningSubSettings.CellSize
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.SpatialPartitioningSubSettings.CellSize
+  nameWithType: SpatialPartitioningSubSettings.CellSize
+- uid: ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCapacity
+  name: QueryCapacity
+  href: api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html#ProjectDawn_Navigation_SpatialPartitioningSubSettings_QueryCapacity
+  commentId: P:ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCapacity
+  fullName: ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCapacity
+  nameWithType: SpatialPartitioningSubSettings.QueryCapacity
+- uid: ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCapacity*
+  name: QueryCapacity
+  href: api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html#ProjectDawn_Navigation_SpatialPartitioningSubSettings_QueryCapacity_
+  commentId: Overload:ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCapacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCapacity
+  nameWithType: SpatialPartitioningSubSettings.QueryCapacity
 - uid: ProjectDawn.Navigation.StraightPathFlags
   name: StraightPathFlags
   href: api/ProjectDawn.Navigation.StraightPathFlags.html

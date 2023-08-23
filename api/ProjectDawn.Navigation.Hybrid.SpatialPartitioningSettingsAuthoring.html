@@ -450,9 +450,10 @@
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Hybrid.dll</h6>
   <h5 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Agents Navigation/Settings/Spatial Partitioning Settings&quot;)]
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This class is obsolete, please use new settings workflow https://lukaschod.github.io/agents-navigation-docs/manual/settings.html.&quot;)]
+[AddComponentMenu(&quot;Agents Navigation/Settings/Spatial Partitioning Settings&quot;)]
 [DisallowMultipleComponent]
-[HelpURL(&quot;https://lukaschod.github.io/agents-navigation-docs/manual/authoring.html&quot;)]
+[HelpURL(&quot;https://lukaschod.github.io/agents-navigation-docs/manual/settings.html&quot;)]
 public class SpatialPartitioningSettingsAuthoring : SettingsBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
@@ -462,7 +463,7 @@ public class SpatialPartitioningSettingsAuthoring : SettingsBehaviour</code></pr
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L14">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L16">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize">CellSize</h4>
   <div class="markdown level1 summary"></div>
@@ -488,38 +489,6 @@ protected float3 CellSize</code></pre>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_QueryCapacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L19">View Source</a>
-  </span>
-  <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_QueryCapacity" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.QueryCapacity">QueryCapacity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;TODO&quot;)]
-[SerializeField]
-[HideInInspector]
-protected int QueryCapacity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -527,7 +496,7 @@ protected int QueryCapacity</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L24">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L21">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings_" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings">DefaultSettings</h4>
@@ -560,7 +529,7 @@ protected int QueryCapacity</code></pre>
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L30">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L26">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity_" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity*"></a>
   <h4 id="ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity" data-uid="ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity">GetOrCreateEntity()</h4>
@@ -598,7 +567,7 @@ protected int QueryCapacity</code></pre>
                     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/SpatialPartitioningSettingsAuthoring.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

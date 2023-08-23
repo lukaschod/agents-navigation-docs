@@ -5,21 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace ProjectDawn.Navigation.Hybrid.Editor
-   </title>
+    <title>Custom Sub Settings </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace ProjectDawn.Navigation.Hybrid.Editor
-   ">
+    <meta name="title" content="Custom Sub Settings ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -36,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -78,17 +76,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.Editor">
-  
-  <h1 id="ProjectDawn_Navigation_Hybrid_Editor" data-uid="ProjectDawn.Navigation.Hybrid.Editor" class="text-break">Namespace ProjectDawn.Navigation.Hybrid.Editor
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="ProjectDawn.Navigation.Hybrid.Editor.ScriptingDefineToggleField.html">ScriptingDefineToggleField</a></h4>
-      <section></section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="custom-sub-settings">Custom Sub Settings</h1>
+
+<p>Agents Navigation settings can be extended with additional sub settings.
+To add custom sub settings you need write class that implements interface <code>MySubSettings</code> and it will automatically be included in all instance of <code>Agents Navigation Settings</code> assets.</p>
+<p>Here is simple sample where new sub settings declared as <code>MySubSettings</code> that contain single value and later on can be accessed via <code>AgentsNavigationSettings</code> class.</p>
+<pre><code class="lang-csharp">[Serializable]
+class MySubSettings : ISubSettings
+{
+    public int Value = 1;
+}
+
+...
+
+int myValue = AgentsNavigationSettings.Get&lt;MySubSettings&gt;().Value;
+</code></pre>
 </article>
           </div>
           
@@ -121,8 +124,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>
