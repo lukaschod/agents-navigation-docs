@@ -604,8 +604,8 @@
     "title": "Settings",
     "keywords": "Settings Settings in this package can be found in Project Settings window tab called Agents Navigation. The first field references project wide settings asset that stores serialized fields of the settings. To change settings you will need to create scriptable object Agents Navigation Settings . It can be done using menu item Assets>Create>AI>Agents Navigation Settings and then referenced to the field. Note: Then setting asset is referenced it will be automatically stored in player settings preloaded assets . In case no asset is referenced the default settings will be used."
   },
-  "manual/settings/custom-subsettings.html": {
-    "href": "manual/settings/custom-subsettings.html",
+  "manual/settings/custom-sub-settings.html": {
+    "href": "manual/settings/custom-sub-settings.html",
     "title": "Custom Sub Settings",
     "keywords": "Custom Sub Settings Agents Navigation settings can be extended with additional sub settings. To add custom sub settings you need write class that implements interface MySubSettings and it will automatically be included in all instance of Agents Navigation Settings assets. Here is simple sample where new sub settings declared as MySubSettings that contain single value and later on can be accessed via AgentsNavigationSettings class. [Serializable] class MySubSettings : ISubSettings { public int Value = 1; } ... int myValue = AgentsNavigationSettings.Get<MySubSettings>().Value;"
   },
