@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Custom Steering </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Custom Steering ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="custom-steering">Custom Steering</h1>
+
+<p>This tutorial will show you how to create a custom steering behavior for your agents that mimics tank movement. It is also expected that you have a minimum knowledge about ECS and Unity's Job System.</p>
+<blockquote>
+<p><b>Note:</b> Tutorials may have code that does not compile and may be outdated. Their purpose here is to set you in the right direction. If you have questions, do not hesitate to reach creator in the discord channel.</p>
+</blockquote>
+<h2 id="entity-component">Entity Component</h2>
+<p>The first script that you will be creating is the tank's steering entity component. This component will contain information about the tank's movement speed, acceleration, angular speed, stopping distance, and auto braking. This script is essentially a copy of the <code>AgentSteering</code> component.</p>
+<pre><code class="lang-csharp">/// &lt;summary&gt;
+/// Agent's steering towards destination with arrival.
+/// &lt;/summary&gt;
+public struct TankSteering : IComponentData
+{
+    /// &lt;summary&gt;
+    /// Maximum movement speed when moving to destination.
+    /// &lt;/summary&gt;
+    public float Speed;
+    /// &lt;summary&gt;
+    /// The maximum acceleration of an agent as it follows a path, given in units / sec^2.
+    /// &lt;/summary&gt;
+    public float Acceleration;
+    /// &lt;summary&gt;
+    /// Maximum turning speed in (rad/s) while following a path.
+    /// &lt;/summary&gt;
+    public float AngularSpeed;
+    /// &lt;summary&gt;
+    /// Stop within this distance from the target position.
+    /// &lt;/summary&gt;
+    public float StoppingDistance;
+    /// &lt;summary&gt;
+    /// Should the agent brake automatically to avoid overshooting the destination point?
+    /// &lt;/summary&gt;
+    public bool AutoBreaking;
+}
+</code></pre>
+<h2 id="authoring-component">Authoring Component</h2>
+<p>The next script that you will be creating is the authoring component. The authoring component is a regular <code>MonoBehaviour</code> that serves the purpose of keeping serialized information about the entity component. The <code>Awake</code> and <code>Destroy</code> methods here are used by the hybrid path to create and destroy the entity component. The <code>TankSteeringBaker</code> is used by the pure ECS path to bake the subscene. Most of the code in this component is boilerplate to support both paths, and typically, all authoring components share these methods.</p>
+<pre><code class="lang-csharp">[RequireComponent(typeof(AgentAuthoring))]
+[DisallowMultipleComponent]
+public class TankSteeringAuthoring : MonoBehaviour
+{
+    [SerializeField]
+    float Speed = 3.5f;
+
+    [SerializeField]
+    float Acceleration = 8;
+
+    [SerializeField]
+    float AngularSpeed = 120;
+
+    [SerializeField]
+    float StoppingDistance = 0;
+
+    [SerializeField]
+    bool AutoBreaking = true;
+
+    Entity m_Entity;
+
+    /// &lt;summary&gt;
+    /// Returns default component of &lt;see cref=&quot;TankSteering&quot;/&gt;.
+    /// &lt;/summary&gt;
+    public TankSteering DefaultSteering =&gt; new TankSteering
+    {
+        Speed = Speed,
+        Acceleration = Acceleration,
+        AngularSpeed = math.radians(AngularSpeed),
+        StoppingDistance = StoppingDistance,
+        AutoBreaking = AutoBreaking,
+    };
+
+    void Awake()
+    {
+        var world = World.DefaultGameObjectInjectionWorld;
+        m_Entity = GetComponent&lt;AgentAuthoring&gt;().GetOrCreateEntity();
+        world.EntityManager.AddComponentData(m_Entity, DefaultSteering);
+    }
+
+    void OnDestroy()
+    {
+        var world = World.DefaultGameObjectInjectionWorld;
+        if (world != null)
+            world.EntityManager.RemoveComponent&lt;TankSteering&gt;(m_Entity);
+    }
+}
+
+internal class TankSteeringBaker : Baker&lt;TankSteeringAuthoring&gt;
+{
+    public override void Bake(TankSteeringAuthoring authoring)
+    {
+        AddComponent(GetEntity(TransformUsageFlags.Dynamic), authoring.DefaultSteering);
+    }
+}
+</code></pre>
+<h2 id="steering-system">Steering System</h2>
+<p>Finally, there will be two systems that will operate with our newly created <code>TankSteering</code> component.</p>
+<h3 id="steering-system-1">Steering System</h3>
+<p>The first system is the tank's steering system. Its purpose is to set <code>AgentBody.Force</code> towards the destination. Usually, this system's <code>AgentBody.Force</code> will be overridden by navigation mesh systems, but in case it fails, it can fallback to this system. This is a copy of the <code>AgentSteeringSystem</code> with some minor changes.</p>
+<pre><code class="lang-csharp">/// &lt;summary&gt;
+/// System that steers agent towards destination.
+/// &lt;/summary&gt;
+[BurstCompile]
+[RequireMatchingQueriesForUpdate]
+[UpdateInGroup(typeof(AgentSteeringSystemGroup))]
+public partial struct TankSteeringSystem : ISystem
+{
+    [BurstCompile]
+    public void OnUpdate(ref SystemState state)
+    {
+        new TankSteeringJob().ScheduleParallel();
+    }
+
+    [BurstCompile]
+    partial struct TankSteeringJob : IJobEntity
+    {
+        public void Execute(ref AgentBody body, in TankSteering steering, in LocalTransform transform)
+        {
+            if (body.IsStopped)
+                return;
+
+            float3 towards = body.Destination - transform.Position;
+            float distance = math.length(towards);
+            float3 desiredDirection = distance &gt; math.EPSILON ? towards / distance : float3.zero;
+            body.Force = desiredDirection;
+            body.RemainingDistance = distance;
+        }
+    }
+}
+</code></pre>
+<h2 id="force-system">Force System</h2>
+<p>The second system is the tank's force system. Its purpose is to move the agent towards the destination. This is a copy of the <code>AgentForceSystem</code> with added logic that prevents agent movement if its facing direction and movement direction match within certain degrees.</p>
+<pre><code class="lang-csharp">[BurstCompile]
+[RequireMatchingQueriesForUpdate]
+[UpdateInGroup(typeof(AgentTransformSystemGroup))]
+public partial struct TankForceSystem : ISystem
+{
+    [BurstCompile]
+    public void OnUpdate(ref SystemState state)
+    {
+        new TankForceJob
+        {
+            DeltaTime = state.WorldUnmanaged.Time.DeltaTime
+        }.ScheduleParallel();
+    }
+
+    [BurstCompile]
+    partial struct TankForceJob : IJobEntity
+    {
+        public float DeltaTime;
+
+        public void Execute(ref LocalTransform transform, ref AgentBody body, in TankSteering steering, in AgentShape shape)
+        {
+            if (body.IsStopped)
+                return;
+
+            // Check, if we reached the destination
+            float remainingDistance = body.RemainingDistance;
+            if (remainingDistance &lt;= steering.StoppingDistance + 1e-3f)
+            {
+                body.Velocity = 0;
+                body.IsStopped = true;
+                return;
+            }
+
+            float maxSpeed = steering.Speed;
+
+            // Start breaking if close to destination
+            if (steering.AutoBreaking)
+            {
+                float breakDistance = shape.Radius * 2 + steering.StoppingDistance;
+                if (remainingDistance &lt;= breakDistance)
+                {
+                    maxSpeed = math.lerp(steering.Speed * 0.25f, steering.Speed, remainingDistance / breakDistance);
+                }
+            }
+
+            // Force force to be maximum of unit length, but can be less
+            float forceLength = math.length(body.Force);
+            if (forceLength &gt; 1)
+                body.Force = body.Force / forceLength;
+
+            // Update rotation
+            if (shape.Type == ShapeType.Circle)
+            {
+                float angle = math.atan2(body.Velocity.x, body.Velocity.y);
+                transform.Rotation = math.slerp(transform.Rotation, quaternion.RotateZ(-angle), DeltaTime * steering.AngularSpeed);
+            }
+            else if (shape.Type == ShapeType.Cylinder)
+            {
+                float angle = math.atan2(body.Velocity.x, body.Velocity.z);
+                transform.Rotation = math.slerp(transform.Rotation, quaternion.RotateY(angle), DeltaTime * steering.AngularSpeed);
+            }
+
+            // Tank should only move, if facing direction and movement direction is within certain degrees
+            float3 direction = math.normalizesafe(body.Velocity);
+            float3 facing = math.mul(transform.Rotation, new float3(1, 0, 0));
+            if (math.dot(direction, facing) &gt; math.radians(10))
+            {
+                maxSpeed = 0;
+            }
+
+            // Interpolate velocity
+            body.Velocity = math.lerp(body.Velocity, body.Force * maxSpeed, DeltaTime * steering.Acceleration);
+
+            float speed = math.length(body.Velocity);
+
+            // Early out if steps is going to be very small
+            if (speed &lt; 1e-3f)
+                return;
+
+            // Avoid over-stepping the destination
+            if (speed * DeltaTime &gt; remainingDistance)
+            {
+                transform.Position += (body.Velocity / speed) * remainingDistance;
+                return;
+            }
+
+            // Update position
+            transform.Position += DeltaTime * body.Velocity;
+        }
+    }
+}
+</code></pre>
+<h2 id="agent-authoring">Agent Authoring</h2>
+<p>The last thing you need to do is add your newly created steering component to the agent game object and set the <code>Motion Type</code> in the <code>Agent</code> component to <code>Dynamic</code>. This will ensure that the agent will use your custom steering component instead of the default one.</p>
+<img src="../images/tank-steering.png" width="400">
+<h2 id="sample">Sample</h2>
+<p>In the <code>Scenarios</code> sample, you can find the <code>Tank Steering</code> scene that showcases this custom steering behavior.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

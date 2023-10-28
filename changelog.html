@@ -73,6 +73,38 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="335---2023-10-25">[3.3.5] - 2023-10-25</h2>
+<ul>
+<li>Fixed gizmos drawing for multiple game objects and entities</li>
+<li>Changed ECS gizmos drawing no longer requires to select agent authoring</li>
+<li>Changed GizmosCommandBuffer no longer has parallel version. As this simplifies gizmos logic and did not worked correctly any way</li>
+</ul>
+<h2 id="334---2023-10-13">[3.3.4] - 2023-10-13</h2>
+<ul>
+<li>Fixed performance regression with query capacity</li>
+<li>Fixed samples script agent destination missing reference</li>
+<li>Fixed &quot;Leak Detected : Persistent allocates 257 individual allocations&quot; (Made workaround to unity bug that leaks bursted System.OnCreate)</li>
+</ul>
+<h2 id="333---2023-09-18">[3.3.3] - 2023-09-18</h2>
+<ul>
+<li>Changed NavMeshQueryStatus.Finished to be obsolete, use FinishedFullPath or FinishedPartialPath. This changes allows distinguish reachable from unreachable paths</li>
+<li>Fixed Regular Update to skip frame with delta zero</li>
+<li>Fixed in docs SonarAvoidance.Set parameters names</li>
+<li>Fixed SonarAvoidance.CopyFrom to also copy angle</li>
+<li>Fixed QueryCylinder using radius for y axis instead of height</li>
+<li>Fixed Query Capacity to more effiently take neighbour agents (Should reduce popping effect with collisions)</li>
+</ul>
+<h2 id="332---2023-09-01">[3.3.2] - 2023-09-01</h2>
+<ul>
+<li>Fixed regression from 3.3.1 limited query resulting error &quot;HashMap is full&quot;</li>
+</ul>
+<h2 id="331---2023-08-31">[3.3.1] - 2023-08-31</h2>
+<ul>
+<li>Added limited query fully account different agent sizes</li>
+<li>Changed nav mesh remaining distance to return float max value until it reaches few remaining nodes. It was changed, as it was never accurate value which was resulting other issues</li>
+<li>Fixed lower push forces on collision with sonar horizon</li>
+<li>Fixed authoring help links</li>
+</ul>
 <h2 id="330---2023-08-20">[3.3.0] - 2023-08-20</h2>
 <ul>
 <li>Added collider settings</li>

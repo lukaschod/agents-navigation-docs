@@ -797,22 +797,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentColliderSystem.OnCreate
   nameWithType: AgentColliderSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentColliderSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentColliderSystem.html#ProjectDawn_Navigation_AgentColliderSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentColliderSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentColliderSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentColliderSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentColliderSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentColliderSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentColliderSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentColliderSystem.html#ProjectDawn_Navigation_AgentColliderSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentColliderSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentColliderSystem.OnDestroy
-  nameWithType: AgentColliderSystem.OnDestroy
 - uid: ProjectDawn.Navigation.AgentColliderSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.AgentColliderSystem.html#ProjectDawn_Navigation_AgentColliderSystem_OnUpdate_Unity_Entities_SystemState__
@@ -939,38 +923,6 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentReciprocalAvoidSystem
   fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem
   nameWithType: AgentReciprocalAvoidSystem
-- uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentReciprocalAvoidSystem.OnCreate(ref SystemState)
-  nameWithType.vb: AgentReciprocalAvoidSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreate
-  nameWithType: AgentReciprocalAvoidSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentReciprocalAvoidSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentReciprocalAvoidSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnDestroy
-  nameWithType: AgentReciprocalAvoidSystem.OnDestroy
 - uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1024,38 +976,6 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentSeparationSystem
   fullName: ProjectDawn.Navigation.AgentSeparationSystem
   nameWithType: AgentSeparationSystem
-- uid: ProjectDawn.Navigation.AgentSeparationSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSeparationSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSeparationSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentSeparationSystem.OnCreate(ref SystemState)
-  nameWithType.vb: AgentSeparationSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentSeparationSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.AgentSeparationSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnCreate
-  nameWithType: AgentSeparationSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentSeparationSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentSeparationSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnDestroy
-  nameWithType: AgentSeparationSystem.OnDestroy
 - uid: ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1305,22 +1225,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnCreate
   nameWithType: AgentSonarAvoidSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html#ProjectDawn_Navigation_AgentSonarAvoidSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentSonarAvoidSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentSonarAvoidSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html#ProjectDawn_Navigation_AgentSonarAvoidSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnDestroy
-  nameWithType: AgentSonarAvoidSystem.OnDestroy
 - uid: ProjectDawn.Navigation.AgentSonarAvoidSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html#ProjectDawn_Navigation_AgentSonarAvoidSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1597,38 +1501,6 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentSteeringSystem
   fullName: ProjectDawn.Navigation.AgentSteeringSystem
   nameWithType: AgentSteeringSystem
-- uid: ProjectDawn.Navigation.AgentSteeringSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSteeringSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSteeringSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentSteeringSystem.OnCreate(ref SystemState)
-  nameWithType.vb: AgentSteeringSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentSteeringSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.AgentSteeringSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnCreate
-  nameWithType: AgentSteeringSystem.OnCreate
-- uid: ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentSteeringSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentSteeringSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnDestroy
-  nameWithType: AgentSteeringSystem.OnDestroy
 - uid: ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1657,6 +1529,19 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentSystemGroup
   fullName: ProjectDawn.Navigation.AgentSystemGroup
   nameWithType: AgentSystemGroup
+- uid: ProjectDawn.Navigation.AgentSystemGroup.OnUpdate
+  name: OnUpdate()
+  href: api/ProjectDawn.Navigation.AgentSystemGroup.html#ProjectDawn_Navigation_AgentSystemGroup_OnUpdate
+  commentId: M:ProjectDawn.Navigation.AgentSystemGroup.OnUpdate
+  fullName: ProjectDawn.Navigation.AgentSystemGroup.OnUpdate()
+  nameWithType: AgentSystemGroup.OnUpdate()
+- uid: ProjectDawn.Navigation.AgentSystemGroup.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.AgentSystemGroup.html#ProjectDawn_Navigation_AgentSystemGroup_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.AgentSystemGroup.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentSystemGroup.OnUpdate
+  nameWithType: AgentSystemGroup.OnUpdate
 - uid: ProjectDawn.Navigation.AgentTransformSystemGroup
   name: AgentTransformSystemGroup
   href: api/ProjectDawn.Navigation.AgentTransformSystemGroup.html
@@ -1716,22 +1601,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnCreate
   nameWithType: AgentAvoidGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentAvoidGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentAvoidGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnDestroy
-  nameWithType: AgentAvoidGizmosSystem.OnDestroy
 - uid: ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentAvoidGizmosSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1754,38 +1623,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem
   fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem
   nameWithType: AgentColliderGizmosSystem
-- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentColliderGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: AgentColliderGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreate
-  nameWithType: AgentColliderGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: AgentColliderGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: AgentColliderGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnDestroy
-  nameWithType: AgentColliderGizmosSystem.OnDestroy
 - uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1833,38 +1670,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem
   fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem
   nameWithType: NavMeshBoundaryGizmosSystem
-- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreate
-  nameWithType: NavMeshBoundaryGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnDestroy
-  nameWithType: NavMeshBoundaryGizmosSystem.OnDestroy
 - uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnUpdate_Unity_Entities_SystemState__
@@ -1887,38 +1692,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem
   fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem
   nameWithType: NavMeshNodesGizmosSystem
-- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshNodesGizmosSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshNodesGizmosSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreate
-  nameWithType: NavMeshNodesGizmosSystem.OnCreate
-- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshNodesGizmosSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshNodesGizmosSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnDestroy
-  nameWithType: NavMeshNodesGizmosSystem.OnDestroy
 - uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__
@@ -2030,22 +1803,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.FlockGroupSystem.OnCreate
   nameWithType: FlockGroupSystem.OnCreate
-- uid: ProjectDawn.Navigation.FlockGroupSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.FlockGroupSystem.html#ProjectDawn_Navigation_FlockGroupSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.FlockGroupSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.FlockGroupSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.FlockGroupSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: FlockGroupSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: FlockGroupSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.FlockGroupSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.FlockGroupSystem.html#ProjectDawn_Navigation_FlockGroupSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.FlockGroupSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.FlockGroupSystem.OnDestroy
-  nameWithType: FlockGroupSystem.OnDestroy
 - uid: ProjectDawn.Navigation.FlockGroupSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.FlockGroupSystem.html#ProjectDawn_Navigation_FlockGroupSystem_OnUpdate_Unity_Entities_SystemState__
@@ -2103,19 +1860,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.GizmosCommandBuffer.GizmosCommandBuffer
   nameWithType: GizmosCommandBuffer.GizmosCommandBuffer
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.AsParallelWriter
-  name: AsParallelWriter()
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_AsParallelWriter
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.AsParallelWriter
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.AsParallelWriter()
-  nameWithType: GizmosCommandBuffer.AsParallelWriter()
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.AsParallelWriter*
-  name: AsParallelWriter
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_AsParallelWriter_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.AsParallelWriter
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.AsParallelWriter
-  nameWithType: GizmosCommandBuffer.AsParallelWriter
 - uid: ProjectDawn.Navigation.GizmosCommandBuffer.Clear
   name: Clear()
   href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_Clear
@@ -2142,6 +1886,113 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.GizmosCommandBuffer.Dispose
   nameWithType: GizmosCommandBuffer.Dispose
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color,System.Boolean)
+  name: DrawAAConvexPolygon(NativeArray<float3>, Color, Boolean)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawAAConvexPolygon_Unity_Collections_NativeArray_Unity_Mathematics_float3__UnityEngine_Color_System_Boolean_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color,System.Boolean)
+  name.vb: DrawAAConvexPolygon(NativeArray(Of float3), Color, Boolean)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon(Unity.Collections.NativeArray<Unity.Mathematics.float3>, UnityEngine.Color, System.Boolean)
+  fullName.vb: ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon(Unity.Collections.NativeArray(Of Unity.Mathematics.float3), UnityEngine.Color, System.Boolean)
+  nameWithType: GizmosCommandBuffer.DrawAAConvexPolygon(NativeArray<float3>, Color, Boolean)
+  nameWithType.vb: GizmosCommandBuffer.DrawAAConvexPolygon(NativeArray(Of float3), Color, Boolean)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon*
+  name: DrawAAConvexPolygon
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawAAConvexPolygon_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawAAConvexPolygon
+  nameWithType: GizmosCommandBuffer.DrawAAConvexPolygon
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawArrow(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
+  name: DrawArrow(float3, float3, Single, Color)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawArrow_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_UnityEngine_Color_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawArrow(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawArrow(Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, UnityEngine.Color)
+  nameWithType: GizmosCommandBuffer.DrawArrow(float3, float3, Single, Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawArrow*
+  name: DrawArrow
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawArrow_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawArrow
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawArrow
+  nameWithType: GizmosCommandBuffer.DrawArrow
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
+  name: DrawLine(float3, float3, Color)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawLine_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawLine(Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color)
+  nameWithType: GizmosCommandBuffer.DrawLine(float3, float3, Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawLine*
+  name: DrawLine
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawLine_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawLine
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawLine
+  nameWithType: GizmosCommandBuffer.DrawLine
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawQuad(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color,System.Boolean)
+  name: DrawQuad(float3, float3, float3, float3, Color, Boolean)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawQuad_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_System_Boolean_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawQuad(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color,System.Boolean)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawQuad(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color, System.Boolean)
+  nameWithType: GizmosCommandBuffer.DrawQuad(float3, float3, float3, float3, Color, Boolean)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawQuad*
+  name: DrawQuad
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawQuad_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawQuad
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawQuad
+  nameWithType: GizmosCommandBuffer.DrawQuad
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
+  name: DrawSolidArc(float3, float3, float3, Single, Single, Color)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawSolidArc_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_UnityEngine_Color_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidArc(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, UnityEngine.Color)
+  nameWithType: GizmosCommandBuffer.DrawSolidArc(float3, float3, float3, Single, Single, Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidArc*
+  name: DrawSolidArc
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawSolidArc_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidArc
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidArc
+  nameWithType: GizmosCommandBuffer.DrawSolidArc
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidDisc(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
+  name: DrawSolidDisc(float3, float3, Single, Color)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawSolidDisc_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_UnityEngine_Color_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidDisc(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidDisc(Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, UnityEngine.Color)
+  nameWithType: GizmosCommandBuffer.DrawSolidDisc(float3, float3, Single, Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidDisc*
+  name: DrawSolidDisc
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawSolidDisc_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidDisc
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawSolidDisc
+  nameWithType: GizmosCommandBuffer.DrawSolidDisc
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
+  name: DrawWireArc(float3, float3, float3, Single, Single, Color)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawWireArc_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_UnityEngine_Color_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireArc(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, UnityEngine.Color)
+  nameWithType: GizmosCommandBuffer.DrawWireArc(float3, float3, float3, Single, Single, Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireArc*
+  name: DrawWireArc
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawWireArc_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireArc
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireArc
+  nameWithType: GizmosCommandBuffer.DrawWireArc
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireBox(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
+  name: DrawWireBox(float3, float3, Color)
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawWireBox_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_
+  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireBox(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireBox(Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color)
+  nameWithType: GizmosCommandBuffer.DrawWireBox(float3, float3, Color)
+- uid: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireBox*
+  name: DrawWireBox
+  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_DrawWireBox_
+  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireBox
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.DrawWireBox
+  nameWithType: GizmosCommandBuffer.DrawWireBox
 - uid: ProjectDawn.Navigation.GizmosCommandBuffer.Execute
   name: Execute()
   href: api/ProjectDawn.Navigation.GizmosCommandBuffer.html#ProjectDawn_Navigation_GizmosCommandBuffer_Execute
@@ -2155,135 +2006,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.GizmosCommandBuffer.Execute
   nameWithType: GizmosCommandBuffer.Execute
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter
-  name: GizmosCommandBuffer.ParallelWriter
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html
-  commentId: T:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter
-  nameWithType: GizmosCommandBuffer.ParallelWriter
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.#ctor(Unity.Collections.NativeList{System.Byte})
-  name: ParallelWriter(NativeList<Byte>)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter__ctor_Unity_Collections_NativeList_System_Byte__
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.#ctor(Unity.Collections.NativeList{System.Byte})
-  name.vb: ParallelWriter(NativeList(Of Byte))
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.ParallelWriter(Unity.Collections.NativeList<System.Byte>)
-  fullName.vb: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.ParallelWriter(Unity.Collections.NativeList(Of System.Byte))
-  nameWithType: GizmosCommandBuffer.ParallelWriter.ParallelWriter(NativeList<Byte>)
-  nameWithType.vb: GizmosCommandBuffer.ParallelWriter.ParallelWriter(NativeList(Of Byte))
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.#ctor*
-  name: ParallelWriter
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter__ctor_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.#ctor
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.ParallelWriter
-  nameWithType: GizmosCommandBuffer.ParallelWriter.ParallelWriter
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color,System.Boolean)
-  name: DrawAAConvexPolygon(NativeArray<float3>, Color, Boolean)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawAAConvexPolygon_Unity_Collections_NativeArray_Unity_Mathematics_float3__UnityEngine_Color_System_Boolean_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray{Unity.Mathematics.float3},UnityEngine.Color,System.Boolean)
-  name.vb: DrawAAConvexPolygon(NativeArray(Of float3), Color, Boolean)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray<Unity.Mathematics.float3>, UnityEngine.Color, System.Boolean)
-  fullName.vb: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(Unity.Collections.NativeArray(Of Unity.Mathematics.float3), UnityEngine.Color, System.Boolean)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(NativeArray<float3>, Color, Boolean)
-  nameWithType.vb: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon(NativeArray(Of float3), Color, Boolean)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon*
-  name: DrawAAConvexPolygon
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawAAConvexPolygon_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawAAConvexPolygon
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawArrow(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
-  name: DrawArrow(float3, float3, Single, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawArrow_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawArrow(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawArrow(Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawArrow(float3, float3, Single, Color)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawArrow*
-  name: DrawArrow
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawArrow_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawArrow
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawArrow
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawArrow
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
-  name: DrawLine(float3, float3, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawLine_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine(Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawLine(float3, float3, Color)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine*
-  name: DrawLine
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawLine_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawLine
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawLine
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color,System.Boolean)
-  name: DrawQuad(float3, float3, float3, float3, Color, Boolean)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawQuad_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_System_Boolean_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color,System.Boolean)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color, System.Boolean)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawQuad(float3, float3, float3, float3, Color, Boolean)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad*
-  name: DrawQuad
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawQuad_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawQuad
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawQuad
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
-  name: DrawSolidArc(float3, float3, float3, Single, Single, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawSolidArc_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawSolidArc(float3, float3, float3, Single, Single, Color)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc*
-  name: DrawSolidArc
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawSolidArc_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidArc
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawSolidArc
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidDisc(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
-  name: DrawSolidDisc(float3, float3, Single, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawSolidDisc_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidDisc(Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,UnityEngine.Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidDisc(Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawSolidDisc(float3, float3, Single, Color)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidDisc*
-  name: DrawSolidDisc
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawSolidDisc_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidDisc
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawSolidDisc
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawSolidDisc
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
-  name: DrawWireArc(float3, float3, float3, Single, Single, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawWireArc_Unity_Mathematics_float3_Unity_Mathematics_float3_Unity_Mathematics_float3_System_Single_System_Single_UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireArc(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3,System.Single,System.Single,UnityEngine.Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireArc(Unity.Mathematics.float3, Unity.Mathematics.float3, Unity.Mathematics.float3, System.Single, System.Single, UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawWireArc(float3, float3, float3, Single, Single, Color)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireArc*
-  name: DrawWireArc
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawWireArc_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireArc
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireArc
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawWireArc
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireBox(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
-  name: DrawWireBox(float3, float3, Color)
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawWireBox_Unity_Mathematics_float3_Unity_Mathematics_float3_UnityEngine_Color_
-  commentId: M:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireBox(Unity.Mathematics.float3,Unity.Mathematics.float3,UnityEngine.Color)
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireBox(Unity.Mathematics.float3, Unity.Mathematics.float3, UnityEngine.Color)
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawWireBox(float3, float3, Color)
-- uid: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireBox*
-  name: DrawWireBox
-  href: api/ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.html#ProjectDawn_Navigation_GizmosCommandBuffer_ParallelWriter_DrawWireBox_
-  commentId: Overload:ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireBox
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.GizmosCommandBuffer.ParallelWriter.DrawWireBox
-  nameWithType: GizmosCommandBuffer.ParallelWriter.DrawWireBox
 - uid: ProjectDawn.Navigation.GizmosSystem
   name: GizmosSystem
   href: api/ProjectDawn.Navigation.GizmosSystem.html
@@ -3636,38 +3358,6 @@ references:
   commentId: T:ProjectDawn.Navigation.NavMeshBoundarySystem
   fullName: ProjectDawn.Navigation.NavMeshBoundarySystem
   nameWithType: NavMeshBoundarySystem
-- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundarySystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshBoundarySystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreate
-  nameWithType: NavMeshBoundarySystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundarySystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshBoundarySystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnDestroy
-  nameWithType: NavMeshBoundarySystem.OnDestroy
 - uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnUpdate_Unity_Entities_SystemState__
@@ -3824,6 +3514,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshFunnel.GetCornersDistance
   nameWithType: NavMeshFunnel.GetCornersDistance
+- uid: ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable
+  name: IsEndReachable
+  href: api/ProjectDawn.Navigation.NavMeshFunnel.html#ProjectDawn_Navigation_NavMeshFunnel_IsEndReachable
+  commentId: P:ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable
+  fullName: ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable
+  nameWithType: NavMeshFunnel.IsEndReachable
+- uid: ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable*
+  name: IsEndReachable
+  href: api/ProjectDawn.Navigation.NavMeshFunnel.html#ProjectDawn_Navigation_NavMeshFunnel_IsEndReachable_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable
+  nameWithType: NavMeshFunnel.IsEndReachable
 - uid: ProjectDawn.Navigation.NavMeshFunnel.TryCreateStraightPath(UnityEngine.Experimental.AI.NavMeshQuery,Unity.Collections.NativeSlice{UnityEngine.Experimental.AI.PolygonId},Unity.Mathematics.float3,Unity.Mathematics.float3)
   name: TryCreateStraightPath(NavMeshQuery, NativeSlice<PolygonId>, float3, float3)
   href: api/ProjectDawn.Navigation.NavMeshFunnel.html#ProjectDawn_Navigation_NavMeshFunnel_TryCreateStraightPath_UnityEngine_Experimental_AI_NavMeshQuery_Unity_Collections_NativeSlice_UnityEngine_Experimental_AI_PolygonId__Unity_Mathematics_float3_Unity_Mathematics_float3_
@@ -3961,38 +3664,6 @@ references:
   commentId: T:ProjectDawn.Navigation.NavMeshPathSystem
   fullName: ProjectDawn.Navigation.NavMeshPathSystem
   nameWithType: NavMeshPathSystem
-- uid: ProjectDawn.Navigation.NavMeshPathSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshPathSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshPathSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshPathSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshPathSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshPathSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshPathSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnCreate
-  nameWithType: NavMeshPathSystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshPathSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshPathSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnDestroy
-  nameWithType: NavMeshPathSystem.OnDestroy
 - uid: ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState__
@@ -4015,38 +3686,6 @@ references:
   commentId: T:ProjectDawn.Navigation.NavMeshPositionSystem
   fullName: ProjectDawn.Navigation.NavMeshPositionSystem
   nameWithType: NavMeshPositionSystem
-- uid: ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshPositionSystem.html#ProjectDawn_Navigation_NavMeshPositionSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshPositionSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshPositionSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshPositionSystem.html#ProjectDawn_Navigation_NavMeshPositionSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshPositionSystem.OnCreate
-  nameWithType: NavMeshPositionSystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshPositionSystem.html#ProjectDawn_Navigation_NavMeshPositionSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshPositionSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshPositionSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshPositionSystem.html#ProjectDawn_Navigation_NavMeshPositionSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshPositionSystem.OnDestroy
-  nameWithType: NavMeshPositionSystem.OnDestroy
 - uid: ProjectDawn.Navigation.NavMeshPositionSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.NavMeshPositionSystem.html#ProjectDawn_Navigation_NavMeshPositionSystem_OnUpdate_Unity_Entities_SystemState__
@@ -4189,6 +3828,18 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshQueryStatus.Finished
   fullName: ProjectDawn.Navigation.NavMeshQueryStatus.Finished
   nameWithType: NavMeshQueryStatus.Finished
+- uid: ProjectDawn.Navigation.NavMeshQueryStatus.FinishedFullPath
+  name: FinishedFullPath
+  href: api/ProjectDawn.Navigation.NavMeshQueryStatus.html#ProjectDawn_Navigation_NavMeshQueryStatus_FinishedFullPath
+  commentId: F:ProjectDawn.Navigation.NavMeshQueryStatus.FinishedFullPath
+  fullName: ProjectDawn.Navigation.NavMeshQueryStatus.FinishedFullPath
+  nameWithType: NavMeshQueryStatus.FinishedFullPath
+- uid: ProjectDawn.Navigation.NavMeshQueryStatus.FinishedPartialPath
+  name: FinishedPartialPath
+  href: api/ProjectDawn.Navigation.NavMeshQueryStatus.html#ProjectDawn_Navigation_NavMeshQueryStatus_FinishedPartialPath
+  commentId: F:ProjectDawn.Navigation.NavMeshQueryStatus.FinishedPartialPath
+  fullName: ProjectDawn.Navigation.NavMeshQueryStatus.FinishedPartialPath
+  nameWithType: NavMeshQueryStatus.FinishedPartialPath
 - uid: ProjectDawn.Navigation.NavMeshQueryStatus.InProgress
   name: InProgress
   href: api/ProjectDawn.Navigation.NavMeshQueryStatus.html#ProjectDawn_Navigation_NavMeshQueryStatus_InProgress
@@ -4482,38 +4133,6 @@ references:
   commentId: T:ProjectDawn.Navigation.NavMeshSteeringSystem
   fullName: ProjectDawn.Navigation.NavMeshSteeringSystem
   nameWithType: NavMeshSteeringSystem
-- uid: ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate(Unity.Entities.SystemState@)
-  name: OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshSteeringSystem.html#ProjectDawn_Navigation_NavMeshSteeringSystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate(Unity.Entities.SystemState@)
-  name.vb: OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshSteeringSystem.OnCreate(ref SystemState)
-  nameWithType.vb: NavMeshSteeringSystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate*
-  name: OnCreate
-  href: api/ProjectDawn.Navigation.NavMeshSteeringSystem.html#ProjectDawn_Navigation_NavMeshSteeringSystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshSteeringSystem.OnCreate
-  nameWithType: NavMeshSteeringSystem.OnCreate
-- uid: ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy(Unity.Entities.SystemState@)
-  name: OnDestroy(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshSteeringSystem.html#ProjectDawn_Navigation_NavMeshSteeringSystem_OnDestroy_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy(Unity.Entities.SystemState@)
-  name.vb: OnDestroy(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy(ByRef Unity.Entities.SystemState)
-  nameWithType: NavMeshSteeringSystem.OnDestroy(ref SystemState)
-  nameWithType.vb: NavMeshSteeringSystem.OnDestroy(ByRef SystemState)
-- uid: ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshSteeringSystem.html#ProjectDawn_Navigation_NavMeshSteeringSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshSteeringSystem.OnDestroy
-  nameWithType: NavMeshSteeringSystem.OnDestroy
 - uid: ProjectDawn.Navigation.NavMeshSteeringSystem.OnUpdate(Unity.Entities.SystemState@)
   name: OnUpdate(ref SystemState)
   href: api/ProjectDawn.Navigation.NavMeshSteeringSystem.html#ProjectDawn_Navigation_NavMeshSteeringSystem_OnUpdate_Unity_Entities_SystemState__
