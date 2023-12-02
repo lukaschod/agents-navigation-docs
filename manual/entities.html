@@ -79,89 +79,76 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="entities">Entities</h1>
 
-<p>For those who plan to use ECS in your project or want to squeeze as much performance as possible, you can directly use entities and their agent components. All you need to do is add your <code>Agents</code> to ECS `SubScene.</p>
-<blockquote>
-<p><b>Note.</b> If you are not familiar with ECS. I highly recommend first learning the basics of <a href="https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/index.html">ECS</a>, before continuing this section.</p>
-</blockquote>
-<p>Almost all agents will have these components (Static agents might not have <code>AgentBody</code>):</p>
+<p>For those who plan to use Entities in your project or want to squeeze as much performance as possible, you can directly use entities and their agent components. All you need to do is add your <code>Agents</code> to a <code>SubScene</code>, and they get automatically baked into the correct entity components.</p>
+<p>For those who want to create agent entities without the baker workflow, I recommend looking up game object authoring bakers to see the reference for which entity components to add with default fields.</p>
+<p>Also, each entity component has a static property named <code>Default</code> to simplify the creation of it instead of figuring out what default fields it requires. The other benefit of using those static properties provides better backward compatibility in case you upgrade to a newer version of agents navigation, and a new field gets added to the component.</p>
+<pre><code class="lang-csharp">var entity = EntityManager.CreateEntity();
+// Agent tag is required for agent to work
+EntityManager.AddComponentData(entity, Agent.Default);
+// AgentBody for dynamic agents
+EntityManager.AddComponentData(entity, AgentBody.Default);
+// AgentLocomotion for moving
+EntityManager.AddComponentData(entity, AgentLocomotion.Default);
+// AgentShape for default cylinder shape
+EntityManager.AddComponentData(entity, AgentShape.Default);
+</code></pre>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>If you are not familiar with ECS, I highly recommend learning the basics of <a href="https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/index.html">Entities</a> before continuing with this section.</p>
+</div>
+<h2 id="architecture">Architecture</h2>
+<p>This package architecture is heavily influenced by Craig Reynolds' Boids. Agent navigation is essentially divided into four major sections.</p>
+<p>The first one is <code>Action</code>, where the agent performs high-level logic to decide whether it should continue moving or change its destination.</p>
+<p>Next is <code>Steering</code>, where the agent attempts to steer towards its destination. The steering force here is a vector used by the agent to move towards it. In most cases, it will be a unit vector, but not necessarily, as a lower length than one can indicate that the agent should slow down. Many systems will modify the steering force, and each system will attempt to refine it to provide more complicated navigation. For example, the steering force can start with very simple seeking logic, where the agent goes straight into the destination. Then a pathing system like navmesh can modify it to account for path following. Furthermore, there can be avoidance, like sonar, that modifies steering to avoid nearby agents. This can continue with multiple systems and even custom ones.</p>
+<p>The third section is <code>Locomotion</code>, where the agent uses its steering force to move. There is a default component called <code>AgentLocomotion</code> that simulates a point mass body. To write a custom one, you can check <a href="tutorials/custom-locomotion.html">Custom Locomotion</a>.</p>
+<p>Finally, <code>Displacement</code> is the final step where the agent typically will be constrained within the navmesh surface or ensure non-overlapping between other agents.</p>
 <table>
 <thead>
 <tr>
-<th>Core Component</th>
-<th>Information</th>
+<th>Sections</th>
+<th>System Groups</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Agent</td>
-<td>Agent tag.</td>
+<td>Action</td>
+<td>Agent Spatial System Group</td>
+<td>Constructs accelerated structure for fast nearby agent search</td>
 </tr>
 <tr>
-<td>AgentBody</td>
-<td>Agent's body movement.</td>
+<td></td>
+<td>Agent Action System Group</td>
+<td>High-level decision for navigation</td>
 </tr>
 <tr>
-<td>AgentShape</td>
-<td>Represents agent shape in space.</td>
+<td>Steering</td>
+<td>Agent Seeking System Group</td>
+<td>Updates forces to steer towards the destination</td>
+</tr>
+<tr>
+<td></td>
+<td>Agent Pathing System Group</td>
+<td>Updates forces to account for path following</td>
+</tr>
+<tr>
+<td></td>
+<td>Agent Force System Group</td>
+<td>Updates forces to account for other behaviors like avoidance, separation...</td>
+</tr>
+<tr>
+<td>Locomotion</td>
+<td>Agent Locomotion System Group</td>
+<td>Moves agent using the forces</td>
+</tr>
+<tr>
+<td>Displacement</td>
+<td>Agent Displacement System Group</td>
+<td>Finishing pass like containing agent within the path or collision</td>
 </tr>
 </tbody>
 </table>
-<p><a href="https://en.wikipedia.org/wiki/Boids">Boids</a> components based on Craig Reynolds. Only exception is <code>AgentSonarAvoid</code> which is novel solution.</p>
-<table>
-<thead>
-<tr>
-<th>Boids Component</th>
-<th>Information</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>AgentSteering</td>
-<td>Agent's steering towards destination with arrival.</td>
-</tr>
-<tr>
-<td>AgentSeparation</td>
-<td>Agent separation from nearby agents.</td>
-</tr>
-<tr>
-<td>AgentSonarAvoid</td>
-<td>Agent avoidance of nearby agents using Sonar Avoidance algorithm.</td>
-</tr>
-<tr>
-<td>AgentCollider</td>
-<td>This component tags, if agent should collide with nearby agents.</td>
-</tr>
-</tbody>
-</table>
-<p>NavMesh components enable navigation on Unity builtin NavMesh system.</p>
-<table>
-<thead>
-<tr>
-<th>NavMesh Component</th>
-<th>Information</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>NavMeshPath</td>
-<td>Agent NavMesh path.</td>
-</tr>
-<tr>
-<td>NavMeshNode</td>
-<td>Agent NavMesh single node of path.</td>
-</tr>
-</tbody>
-</table>
-<p>For example, if you have agents that have components: <code>Agent</code>, <code>AgentBody</code>, <code>AgentShape</code>, <code>AgentSteering</code>, <code>AgentSonarAvoid</code>, <code>AgentCollider</code>, <code>NavMeshPath</code> and <code>NavMeshNode</code>.</p>
-<p>Execution logic would be:</p>
-<ol>
-<li><code>NavMeshPath</code> would request new path into <code>DynamicBuffer&lt;NavMeshNode&gt;</code>.</li>
-<li><code>AgentSteering</code> would compute steering direction into <code>AgentBody</code>.</li>
-<li><code>DynamicBuffer&lt;NavMeshNode&gt;</code> would modify steering direction of <code>AgentBody</code> by following path locations.</li>
-<li><code>AgentSonarAvoid</code> would modify steering direction of <code>AgentBody</code> to account for avoiding nearby <code>Agents</code>.</li>
-<li><code>AgentSteering</code> and <code>AgentBody</code> would be used to translate <code>Agent</code> position.</li>
-<li><code>NavMeshPath</code> would be used to correct position to make sure <code>Agent</code> is still in Nav Mesh.</li>
-</ol>
+<p>This architecture enables a high level of modularity and performance, allowing you to easily add your custom steering/locomotion or even pathing without modifying the package, as long as you follow proper system grouping.</p>
 <h1 id="debug">Debug</h1>
 <p>In case you find some behaviors working unexpectedly, it is recommended to try debug gizmos functionality. This can be enabled per entity by adding component <code>DrawGizmos</code> to it.</p>
 </article>

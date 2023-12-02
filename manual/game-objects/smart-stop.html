@@ -83,6 +83,10 @@
 <img src="../images/smart-stop.png" width="400">
 <h2 id="hive-mind-stop">Hive Mind Stop</h2>
 <p>This behavior is group-based, where the agent attempts to stop when all agents in the group are stopped. It effectively handles scenarios where a group of agents attempts to move to the same destination. Every frame, the agent will check nearby idle agents to see if their destination is similar to its own. If so, it will stop.</p>
+<h1 id="give-up-stop">Give Up Stop</h1>
+<p>This option allows the agent to make smarter stop decisions than simply deciding if it is stuck.
+Every time the agent bumps into a standing agent, it will progress towards stopping. Additionally, by not bumping into one, it will recover from stopping.
+Once the progress value is met, the agent will stop.</p>
 </article>
           </div>
           

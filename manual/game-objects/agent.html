@@ -81,8 +81,9 @@
 
 <p>This is the main component that marks a <code>GameObject</code>/<code>Entity</code> as an <code>Agent</code>.
 In this package, everything that participates in navigation will be considered an <code>Agent</code>, whether it is just a static obstacle or dynamic.</p>
-<p>If the agent type is set to <code>Steering</code>, it will also include <code>Steering</code> and <code>Arrival</code> behaviors.
-This will allow the agent to steer towards its destination and smoothly stop.</p>
+<p>If the agent type is set to <code>Default Locomotion</code>, it will also include default <code>Locomotion</code>, <code>Seeking</code> and <code>Arrival</code> behaviors.
+This will allow the agent to seek its destination and move towards it using simple acceleration based model.
+For custom locomotion, go check tutorials on how to implement your own locomotion.</p>
 <img src="../images/Agent.PNG" width="400">
 </article>
           </div>

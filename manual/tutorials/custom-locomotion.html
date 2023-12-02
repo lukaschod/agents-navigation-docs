@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Custom Steering </title>
+    <title>Custom Locomotion </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Custom Steering ">
+    <meta name="title" content="Custom Locomotion ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,18 +77,19 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="custom-steering">Custom Steering</h1>
+<h1 id="custom-locomotion">Custom Locomotion</h1>
 
-<p>This tutorial will show you how to create a custom steering behavior for your agents that mimics tank movement. It is also expected that you have a minimum knowledge about ECS and Unity's Job System.</p>
-<blockquote>
-<p><b>Note:</b> Tutorials may have code that does not compile and may be outdated. Their purpose here is to set you in the right direction. If you have questions, do not hesitate to reach creator in the discord channel.</p>
-</blockquote>
+<p>This tutorial will show you how to create a custom locomotion for your agents that mimics tank movement. It is also expected that you have a minimum knowledge about ECS and Unity's Job System.</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Tutorials may have code that does not compile and may be outdated. Their purpose here is to set you in the right direction. If you have questions, do not hesitate to reach creator in the discord channel.</p>
+</div>
 <h2 id="entity-component">Entity Component</h2>
-<p>The first script that you will be creating is the tank's steering entity component. This component will contain information about the tank's movement speed, acceleration, angular speed, stopping distance, and auto braking. This script is essentially a copy of the <code>AgentSteering</code> component.</p>
+<p>The first script that you will be creating is the tank's locomotion entity component. This component will contain information about the tank's movement speed, acceleration, angular speed, stopping distance, and auto braking. This script is essentially a copy of the <code>AgentLocomotion</code> component.</p>
 <pre><code class="lang-csharp">/// &lt;summary&gt;
-/// Agent's steering towards destination with arrival.
+/// Tanks locomotion that moves towards destination with arrival.
 /// &lt;/summary&gt;
-public struct TankSteering : IComponentData
+public struct TankLocomotion : IComponentData
 {
     /// &lt;summary&gt;
     /// Maximum movement speed when moving to destination.
@@ -113,10 +114,10 @@ public struct TankSteering : IComponentData
 }
 </code></pre>
 <h2 id="authoring-component">Authoring Component</h2>
-<p>The next script that you will be creating is the authoring component. The authoring component is a regular <code>MonoBehaviour</code> that serves the purpose of keeping serialized information about the entity component. The <code>Awake</code> and <code>Destroy</code> methods here are used by the hybrid path to create and destroy the entity component. The <code>TankSteeringBaker</code> is used by the pure ECS path to bake the subscene. Most of the code in this component is boilerplate to support both paths, and typically, all authoring components share these methods.</p>
+<p>The next script that you will be creating is the authoring component. The authoring component is a regular <code>MonoBehaviour</code> that serves the purpose of keeping serialized information about the entity component. The <code>Awake</code> and <code>Destroy</code> methods here are used by the hybrid path to create and destroy the entity component. The <code>TankLocomotionBaker</code> is used by the pure ECS path to bake the subscene. Most of the code in this component is boilerplate to support both paths, and typically, all authoring components share these methods.</p>
 <pre><code class="lang-csharp">[RequireComponent(typeof(AgentAuthoring))]
 [DisallowMultipleComponent]
-public class TankSteeringAuthoring : MonoBehaviour
+public class TankLocomotionAuthoring : MonoBehaviour
 {
     [SerializeField]
     float Speed = 3.5f;
@@ -136,9 +137,9 @@ public class TankSteeringAuthoring : MonoBehaviour
     Entity m_Entity;
 
     /// &lt;summary&gt;
-    /// Returns default component of &lt;see cref=&quot;TankSteering&quot;/&gt;.
+    /// Returns default component of &lt;see cref=&quot;TankLocomotion&quot;/&gt;.
     /// &lt;/summary&gt;
-    public TankSteering DefaultSteering =&gt; new TankSteering
+    public TankLocomotion DefaultLocomotion =&gt; new()
     {
         Speed = Speed,
         Acceleration = Acceleration,
@@ -151,47 +152,47 @@ public class TankSteeringAuthoring : MonoBehaviour
     {
         var world = World.DefaultGameObjectInjectionWorld;
         m_Entity = GetComponent&lt;AgentAuthoring&gt;().GetOrCreateEntity();
-        world.EntityManager.AddComponentData(m_Entity, DefaultSteering);
+        world.EntityManager.AddComponentData(m_Entity, DefaultLocomotion);
     }
 
     void OnDestroy()
     {
         var world = World.DefaultGameObjectInjectionWorld;
         if (world != null)
-            world.EntityManager.RemoveComponent&lt;TankSteering&gt;(m_Entity);
+            world.EntityManager.RemoveComponent&lt;TankLocomotion&gt;(m_Entity);
     }
 }
 
-internal class TankSteeringBaker : Baker&lt;TankSteeringAuthoring&gt;
+internal class TankLocomotionBaker : Baker&lt;TankLocomotionAuthoring&gt;
 {
-    public override void Bake(TankSteeringAuthoring authoring)
+    public override void Bake(TankLocomotionAuthoring authoring)
     {
-        AddComponent(GetEntity(TransformUsageFlags.Dynamic), authoring.DefaultSteering);
+        AddComponent(GetEntity(TransformUsageFlags.Dynamic), authoring.DefaultLocomotion);
     }
 }
 </code></pre>
-<h2 id="steering-system">Steering System</h2>
-<p>Finally, there will be two systems that will operate with our newly created <code>TankSteering</code> component.</p>
-<h3 id="steering-system-1">Steering System</h3>
-<p>The first system is the tank's steering system. Its purpose is to set <code>AgentBody.Force</code> towards the destination. Usually, this system's <code>AgentBody.Force</code> will be overridden by navigation mesh systems, but in case it fails, it can fallback to this system. This is a copy of the <code>AgentSteeringSystem</code> with some minor changes.</p>
+<h2 id="systems">Systems</h2>
+<p>Finally, there will be two systems that will operate with our newly created <code>TankLocomotion</code> component.</p>
+<h3 id="seeking-system">Seeking System</h3>
+<p>The first system is the tank's seeking system. Its purpose is to set <code>AgentBody.Force</code> towards the destination. Usually, this system's <code>AgentBody.Force</code> will be overridden by navigation mesh systems, but in case it fails, it can fallback to this system. This is a copy of the <code>AgentSeekingSystem</code> with some minor changes.</p>
 <pre><code class="lang-csharp">/// &lt;summary&gt;
 /// System that steers agent towards destination.
 /// &lt;/summary&gt;
 [BurstCompile]
 [RequireMatchingQueriesForUpdate]
-[UpdateInGroup(typeof(AgentSteeringSystemGroup))]
-public partial struct TankSteeringSystem : ISystem
+[UpdateInGroup(typeof(AgentSeekingSystemGroup))]
+public partial struct AgentSeekingSystem : ISystem
 {
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        new TankSteeringJob().ScheduleParallel();
+        new AgentSeekingJob().ScheduleParallel();
     }
 
     [BurstCompile]
-    partial struct TankSteeringJob : IJobEntity
+    partial struct AgentSeekingJob : IJobEntity
     {
-        public void Execute(ref AgentBody body, in TankSteering steering, in LocalTransform transform)
+        public void Execute(ref AgentBody body, in AgentLocomotion seeking, in LocalTransform transform)
         {
             if (body.IsStopped)
                 return;
@@ -205,50 +206,50 @@ public partial struct TankSteeringSystem : ISystem
     }
 }
 </code></pre>
-<h2 id="force-system">Force System</h2>
-<p>The second system is the tank's force system. Its purpose is to move the agent towards the destination. This is a copy of the <code>AgentForceSystem</code> with added logic that prevents agent movement if its facing direction and movement direction match within certain degrees.</p>
+<h2 id="locomotion-system">Locomotion System</h2>
+<p>The second system is the tank's locomotion system. Its purpose is to move the agent towards the destination. This is a copy of the <code>AgentLocomotionSystem</code> with added logic that prevents agent movement if its facing direction and movement direction match within certain degrees.</p>
 <pre><code class="lang-csharp">[BurstCompile]
 [RequireMatchingQueriesForUpdate]
-[UpdateInGroup(typeof(AgentTransformSystemGroup))]
-public partial struct TankForceSystem : ISystem
+[UpdateInGroup(typeof(AgentLocomotionSystemGroup))]
+public partial struct TankLocomotionSystem : ISystem
 {
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        new TankForceJob
+        new TankLocomotionJob
         {
             DeltaTime = state.WorldUnmanaged.Time.DeltaTime
         }.ScheduleParallel();
     }
 
     [BurstCompile]
-    partial struct TankForceJob : IJobEntity
+    partial struct TankLocomotionJob : IJobEntity
     {
         public float DeltaTime;
 
-        public void Execute(ref LocalTransform transform, ref AgentBody body, in TankSteering steering, in AgentShape shape)
+        public void Execute(ref LocalTransform transform, ref AgentBody body, in TankLocomotion locomotion, in AgentShape shape)
         {
             if (body.IsStopped)
                 return;
 
             // Check, if we reached the destination
             float remainingDistance = body.RemainingDistance;
-            if (remainingDistance &lt;= steering.StoppingDistance + 1e-3f)
+            if (remainingDistance &lt;= locomotion.StoppingDistance + 1e-3f)
             {
                 body.Velocity = 0;
                 body.IsStopped = true;
                 return;
             }
 
-            float maxSpeed = steering.Speed;
+            float maxSpeed = locomotion.Speed;
 
             // Start breaking if close to destination
-            if (steering.AutoBreaking)
+            if (locomotion.AutoBreaking)
             {
-                float breakDistance = shape.Radius * 2 + steering.StoppingDistance;
+                float breakDistance = shape.Radius * 2 + locomotion.StoppingDistance;
                 if (remainingDistance &lt;= breakDistance)
                 {
-                    maxSpeed = math.lerp(steering.Speed * 0.25f, steering.Speed, remainingDistance / breakDistance);
+                    maxSpeed = math.lerp(locomotion.Speed * 0.25f, locomotion.Speed, remainingDistance / breakDistance);
                 }
             }
 
@@ -261,12 +262,12 @@ public partial struct TankForceSystem : ISystem
             if (shape.Type == ShapeType.Circle)
             {
                 float angle = math.atan2(body.Velocity.x, body.Velocity.y);
-                transform.Rotation = math.slerp(transform.Rotation, quaternion.RotateZ(-angle), DeltaTime * steering.AngularSpeed);
+                transform.Rotation = math.slerp(transform.Rotation, quaternion.RotateZ(-angle), DeltaTime * locomotion.AngularSpeed);
             }
             else if (shape.Type == ShapeType.Cylinder)
             {
                 float angle = math.atan2(body.Velocity.x, body.Velocity.z);
-                transform.Rotation = math.slerp(transform.Rotation, quaternion.RotateY(angle), DeltaTime * steering.AngularSpeed);
+                transform.Rotation = math.slerp(transform.Rotation, quaternion.RotateY(angle), DeltaTime * locomotion.AngularSpeed);
             }
 
             // Tank should only move, if facing direction and movement direction is within certain degrees
@@ -278,7 +279,7 @@ public partial struct TankForceSystem : ISystem
             }
 
             // Interpolate velocity
-            body.Velocity = math.lerp(body.Velocity, body.Force * maxSpeed, DeltaTime * steering.Acceleration);
+            body.Velocity = math.lerp(body.Velocity, body.Force * maxSpeed, DeltaTime * locomotion.Acceleration);
 
             float speed = math.length(body.Velocity);
 
@@ -303,7 +304,7 @@ public partial struct TankForceSystem : ISystem
 <p>The last thing you need to do is add your newly created steering component to the agent game object and set the <code>Motion Type</code> in the <code>Agent</code> component to <code>Dynamic</code>. This will ensure that the agent will use your custom steering component instead of the default one.</p>
 <img src="../images/tank-steering.png" width="400">
 <h2 id="sample">Sample</h2>
-<p>In the <code>Scenarios</code> sample, you can find the <code>Tank Steering</code> scene that showcases this custom steering behavior.</p>
+<p>In the <code>Scenarios</code> sample, you can find the <code>Tank Locomotion</code> scene that showcases this custom locomotion behavior.</p>
 </article>
           </div>
           

@@ -73,6 +73,29 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="342---2023-11-14">[3.4.2] - 2023-11-14</h2>
+<ul>
+<li>Added Agent.Default</li>
+<li>Fixed navigation layers not working with query capacity 0</li>
+</ul>
+<h2 id="341---2023-11-10">[3.4.1] - 2023-11-10</h2>
+<ul>
+<li>Fixed issues with navigation layer setting to nothing</li>
+</ul>
+<h2 id="340---2023-11-08">[3.4.0] - 2023-11-08</h2>
+<ul>
+<li>Added path progress in case agents is moved outside agents system group</li>
+<li>Added Layers to Agent/AgentCollider/AgentSeparation/AgentSonarAvoid/AgentReciprocalAvoid</li>
+<li>Added Query Check setting. The maximum number of nearby neighbors will be checked to find closest.</li>
+<li>Added to Smart Stop new behaviour called Give Up Stop.</li>
+<li>Added AgentCollider enable/disable state</li>
+<li>Added Iterations Per Frame for NavMesh</li>
+<li>Added NavMesh Constrained option to control should agent be forced to be on surface</li>
+<li>Removed old 0.65 entities package baking path</li>
+<li>Changed Sonar Time Horizon only include agents that are withing radius. This will improve agent seeking.</li>
+<li>Changed Spatial Partitioning to use parallel jobs</li>
+<li>Changed AgentSystemGroup to be executed before physics</li>
+</ul>
 <h2 id="335---2023-10-25">[3.3.5] - 2023-10-25</h2>
 <ul>
 <li>Fixed gizmos drawing for multiple game objects and entities</li>

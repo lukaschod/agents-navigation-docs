@@ -116,17 +116,13 @@
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
   <h5 id="ProjectDawn_Navigation_AgentSteering_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct AgentSteering : IComponentData, IQueryTypeParameter</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AgentSteering is deprecated, please use AgentLocomotion!&quot;, false)]
+public struct AgentSteering : IComponentData, IQueryTypeParameter</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering_Acceleration.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering.Acceleration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L18">View Source</a>
-  </span>
+  
+  
   <h4 id="ProjectDawn_Navigation_AgentSteering_Acceleration" data-uid="ProjectDawn.Navigation.AgentSteering.Acceleration">Acceleration</h4>
   <div class="markdown level1 summary"><p>The maximum acceleration of an agent as it follows a path, given in units / sec^2.</p>
 </div>
@@ -150,13 +146,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering_AngularSpeed.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering.AngularSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L22">View Source</a>
-  </span>
+  
+  
   <h4 id="ProjectDawn_Navigation_AgentSteering_AngularSpeed" data-uid="ProjectDawn.Navigation.AgentSteering.AngularSpeed">AngularSpeed</h4>
   <div class="markdown level1 summary"><p>Maximum turning speed in (rad/s) while following a path.</p>
 </div>
@@ -180,13 +171,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering_AutoBreaking.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering.AutoBreaking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L30">View Source</a>
-  </span>
+  
+  
   <h4 id="ProjectDawn_Navigation_AgentSteering_AutoBreaking" data-uid="ProjectDawn.Navigation.AgentSteering.AutoBreaking">AutoBreaking</h4>
   <div class="markdown level1 summary"><p>Should the agent brake automatically to avoid overshooting the destination point?</p>
 </div>
@@ -210,13 +196,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering_Speed.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering.Speed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L14">View Source</a>
-  </span>
+  
+  
   <h4 id="ProjectDawn_Navigation_AgentSteering_Speed" data-uid="ProjectDawn.Navigation.AgentSteering.Speed">Speed</h4>
   <div class="markdown level1 summary"><p>Maximum movement speed when moving to destination.</p>
 </div>
@@ -240,13 +221,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering_StoppingDistance.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering.StoppingDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L26">View Source</a>
-  </span>
+  
+  
   <h4 id="ProjectDawn_Navigation_AgentSteering_StoppingDistance" data-uid="ProjectDawn.Navigation.AgentSteering.StoppingDistance">StoppingDistance</h4>
   <div class="markdown level1 summary"><p>Stop within this distance from the target position.</p>
 </div>
@@ -272,13 +248,8 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering_Default.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L35">View Source</a>
-  </span>
+  
+  
   <a id="ProjectDawn_Navigation_AgentSteering_Default_" data-uid="ProjectDawn.Navigation.AgentSteering.Default*"></a>
   <h4 id="ProjectDawn_Navigation_AgentSteering_Default" data-uid="ProjectDawn.Navigation.AgentSteering.Default">Default</h4>
   <div class="markdown level1 summary"><p>Returns default configuration.</p>
@@ -317,12 +288,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentSteering.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentSteering%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Steering/AgentSteering.cs/#L9" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

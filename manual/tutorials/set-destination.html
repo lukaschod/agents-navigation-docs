@@ -10,14 +10,14 @@
     <meta name="title" content="Quick Start ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -82,7 +82,7 @@
 <p>This package is set up to support both <code>GameObject</code> (using components that inherit <code>MonoBehaviour</code> class) and <code>Entity</code> (ECS package) workflows. Here is a quick start guide to get you started with each workflow.</p>
 <h2 id="gameobjects">GameObjects</h2>
 <ol>
-<li><p>Create a game object using the menu item &quot;GameObject &gt; AI &gt; Agents Navigation &gt; Agent Cylinder&quot;.</p>
+<li><p>Create a game object using the menu item &quot;GameObject &gt; AI &gt; Agent Cylinder&quot;.</p>
 </li>
 <li><p>Create a new script &quot;AgentSetDestination.cs&quot; and attach it to the agent game object.</p>
 </li>
@@ -101,12 +101,13 @@ public class AgentSetDestination : MonoBehaviour
 </code></pre>
 <p>Create another game object that will be used as a target for the script <code>AgentSetDestination.cs</code>, and assign it to the <code>Target</code> field.</p>
 <p>Finally, click play, and the agent should start moving towards the target.</p>
-<p><img src="images/quick-start-game-objects.png" alt="Quick Start Game Objects"></p>
-<blockquote>
-<p><strong>Note:</strong> This minimal setup will only include the steering behavior and will not include any avoidance.</p>
-</blockquote>
+<p><img src="../images/quick-start-game-objects.png" alt="Quick Start Game Objects"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This minimal setup will only include the steering behavior and will not include any avoidance.</p>
+</div>
 <h3 id="other-behaviors">Other Behaviors</h3>
-<p>To add additional behaviors to the agent, you can add them as components to the agent game object. For more detailed information about each behavior, check the <a href="game-objects.html">Game Objects</a> section.</p>
+<p>To add additional behaviors to the agent, you can add them as components to the agent game object. For more detailed information about each behavior, check the <a href="game-objects.md">Game Objects</a> section.</p>
 <ul>
 <li><code>Agent Collider</code>: This component will enable collisions between agents.</li>
 <li><code>Agent Sonar Avoid</code>: This component will enable avoidance between nearby agents using the Sonar Avoidance solution.</li>
@@ -161,22 +162,23 @@ partial struct AgentSetDestinationSystem : ISystem
 }
 </code></pre>
 <p>Finally, click play, and the agent should start moving towards the target.</p>
-<img src="images/quick-start-entities-subscene.png" width="800">
+<img src="../images/quick-start-entities-subscene.png" width="800">
 <h2 id="entities-code">Entities Code</h2>
 <p>This section will show you how to create an agent using code. This is useful when you want to create agents dynamically.</p>
-<blockquote>
-<p><strong>Note:</strong> It is always recommended to use the sub-scene workflow when possible.</p>
-</blockquote>
 <pre><code class="lang-csharp">var entity = EntityManager.CreateEntity();
 // Agent tag is required for agent to work
-EntityManager.AddComponent&lt;Agent&gt;(entity);
+EntityManager.AddComponentData(entity, Agent.Default);
 // AgentBody for dynamic agents
 EntityManager.AddComponentData(entity, AgentBody.Default);
-// AgentSteering for steering behaviour
-EntityManager.AddComponentData(entity, AgentSteering.Default);
+// AgentLocomotion for moving
+EntityManager.AddComponentData(entity, AgentLocomotion.Default);
 // AgentShape for default cylinder shape
 EntityManager.AddComponentData(entity, AgentShape.Default);
 </code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It is always recommended to use the sub-scene workflow when possible.</p>
+</div>
 </article>
           </div>
           
@@ -209,8 +211,8 @@ EntityManager.AddComponentData(entity, AgentShape.Default);
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

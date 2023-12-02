@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NavMeshPositionSystem
+    <title>Struct CrowdFlowSystem
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NavMeshPositionSystem
+    <meta name="title" content="Struct CrowdFlowSystem
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,13 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.NavMeshPositionSystem">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.CrowdFlowSystem">
   
   
-  <h1 id="ProjectDawn_Navigation_NavMeshPositionSystem" data-uid="ProjectDawn.Navigation.NavMeshPositionSystem" class="text-break">Struct NavMeshPositionSystem
+  <h1 id="ProjectDawn_Navigation_CrowdFlowSystem" data-uid="ProjectDawn.Navigation.CrowdFlowSystem" class="text-break">Struct CrowdFlowSystem
   </h1>
-  <div class="markdown level0 summary"><p>System that forces agents to stay within NavMesh surface.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
@@ -113,31 +112,52 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.html">ProjectDawn.Navigation</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
-  <h5 id="ProjectDawn_Navigation_NavMeshPositionSystem_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Navigation_CrowdFlowSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BurstCompile]
-[UpdateInGroup(typeof(AgentSystemGroup))]
-[UpdateAfter(typeof(AgentTransformSystemGroup))]
-[UpdateAfter(typeof(AgentColliderSystem))]
-public struct NavMeshPositionSystem : ISystem</code></pre>
+    <pre><code class="lang-csharp hljs">[UpdateAfter(typeof(CrowdWorldSystem))]
+[UpdateAfter(typeof(CrowdGoalSystem))]
+[UpdateInGroup(typeof(AgentPathingSystemGroup))]
+public struct CrowdFlowSystem : ISystem</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="eii">Explicit Interface Implementations
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPositionSystem_OnUpdate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPositionSystem.OnUpdate(Unity.Entities.SystemState%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPositionSystem.cs/#L21">View Source</a>
-  </span>
-  <a id="ProjectDawn_Navigation_NavMeshPositionSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.NavMeshPositionSystem.OnUpdate*"></a>
-  <h4 id="ProjectDawn_Navigation_NavMeshPositionSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshPositionSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
+  
+  
+  <a id="ProjectDawn_Navigation_CrowdFlowSystem_Unity_Entities_ISystem_OnCreate_" data-uid="ProjectDawn.Navigation.CrowdFlowSystem.Unity#Entities#ISystem#OnCreate*"></a>
+  <h4 id="ProjectDawn_Navigation_CrowdFlowSystem_Unity_Entities_ISystem_OnCreate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.CrowdFlowSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)">ISystem.OnCreate(ref SystemState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ISystem.OnCreate(ref SystemState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Entities.SystemState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProjectDawn_Navigation_CrowdFlowSystem_Unity_Entities_ISystem_OnUpdate_" data-uid="ProjectDawn.Navigation.CrowdFlowSystem.Unity#Entities#ISystem#OnUpdate*"></a>
+  <h4 id="ProjectDawn_Navigation_CrowdFlowSystem_Unity_Entities_ISystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.CrowdFlowSystem.Unity#Entities#ISystem#OnUpdate(Unity.Entities.SystemState@)">ISystem.OnUpdate(ref SystemState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[BurstCompile]
-public void OnUpdate(ref SystemState state)</code></pre>
+void ISystem.OnUpdate(ref SystemState state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,12 +187,6 @@ public void OnUpdate(ref SystemState state)</code></pre>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPositionSystem.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPositionSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPositionSystem.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
