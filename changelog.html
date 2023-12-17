@@ -73,6 +73,27 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="352---2023-12-14">[3.5.2] - 2023-12-14</h2>
+<ul>
+<li>Fixed AgentNavMeshPath correctly bake UseWalls in subscene</li>
+<li>Fixed NavMeshQuery to correctly return partial path in case all nodes visited instead of just return then it is out of iterations</li>
+</ul>
+<h2 id="351---2023-12-12">[3.5.1] - 2023-12-12</h2>
+<ul>
+<li>Fixed ECS NavMesh cleanup</li>
+<li>Fixed for crowds gizmos field capacity error</li>
+</ul>
+<h2 id="350---2023-12-02">[3.5.0] - 2023-12-02</h2>
+<ul>
+<li>Added AgentActionSystemGroup</li>
+<li>Added AgentSpatialSystemGroup</li>
+<li>Added AgentPathingSystemGroup</li>
+<li>Changed NavMesh Constrained into Grounded</li>
+<li>Changed AgentSteering into AgentLocomotion</li>
+<li>Changed AgentTransformSystemGroup into AgentDisplacementSystemGroup</li>
+<li>Changed AgentSteeringSystemGroup into AgentSeekingSystemGroup</li>
+<li>Fixed navigation settings null reference exception</li>
+</ul>
 <h2 id="342---2023-11-14">[3.4.2] - 2023-11-14</h2>
 <ul>
 <li>Added Agent.Default</li>

@@ -181,18 +181,18 @@ internal class TankLocomotionBaker : Baker&lt;TankLocomotionAuthoring&gt;
 [BurstCompile]
 [RequireMatchingQueriesForUpdate]
 [UpdateInGroup(typeof(AgentSeekingSystemGroup))]
-public partial struct AgentSeekingSystem : ISystem
+public partial struct TankSeekingSystem : ISystem
 {
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        new AgentSeekingJob().ScheduleParallel();
+        new TankSteeringJob().ScheduleParallel();
     }
 
     [BurstCompile]
-    partial struct AgentSeekingJob : IJobEntity
+    partial struct TankSteeringJob : IJobEntity
     {
-        public void Execute(ref AgentBody body, in AgentLocomotion seeking, in LocalTransform transform)
+        public void Execute(ref AgentBody body, in TankLocomotion locomotion, in LocalTransform transform)
         {
             if (body.IsStopped)
                 return;
