@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentActionSystemGroup.html",
-          "hash": "yRZAqHqLYnq7yqlQB8ZoaQ=="
+          "hash": "k4vpUUY5u7tr4ulWBCkjww=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentBody.html",
-          "hash": "komSSxC96ZyGQ18Gxmlxgw=="
+          "hash": "y/acNh5+8Sz5/PZiwWU33w=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.html",
-          "hash": "R61LY9hOz6wcXH/ZWcWSVg=="
+          "hash": "h6tskL79xvWt+gPvT+0C4A=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentCrowdPath.html",
-          "hash": "eCX3VFf0gqpW4CLUNYXFDg=="
+          "hash": "UFRfOAluDTafuFbpf0LKAA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentDisplacementSystemGroup.html",
-          "hash": "rSlhccAXmM81wZX0c3tjmQ=="
+          "hash": "y0miJiXvUvijVhx3aCUBAg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.html",
-          "hash": "vErS+OGC/89RDYngA6wLUw=="
+          "hash": "iklK5WmLDFNDHA+2PSh8/Q=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.html",
-          "hash": "Tce/S1LjZvB30tgdazsb6Q=="
+          "hash": "JNY56ct1RJ72laa72EqTbQ=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.html",
-          "hash": "dwToUVQMm+TdHovZ1ZI55g=="
+          "hash": "oHpTNN4J049CBKfZXgj6qA=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystem.html",
-          "hash": "Xbsxg53bCr5jkXJmyvKlNw=="
+          "hash": "97tHb5n4AwhOdzyMsyCYTg=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystemGroup.html",
-          "hash": "v6fSSyZXoGsNEDJPvfhhaQ=="
+          "hash": "khT7ucneu2COwm4fPK8efQ=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentPathingSystemGroup.html",
-          "hash": "cbueFl6dLNZDi8NaUYvzkw=="
+          "hash": "XdkV2fM/33eunZvY9HJk9Q=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentPositionSystemGroup.html",
-          "hash": "OOkR3jy0/SQKSlUzuDqUJA=="
+          "hash": "dqDR7B70YYGIZ2rUyTtBDw=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html",
-          "hash": "/WseYdnAaUPRjxRMs4fujw=="
+          "hash": "QPIidVYOlwAy0ULgH/yvFQ=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystem.html",
-          "hash": "4F5vprJy+6uY7LnMkTiksg=="
+          "hash": "o3aoqhZR1SbQ/ih+ATLuQg=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystemGroup.html",
-          "hash": "q2p6GeUYRF/YCGkj0hupEA=="
+          "hash": "dnQ3141KOaESCXnPp+6elw=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.html",
-          "hash": "4tXfYEZftm4T0HvcAG0FiA=="
+          "hash": "HIJ1VYnlmQbflQJC4mUd0Q=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentShape.html",
-          "hash": "8EEMxSd/WvXh+HzZvzQu3A=="
+          "hash": "5zFAUCRm4U8b8VYmul52kA=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSmartStopSystem.html",
-          "hash": "H/nseMh4kdaJQwzGOyEntg=="
+          "hash": "wZqOPAqAIR91mQrNrn6EUw=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html",
-          "hash": "2VeZJ1ynEWg3veN1j8aLPg=="
+          "hash": "PQfqU2XPuKpi3BUWtZObmg=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.html",
-          "hash": "VvDa6VHOE/hG8/sM4/2K2A=="
+          "hash": "cm6kxo1t6X4CVqGLS8w5JA=="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSpatialSystemGroup.html",
-          "hash": "a3HUIRQ6lnmCt5dg8Y/Yww=="
+          "hash": "aDscyJ5Mu0PavQsgP0XzHg=="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.html",
-          "hash": "UzRknhFDXsdUMUnIfbxJXg=="
+          "hash": "M1jmQGPtncvKrImMBuY0mA=="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.html",
-          "hash": "AXNc/wCSfIbbg6SLclFxZw=="
+          "hash": "kbKP9dGuPpoRO5OWIxaZQw=="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.html",
-          "hash": "kv41aK53tko7uUelp3qofQ=="
+          "hash": "mk5k5+fmJjS6nf4EzOn+pA=="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.html",
-          "hash": "86Hk18ppCmkCncBLWajYVQ=="
+          "hash": "l9BY9ao6IcDV/zX8ZhZfbg=="
         }
       },
       "is_incremental": false,
@@ -547,6 +547,30 @@
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentsNavigationSettings.html",
           "hash": "sZLYA0le3EewE2VMSimd4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring.html",
+          "hash": "kdLHWPa/nPSQCRYsCs9Ntw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Astar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Astar.html",
+          "hash": "3tKofLGrNCp5QSm3cpEjYQ=="
         }
       },
       "is_incremental": false,
@@ -798,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceSystem.html",
-          "hash": "PpR+HqXFNRd8OkIRLvzD8w=="
+          "hash": "HBZfUTRFAdGxTzebwuWm9w=="
         }
       },
       "is_incremental": false,
@@ -846,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html",
-          "hash": "pngsCYlVDX8yfdvC90lw8g=="
+          "hash": "f6Gd+AxTJnikGCpdyEupDA=="
         }
       },
       "is_incremental": false,
@@ -858,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html",
-          "hash": "nr1jPeP/KwtuOPAf8LbxlA=="
+          "hash": "w7AKqcLraZ5QP2xEoz/Mmw=="
         }
       },
       "is_incremental": false,
@@ -870,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.html",
-          "hash": "6PD4jSH3yR9Omk2CkdtzXg=="
+          "hash": "ez+Bn83D5MFHc/WtZs7WBw=="
         }
       },
       "is_incremental": false,
@@ -906,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGizmosSystem.html",
-          "hash": "5f9ekCuu6g6svKditXCW/A=="
+          "hash": "iTetsk/G24rlAxsRejGaAw=="
         }
       },
       "is_incremental": false,
@@ -966,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html",
-          "hash": "dnMGiEIqzVYk7C9ZQSlyZA=="
+          "hash": "ajaGY/A/aVfdDHD5g3hTig=="
         }
       },
       "is_incremental": false,
@@ -978,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html",
-          "hash": "ExdOoKdX99e0HxgA+UCNRQ=="
+          "hash": "sSdG1pm46c5o5UDyd9lgFg=="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.html",
-          "hash": "FvvNLpVL6k+DoQuBFJC4vw=="
+          "hash": "yuIB1iwM200RDMedF47wZw=="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.GeometryUtils.html",
-          "hash": "AwlJfiVr93TUu3ZIVd78UA=="
+          "hash": "uBi4axMyzrDAeyqoS7jl7g=="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html",
-          "hash": "yNkMexsazLSEq6sTh0pGKA=="
+          "hash": "3zTXql3gHNwHDDcf3nSUdw=="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.html",
-          "hash": "ghIAgxRo30UVWosbFaQsXw=="
+          "hash": "GcCHm/+b+rShbxxNhTL/OQ=="
         }
       },
       "is_incremental": false,
@@ -1363,6 +1387,18 @@
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html",
           "hash": "wLoiyEeqpbdm8pJ/dttKhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.html",
+          "hash": "K3DHEKfpau6Y/9exYpkp9A=="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html",
-          "hash": "X1i29XD6pifhyBJwlp3SIA=="
+          "hash": "pDkrhUCsxPKvrVmE7qpD/Q=="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html",
-          "hash": "lg0rCQcnld4kaXsXK7j8Rg=="
+          "hash": "fZXKnxfCeBMpGwlvFfb+/g=="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html",
-          "hash": "eA8FSx0GLB4H86J1HRZvJQ=="
+          "hash": "CnXarrRGQIzpuEMoQCW1xg=="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.html",
-          "hash": "415ooM5zuWeDtNUp3END8w=="
+          "hash": "33kjfRigBn8ROThRFjf7Qw=="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.html",
-          "hash": "lFwPdNAc7aq2e394l35RuQ=="
+          "hash": "vk+45hUp9hq2TECM14nG2g=="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundarySystem.html",
-          "hash": "OxKLBR0d13lyCqAOPap3ew=="
+          "hash": "mCcwJfshrnkofY3hWLVOzw=="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1602,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.html",
-          "hash": "eX48NjRNdsx6IVWD98uhgw=="
+          "hash": "WURSdf78C0RVk32DsTvU6A=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshDisplacementSystem.html",
-          "hash": "utB1ckvMkcuCwri6km6GyA=="
+          "hash": "zOs4AS6Row5jJcdot0DNfA=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1626,31 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.html",
-          "hash": "Y3CTNi4q95kW62+e2++CRw=="
+          "hash": "bRchu3pX4naNI1Roi7S37A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversal.html",
+          "hash": "mbDU1kklgDO08s9BLNNQEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversalMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversalMode.html",
+          "hash": "dG3nxTwR08ijHePbIddbug=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html",
-          "hash": "CqIJF2eSG1oV80d1uL/YrQ=="
+          "hash": "+/xDfR0rzLqqGfRhcyADCw=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html",
-          "hash": "sD45e++vN1z18BgqZiA/mw=="
+          "hash": "tHGHBy/sEfyF3ArLZ6npcQ=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.html",
-          "hash": "MVEq7Vg7fvzBrWvJCPFH9g=="
+          "hash": "TID58PUiuwldzzK6+nO94g=="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshWall.html",
-          "hash": "gl/VzwyZlVsHDIPAUs07Dg=="
+          "hash": "AbSoDy/pW+VJsYAVQ38org=="
         }
       },
       "is_incremental": false,
@@ -1766,11 +1826,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.OnLinkTraversal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.OnLinkTraversal.html",
+          "hash": "XDQ5ItTq+h4iR7gSrXSDZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.PathUtils.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.PathUtils.html",
           "hash": "DqcFA/AloR71SzThfyG6cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Portal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Portal.html",
+          "hash": "DpEXqo2h4d4CpVD3UL/pyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversal.html",
+          "hash": "RRB96Av0aQgrePFteIMgzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversalSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html",
+          "hash": "MkVZFNyR1g5/PrGelZeBqw=="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.html",
-          "hash": "VO0CTHt63i2y/iNOw2X0uQ=="
+          "hash": "26N50eEHQxjvEAjG9Mvy0Q=="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "qOBghK88UCNfiB46qI5LpA=="
+          "hash": "oV8270fbNGJk6cKYqKQubA=="
         }
       },
       "is_incremental": false,
@@ -1878,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "FU0Ffq4kLn9EjlIyalNPNw=="
+          "hash": "fw3WnB174HuHI7qv+p4HUQ=="
         }
       },
       "is_incremental": false,
@@ -1891,6 +1999,18 @@
         ".html": {
           "relative_path": "index.html",
           "hash": "mIaJr2CLTdJV4HKUCynJRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/astar.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/astar.html",
+          "hash": "ptZjSKPtk7EB2ybDsSZPvQ=="
         }
       },
       "is_incremental": false,
@@ -1914,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/crowds/crowd-agent.html",
-          "hash": "PKhHeodPZ30LEXc9KKEnMw=="
+          "hash": "Z+kQtc4KX0Ur97v1oUnHTw=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/crowds/crowd-discomfort.html",
-          "hash": "QnqBkx7ibeh7+JzmU+imcg=="
+          "hash": "J7Vc/ostXBL1MvMuqJ8foA=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/crowds/crowd-group.html",
-          "hash": "IpDbLR3ZXWRRbZblXjKoQQ=="
+          "hash": "zvfoNilPFQo7A/jNzRlAGA=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/crowds/crowd-obstacle.html",
-          "hash": "pUNSCHlYbr68Gw3GOr2Wgw=="
+          "hash": "VEUhCVapwgUE6mCQ7jUdTA=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/crowds/crowd-surface.html",
-          "hash": "6LiuE2YbVIGFps3NW90myA=="
+          "hash": "nYGf0ADBCpRMlKJsRLUGpw=="
         }
       },
       "is_incremental": false,
@@ -2078,11 +2198,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/game-objects/pathing/astar.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/game-objects/pathing/astar.html",
+          "hash": "cIbOl4eMzhYcHFQRyedWfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/game-objects/pathing/crowds.md",
       "output": {
         ".html": {
           "relative_path": "manual/game-objects/pathing/crowds.html",
-          "hash": "JoW8jkCEim1i0+elVFn4Fg=="
+          "hash": "3K+ZtNeQwyrgNaunCxFgzg=="
         }
       },
       "is_incremental": false,
@@ -2251,6 +2383,17 @@
       "output": {
         "resource": {
           "relative_path": "manual/images/Zerg.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/agent-astar-pathing.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/agent-astar-pathing.png"
         }
       },
       "is_incremental": false,
@@ -2450,7 +2593,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/known-issues.html",
-          "hash": "bXw4eiREzL9vOOzIVMXWVw=="
+          "hash": "LH7fbolY2sc+cFpenikeEQ=="
         }
       },
       "is_incremental": false,
@@ -2510,7 +2653,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "HERLwIVwBaSYtQtu3W098w=="
+          "hash": "SwInbuGAPhTDrU9KtilkqQ=="
         }
       },
       "is_incremental": false,
@@ -2530,11 +2673,35 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/astar-setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/astar-setup.html",
+          "hash": "hHngfVdDHOr5d6bcBG05Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/tutorials/crowds-setup.md",
       "output": {
         ".html": {
           "relative_path": "manual/tutorials/crowds-setup.html",
-          "hash": "vAhGHlkC3vW69aDxvftWUA=="
+          "hash": "/r9emHCuBhbk99z5Zu2Z3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/custom-link-traversal.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/custom-link-traversal.html",
+          "hash": "tl0Fh0PiBpS/BLO4EAkq+w=="
         }
       },
       "is_incremental": false,
@@ -2633,13 +2800,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 39,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 153,
+          "total_file_count": 162,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

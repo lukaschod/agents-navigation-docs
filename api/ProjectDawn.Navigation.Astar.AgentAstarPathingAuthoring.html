@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CrowdSurfaceAuthoring
+    <title>Class AgentAstarPathingAuthoring
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CrowdSurfaceAuthoring
+    <meta name="title" content="Class AgentAstarPathingAuthoring
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,12 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring">
   
   
-  <h1 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring" class="text-break">Class CrowdSurfaceAuthoring
+  <h1 id="ProjectDawn_Navigation_Astar_AgentAstarPathingAuthoring" data-uid="ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring" class="text-break">Class AgentAstarPathingAuthoring
   </h1>
-  <div class="markdown level0 summary"><p>A surface on which a crowd can move.</p>
+  <div class="markdown level0 summary"><p>Agent uses NavMesh for pathfinding.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -93,17 +93,14 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><a class="xref" href="ProjectDawn.Navigation.Hybrid.EntityBehaviour.html">EntityBehaviour</a></div>
-    <div class="level6"><span class="xref">CrowdSurfaceAuthoring</span></div>
+    <div class="level5"><span class="xref">AgentAstarPathingAuthoring</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.html">INavMeshWallProvider</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="ProjectDawn.Navigation.Hybrid.EntityBehaviour.html#ProjectDawn_Navigation_Hybrid_EntityBehaviour_m_Entity">EntityBehaviour.m_Entity</a>
-    </div>
-    <div>
-      <a class="xref" href="ProjectDawn.Navigation.Hybrid.EntityBehaviour.html#ProjectDawn_Navigation_Hybrid_EntityBehaviour_GetOrCreateEntity">EntityBehaviour.GetOrCreateEntity()</a>
-    </div>
     <div>
       <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
     </div>
@@ -447,469 +444,19 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.Hybrid.html">ProjectDawn.Navigation.Hybrid</a></h6>
-  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Hybrid.dll</h6>
-  <h5 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.Astar.html">ProjectDawn.Navigation.Astar</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.AstarPathfindingProject.dll</h6>
+  <h5 id="ProjectDawn_Navigation_Astar_AgentAstarPathingAuthoring_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Agents Navigation/Crowd/Crowd Surface&quot;)]
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(AgentAuthoring))]
+[AddComponentMenu(&quot;Agents Navigation/Agent A* Pathing&quot;)]
 [DisallowMultipleComponent]
-[HelpURL(&quot;https://lukaschod.github.io/agents-navigation-docs/manual/crowds/crowd-surface.html&quot;)]
-public class CrowdSurfaceAuthoring : EntityBehaviour</code></pre>
+[HelpURL(&quot;https://lukaschod.github.io/agents-navigation-docs/manual/game-objects/pathing/astar.html&quot;)]
+public class AgentAstarPathingAuthoring : MonoBehaviour, INavMeshWallProvider</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.">CrowdSurfaceAuthoring</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;World space size.&quot;)]
-[SerializeField]
-protected float2</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Unity.Mathematics.float2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Data" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Data">m_Data</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-protected CrowdData m_Data</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.CrowdData.html">CrowdData</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Density" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Density">m_Density</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Crowd group density settings.&quot;)]
-[SerializeField]
-protected Density m_Density</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ProjectDawn.ContinuumCrowds.Density</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Height" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Height">m_Height</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Cell count vertically.&quot;)]
-[SerializeField]
-protected int m_Height</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Layers" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Layers">m_Layers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-protected NavigationLayers m_Layers</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.NavigationLayers.html">NavigationLayers</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Size" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Size">m_Size</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;World space size.&quot;)]
-[SerializeField]
-protected float2 m_Size</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Unity.Mathematics.float2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Slope" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Slope">m_Slope</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Crowd group slope settings.&quot;)]
-[SerializeField]
-protected Slope m_Slope</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ProjectDawn.ContinuumCrowds.Slope</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_m_Width" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.m_Width">m_Width</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Cell count horizontally.&quot;)]
-[SerializeField]
-protected int m_Width</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_CellSize_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.CellSize*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_CellSize" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.CellSize">CellSize</h4>
-  <div class="markdown level1 summary"><p>Local space size of single cell.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float2 CellSize { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Unity.Mathematics.float2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Data_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Data*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Data" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Data">Data</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CrowdData Data { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.CrowdData.html">CrowdData</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_DefaultSurface_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.DefaultSurface*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_DefaultSurface" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.DefaultSurface">DefaultSurface</h4>
-  <div class="markdown level1 summary"><p>Returns default component of <a class="xref" href="ProjectDawn.Navigation.CrowdSurface.html">CrowdSurface</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CrowdSurface DefaultSurface { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.CrowdSurface.html">CrowdSurface</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Height_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Height*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Height" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Height">Height</h4>
-  <div class="markdown level1 summary"><p>Cell count vertically.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Normal_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Normal*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Normal" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Normal">Normal</h4>
-  <div class="markdown level1 summary"><p>Up vector of surface.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float3 Normal { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Unity.Mathematics.float3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Size_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Size*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Size" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Size">Size</h4>
-  <div class="markdown level1 summary"><p>World space size.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float2 Size { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Unity.Mathematics.float2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Transform_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Transform*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Transform" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Transform">Transform</h4>
-  <div class="markdown level1 summary"><p>Transform from local to world space.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NonUniformTransform Transform { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ProjectDawn.ContinuumCrowds.NonUniformTransform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Width_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Width*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_Width" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.Width">Width</h4>
-  <div class="markdown level1 summary"><p>Cell count horizontally.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_IsDataValid_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.IsDataValid*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_IsDataValid" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.IsDataValid">IsDataValid()</h4>
-  <div class="markdown level1 summary"><p>Returns true, if crowds data is valid for this surface.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDataValid()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_UpdateData_" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.UpdateData*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_UpdateData" data-uid="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.UpdateData">UpdateData()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateData()</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.html">INavMeshWallProvider</a>
   </div>
 </article>
           </div>

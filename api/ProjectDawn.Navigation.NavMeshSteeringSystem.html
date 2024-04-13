@@ -116,24 +116,50 @@
   <h5 id="ProjectDawn_Navigation_NavMeshSteeringSystem_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[BurstCompile]
-[RequireMatchingQueriesForUpdate]
 [UpdateAfter(typeof(NavMeshBoundarySystem))]
 [UpdateAfter(typeof(NavMeshPathSystem))]
 [UpdateInGroup(typeof(AgentPathingSystemGroup))]
 public struct NavMeshSteeringSystem : ISystem</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="eii">Explicit Interface Implementations
   </h3>
   
   
-  <a id="ProjectDawn_Navigation_NavMeshSteeringSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.NavMeshSteeringSystem.OnUpdate*"></a>
-  <h4 id="ProjectDawn_Navigation_NavMeshSteeringSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshSteeringSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
+  <a id="ProjectDawn_Navigation_NavMeshSteeringSystem_Unity_Entities_ISystem_OnCreate_" data-uid="ProjectDawn.Navigation.NavMeshSteeringSystem.Unity#Entities#ISystem#OnCreate*"></a>
+  <h4 id="ProjectDawn_Navigation_NavMeshSteeringSystem_Unity_Entities_ISystem_OnCreate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshSteeringSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)">ISystem.OnCreate(ref SystemState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ISystem.OnCreate(ref SystemState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Entities.SystemState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProjectDawn_Navigation_NavMeshSteeringSystem_Unity_Entities_ISystem_OnUpdate_" data-uid="ProjectDawn.Navigation.NavMeshSteeringSystem.Unity#Entities#ISystem#OnUpdate*"></a>
+  <h4 id="ProjectDawn_Navigation_NavMeshSteeringSystem_Unity_Entities_ISystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshSteeringSystem.Unity#Entities#ISystem#OnUpdate(Unity.Entities.SystemState@)">ISystem.OnUpdate(ref SystemState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[BurstCompile]
-public void OnUpdate(ref SystemState state)</code></pre>
+void ISystem.OnUpdate(ref SystemState state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct AgentColliderSystem
+    <title>Struct SeekLinkTraversal
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct AgentColliderSystem
+    <meta name="title" content="Struct SeekLinkTraversal
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,16 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.AgentColliderSystem">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.SeekLinkTraversal">
   
   
-  <h1 id="ProjectDawn_Navigation_AgentColliderSystem" data-uid="ProjectDawn.Navigation.AgentColliderSystem" class="text-break">Struct AgentColliderSystem
+  <h1 id="ProjectDawn_Navigation_SeekLinkTraversal" data-uid="ProjectDawn.Navigation.SeekLinkTraversal" class="text-break">Struct SeekLinkTraversal
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Unity.Entities.ISystem</span></div>
+    <div><span class="xref">Unity.Entities.IComponentData</span></div>
+    <div><span class="xref">Unity.Entities.IQueryTypeParameter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -112,72 +113,66 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.html">ProjectDawn.Navigation</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
-  <h5 id="ProjectDawn_Navigation_AgentColliderSystem_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Navigation_SeekLinkTraversal_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BurstCompile]
-[UpdateInGroup(typeof(AgentDisplacementSystemGroup))]
-public struct AgentColliderSystem : ISystem</code></pre>
+    <pre><code class="lang-csharp hljs">public struct SeekLinkTraversal : IComponentData, IQueryTypeParameter</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="ProjectDawn_Navigation_AgentColliderSystem_OnCreate_" data-uid="ProjectDawn.Navigation.AgentColliderSystem.OnCreate*"></a>
-  <h4 id="ProjectDawn_Navigation_AgentColliderSystem_OnCreate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.AgentColliderSystem.OnCreate(Unity.Entities.SystemState@)">OnCreate(ref SystemState)</h4>
+  <h4 id="ProjectDawn_Navigation_SeekLinkTraversal_End" data-uid="ProjectDawn.Navigation.SeekLinkTraversal.End">End</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnCreate(ref SystemState state)</code></pre>
+    <pre><code class="lang-csharp hljs">public Portal End</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.Entities.SystemState</span></td>
-        <td><span class="parametername">state</span></td>
+        <td><a class="xref" href="ProjectDawn.Navigation.Portal.html">Portal</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="ProjectDawn_Navigation_AgentColliderSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.AgentColliderSystem.OnUpdate*"></a>
-  <h4 id="ProjectDawn_Navigation_AgentColliderSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.AgentColliderSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
+  <h4 id="ProjectDawn_Navigation_SeekLinkTraversal_Start" data-uid="ProjectDawn.Navigation.SeekLinkTraversal.Start">Start</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BurstCompile]
-public void OnUpdate(ref SystemState state)</code></pre>
+    <pre><code class="lang-csharp hljs">public Portal Start</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.Entities.SystemState</span></td>
-        <td><span class="parametername">state</span></td>
+        <td><a class="xref" href="ProjectDawn.Navigation.Portal.html">Portal</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Unity.Entities.ISystem</span>
+      <span class="xref">Unity.Entities.IComponentData</span>
+  </div>
+  <div>
+      <span class="xref">Unity.Entities.IQueryTypeParameter</span>
   </div>
 </article>
           </div>
