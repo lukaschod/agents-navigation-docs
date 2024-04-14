@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring.html",
-          "hash": "Y9Yd/CMCpEDZ+2t0yq8UqA=="
+          "hash": "BHRCa2ekmPhTXD/bcDc+rw=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html",
-          "hash": "3zTXql3gHNwHDDcf3nSUdw=="
+          "hash": "CwrlAzbujJy8F6fw1nPRRQ=="
         }
       },
       "is_incremental": false,
@@ -1550,6 +1550,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LinkTraversal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LinkTraversal.html",
+          "hash": "oR29zlBSn4SAuQVeocpK2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeek.html",
+          "hash": "90YMvkqdH6TFtFrNMwdNuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeekSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html",
+          "hash": "/KQDCgnpmXn1pkPe/M7CIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshBoundary.yml",
       "output": {
         ".html": {
@@ -1638,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversal.html",
-          "hash": "mbDU1kklgDO08s9BLNNQEA=="
+          "hash": "4xvdYY3awjJ65lWWsqtywA=="
         }
       },
       "is_incremental": false,
@@ -1826,18 +1862,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.OnLinkTraversal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.OnLinkTraversal.html",
-          "hash": "XDQ5ItTq+h4iR7gSrXSDZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.PathUtils.yml",
       "output": {
         ".html": {
@@ -1855,30 +1879,6 @@
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Portal.html",
           "hash": "DpEXqo2h4d4CpVD3UL/pyA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversal.html",
-          "hash": "RRB96Av0aQgrePFteIMgzQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversalSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html",
-          "hash": "MkVZFNyR1g5/PrGelZeBqw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.html",
-          "hash": "26N50eEHQxjvEAjG9Mvy0Q=="
+          "hash": "540A7XZM2QCh6kps8GfzyQ=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "oV8270fbNGJk6cKYqKQubA=="
+          "hash": "thqfzWogN790F0WwruCE9w=="
         }
       },
       "is_incremental": false,

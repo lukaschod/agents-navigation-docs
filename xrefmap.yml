@@ -5811,6 +5811,72 @@ references:
   commentId: T:ProjectDawn.Navigation.ISubSettings
   fullName: ProjectDawn.Navigation.ISubSettings
   nameWithType: ISubSettings
+- uid: ProjectDawn.Navigation.LinkTraversal
+  name: LinkTraversal
+  href: api/ProjectDawn.Navigation.LinkTraversal.html
+  commentId: T:ProjectDawn.Navigation.LinkTraversal
+  fullName: ProjectDawn.Navigation.LinkTraversal
+  nameWithType: LinkTraversal
+- uid: ProjectDawn.Navigation.LinkTraversalSeek
+  name: LinkTraversalSeek
+  href: api/ProjectDawn.Navigation.LinkTraversalSeek.html
+  commentId: T:ProjectDawn.Navigation.LinkTraversalSeek
+  fullName: ProjectDawn.Navigation.LinkTraversalSeek
+  nameWithType: LinkTraversalSeek
+- uid: ProjectDawn.Navigation.LinkTraversalSeek.End
+  name: End
+  href: api/ProjectDawn.Navigation.LinkTraversalSeek.html#ProjectDawn_Navigation_LinkTraversalSeek_End
+  commentId: F:ProjectDawn.Navigation.LinkTraversalSeek.End
+  fullName: ProjectDawn.Navigation.LinkTraversalSeek.End
+  nameWithType: LinkTraversalSeek.End
+- uid: ProjectDawn.Navigation.LinkTraversalSeek.Start
+  name: Start
+  href: api/ProjectDawn.Navigation.LinkTraversalSeek.html#ProjectDawn_Navigation_LinkTraversalSeek_Start
+  commentId: F:ProjectDawn.Navigation.LinkTraversalSeek.Start
+  fullName: ProjectDawn.Navigation.LinkTraversalSeek.Start
+  nameWithType: LinkTraversalSeek.Start
+- uid: ProjectDawn.Navigation.LinkTraversalSeekSystem
+  name: LinkTraversalSeekSystem
+  href: api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html
+  commentId: T:ProjectDawn.Navigation.LinkTraversalSeekSystem
+  fullName: ProjectDawn.Navigation.LinkTraversalSeekSystem
+  nameWithType: LinkTraversalSeekSystem
+- uid: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)
+  name: ISystem.OnCreate(ref SystemState)
+  href: api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html#ProjectDawn_Navigation_LinkTraversalSeekSystem_Unity_Entities_ISystem_OnCreate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)
+  name.vb: Unity.Entities.ISystem.OnCreate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity.Entities.ISystem.OnCreate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity.Entities.ISystem.OnCreate(ByRef Unity.Entities.SystemState)
+  nameWithType: LinkTraversalSeekSystem.ISystem.OnCreate(ref SystemState)
+  nameWithType.vb: LinkTraversalSeekSystem.Unity.Entities.ISystem.OnCreate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnCreate*
+  name: ISystem.OnCreate
+  href: api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html#ProjectDawn_Navigation_LinkTraversalSeekSystem_Unity_Entities_ISystem_OnCreate_
+  commentId: Overload:ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnCreate
+  isSpec: "True"
+  name.vb: Unity.Entities.ISystem.OnCreate
+  fullName: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity.Entities.ISystem.OnCreate
+  nameWithType: LinkTraversalSeekSystem.ISystem.OnCreate
+  nameWithType.vb: LinkTraversalSeekSystem.Unity.Entities.ISystem.OnCreate
+- uid: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnUpdate(Unity.Entities.SystemState@)
+  name: ISystem.OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html#ProjectDawn_Navigation_LinkTraversalSeekSystem_Unity_Entities_ISystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnUpdate(Unity.Entities.SystemState@)
+  name.vb: Unity.Entities.ISystem.OnUpdate(ByRef SystemState)
+  fullName: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity.Entities.ISystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity.Entities.ISystem.OnUpdate(ByRef Unity.Entities.SystemState)
+  nameWithType: LinkTraversalSeekSystem.ISystem.OnUpdate(ref SystemState)
+  nameWithType.vb: LinkTraversalSeekSystem.Unity.Entities.ISystem.OnUpdate(ByRef SystemState)
+- uid: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnUpdate*
+  name: ISystem.OnUpdate
+  href: api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html#ProjectDawn_Navigation_LinkTraversalSeekSystem_Unity_Entities_ISystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity#Entities#ISystem#OnUpdate
+  isSpec: "True"
+  name.vb: Unity.Entities.ISystem.OnUpdate
+  fullName: ProjectDawn.Navigation.LinkTraversalSeekSystem.Unity.Entities.ISystem.OnUpdate
+  nameWithType: LinkTraversalSeekSystem.ISystem.OnUpdate
+  nameWithType.vb: LinkTraversalSeekSystem.Unity.Entities.ISystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavigationLayerNames
   name: NavigationLayerNames
   href: api/ProjectDawn.Navigation.NavigationLayerNames.html
@@ -7120,12 +7186,6 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshWall.Start
   fullName: ProjectDawn.Navigation.NavMeshWall.Start
   nameWithType: NavMeshWall.Start
-- uid: ProjectDawn.Navigation.OnLinkTraversal
-  name: OnLinkTraversal
-  href: api/ProjectDawn.Navigation.OnLinkTraversal.html
-  commentId: T:ProjectDawn.Navigation.OnLinkTraversal
-  fullName: ProjectDawn.Navigation.OnLinkTraversal
-  nameWithType: OnLinkTraversal
 - uid: ProjectDawn.Navigation.PathUtils
   name: PathUtils
   href: api/ProjectDawn.Navigation.PathUtils.html
@@ -7243,66 +7303,6 @@ references:
   commentId: F:ProjectDawn.Navigation.Portal.Right
   fullName: ProjectDawn.Navigation.Portal.Right
   nameWithType: Portal.Right
-- uid: ProjectDawn.Navigation.SeekLinkTraversal
-  name: SeekLinkTraversal
-  href: api/ProjectDawn.Navigation.SeekLinkTraversal.html
-  commentId: T:ProjectDawn.Navigation.SeekLinkTraversal
-  fullName: ProjectDawn.Navigation.SeekLinkTraversal
-  nameWithType: SeekLinkTraversal
-- uid: ProjectDawn.Navigation.SeekLinkTraversal.End
-  name: End
-  href: api/ProjectDawn.Navigation.SeekLinkTraversal.html#ProjectDawn_Navigation_SeekLinkTraversal_End
-  commentId: F:ProjectDawn.Navigation.SeekLinkTraversal.End
-  fullName: ProjectDawn.Navigation.SeekLinkTraversal.End
-  nameWithType: SeekLinkTraversal.End
-- uid: ProjectDawn.Navigation.SeekLinkTraversal.Start
-  name: Start
-  href: api/ProjectDawn.Navigation.SeekLinkTraversal.html#ProjectDawn_Navigation_SeekLinkTraversal_Start
-  commentId: F:ProjectDawn.Navigation.SeekLinkTraversal.Start
-  fullName: ProjectDawn.Navigation.SeekLinkTraversal.Start
-  nameWithType: SeekLinkTraversal.Start
-- uid: ProjectDawn.Navigation.SeekLinkTraversalSystem
-  name: SeekLinkTraversalSystem
-  href: api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html
-  commentId: T:ProjectDawn.Navigation.SeekLinkTraversalSystem
-  fullName: ProjectDawn.Navigation.SeekLinkTraversalSystem
-  nameWithType: SeekLinkTraversalSystem
-- uid: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)
-  name: ISystem.OnCreate(ref SystemState)
-  href: api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html#ProjectDawn_Navigation_SeekLinkTraversalSystem_Unity_Entities_ISystem_OnCreate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)
-  name.vb: Unity.Entities.ISystem.OnCreate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity.Entities.ISystem.OnCreate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity.Entities.ISystem.OnCreate(ByRef Unity.Entities.SystemState)
-  nameWithType: SeekLinkTraversalSystem.ISystem.OnCreate(ref SystemState)
-  nameWithType.vb: SeekLinkTraversalSystem.Unity.Entities.ISystem.OnCreate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnCreate*
-  name: ISystem.OnCreate
-  href: api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html#ProjectDawn_Navigation_SeekLinkTraversalSystem_Unity_Entities_ISystem_OnCreate_
-  commentId: Overload:ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnCreate
-  isSpec: "True"
-  name.vb: Unity.Entities.ISystem.OnCreate
-  fullName: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity.Entities.ISystem.OnCreate
-  nameWithType: SeekLinkTraversalSystem.ISystem.OnCreate
-  nameWithType.vb: SeekLinkTraversalSystem.Unity.Entities.ISystem.OnCreate
-- uid: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnUpdate(Unity.Entities.SystemState@)
-  name: ISystem.OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html#ProjectDawn_Navigation_SeekLinkTraversalSystem_Unity_Entities_ISystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnUpdate(Unity.Entities.SystemState@)
-  name.vb: Unity.Entities.ISystem.OnUpdate(ByRef SystemState)
-  fullName: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity.Entities.ISystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity.Entities.ISystem.OnUpdate(ByRef Unity.Entities.SystemState)
-  nameWithType: SeekLinkTraversalSystem.ISystem.OnUpdate(ref SystemState)
-  nameWithType.vb: SeekLinkTraversalSystem.Unity.Entities.ISystem.OnUpdate(ByRef SystemState)
-- uid: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnUpdate*
-  name: ISystem.OnUpdate
-  href: api/ProjectDawn.Navigation.SeekLinkTraversalSystem.html#ProjectDawn_Navigation_SeekLinkTraversalSystem_Unity_Entities_ISystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity#Entities#ISystem#OnUpdate
-  isSpec: "True"
-  name.vb: Unity.Entities.ISystem.OnUpdate
-  fullName: ProjectDawn.Navigation.SeekLinkTraversalSystem.Unity.Entities.ISystem.OnUpdate
-  nameWithType: SeekLinkTraversalSystem.ISystem.OnUpdate
-  nameWithType.vb: SeekLinkTraversalSystem.Unity.Entities.ISystem.OnUpdate
 - uid: ProjectDawn.Navigation.ShapeType
   name: ShapeType
   href: api/ProjectDawn.Navigation.ShapeType.html
