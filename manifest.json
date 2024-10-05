@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/Users/Lukas/Source/AssetStore/AgentsNavigation/Temp/.docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -9,19 +8,16 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.Circle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.Circle.html",
-          "hash": "p2LzE9DsLifub5TPCC0iaw=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Circle.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -29,11 +25,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.html",
-          "hash": "sY6Q/RRrB6USpbuy6ewQoA=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Intersection.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -41,11 +35,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.Line.CutResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.Line.CutResult.html",
-          "hash": "XdX+oLlKKwHK3oiiv+P58Q=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Line.CutResult.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -53,11 +45,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.Line.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.Line.html",
-          "hash": "1hZMRsSUWu1+ebVzmR30LQ=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.Line.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -65,11 +55,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.html",
-          "hash": "FzLpy0IV9HyWXGPd/CtVyw=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawArc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -77,11 +65,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html",
-          "hash": "7CyTXyBM9aSdKaAUFnH5tQ=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.IDrawCircle.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -89,11 +75,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.html",
-          "hash": "6AX6uTnQfgoWYmjThi9oSA=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidance.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -101,11 +85,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html",
-          "hash": "Aq3XJPAHRf0+BtqQZkBiQg=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.SonarAvoidanceUtility.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -113,11 +95,9 @@
       "source_relative_path": "api/ProjectDawn.LocalAvoidance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.LocalAvoidance.html",
-          "hash": "o/+gw14NyUJ4U9RfL2Bg5Q=="
+          "relative_path": "api/ProjectDawn.LocalAvoidance.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -125,11 +105,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Agent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Agent.html",
-          "hash": "rQrtgwbEWHHfkmpRNRbjxQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Agent.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -137,11 +115,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentActionSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentActionSystemGroup.html",
-          "hash": "k4vpUUY5u7tr4ulWBCkjww=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentActionSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -149,11 +125,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentBody.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentBody.html",
-          "hash": "y/acNh5+8Sz5/PZiwWU33w=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentBody.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -161,11 +135,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentCollider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentCollider.html",
-          "hash": "QbsfUzBNDAEOpW+iAVydmg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentCollider.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -173,11 +145,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.html",
-          "hash": "h6tskL79xvWt+gPvT+0C4A=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentColliderSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -185,11 +155,69 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentCrowdPath.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentCrowdPath.html",
-          "hash": "UFRfOAluDTafuFbpf0LKAA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentCrowdPath.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentDepthAvoid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentDepthAvoid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentDepthAvoidMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentDepthAvoidMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentDepthAvoidSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentDepthAvoidSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentDepthCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentDepthCollider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentDepthCollisionSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentDepthCollisionSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentDepthGrounded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentDepthGrounded.html"
+        }
+      },
       "version": ""
     },
     {
@@ -197,11 +225,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentDisplacementSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentDisplacementSystemGroup.html",
-          "hash": "y0miJiXvUvijVhx3aCUBAg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentDisplacementSystemGroup.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentFlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentFlock.html"
+        }
+      },
       "version": ""
     },
     {
@@ -209,11 +245,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.html",
-          "hash": "iklK5WmLDFNDHA+2PSh8/Q=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentFlockSystem.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentFlockingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentFlockingSystem.html"
+        }
+      },
       "version": ""
     },
     {
@@ -221,11 +265,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.html",
-          "hash": "JNY56ct1RJ72laa72EqTbQ=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentForceSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -233,11 +275,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.html",
-          "hash": "oHpTNN4J049CBKfZXgj6qA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentForceSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -245,11 +285,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentLocomotion.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentLocomotion.html",
-          "hash": "EYN4M1auyV/cyqtDjTTQMw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentLocomotion.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -257,11 +295,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystem.html",
-          "hash": "97tHb5n4AwhOdzyMsyCYTg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -269,11 +305,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystemGroup.html",
-          "hash": "khT7ucneu2COwm4fPK8efQ=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentLocomotionSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -281,11 +315,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentPathingSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentPathingSystemGroup.html",
-          "hash": "XdkV2fM/33eunZvY9HJk9Q=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentPathingSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -293,11 +325,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentPositionSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentPositionSystemGroup.html",
-          "hash": "dqDR7B70YYGIZ2rUyTtBDw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentPositionSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -305,11 +335,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoid.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoid.html",
-          "hash": "LgCl3nggAQL7W/29+ZGBDw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoid.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -317,11 +345,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html",
-          "hash": "QPIidVYOlwAy0ULgH/yvFQ=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -329,11 +355,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystem.html",
-          "hash": "o3aoqhZR1SbQ/ih+ATLuQg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -341,11 +365,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystemGroup.html",
-          "hash": "dnQ3141KOaESCXnPp+6elw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSeekingSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -353,11 +375,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSeparation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSeparation.html",
-          "hash": "PuSNfpIwsBwHGMi+mnaoUA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSeparation.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -365,11 +385,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.html",
-          "hash": "HIJ1VYnlmQbflQJC4mUd0Q=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSeparationSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -377,11 +395,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentShape.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentShape.html",
-          "hash": "5zFAUCRm4U8b8VYmul52kA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentShape.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -389,11 +405,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSmartStop.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSmartStop.html",
-          "hash": "Ma3G+8hrpTK70fVhjDVvBw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSmartStop.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -401,11 +415,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSmartStopSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSmartStopSystem.html",
-          "hash": "wZqOPAqAIR91mQrNrn6EUw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSmartStopSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -413,11 +425,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.html",
-          "hash": "3x4mMk4ydOF/rGQkii1O+Q=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoid.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -425,11 +435,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html",
-          "hash": "PQfqU2XPuKpi3BUWtZObmg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -437,11 +445,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html",
-          "hash": "t0jvqEpy5fbHH0n51hqeYw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -449,11 +455,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html",
-          "hash": "E3gvmpC4UM4n9gMY7HLeKA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -461,11 +465,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.html",
-          "hash": "cm6kxo1t6X4CVqGLS8w5JA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -473,11 +475,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialSystemGroup.html",
-          "hash": "aDscyJ5Mu0PavQsgP0XzHg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -485,11 +485,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSteering.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSteering.html",
-          "hash": "X2oaa0PVaeKb0fDawq42pA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSteering.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -497,11 +495,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.html",
-          "hash": "M1jmQGPtncvKrImMBuY0mA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -509,11 +505,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.html",
-          "hash": "kbKP9dGuPpoRO5OWIxaZQw=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSteeringSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -521,11 +515,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.html",
-          "hash": "mk5k5+fmJjS6nf4EzOn+pA=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -533,11 +525,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.html",
-          "hash": "l9BY9ao6IcDV/zX8ZhZfbg=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentTransformSystemGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -545,11 +535,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.AgentsNavigationSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentsNavigationSettings.html",
-          "hash": "sZLYA0le3EewE2VMSimd4w=="
+          "relative_path": "api/ProjectDawn.Navigation.AgentsNavigationSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -557,11 +545,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring.html",
-          "hash": "BHRCa2ekmPhTXD/bcDc+rw=="
+          "relative_path": "api/ProjectDawn.Navigation.Astar.AgentAstarPathingAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -569,11 +555,69 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Astar.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Astar.html",
-          "hash": "3tKofLGrNCp5QSm3cpEjYQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Astar.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Bird.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Bird.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.BirdLocomotion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.BirdLocomotion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.BirdLocomotionSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.BirdLocomotionSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.BirdSeekingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.BirdSeekingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.BirdState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.BirdState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.BirdSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.BirdSystem.html"
+        }
+      },
       "version": ""
     },
     {
@@ -581,11 +625,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.ColliderSubSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ColliderSubSettings.html",
-          "hash": "JgYX7/ATkGzpbX4f5YN6mw=="
+          "relative_path": "api/ProjectDawn.Navigation.ColliderSubSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -593,11 +635,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdData.Baked.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdData.Baked.html",
-          "hash": "a9/bXywepScuqsKcjfWgng=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdData.Baked.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -605,11 +645,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdData.ObjectCollection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdData.ObjectCollection.html",
-          "hash": "EMhOogB+ierAWK4LC1w8fg=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdData.ObjectCollection.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -617,11 +655,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdData.ObjectCollectionGeometry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdData.ObjectCollectionGeometry.html",
-          "hash": "sqP4STDyQ9wfBQkDGO3n1g=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdData.ObjectCollectionGeometry.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -629,11 +665,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdData.html",
-          "hash": "qxPls9v0vH+y0MkysfA1Xw=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdData.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -641,11 +675,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfort.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfort.html",
-          "hash": "8RKjfaPzYsSU4ANctxPZTg=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfort.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -653,11 +685,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfortSplat.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfortSplat.html",
-          "hash": "3DBv4u2wWUB5XSExgYaZcw=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfortSplat.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -665,11 +695,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfortType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfortType.html",
-          "hash": "V7uSHWLbrS0mkm80Kxb4rw=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdDiscomfortType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -677,11 +705,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdDisplacementSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdDisplacementSystem.html",
-          "hash": "Ax3lnZU7TFqLTUpaC1qUZA=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdDisplacementSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -689,11 +715,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdFlowSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdFlowSystem.html",
-          "hash": "ZZYxuHe2pF+6VlXDmasJUA=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdFlowSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -701,11 +725,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdGoalSource.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdGoalSource.html",
-          "hash": "SI/nt1cuRd7t9Sji7lhrvg=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdGoalSource.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -713,11 +735,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdGoalSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdGoalSystem.html",
-          "hash": "3Q5rsUv/JiSLEvozFh/zkQ=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdGoalSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -725,11 +745,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdGroup.html",
-          "hash": "jHSWt6SL1PBoLoAKtDD1tg=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -737,11 +755,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdGroupFlow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdGroupFlow.html",
-          "hash": "2cNnqs2bu3UWF17MVB6Z8A=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdGroupFlow.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -749,11 +765,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdObstacle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdObstacle.html",
-          "hash": "iKdfKLrSwuY+96qqdw8lDw=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdObstacle.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -761,11 +775,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdObstacleSplat.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdObstacleSplat.html",
-          "hash": "KiCf1T5m1ALX0BjtFgYabg=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdObstacleSplat.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -773,11 +785,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdObstacleType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdObstacleType.html",
-          "hash": "kc/vAN/Ud3xCjTsvW/NSIw=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdObstacleType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -785,11 +795,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdSteeringSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdSteeringSystem.html",
-          "hash": "WFNH/pgY9T1536JgbgmGSQ=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdSteeringSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -797,11 +805,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdSurface.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdSurface.html",
-          "hash": "SspmNmIlZftHAWwbCrmMOA=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdSurface.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -809,11 +815,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceData.html",
-          "hash": "wYeZdYC5FKIWWFLTF6rU+Q=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceData.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -821,11 +825,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceSystem.html",
-          "hash": "HBZfUTRFAdGxTzebwuWm9w=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -833,11 +835,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceWorld.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceWorld.html",
-          "hash": "L53zFP+SRPiKjEC6cs/UOQ=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdSurfaceWorld.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -845,11 +845,59 @@
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdWorldSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.CrowdWorldSystem.html",
-          "hash": "jcjcDoEjvzLkd0TXns3vDQ=="
+          "relative_path": "api/ProjectDawn.Navigation.CrowdWorldSystem.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.DepthSurface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.DepthSurface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.DepthSurfaceSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.DepthSurfaceSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.DepthSurfaceWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.DepthSurfaceWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.DepthWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.DepthWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.DepthWorlds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.DepthWorlds.html"
+        }
+      },
       "version": ""
     },
     {
@@ -857,11 +905,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.DrawGizmos.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.DrawGizmos.html",
-          "hash": "TE0DUCboNwlh2KigufFKiw=="
+          "relative_path": "api/ProjectDawn.Navigation.DrawGizmos.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -869,11 +915,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html",
-          "hash": "f6Gd+AxTJnikGCpdyEupDA=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentAvoidGizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -881,11 +925,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html",
-          "hash": "w7AKqcLraZ5QP2xEoz/Mmw=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -893,11 +935,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.html",
-          "hash": "ez+Bn83D5MFHc/WtZs7WBw=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -905,11 +945,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html",
-          "hash": "iJ/SMdrDDij1DMQg6Y77jA=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -917,11 +955,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.CostWeightDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.CostWeightDrawer.html",
-          "hash": "4J34pd/ukoqjgc9Rh+26cA=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.CostWeightDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -929,11 +965,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGizmosSystem.html",
-          "hash": "iTetsk/G24rlAxsRejGaAw=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -941,11 +975,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGroupDrawGizmos.Mode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGroupDrawGizmos.Mode.html",
-          "hash": "ke35VIa+KRrWZeL+beIzSQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGroupDrawGizmos.Mode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -953,11 +985,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGroupDrawGizmos.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGroupDrawGizmos.html",
-          "hash": "UTcSL6bqa+Y781cNakNoVA=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdGroupDrawGizmos.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -965,11 +995,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.CrowdSurfaceDrawGizmos.Mode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdSurfaceDrawGizmos.Mode.html",
-          "hash": "ueaFoeRVx/G/8spwki4Udg=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdSurfaceDrawGizmos.Mode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -977,11 +1005,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.CrowdSurfaceDrawGizmos.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdSurfaceDrawGizmos.html",
-          "hash": "Dw1xV0Aw0RBJ8Y0Lbavdmw=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.CrowdSurfaceDrawGizmos.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Editor.DepthGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Editor.DepthGizmosSystem.html"
+        }
+      },
       "version": ""
     },
     {
@@ -989,11 +1025,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html",
-          "hash": "ajaGY/A/aVfdDHD5g3hTig=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1001,11 +1035,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html",
-          "hash": "sSdG1pm46c5o5UDyd9lgFg=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1013,11 +1045,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html",
-          "hash": "gyFBcDGIxnmV9hKJw5VAIQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1025,11 +1055,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Editor.html",
-          "hash": "fcRlGyeVuBUFbDm4mVlr0A=="
+          "relative_path": "api/ProjectDawn.Navigation.Editor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1037,11 +1065,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.FlockEntity.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.FlockEntity.html",
-          "hash": "HZhVadFOPAgDldcfMhUHyg=="
+          "relative_path": "api/ProjectDawn.Navigation.FlockEntity.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1049,11 +1075,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.FlockGroup.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.FlockGroup.html",
-          "hash": "OIZJvXthIVOuoFRUZMKBTQ=="
+          "relative_path": "api/ProjectDawn.Navigation.FlockGroup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1061,11 +1085,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.html",
-          "hash": "yuIB1iwM200RDMedF47wZw=="
+          "relative_path": "api/ProjectDawn.Navigation.FlockGroupSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1073,11 +1095,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.GeometryUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GeometryUtils.html",
-          "hash": "uBi4axMyzrDAeyqoS7jl7g=="
+          "relative_path": "api/ProjectDawn.Navigation.GeometryUtils.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1085,11 +1105,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.GiveUpStop.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GiveUpStop.html",
-          "hash": "5Yc8F+sTTJ3815ra9bCASA=="
+          "relative_path": "api/ProjectDawn.Navigation.GiveUpStop.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1097,11 +1115,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.GiveUpStopTimer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GiveUpStopTimer.html",
-          "hash": "WV7+7doYZC7kByYMS7RxfA=="
+          "relative_path": "api/ProjectDawn.Navigation.GiveUpStopTimer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1109,23 +1125,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.html",
-          "hash": "5CBLVFjoQJka7DMMWiRqAQ=="
+          "relative_path": "api/ProjectDawn.Navigation.GizmosCommandBuffer.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.GizmosField.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GizmosField.html",
-          "hash": "nFHWQsT0Vht3Bpya/UZbLQ=="
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1133,11 +1135,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.GizmosSystem.Singleton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.Singleton.html",
-          "hash": "GeSRk/QRwLBN/vGVXBGRsw=="
+          "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.Singleton.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1145,11 +1145,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.GizmosSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.html",
-          "hash": "hVER2wOYybkwubE5GTuRxw=="
+          "relative_path": "api/ProjectDawn.Navigation.GizmosSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1157,11 +1155,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.HiveMindStop.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.HiveMindStop.html",
-          "hash": "0r9Ifr4S42LaFLPRgItSFw=="
+          "relative_path": "api/ProjectDawn.Navigation.HiveMindStop.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1169,11 +1165,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html",
-          "hash": "dd8bovn5qWAJU1gAkG6eIQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1181,11 +1175,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html",
-          "hash": "xh3P5pZQW9XodzVL2KT0oQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1193,11 +1185,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html",
-          "hash": "JZksZ0Ps7mTnSbFW15Oq2A=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1205,11 +1195,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html",
-          "hash": "ySI+kROmCle6gWIrJLrrJA=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1217,11 +1205,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCrowdPathingAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCrowdPathingAuthoring.html",
-          "hash": "9woZ7dSj8CSIrNNQPI1diQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCrowdPathingAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1229,11 +1215,29 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html",
-          "hash": "ajNpO65QjalRfV/jMVRYiA=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentDepthAvoidAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentDepthAvoidAuthoring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentFlockAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentFlockAuthoring.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1241,11 +1245,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentMotionType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html",
-          "hash": "RPnRWq8/fy7tquD+b9v3Ng=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1253,11 +1255,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html",
-          "hash": "CwrlAzbujJy8F6fw1nPRRQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1265,11 +1265,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html",
-          "hash": "mOYLrqErLnu7vu/nXy83bw=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1277,11 +1275,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html",
-          "hash": "fjIMu8m92GD8/dmDOA4X/Q=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1289,11 +1285,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.html",
-          "hash": "de9womXzswD6Pc93hi1n4Q=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.Singleton.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1301,11 +1295,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html",
-          "hash": "ghqjYp92f6LYIxzP6DROww=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSetDestinationDeferredSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1313,11 +1305,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.html",
-          "hash": "yfshp7vrK5KJRnqbPqvokw=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.BirdAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.BirdAuthoring.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1325,11 +1325,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdDiscomfortAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdDiscomfortAuthoring.html",
-          "hash": "DsSza1phu5KMJB6I4xo9KA=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdDiscomfortAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1337,11 +1335,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.html",
-          "hash": "2PTo5OC7DxieOR1S9+iEig=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1349,11 +1345,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdObstacleAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdObstacleAuthoring.html",
-          "hash": "S1XaqCBTn+1uS2JV3N+tRw=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdObstacleAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1361,11 +1355,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.html",
-          "hash": "GcCHm/+b+rShbxxNhTL/OQ=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.DepthSurfaceAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.DepthSurfaceAuthoring.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1373,11 +1375,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html",
-          "hash": "wyBtKOWkQnzs4c08edUcYA=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.EntityBehaviour.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1385,11 +1385,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html",
-          "hash": "wLoiyEeqpbdm8pJ/dttKhA=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1397,11 +1395,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.html",
-          "hash": "K3DHEKfpau6Y/9exYpkp9A=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.INavMeshWallProvider.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1409,11 +1405,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html",
-          "hash": "9NS/FxkHvWLpBVtRWos9lw=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1421,11 +1415,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html",
-          "hash": "TOr1Y1Lt/Ch2k9s9cUHncA=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1433,11 +1425,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html",
-          "hash": "pDkrhUCsxPKvrVmE7qpD/Q=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentRectTransformSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1445,11 +1435,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html",
-          "hash": "fZXKnxfCeBMpGwlvFfb+/g=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.ReadAgentTransformSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1457,11 +1445,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SettingsBehaviour.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html",
-          "hash": "NLRwZSNBz7yRnQ+zSnRISg=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1469,11 +1455,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html",
-          "hash": "QYS6dSfHT+Ds/TbG8XX1Ww=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1481,11 +1465,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html",
-          "hash": "CnXarrRGQIzpuEMoQCW1xg=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1493,11 +1475,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.html",
-          "hash": "33kjfRigBn8ROThRFjf7Qw=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.WriteAgentTransformSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1505,11 +1485,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.html",
-          "hash": "vk+45hUp9hq2TECM14nG2g=="
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1517,11 +1495,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.html",
-          "hash": "i7T7LGOlCRQ3pUZGwAz/mQ=="
+          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryEntity.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1529,11 +1505,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.html",
-          "hash": "vjd+Krj5NqU8ChBEWSWTCg=="
+          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1541,11 +1515,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.ISubSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ISubSettings.html",
-          "hash": "4ssg93WqbFwWtpFrjRSuHA=="
+          "relative_path": "api/ProjectDawn.Navigation.ISubSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1553,11 +1525,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.LinkTraversal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.LinkTraversal.html",
-          "hash": "oR29zlBSn4SAuQVeocpK2g=="
+          "relative_path": "api/ProjectDawn.Navigation.LinkTraversal.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1565,11 +1535,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeek.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeek.html",
-          "hash": "90YMvkqdH6TFtFrNMwdNuw=="
+          "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeek.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1577,11 +1545,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeekSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html",
-          "hash": "/KQDCgnpmXn1pkPe/M7CIw=="
+          "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshAreaCost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshAreaCost.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1589,11 +1565,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshBoundary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundary.html",
-          "hash": "rdsvzi/3ZjnEUyjqs309hQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundary.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1601,11 +1575,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshBoundarySystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundarySystem.html",
-          "hash": "mCcwJfshrnkofY3hWLVOzw=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshBoundarySystem.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshCorners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshCorners.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1613,11 +1595,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshData.html",
-          "hash": "R/KMKBJ29OPmX5q2ZSO1dQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshData.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1625,11 +1605,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstance.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstance.html",
-          "hash": "eoDiQmSeTrAnd0y5kicLJw=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstance.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1637,11 +1615,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.html",
-          "hash": "WURSdf78C0RVk32DsTvU6A=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1649,11 +1625,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDisplacementSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshDisplacementSystem.html",
-          "hash": "zOs4AS6Row5jJcdot0DNfA=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshDisplacementSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1661,11 +1635,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.html",
-          "hash": "bRchu3pX4naNI1Roi7S37A=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshFunnel.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1673,11 +1645,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversal.html",
-          "hash": "4xvdYY3awjJ65lWWsqtywA=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversal.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1685,11 +1655,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversalMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversalMode.html",
-          "hash": "dG3nxTwR08ijHePbIddbug=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshLinkTraversalMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1697,11 +1665,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshNode.html",
-          "hash": "5HPBcIhetsI8r1Smz3DP6Q=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1709,11 +1675,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPath.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshPath.html",
-          "hash": "OXJTMhjqAxm8rOqAngyOvg=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPath.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1721,11 +1685,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPathState.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshPathState.html",
-          "hash": "ZLFLCXsn+dofVFoqp36/dQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPathState.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1733,11 +1695,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshPathSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshPathSystem.html",
-          "hash": "pQZ0SWoRW1SJL+IftwJ3Ig=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshPathSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1745,11 +1705,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQueryHandle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryHandle.html",
-          "hash": "pkIGS28on08RJjBwo4qEiQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryHandle.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1757,11 +1715,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html",
-          "hash": "+/xDfR0rzLqqGfRhcyADCw=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1769,11 +1725,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html",
-          "hash": "bl6NMB1PHeLkRQzyPlUAHQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1781,11 +1735,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html",
-          "hash": "tHGHBy/sEfyF3ArLZ6npcQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1793,11 +1745,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.html",
-          "hash": "w8BBqd7o8Ymm9ZgJY4COAA=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1805,11 +1755,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.html",
-          "hash": "TID58PUiuwldzzK6+nO94g=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshSteeringSystem.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1817,11 +1765,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshWall.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshWall.html",
-          "hash": "AbSoDy/pW+VJsYAVQ38org=="
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshWall.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1829,11 +1775,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavigationLayerNames.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavigationLayerNames.html",
-          "hash": "2F8+lIjlIdUowL+jQGOmOQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavigationLayerNames.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1841,11 +1785,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavigationLayerUtility.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavigationLayerUtility.html",
-          "hash": "V/rFdopoZk9b54UdchS6rw=="
+          "relative_path": "api/ProjectDawn.Navigation.NavigationLayerUtility.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1853,11 +1795,29 @@
       "source_relative_path": "api/ProjectDawn.Navigation.NavigationLayers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavigationLayers.html",
-          "hash": "HFkWZaDt56OUybTX5AX+zQ=="
+          "relative_path": "api/ProjectDawn.Navigation.NavigationLayers.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.OculusAvoidance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.OculusAvoidance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.OculusAvoidanceWeights.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.OculusAvoidanceWeights.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1865,11 +1825,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.PathUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.PathUtils.html",
-          "hash": "DqcFA/AloR71SzThfyG6cQ=="
+          "relative_path": "api/ProjectDawn.Navigation.PathUtils.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1877,11 +1835,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.Portal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Portal.html",
-          "hash": "DpEXqo2h4d4CpVD3UL/pyA=="
+          "relative_path": "api/ProjectDawn.Navigation.Portal.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1889,11 +1845,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.ShapeType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ShapeType.html",
-          "hash": "yC7wzBlq0r08agsgcVBQsw=="
+          "relative_path": "api/ProjectDawn.Navigation.ShapeType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1901,11 +1855,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.SonarAvoidMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.SonarAvoidMode.html",
-          "hash": "fs3tZUK6tfWScR10FOj6dw=="
+          "relative_path": "api/ProjectDawn.Navigation.SonarAvoidMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1913,11 +1865,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCheckMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCheckMode.html",
-          "hash": "aRH5fsxNLQHTvHW7bMc5lA=="
+          "relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.QueryCheckMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1925,11 +1875,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html",
-          "hash": "f/pVWUS0r1+y6gmCn+5/yg=="
+          "relative_path": "api/ProjectDawn.Navigation.SpatialPartitioningSubSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1937,11 +1885,19 @@
       "source_relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.html",
-          "hash": "OKh92Nz8E7I3JM/WK3qFyw=="
+          "relative_path": "api/ProjectDawn.Navigation.StraightPathFlags.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.UnsafeDepthWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.UnsafeDepthWorld.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1949,11 +1905,9 @@
       "source_relative_path": "api/ProjectDawn.Navigation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.html",
-          "hash": "540A7XZM2QCh6kps8GfzyQ=="
+          "relative_path": "api/ProjectDawn.Navigation.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1961,11 +1915,9 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "117BJs3EwKYUrlTBON+fuA=="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1973,11 +1925,9 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "thqfzWogN790F0WwruCE9w=="
+          "relative_path": "api/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1985,11 +1935,9 @@
       "source_relative_path": "changelog.md",
       "output": {
         ".html": {
-          "relative_path": "changelog.html",
-          "hash": "fw3WnB174HuHI7qv+p4HUQ=="
+          "relative_path": "changelog.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1997,11 +1945,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "mIaJr2CLTdJV4HKUCynJRA=="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2009,11 +1955,9 @@
       "source_relative_path": "manual/astar.md",
       "output": {
         ".html": {
-          "relative_path": "manual/astar.html",
-          "hash": "ptZjSKPtk7EB2ybDsSZPvQ=="
+          "relative_path": "manual/astar.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2021,11 +1965,9 @@
       "source_relative_path": "manual/crowds.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds.html",
-          "hash": "onrmWWTIE6kOOLcaZDoMdQ=="
+          "relative_path": "manual/crowds.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2033,11 +1975,9 @@
       "source_relative_path": "manual/crowds/crowd-agent.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds/crowd-agent.html",
-          "hash": "Z+kQtc4KX0Ur97v1oUnHTw=="
+          "relative_path": "manual/crowds/crowd-agent.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2045,11 +1985,9 @@
       "source_relative_path": "manual/crowds/crowd-data.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds/crowd-data.html",
-          "hash": "5j6UUPVOZjI9BrVFoonxXw=="
+          "relative_path": "manual/crowds/crowd-data.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2057,11 +1995,9 @@
       "source_relative_path": "manual/crowds/crowd-discomfort.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds/crowd-discomfort.html",
-          "hash": "J7Vc/ostXBL1MvMuqJ8foA=="
+          "relative_path": "manual/crowds/crowd-discomfort.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2069,11 +2005,9 @@
       "source_relative_path": "manual/crowds/crowd-group.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds/crowd-group.html",
-          "hash": "zvfoNilPFQo7A/jNzRlAGA=="
+          "relative_path": "manual/crowds/crowd-group.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2081,11 +2015,9 @@
       "source_relative_path": "manual/crowds/crowd-obstacle.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds/crowd-obstacle.html",
-          "hash": "VEUhCVapwgUE6mCQ7jUdTA=="
+          "relative_path": "manual/crowds/crowd-obstacle.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2093,11 +2025,9 @@
       "source_relative_path": "manual/crowds/crowd-surface.md",
       "output": {
         ".html": {
-          "relative_path": "manual/crowds/crowd-surface.html",
-          "hash": "nYGf0ADBCpRMlKJsRLUGpw=="
+          "relative_path": "manual/crowds/crowd-surface.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2105,11 +2035,9 @@
       "source_relative_path": "manual/entities.md",
       "output": {
         ".html": {
-          "relative_path": "manual/entities.html",
-          "hash": "pvWMZ4BwUrQ1UVebuzUyOQ=="
+          "relative_path": "manual/entities.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2117,11 +2045,9 @@
       "source_relative_path": "manual/game-objects.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects.html",
-          "hash": "/nY9S4u+vDQydjXvCbGYJA=="
+          "relative_path": "manual/game-objects.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2129,11 +2055,9 @@
       "source_relative_path": "manual/game-objects/agent.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/agent.html",
-          "hash": "9XdfWUCbzl+u0ZkF6GJBbg=="
+          "relative_path": "manual/game-objects/agent.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2141,11 +2065,9 @@
       "source_relative_path": "manual/game-objects/avoidance.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/avoidance.html",
-          "hash": "bO01baD3o51EKQSfdgNFUQ=="
+          "relative_path": "manual/game-objects/avoidance.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2153,11 +2075,9 @@
       "source_relative_path": "manual/game-objects/avoidance/separation.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/avoidance/separation.html",
-          "hash": "+Xmn0+4SZq0tpYbi/ulbDg=="
+          "relative_path": "manual/game-objects/avoidance/separation.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2165,11 +2085,9 @@
       "source_relative_path": "manual/game-objects/avoidance/sonar-avoidance.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/avoidance/sonar-avoidance.html",
-          "hash": "1PQA4KptGVtua1IV/wO19Q=="
+          "relative_path": "manual/game-objects/avoidance/sonar-avoidance.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2177,11 +2095,9 @@
       "source_relative_path": "manual/game-objects/collider.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/collider.html",
-          "hash": "E916/GUMzVwW0kidrzZbXg=="
+          "relative_path": "manual/game-objects/collider.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2189,11 +2105,9 @@
       "source_relative_path": "manual/game-objects/pathing.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/pathing.html",
-          "hash": "9dEa0Qr2Gps5n5TIEHG7eQ=="
+          "relative_path": "manual/game-objects/pathing.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2201,11 +2115,9 @@
       "source_relative_path": "manual/game-objects/pathing/astar.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/pathing/astar.html",
-          "hash": "cIbOl4eMzhYcHFQRyedWfQ=="
+          "relative_path": "manual/game-objects/pathing/astar.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2213,11 +2125,9 @@
       "source_relative_path": "manual/game-objects/pathing/crowds.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/pathing/crowds.html",
-          "hash": "3K+ZtNeQwyrgNaunCxFgzg=="
+          "relative_path": "manual/game-objects/pathing/crowds.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2225,11 +2135,9 @@
       "source_relative_path": "manual/game-objects/pathing/nav-mesh.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/pathing/nav-mesh.html",
-          "hash": "favmQgyRglD89PCBtTgSwg=="
+          "relative_path": "manual/game-objects/pathing/nav-mesh.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2237,11 +2145,9 @@
       "source_relative_path": "manual/game-objects/shape.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/shape.html",
-          "hash": "Ex40kDGZsTG58PjHWeBDLQ=="
+          "relative_path": "manual/game-objects/shape.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2249,11 +2155,9 @@
       "source_relative_path": "manual/game-objects/smart-stop.md",
       "output": {
         ".html": {
-          "relative_path": "manual/game-objects/smart-stop.html",
-          "hash": "bfVWZJNtWKcgKSpqcnHLlQ=="
+          "relative_path": "manual/game-objects/smart-stop.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2264,7 +2168,6 @@
           "relative_path": "manual/images/Agent.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2275,7 +2178,6 @@
           "relative_path": "manual/images/AgentCircleShape.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2286,7 +2188,6 @@
           "relative_path": "manual/images/AgentCollider.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2297,7 +2198,6 @@
           "relative_path": "manual/images/AgentSeperation.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2308,7 +2208,6 @@
           "relative_path": "manual/images/DirectionalObstacle.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2319,7 +2218,6 @@
           "relative_path": "manual/images/DynamicObstacle.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2330,7 +2228,6 @@
           "relative_path": "manual/images/Mass.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2341,7 +2238,6 @@
           "relative_path": "manual/images/PackageManager.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2352,7 +2248,6 @@
           "relative_path": "manual/images/Scenario0.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2363,7 +2258,6 @@
           "relative_path": "manual/images/Sonar.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2374,7 +2268,6 @@
           "relative_path": "manual/images/StaticObstacle.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2385,7 +2278,6 @@
           "relative_path": "manual/images/Zerg.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2396,7 +2288,6 @@
           "relative_path": "manual/images/agent-astar-pathing.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2407,7 +2298,6 @@
           "relative_path": "manual/images/agent-crowd-pathing.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2418,7 +2308,6 @@
           "relative_path": "manual/images/agent-cylinder.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2429,7 +2318,6 @@
           "relative_path": "manual/images/agent-navmesh-pathing.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2440,7 +2328,6 @@
           "relative_path": "manual/images/crowd-data-gizmos.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2451,7 +2338,6 @@
           "relative_path": "manual/images/crowd-group.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2462,7 +2348,6 @@
           "relative_path": "manual/images/crowd-surface.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2473,7 +2358,6 @@
           "relative_path": "manual/images/nav-mesh-gizmos.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2484,7 +2368,6 @@
           "relative_path": "manual/images/navmesh-surface.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2495,7 +2378,6 @@
           "relative_path": "manual/images/quick-start-entities-subscene.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2506,7 +2388,6 @@
           "relative_path": "manual/images/quick-start-game-objects.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2517,7 +2398,6 @@
           "relative_path": "manual/images/settings-no-asset.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2528,7 +2408,6 @@
           "relative_path": "manual/images/settings.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2539,7 +2418,6 @@
           "relative_path": "manual/images/smart-stop.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2550,7 +2428,6 @@
           "relative_path": "manual/images/sonar-avoid-gizmos.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2561,7 +2438,6 @@
           "relative_path": "manual/images/sonar-avoid.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2572,7 +2448,6 @@
           "relative_path": "manual/images/tank-steering.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2580,11 +2455,9 @@
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/index.html",
-          "hash": "Z6y5HkDyQ+ehewwZHePD/A=="
+          "relative_path": "manual/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2592,11 +2465,9 @@
       "source_relative_path": "manual/known-issues.md",
       "output": {
         ".html": {
-          "relative_path": "manual/known-issues.html",
-          "hash": "LH7fbolY2sc+cFpenikeEQ=="
+          "relative_path": "manual/known-issues.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2604,11 +2475,9 @@
       "source_relative_path": "manual/samples.md",
       "output": {
         ".html": {
-          "relative_path": "manual/samples.html",
-          "hash": "xNvqYvpomGFBIe8wwBRSUQ=="
+          "relative_path": "manual/samples.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2616,11 +2485,9 @@
       "source_relative_path": "manual/settings.md",
       "output": {
         ".html": {
-          "relative_path": "manual/settings.html",
-          "hash": "MuAodZ46YlDc9R+6QZI/XA=="
+          "relative_path": "manual/settings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2628,11 +2495,9 @@
       "source_relative_path": "manual/settings/custom-sub-settings.md",
       "output": {
         ".html": {
-          "relative_path": "manual/settings/custom-sub-settings.html",
-          "hash": "aug4vU/gTMPK4smyBO8UNw=="
+          "relative_path": "manual/settings/custom-sub-settings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2640,11 +2505,9 @@
       "source_relative_path": "manual/sonar-avoidance.md",
       "output": {
         ".html": {
-          "relative_path": "manual/sonar-avoidance.html",
-          "hash": "QMQns86WtoYrYj0KzClE9A=="
+          "relative_path": "manual/sonar-avoidance.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2652,11 +2515,9 @@
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "manual/toc.html",
-          "hash": "SwInbuGAPhTDrU9KtilkqQ=="
+          "relative_path": "manual/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2664,11 +2525,9 @@
       "source_relative_path": "manual/tutorials.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials.html",
-          "hash": "SfI6e4TpN4WSP33DVIkSLA=="
+          "relative_path": "manual/tutorials.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2676,11 +2535,9 @@
       "source_relative_path": "manual/tutorials/astar-setup.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/astar-setup.html",
-          "hash": "hHngfVdDHOr5d6bcBG05Tw=="
+          "relative_path": "manual/tutorials/astar-setup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2688,11 +2545,9 @@
       "source_relative_path": "manual/tutorials/crowds-setup.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/crowds-setup.html",
-          "hash": "/r9emHCuBhbk99z5Zu2Z3A=="
+          "relative_path": "manual/tutorials/crowds-setup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2700,11 +2555,9 @@
       "source_relative_path": "manual/tutorials/custom-link-traversal.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/custom-link-traversal.html",
-          "hash": "NipZpIxvqgZrAk4GN4g9Cw=="
+          "relative_path": "manual/tutorials/custom-link-traversal.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2712,11 +2565,9 @@
       "source_relative_path": "manual/tutorials/custom-locomotion.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/custom-locomotion.html",
-          "hash": "Y9Yb6MhJpItzBr9vCNhocg=="
+          "relative_path": "manual/tutorials/custom-locomotion.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2724,41 +2575,29 @@
       "source_relative_path": "manual/tutorials/modify-hybrid-property.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/modify-hybrid-property.html",
-          "hash": "bAdlxNc+E1z/66oqw1mkZA=="
+          "relative_path": "manual/tutorials/modify-hybrid-property.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/tutorials/navmesh-setup.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/navmesh-setup.html",
-          "hash": "ilPoeJJ/smyABlcJB6dYeg=="
+          "relative_path": "manual/tutorials/navmesh-setup.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/tutorials/set-destination.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/set-destination.html",
-          "hash": "PdTgFjVkosl8GKx/TWgMGg=="
+          "relative_path": "manual/tutorials/set-destination.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2766,11 +2605,9 @@
       "source_relative_path": "manual/tutorials/vidoes.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/vidoes.html",
-          "hash": "M2S1yu1ofN3oHlFF0tuxHg=="
+          "relative_path": "manual/tutorials/vidoes.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2778,65 +2615,12 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "RA4fr8GzRS+5rZO3qZUV/A=="
+          "relative_path": "toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 39,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 162,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"

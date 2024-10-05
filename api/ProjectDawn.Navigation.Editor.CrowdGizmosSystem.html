@@ -1,31 +1,31 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Struct CrowdGizmosSystem
-   </title>
+ </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct CrowdGizmosSystem
-   ">
-    <meta name="generator" content="docfx 2.56.6.0">
-    
+ ">
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    
+  
+  <meta property="docfx:rel" content="../">
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
@@ -49,7 +49,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -59,7 +59,7 @@
         </div>
       </header>
       <div class="container body-content">
-        
+
         <div id="search-results">
           <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
@@ -69,7 +69,7 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,57 +79,93 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem">
-  
-  
+
+
   <h1 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem" class="text-break">Struct CrowdGizmosSystem
-  </h1>
+</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Unity.Entities.ISystem</span></div>
+    <div><span class="xref">ISystem</span></div>
+    <div><span class="xref">ISystemCompilerGenerated</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
     </div>
     <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">System.ValueType.ToString()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Navigation.Editor.html">ProjectDawn.Navigation.Editor</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Navigation.html">Navigation</a>.<a class="xref" href="ProjectDawn.Navigation.Editor.html">Editor</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Editor.dll</h6>
   <h5 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BurstCompile]
+    <pre><code class="lang- hljs">[BurstCompile]
 [UpdateInGroup(typeof(AgentPathingSystemGroup))]
 [UpdateAfter(typeof(CrowdFlowSystem))]
-public struct CrowdGizmosSystem : ISystem</code></pre>
+public struct CrowdGizmosSystem : ISystem, ISystemCompilerGenerated</code></pre>
   </div>
   <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnUpdate*"></a>
-  <h4 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
-  <div class="markdown level1 summary"></div>
+</h3>
+
+
+  <a id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnCreateForCompiler_" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnCreateForCompiler*"></a>
+  <h4 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnCreateForCompiler_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnCreateForCompiler(Unity.Entities.SystemState@)">OnCreateForCompiler(ref SystemState)</h4>
+  <div class="markdown level1 summary"><p>Generated by compilation pipeline and used internally.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BurstCompile]
+    <pre><code class="lang- hljs">public void OnCreateForCompiler(ref SystemState state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SystemState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The <span class="xref">Unity.Entities.SystemState</span> backing this system instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnUpdate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnUpdate(Unity.Entities.SystemState%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation.crowds/ProjectDawn.Navigation.Editor/CrowdGizmosSystem.cs/#L59">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnUpdate*"></a>
+  <h4 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
+  <div class="markdown level1 summary"><p>Implement <code>OnUpdate</code> to perform the major work of this system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">[BurstCompile]
 public void OnUpdate(ref SystemState state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -143,48 +179,40 @@ public void OnUpdate(ref SystemState state)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.Entities.SystemState</span></td>
+        <td><span class="xref">SystemState</span></td>
         <td><span class="parametername">state</span></td>
-        <td></td>
+        <td><p>The <span class="xref">Unity.Entities.SystemState</span> backing this system instance</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-  
-  <a id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_Unity_Entities_ISystem_OnCreate_" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.Unity#Entities#ISystem#OnCreate*"></a>
-  <h4 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_Unity_Entities_ISystem_OnCreate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.Editor.CrowdGizmosSystem.Unity#Entities#ISystem#OnCreate(Unity.Entities.SystemState@)">ISystem.OnCreate(ref SystemState)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ISystem.OnCreate(ref SystemState state)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Unity.Entities.SystemState</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 id="ProjectDawn_Navigation_Editor_CrowdGizmosSystem_OnUpdate_Unity_Entities_SystemState___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+ By default, the system invokes `OnUpdate` once every frame on the main thread.
+ To skip OnUpdate if all of the system's [EntityQueries] are empty, use the
+ [RequireMatchingQueriesForUpdateAttribute]. To limit when OnUpdate is invoked, you can
+ specify components that must exist, or queries that match specific Entities. To do
+ this, call <span class="xref">Unity.Entities.SystemState.RequireForUpdate&lt;T&gt;()</span> or
+ <span class="xref">Unity.Entities.SystemState.RequireForUpdate(Unity.Entities.EntityQuery)</span>
+ in the system's OnCreate method. For more information, see <span class="xref">Unity.Entities.SystemState.ShouldRunSystem()</span>.
+ </p>
+<p>
+ You can instantiate and schedule an <span class="xref">Unity.Entities.IJobChunk</span> instance; you can use the
+ [C# Job System] or you can perform work on the main thread. If you call <span class="xref">Unity.Entities.EntityManager</span> methods
+ that perform structural changes on the main thread, be sure to arrange the system order to minimize the
+ performance impact of the resulting [sync points].
+ </p>
+</div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">Unity.Entities.ISystem</span>
   </div>
+  <div>
+      <span class="xref">Unity.Entities.ISystemCompilerGenerated</span>
+  </div>
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
@@ -199,7 +227,7 @@ public void OnUpdate(ref SystemState state)</code></pre>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -207,13 +235,13 @@ public void OnUpdate(ref SystemState state)</code></pre>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+      
+      <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
+
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
