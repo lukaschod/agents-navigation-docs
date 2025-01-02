@@ -83,8 +83,7 @@
 
   <h1 id="ProjectDawn_Navigation_AgentLocomotion" data-uid="ProjectDawn.Navigation.AgentLocomotion" class="text-break">Struct AgentLocomotion
 </h1>
-  <div class="markdown level0 summary"><p>Agent's locomotion that moves towards destination with arrival.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
@@ -116,7 +115,8 @@
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
   <h5 id="ProjectDawn_Navigation_AgentLocomotion_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public struct AgentLocomotion : IComponentData, IQueryTypeParameter</code></pre>
+    <pre><code class="lang- hljs">[Serializable]
+public struct AgentLocomotion : IComponentData, IQueryTypeParameter</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
@@ -125,7 +125,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion_Acceleration.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion.Acceleration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L18">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L19">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentLocomotion_Acceleration" data-uid="ProjectDawn.Navigation.AgentLocomotion.Acceleration">Acceleration</h4>
   <div class="markdown level1 summary"><p>The maximum acceleration of an agent as it follows a path, given in units / sec^2.</p>
@@ -155,7 +155,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion_AngularSpeed.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion.AngularSpeed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L22">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L23">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentLocomotion_AngularSpeed" data-uid="ProjectDawn.Navigation.AgentLocomotion.AngularSpeed">AngularSpeed</h4>
   <div class="markdown level1 summary"><p>Maximum turning speed in (rad/s) while following a path.</p>
@@ -185,7 +185,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion_AutoBreaking.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion.AutoBreaking%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L30">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L31">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentLocomotion_AutoBreaking" data-uid="ProjectDawn.Navigation.AgentLocomotion.AutoBreaking">AutoBreaking</h4>
   <div class="markdown level1 summary"><p>Should the agent brake automatically to avoid overshooting the destination point?</p>
@@ -215,7 +215,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion_Speed.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion.Speed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L14">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L15">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentLocomotion_Speed" data-uid="ProjectDawn.Navigation.AgentLocomotion.Speed">Speed</h4>
   <div class="markdown level1 summary"><p>Maximum movement speed when moving to destination.</p>
@@ -245,7 +245,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion_StoppingDistance.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion.StoppingDistance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L26">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L27">View Source</a>
   </span>
   <h4 id="ProjectDawn_Navigation_AgentLocomotion_StoppingDistance" data-uid="ProjectDawn.Navigation.AgentLocomotion.StoppingDistance">StoppingDistance</h4>
   <div class="markdown level1 summary"><p>Stop within this distance from the target position.</p>
@@ -277,7 +277,7 @@
     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion_Default.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion.Default%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L35">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L36">View Source</a>
   </span>
   <a id="ProjectDawn_Navigation_AgentLocomotion_Default_" data-uid="ProjectDawn.Navigation.AgentLocomotion.Default*"></a>
   <h4 id="ProjectDawn_Navigation_AgentLocomotion_Default" data-uid="ProjectDawn.Navigation.AgentLocomotion.Default">Default</h4>
@@ -321,7 +321,7 @@
                     <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_AgentLocomotion.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.AgentLocomotion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/Locomotion/AgentLocomotion.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

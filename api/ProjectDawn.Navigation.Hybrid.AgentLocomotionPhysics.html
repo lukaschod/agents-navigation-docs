@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EntityBehaviour
+    <title>Class AgentLocomotionPhysics
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EntityBehaviour
+    <meta name="title" content="Class AgentLocomotionPhysics
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics">
 
 
-  <h1 id="ProjectDawn_Navigation_Hybrid_EntityBehaviour" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour" class="text-break">Class EntityBehaviour
+  <h1 id="ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics" data-uid="ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics" class="text-break">Class AgentLocomotionPhysics
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -92,14 +92,7 @@
     <div class="level2"><span class="xref">Component</span></div>
     <div class="level3"><span class="xref">Behaviour</span></div>
     <div class="level4"><span class="xref">MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">EntityBehaviour</span></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.AgentAuthoring.html">AgentAuthoring</a></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.CrowdDiscomfortAuthoring.html">CrowdDiscomfortAuthoring</a></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.html">CrowdGroupAuthoring</a></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.CrowdObstacleAuthoring.html">CrowdObstacleAuthoring</a></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring.html">CrowdSurfaceAuthoring</a></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.DepthSurfaceAuthoring.html">DepthSurfaceAuthoring</a></div>
-      <div class="level6"><a class="xref" href="ProjectDawn.Navigation.Hybrid.FlockGroupAuthoring.html">FlockGroupAuthoring</a></div>
+    <div class="level5"><span class="xref">AgentLocomotionPhysics</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -484,25 +477,27 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Navigation.html">Navigation</a>.<a class="xref" href="ProjectDawn.Navigation.Hybrid.html">Hybrid</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Hybrid.dll</h6>
-  <h5 id="ProjectDawn_Navigation_Hybrid_EntityBehaviour_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public class EntityBehaviour : MonoBehaviour</code></pre>
+    <pre><code class="lang- hljs">[RequireComponent(typeof(AgentAuthoring))]
+[RequireComponent(typeof(Rigidbody))]
+public class AgentLocomotionPhysics : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_EntityBehaviour_m_Entity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.EntityBehaviour.m_Entity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_Locomotion.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/EntityBehaviour.cs/#L8">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentLocomotionPhysics.cs/#L11">View Source</a>
   </span>
-  <h4 id="ProjectDawn_Navigation_Hybrid_EntityBehaviour_m_Entity" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour.m_Entity">m_Entity</h4>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_Locomotion" data-uid="ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion">Locomotion</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">protected Entity m_Entity</code></pre>
+    <pre><code class="lang- hljs">public AgentLocomotion Locomotion</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,71 +509,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Entity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_EntityBehaviour_IsEntityCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.EntityBehaviour.IsEntityCreated%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/EntityBehaviour.cs/#L10">View Source</a>
-  </span>
-  <a id="ProjectDawn_Navigation_Hybrid_EntityBehaviour_IsEntityCreated_" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour.IsEntityCreated*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_EntityBehaviour_IsEntityCreated" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour.IsEntityCreated">IsEntityCreated</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public bool IsEntityCreated { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_EntityBehaviour_GetOrCreateEntity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.EntityBehaviour.GetOrCreateEntity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/EntityBehaviour.cs/#L12">View Source</a>
-  </span>
-  <a id="ProjectDawn_Navigation_Hybrid_EntityBehaviour_GetOrCreateEntity_" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour.GetOrCreateEntity*"></a>
-  <h4 id="ProjectDawn_Navigation_Hybrid_EntityBehaviour_GetOrCreateEntity" data-uid="ProjectDawn.Navigation.Hybrid.EntityBehaviour.GetOrCreateEntity">GetOrCreateEntity()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public Entity GetOrCreateEntity()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Entity</span></td>
+        <td><a class="xref" href="ProjectDawn.Navigation.AgentLocomotion.html">AgentLocomotion</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -591,10 +522,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_EntityBehaviour.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.EntityBehaviour%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/EntityBehaviour.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentLocomotionPhysics.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
