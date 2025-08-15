@@ -252,6 +252,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentGrounding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentGrounding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentGroundingSlope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentGroundingSlope.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentGroundingSlopeSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentGroundingSlopeSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.AgentGroundingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.AgentGroundingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.AgentLocomotion.yml",
       "output": {
         ".html": {
@@ -436,16 +476,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.AgentSonarAvoidSystem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html"
         }
       },
       "version": ""
@@ -732,6 +762,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.CrowdFlows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.CrowdFlows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.CrowdGoalSource.yml",
       "output": {
         ".html": {
@@ -856,6 +896,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.CrowdWorldSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.CrowdWorlds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.CrowdWorlds.html"
         }
       },
       "version": ""
@@ -1172,6 +1222,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Grounded.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Grounded.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.HiveMindStop.yml",
       "output": {
         ".html": {
@@ -1252,10 +1312,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.yml",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.html"
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentGroundingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Hybrid.AgentGroundingMode.html"
         }
       },
       "version": ""
@@ -1432,16 +1502,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.yml",
       "output": {
         ".html": {
@@ -1476,16 +1536,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Hybrid.SettingsBehaviour.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html"
         }
       },
       "version": ""
@@ -1642,6 +1692,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.NavMeshDataInstances.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.NavMeshDataSystem.yml",
       "output": {
         ".html": {
@@ -1746,16 +1806,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.NavMeshQueryStatus.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html"
         }
       },
       "version": ""
@@ -2146,6 +2196,16 @@
       "output": {
         ".html": {
           "relative_path": "manual/game-objects/collider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/game-objects/grounding.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/game-objects/grounding.html"
         }
       },
       "version": ""

@@ -1208,6 +1208,81 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentForceSystemGroup
   fullName: ProjectDawn.Navigation.AgentForceSystemGroup
   nameWithType: AgentForceSystemGroup
+- uid: ProjectDawn.Navigation.AgentGrounding
+  name: AgentGrounding
+  href: api/ProjectDawn.Navigation.AgentGrounding.html
+  commentId: T:ProjectDawn.Navigation.AgentGrounding
+  fullName: ProjectDawn.Navigation.AgentGrounding
+  nameWithType: AgentGrounding
+- uid: ProjectDawn.Navigation.AgentGrounding.Default
+  name: Default
+  href: api/ProjectDawn.Navigation.AgentGrounding.html#ProjectDawn_Navigation_AgentGrounding_Default
+  commentId: P:ProjectDawn.Navigation.AgentGrounding.Default
+  fullName: ProjectDawn.Navigation.AgentGrounding.Default
+  nameWithType: AgentGrounding.Default
+- uid: ProjectDawn.Navigation.AgentGrounding.Default*
+  name: Default
+  href: api/ProjectDawn.Navigation.AgentGrounding.html#ProjectDawn_Navigation_AgentGrounding_Default_
+  commentId: Overload:ProjectDawn.Navigation.AgentGrounding.Default
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentGrounding.Default
+  nameWithType: AgentGrounding.Default
+- uid: ProjectDawn.Navigation.AgentGrounding.Layers
+  name: Layers
+  href: api/ProjectDawn.Navigation.AgentGrounding.html#ProjectDawn_Navigation_AgentGrounding_Layers
+  commentId: F:ProjectDawn.Navigation.AgentGrounding.Layers
+  fullName: ProjectDawn.Navigation.AgentGrounding.Layers
+  nameWithType: AgentGrounding.Layers
+- uid: ProjectDawn.Navigation.AgentGroundingSlope
+  name: AgentGroundingSlope
+  href: api/ProjectDawn.Navigation.AgentGroundingSlope.html
+  commentId: T:ProjectDawn.Navigation.AgentGroundingSlope
+  fullName: ProjectDawn.Navigation.AgentGroundingSlope
+  nameWithType: AgentGroundingSlope
+- uid: ProjectDawn.Navigation.AgentGroundingSlopeSystem
+  name: AgentGroundingSlopeSystem
+  href: api/ProjectDawn.Navigation.AgentGroundingSlopeSystem.html
+  commentId: T:ProjectDawn.Navigation.AgentGroundingSlopeSystem
+  fullName: ProjectDawn.Navigation.AgentGroundingSlopeSystem
+  nameWithType: AgentGroundingSlopeSystem
+- uid: ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Navigation.AgentGroundingSlopeSystem.html#ProjectDawn_Navigation_AgentGroundingSlopeSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: AgentGroundingSlopeSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: AgentGroundingSlopeSystem.OnCreateForCompiler(SystemState)
+- uid: ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler*
+  name: OnCreateForCompiler
+  href: api/ProjectDawn.Navigation.AgentGroundingSlopeSystem.html#ProjectDawn_Navigation_AgentGroundingSlopeSystem_OnCreateForCompiler_
+  commentId: Overload:ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler
+  nameWithType: AgentGroundingSlopeSystem.OnCreateForCompiler
+- uid: ProjectDawn.Navigation.AgentGroundingSystem
+  name: AgentGroundingSystem
+  href: api/ProjectDawn.Navigation.AgentGroundingSystem.html
+  commentId: T:ProjectDawn.Navigation.AgentGroundingSystem
+  fullName: ProjectDawn.Navigation.AgentGroundingSystem
+  nameWithType: AgentGroundingSystem
+- uid: ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Navigation.AgentGroundingSystem.html#ProjectDawn_Navigation_AgentGroundingSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: AgentGroundingSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: AgentGroundingSystem.OnCreateForCompiler(SystemState)
+- uid: ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler*
+  name: OnCreateForCompiler
+  href: api/ProjectDawn.Navigation.AgentGroundingSystem.html#ProjectDawn_Navigation_AgentGroundingSystem_OnCreateForCompiler_
+  commentId: Overload:ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.AgentGroundingSystem.OnCreateForCompiler
+  nameWithType: AgentGroundingSystem.OnCreateForCompiler
 - uid: ProjectDawn.Navigation.AgentLocomotion
   name: AgentLocomotion
   href: api/ProjectDawn.Navigation.AgentLocomotion.html
@@ -1455,22 +1530,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnCreateForCompiler
   nameWithType: AgentReciprocalAvoidSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: AgentReciprocalAvoidSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentReciprocalAvoidSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentReciprocalAvoidSystem.html#ProjectDawn_Navigation_AgentReciprocalAvoidSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentReciprocalAvoidSystem.OnUpdate
-  nameWithType: AgentReciprocalAvoidSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentSeekingSystem
   name: AgentSeekingSystem
   href: api/ProjectDawn.Navigation.AgentSeekingSystem.html
@@ -1493,22 +1552,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSeekingSystem.OnCreateForCompiler
   nameWithType: AgentSeekingSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSeekingSystem.html#ProjectDawn_Navigation_AgentSeekingSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: AgentSeekingSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentSeekingSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentSeekingSystem.html#ProjectDawn_Navigation_AgentSeekingSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSeekingSystem.OnUpdate
-  nameWithType: AgentSeekingSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentSeekingSystemGroup
   name: AgentSeekingSystemGroup
   href: api/ProjectDawn.Navigation.AgentSeekingSystemGroup.html
@@ -1574,22 +1617,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnCreateForCompiler
   nameWithType: AgentSeparationSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: AgentSeparationSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentSeparationSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentSeparationSystem.html#ProjectDawn_Navigation_AgentSeparationSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSeparationSystem.OnUpdate
-  nameWithType: AgentSeparationSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentShape
   name: AgentShape
   href: api/ProjectDawn.Navigation.AgentShape.html
@@ -1930,24 +1957,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.OnUpdate
   nameWithType: AgentSpatialPartitioningSystem.OnUpdate
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings
-  name: AgentSpatialPartitioningSystem.Settings
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html
-  commentId: T:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings
-  nameWithType: AgentSpatialPartitioningSystem.Settings
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.CellSize
-  name: CellSize
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Settings_CellSize
-  commentId: F:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.CellSize
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.CellSize
-  nameWithType: AgentSpatialPartitioningSystem.Settings.CellSize
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.QueryCapacity
-  name: QueryCapacity
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Settings_QueryCapacity
-  commentId: F:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.QueryCapacity
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Settings.QueryCapacity
-  nameWithType: AgentSpatialPartitioningSystem.Settings.QueryCapacity
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton
   name: AgentSpatialPartitioningSystem.Singleton
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html
@@ -2158,22 +2167,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnCreateForCompiler
   nameWithType: AgentSteeringSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: AgentSteeringSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentSteeringSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentSteeringSystem.html#ProjectDawn_Navigation_AgentSteeringSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSteeringSystem.OnUpdate
-  nameWithType: AgentSteeringSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentSteeringSystemGroup
   name: AgentSteeringSystemGroup
   href: api/ProjectDawn.Navigation.AgentSteeringSystemGroup.html
@@ -3160,6 +3153,31 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.CrowdFlowSystem.OnCreateForCompiler
   nameWithType: CrowdFlowSystem.OnCreateForCompiler
+- uid: ProjectDawn.Navigation.CrowdFlows
+  name: CrowdFlows
+  href: api/ProjectDawn.Navigation.CrowdFlows.html
+  commentId: T:ProjectDawn.Navigation.CrowdFlows
+  fullName: ProjectDawn.Navigation.CrowdFlows
+  nameWithType: CrowdFlows
+- uid: ProjectDawn.Navigation.CrowdFlows.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Navigation.CrowdFlows.html#ProjectDawn_Navigation_CrowdFlows_Dispose
+  commentId: M:ProjectDawn.Navigation.CrowdFlows.Dispose
+  fullName: ProjectDawn.Navigation.CrowdFlows.Dispose()
+  nameWithType: CrowdFlows.Dispose()
+- uid: ProjectDawn.Navigation.CrowdFlows.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Navigation.CrowdFlows.html#ProjectDawn_Navigation_CrowdFlows_Dispose_
+  commentId: Overload:ProjectDawn.Navigation.CrowdFlows.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CrowdFlows.Dispose
+  nameWithType: CrowdFlows.Dispose
+- uid: ProjectDawn.Navigation.CrowdFlows.Flows
+  name: Flows
+  href: api/ProjectDawn.Navigation.CrowdFlows.html#ProjectDawn_Navigation_CrowdFlows_Flows
+  commentId: F:ProjectDawn.Navigation.CrowdFlows.Flows
+  fullName: ProjectDawn.Navigation.CrowdFlows.Flows
+  nameWithType: CrowdFlows.Flows
 - uid: ProjectDawn.Navigation.CrowdGoalSource
   name: CrowdGoalSource
   href: api/ProjectDawn.Navigation.CrowdGoalSource.html
@@ -3534,12 +3552,15 @@ references:
   commentId: T:ProjectDawn.Navigation.CrowdSurfaceSystem
   fullName: ProjectDawn.Navigation.CrowdSurfaceSystem
   nameWithType: CrowdSurfaceSystem
-- uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler
-  name: OnCreateForCompiler()
-  href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnCreateForCompiler
-  commentId: M:ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler
-  fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler()
-  nameWithType: CrowdSurfaceSystem.OnCreateForCompiler()
+- uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: CrowdSurfaceSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: CrowdSurfaceSystem.OnCreateForCompiler(SystemState)
 - uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler*
   name: OnCreateForCompiler
   href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnCreateForCompiler_
@@ -3547,32 +3568,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnCreateForCompiler
   nameWithType: CrowdSurfaceSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnDestroy
-  name: OnDestroy()
-  href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnDestroy
-  commentId: M:ProjectDawn.Navigation.CrowdSurfaceSystem.OnDestroy
-  fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnDestroy()
-  nameWithType: CrowdSurfaceSystem.OnDestroy()
-- uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.CrowdSurfaceSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnDestroy
-  nameWithType: CrowdSurfaceSystem.OnDestroy
-- uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnUpdate
-  name: OnUpdate()
-  href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnUpdate
-  commentId: M:ProjectDawn.Navigation.CrowdSurfaceSystem.OnUpdate
-  fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnUpdate()
-  nameWithType: CrowdSurfaceSystem.OnUpdate()
-- uid: ProjectDawn.Navigation.CrowdSurfaceSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.CrowdSurfaceSystem.html#ProjectDawn_Navigation_CrowdSurfaceSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.CrowdSurfaceSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.CrowdSurfaceSystem.OnUpdate
-  nameWithType: CrowdSurfaceSystem.OnUpdate
 - uid: ProjectDawn.Navigation.CrowdSurfaceWorld
   name: CrowdSurfaceWorld
   href: api/ProjectDawn.Navigation.CrowdSurfaceWorld.html
@@ -3607,6 +3602,31 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.CrowdWorldSystem.OnCreateForCompiler
   nameWithType: CrowdWorldSystem.OnCreateForCompiler
+- uid: ProjectDawn.Navigation.CrowdWorlds
+  name: CrowdWorlds
+  href: api/ProjectDawn.Navigation.CrowdWorlds.html
+  commentId: T:ProjectDawn.Navigation.CrowdWorlds
+  fullName: ProjectDawn.Navigation.CrowdWorlds
+  nameWithType: CrowdWorlds
+- uid: ProjectDawn.Navigation.CrowdWorlds.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Navigation.CrowdWorlds.html#ProjectDawn_Navigation_CrowdWorlds_Dispose
+  commentId: M:ProjectDawn.Navigation.CrowdWorlds.Dispose
+  fullName: ProjectDawn.Navigation.CrowdWorlds.Dispose()
+  nameWithType: CrowdWorlds.Dispose()
+- uid: ProjectDawn.Navigation.CrowdWorlds.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Navigation.CrowdWorlds.html#ProjectDawn_Navigation_CrowdWorlds_Dispose_
+  commentId: Overload:ProjectDawn.Navigation.CrowdWorlds.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CrowdWorlds.Dispose
+  nameWithType: CrowdWorlds.Dispose
+- uid: ProjectDawn.Navigation.CrowdWorlds.Worlds
+  name: Worlds
+  href: api/ProjectDawn.Navigation.CrowdWorlds.html#ProjectDawn_Navigation_CrowdWorlds_Worlds
+  commentId: F:ProjectDawn.Navigation.CrowdWorlds.Worlds
+  fullName: ProjectDawn.Navigation.CrowdWorlds.Worlds
+  nameWithType: CrowdWorlds.Worlds
 - uid: ProjectDawn.Navigation.DepthSurface
   name: DepthSurface
   href: api/ProjectDawn.Navigation.DepthSurface.html
@@ -4106,22 +4126,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnCreateForCompiler
   nameWithType: AgentColliderGizmosSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: AgentColliderGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentColliderGizmosSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentColliderGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.AgentColliderGizmosSystem.OnUpdate
-  nameWithType: AgentColliderGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem
   name: AgentSmartStopGizmosSystem
   href: api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.html
@@ -4144,22 +4148,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnCreateForCompiler
   nameWithType: AgentSmartStopGizmosSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentSmartStopGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: AgentSmartStopGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: AgentSmartStopGizmosSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentSmartStopGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnUpdate
-  nameWithType: AgentSmartStopGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor
   name: AgentsNavigationSettingsEditor
   href: api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html
@@ -4399,22 +4387,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnCreateForCompiler
   nameWithType: NavMeshBoundaryGizmosSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshBoundaryGizmosSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshBoundaryGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.NavMeshBoundaryGizmosSystem.OnUpdate
-  nameWithType: NavMeshBoundaryGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem
   name: NavMeshNodesGizmosSystem
   href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html
@@ -4437,22 +4409,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnCreateForCompiler
   nameWithType: NavMeshNodesGizmosSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: NavMeshNodesGizmosSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshNodesGizmosSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.html#ProjectDawn_Navigation_Editor_NavMeshNodesGizmosSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Editor.NavMeshNodesGizmosSystem.OnUpdate
-  nameWithType: NavMeshNodesGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Editor.RangeDrawer
   name: RangeDrawer
   href: api/ProjectDawn.Navigation.Editor.RangeDrawer.html
@@ -4494,6 +4450,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.Draw
   nameWithType: ScriptingDefineToggleField.Draw
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted(UnityEngine.GUIContent,System.String)
+  name: DrawInverted(GUIContent, string)
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html#ProjectDawn_Navigation_Editor_ScriptingDefineToggleField_DrawInverted_UnityEngine_GUIContent_System_String_
+  commentId: M:ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted(UnityEngine.GUIContent,System.String)
+  name.vb: DrawInverted(GUIContent, String)
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted(UnityEngine.GUIContent, string)
+  fullName.vb: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted(UnityEngine.GUIContent, String)
+  nameWithType: ScriptingDefineToggleField.DrawInverted(GUIContent, string)
+  nameWithType.vb: ScriptingDefineToggleField.DrawInverted(GUIContent, String)
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted*
+  name: DrawInverted
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html#ProjectDawn_Navigation_Editor_ScriptingDefineToggleField_DrawInverted_
+  commentId: Overload:ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.DrawInverted
+  nameWithType: ScriptingDefineToggleField.DrawInverted
 - uid: ProjectDawn.Navigation.FlockEntity
   name: FlockEntity
   href: api/ProjectDawn.Navigation.FlockEntity.html
@@ -5041,6 +5013,30 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.GizmosSystem.Singleton.ExecuteCommandBuffers
   nameWithType: GizmosSystem.Singleton.ExecuteCommandBuffers
+- uid: ProjectDawn.Navigation.Grounded
+  name: Grounded
+  href: api/ProjectDawn.Navigation.Grounded.html
+  commentId: T:ProjectDawn.Navigation.Grounded
+  fullName: ProjectDawn.Navigation.Grounded
+  nameWithType: Grounded
+- uid: ProjectDawn.Navigation.Grounded.None
+  name: None
+  href: api/ProjectDawn.Navigation.Grounded.html#ProjectDawn_Navigation_Grounded_None
+  commentId: F:ProjectDawn.Navigation.Grounded.None
+  fullName: ProjectDawn.Navigation.Grounded.None
+  nameWithType: Grounded.None
+- uid: ProjectDawn.Navigation.Grounded.XYZ
+  name: XYZ
+  href: api/ProjectDawn.Navigation.Grounded.html#ProjectDawn_Navigation_Grounded_XYZ
+  commentId: F:ProjectDawn.Navigation.Grounded.XYZ
+  fullName: ProjectDawn.Navigation.Grounded.XYZ
+  nameWithType: Grounded.XYZ
+- uid: ProjectDawn.Navigation.Grounded.XZ
+  name: XZ
+  href: api/ProjectDawn.Navigation.Grounded.html#ProjectDawn_Navigation_Grounded_XZ
+  commentId: F:ProjectDawn.Navigation.Grounded.XZ
+  fullName: ProjectDawn.Navigation.Grounded.XZ
+  nameWithType: Grounded.XZ
 - uid: ProjectDawn.Navigation.HiveMindStop
   name: HiveMindStop
   href: api/ProjectDawn.Navigation.HiveMindStop.html
@@ -5154,19 +5150,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultLocomotion
   nameWithType: AgentAuthoring.DefaultLocomotion
-- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultSteering
-  name: DefaultSteering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_DefaultSteering
-  commentId: P:ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultSteering
-  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultSteering
-  nameWithType: AgentAuthoring.DefaultSteering
-- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultSteering*
-  name: DefaultSteering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_DefaultSteering_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultSteering
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.DefaultSteering
-  nameWithType: AgentAuthoring.DefaultSteering
 - uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntityAgent
   name: EntityAgent
   href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_EntityAgent
@@ -5206,19 +5189,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntityLocomotion
   nameWithType: AgentAuthoring.EntityLocomotion
-- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntitySteering
-  name: EntitySteering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_EntitySteering
-  commentId: P:ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntitySteering
-  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntitySteering
-  nameWithType: AgentAuthoring.EntitySteering
-- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntitySteering*
-  name: EntitySteering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_EntitySteering_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntitySteering
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.EntitySteering
-  nameWithType: AgentAuthoring.EntitySteering
 - uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntityBody
   name: HasEntityBody
   href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_HasEntityBody
@@ -5245,19 +5215,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntityLocomotion
   nameWithType: AgentAuthoring.HasEntityLocomotion
-- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntitySteering
-  name: HasEntitySteering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_HasEntitySteering
-  commentId: P:ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntitySteering
-  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntitySteering
-  nameWithType: AgentAuthoring.HasEntitySteering
-- uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntitySteering*
-  name: HasEntitySteering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_HasEntitySteering_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntitySteering
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.AgentAuthoring.HasEntitySteering
-  nameWithType: AgentAuthoring.HasEntitySteering
 - uid: ProjectDawn.Navigation.Hybrid.AgentAuthoring.SetDestination(Unity.Mathematics.float3)
   name: SetDestination(float3)
   href: api/ProjectDawn.Navigation.Hybrid.AgentAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAuthoring_SetDestination_Unity_Mathematics_float3_
@@ -5390,6 +5347,19 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Radius
   nameWithType: AgentAvoidAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Sonar
+  name: Sonar
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Sonar
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Sonar
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Sonar
+  nameWithType: AgentAvoidAuthoring.Sonar
+- uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Sonar*
+  name: Sonar
+  href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_Sonar_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Sonar
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.Sonar
+  nameWithType: AgentAvoidAuthoring.Sonar
 - uid: ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.UseWalls
   name: UseWalls
   href: api/ProjectDawn.Navigation.Hybrid.AgentAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentAvoidAuthoring_UseWalls
@@ -5453,12 +5423,38 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Radius
   nameWithType: AgentCircleShapeAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Shape
+  name: Shape
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCircleShapeAuthoring_Shape
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Shape
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Shape
+  nameWithType: AgentCircleShapeAuthoring.Shape
+- uid: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Shape*
+  name: Shape
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCircleShapeAuthoring_Shape_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Shape
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCircleShapeAuthoring.Shape
+  nameWithType: AgentCircleShapeAuthoring.Shape
 - uid: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring
   name: AgentColliderAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html
   commentId: T:ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring
   nameWithType: AgentColliderAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.Collider
+  name: Collider
+  href: api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentColliderAuthoring_Collider
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.Collider
+  fullName: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.Collider
+  nameWithType: AgentColliderAuthoring.Collider
+- uid: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.Collider*
+  name: Collider
+  href: api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentColliderAuthoring_Collider_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.Collider
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.Collider
+  nameWithType: AgentColliderAuthoring.Collider
 - uid: ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.DefaultCollider
   name: DefaultCollider
   href: api/ProjectDawn.Navigation.Hybrid.AgentColliderAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentColliderAuthoring_DefaultCollider
@@ -5606,6 +5602,19 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Radius
   nameWithType: AgentCylinderShapeAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Shape
+  name: Shape
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCylinderShapeAuthoring_Shape
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Shape
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Shape
+  nameWithType: AgentCylinderShapeAuthoring.Shape
+- uid: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Shape*
+  name: Shape
+  href: api/ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentCylinderShapeAuthoring_Shape_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Shape
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentCylinderShapeAuthoring.Shape
+  nameWithType: AgentCylinderShapeAuthoring.Shape
 - uid: ProjectDawn.Navigation.Hybrid.AgentFlockAuthoring
   name: AgentFlockAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentFlockAuthoring.html
@@ -5662,18 +5671,81 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentFlockAuthoring.m_Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentFlockAuthoring.m_Radius
   nameWithType: AgentFlockAuthoring.m_Radius
-- uid: ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics
-  name: AgentLocomotionPhysics
-  href: api/ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.html
-  commentId: T:ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics
-  fullName: ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics
-  nameWithType: AgentLocomotionPhysics
-- uid: ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion
-  name: Locomotion
-  href: api/ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.html#ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_Locomotion
-  commentId: F:ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion
-  fullName: ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion
-  nameWithType: AgentLocomotionPhysics.Locomotion
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring
+  name: AgentGroundingAuthoring
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring
+  nameWithType: AgentGroundingAuthoring
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding
+  name: Grounding
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Grounding
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding
+  nameWithType: AgentGroundingAuthoring.Grounding
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding*
+  name: Grounding
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Grounding_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding
+  nameWithType: AgentGroundingAuthoring.Grounding
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers
+  name: Layers
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Layers
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers
+  nameWithType: AgentGroundingAuthoring.Layers
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers*
+  name: Layers
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Layers_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers
+  nameWithType: AgentGroundingAuthoring.Layers
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode
+  name: Mode
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Mode
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode
+  nameWithType: AgentGroundingAuthoring.Mode
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode*
+  name: Mode
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Mode_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode
+  nameWithType: AgentGroundingAuthoring.Mode
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Layers
+  name: m_Layers
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_m_Layers
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Layers
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Layers
+  nameWithType: AgentGroundingAuthoring.m_Layers
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Mode
+  name: m_Mode
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_m_Mode
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Mode
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Mode
+  nameWithType: AgentGroundingAuthoring.m_Mode
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingMode
+  name: AgentGroundingMode
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingMode.html
+  commentId: T:ProjectDawn.Navigation.Hybrid.AgentGroundingMode
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingMode
+  nameWithType: AgentGroundingMode
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingMode.Body
+  name: Body
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingMode.html#ProjectDawn_Navigation_Hybrid_AgentGroundingMode_Body
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentGroundingMode.Body
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingMode.Body
+  nameWithType: AgentGroundingMode.Body
+- uid: ProjectDawn.Navigation.Hybrid.AgentGroundingMode.BodyAndForce
+  name: BodyAndForce
+  href: api/ProjectDawn.Navigation.Hybrid.AgentGroundingMode.html#ProjectDawn_Navigation_Hybrid_AgentGroundingMode_BodyAndForce
+  commentId: F:ProjectDawn.Navigation.Hybrid.AgentGroundingMode.BodyAndForce
+  fullName: ProjectDawn.Navigation.Hybrid.AgentGroundingMode.BodyAndForce
+  nameWithType: AgentGroundingMode.BodyAndForce
 - uid: ProjectDawn.Navigation.Hybrid.AgentMotionType
   name: AgentMotionType
   href: api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html
@@ -5698,12 +5770,6 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentMotionType.Static
   fullName: ProjectDawn.Navigation.Hybrid.AgentMotionType.Static
   nameWithType: AgentMotionType.Static
-- uid: ProjectDawn.Navigation.Hybrid.AgentMotionType.Steering
-  name: Steering
-  href: api/ProjectDawn.Navigation.Hybrid.AgentMotionType.html#ProjectDawn_Navigation_Hybrid_AgentMotionType_Steering
-  commentId: F:ProjectDawn.Navigation.Hybrid.AgentMotionType.Steering
-  fullName: ProjectDawn.Navigation.Hybrid.AgentMotionType.Steering
-  nameWithType: AgentMotionType.Steering
 - uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring
   name: AgentNavMeshAuthoring
   href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html
@@ -5744,19 +5810,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.CreateCorners
   nameWithType: AgentNavMeshAuthoring.CreateCorners
-- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath
-  name: DefaulPath
-  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_DefaulPath
-  commentId: P:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath
-  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath
-  nameWithType: AgentNavMeshAuthoring.DefaulPath
-- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath*
-  name: DefaulPath
-  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_DefaulPath_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaulPath
-  nameWithType: AgentNavMeshAuthoring.DefaulPath
 - uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.DefaultPath
   name: DefaultPath
   href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_DefaultPath
@@ -5844,6 +5897,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.NavMeshLinkTraversal
   nameWithType: AgentNavMeshAuthoring.NavMeshLinkTraversal
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Nodes
+  name: Nodes
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_Nodes
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Nodes
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Nodes
+  nameWithType: AgentNavMeshAuthoring.Nodes
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Nodes*
+  name: Nodes
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_Nodes_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Nodes
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Nodes
+  nameWithType: AgentNavMeshAuthoring.Nodes
 - uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.OnLinkTraversal
   name: OnLinkTraversal
   href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_OnLinkTraversal
@@ -5857,6 +5923,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.OnLinkTraversal
   nameWithType: AgentNavMeshAuthoring.OnLinkTraversal
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Path
+  name: Path
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_Path
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Path
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Path
+  nameWithType: AgentNavMeshAuthoring.Path
+- uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Path*
+  name: Path
+  href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_Path_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Path
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.Path
+  nameWithType: AgentNavMeshAuthoring.Path
 - uid: ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.SeekLinkTraversal
   name: SeekLinkTraversal
   href: api/ProjectDawn.Navigation.Hybrid.AgentNavMeshAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentNavMeshAuthoring_SeekLinkTraversal
@@ -6005,6 +6084,19 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Radius
   nameWithType: AgentReciprocalAvoidAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Sonar
+  name: Sonar
+  href: api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentReciprocalAvoidAuthoring_Sonar
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Sonar
+  fullName: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Sonar
+  nameWithType: AgentReciprocalAvoidAuthoring.Sonar
+- uid: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Sonar*
+  name: Sonar
+  href: api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentReciprocalAvoidAuthoring_Sonar_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Sonar
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.Sonar
+  nameWithType: AgentReciprocalAvoidAuthoring.Sonar
 - uid: ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.m_Layers
   name: m_Layers
   href: api/ProjectDawn.Navigation.Hybrid.AgentReciprocalAvoidAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentReciprocalAvoidAuthoring_m_Layers
@@ -6017,19 +6109,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring
   fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring
   nameWithType: AgentSeparationAuthoring
-- uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation
-  name: DefaulSeparation
-  href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_DefaulSeparation
-  commentId: P:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation
-  fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation
-  nameWithType: AgentSeparationAuthoring.DefaulSeparation
-- uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation*
-  name: DefaulSeparation
-  href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_DefaulSeparation_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaulSeparation
-  nameWithType: AgentSeparationAuthoring.DefaulSeparation
 - uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.DefaultSeparation
   name: DefaultSeparation
   href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_DefaultSeparation
@@ -6075,6 +6154,19 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
   fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Radius
   nameWithType: AgentSeparationAuthoring.Radius
+- uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Separation
+  name: Separation
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_Separation
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Separation
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Separation
+  nameWithType: AgentSeparationAuthoring.Separation
+- uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Separation*
+  name: Separation
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_Separation_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Separation
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Separation
+  nameWithType: AgentSeparationAuthoring.Separation
 - uid: ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.Weight
   name: Weight
   href: api/ProjectDawn.Navigation.Hybrid.AgentSeparationAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSeparationAuthoring_Weight
@@ -6221,6 +6313,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.HasEntitySmartStop
   nameWithType: AgentSmartStopAuthoring.HasEntitySmartStop
+- uid: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.SmartStop
+  name: SmartStop
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSmartStopAuthoring_SmartStop
+  commentId: P:ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.SmartStop
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.SmartStop
+  nameWithType: AgentSmartStopAuthoring.SmartStop
+- uid: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.SmartStop*
+  name: SmartStop
+  href: api/ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSmartStopAuthoring_SmartStop_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.SmartStop
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.SmartStop
+  nameWithType: AgentSmartStopAuthoring.SmartStop
 - uid: ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.m_GiveUpStop
   name: m_GiveUpStop
   href: api/ProjectDawn.Navigation.Hybrid.AgentSmartStopAuthoring.html#ProjectDawn_Navigation_Hybrid_AgentSmartStopAuthoring_m_GiveUpStop
@@ -6498,6 +6603,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetGoals
   nameWithType: CrowdGroupAuthoring.SetGoals
+- uid: ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetSurface(ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring)
+  name: SetSurface(CrowdSurfaceAuthoring)
+  href: api/ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_CrowdGroupAuthoring_SetSurface_ProjectDawn_Navigation_Hybrid_CrowdSurfaceAuthoring_
+  commentId: M:ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetSurface(ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring)
+  fullName: ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetSurface(ProjectDawn.Navigation.Hybrid.CrowdSurfaceAuthoring)
+  nameWithType: CrowdGroupAuthoring.SetSurface(CrowdSurfaceAuthoring)
+- uid: ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetSurface*
+  name: SetSurface
+  href: api/ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_CrowdGroupAuthoring_SetSurface_
+  commentId: Overload:ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetSurface
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.SetSurface
+  nameWithType: CrowdGroupAuthoring.SetSurface
 - uid: ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.Speed
   name: Speed
   href: api/ProjectDawn.Navigation.Hybrid.CrowdGroupAuthoring.html#ProjectDawn_Navigation_Hybrid_CrowdGroupAuthoring_Speed
@@ -7068,50 +7186,6 @@ references:
   commentId: T:ProjectDawn.Navigation.Hybrid.INavMeshWallProvider
   fullName: ProjectDawn.Navigation.Hybrid.INavMeshWallProvider
   nameWithType: INavMeshWallProvider
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring
-  name: NavMeshSettingsAuthoring
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html
-  commentId: T:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring
-  nameWithType: NavMeshSettingsAuthoring
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.DefaultSettings
-  name: DefaultSettings
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_NavMeshSettingsAuthoring_DefaultSettings
-  commentId: P:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.DefaultSettings
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.DefaultSettings
-  nameWithType: NavMeshSettingsAuthoring.DefaultSettings
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.DefaultSettings*
-  name: DefaultSettings
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_NavMeshSettingsAuthoring_DefaultSettings_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.DefaultSettings
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.DefaultSettings
-  nameWithType: NavMeshSettingsAuthoring.DefaultSettings
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.GetOrCreateEntity
-  name: GetOrCreateEntity()
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_NavMeshSettingsAuthoring_GetOrCreateEntity
-  commentId: M:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.GetOrCreateEntity
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.GetOrCreateEntity()
-  nameWithType: NavMeshSettingsAuthoring.GetOrCreateEntity()
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.GetOrCreateEntity*
-  name: GetOrCreateEntity
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_NavMeshSettingsAuthoring_GetOrCreateEntity_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.GetOrCreateEntity
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.GetOrCreateEntity
-  nameWithType: NavMeshSettingsAuthoring.GetOrCreateEntity
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.m_MaxIterations
-  name: m_MaxIterations
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_NavMeshSettingsAuthoring_m_MaxIterations
-  commentId: F:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.m_MaxIterations
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.m_MaxIterations
-  nameWithType: NavMeshSettingsAuthoring.m_MaxIterations
-- uid: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.m_MaxPath
-  name: m_MaxPath
-  href: api/ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_NavMeshSettingsAuthoring_m_MaxPath
-  commentId: F:ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.m_MaxPath
-  fullName: ProjectDawn.Navigation.Hybrid.NavMeshSettingsAuthoring.m_MaxPath
-  nameWithType: NavMeshSettingsAuthoring.m_MaxPath
 - uid: ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker
   name: NavMeshSurfaceBaker
   href: api/ProjectDawn.Navigation.Hybrid.NavMeshSurfaceBaker.html
@@ -7309,44 +7383,6 @@ references:
   commentId: F:ProjectDawn.Navigation.Hybrid.SettingsBehaviour.Types
   fullName: ProjectDawn.Navigation.Hybrid.SettingsBehaviour.Types
   nameWithType: SettingsBehaviour.Types
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
-  name: SpatialPartitioningSettingsAuthoring
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html
-  commentId: T:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring
-  nameWithType: SpatialPartitioningSettingsAuthoring
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
-  name: CellSize
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_CellSize
-  commentId: F:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.CellSize
-  nameWithType: SpatialPartitioningSettingsAuthoring.CellSize
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings
-  name: DefaultSettings
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings
-  commentId: P:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings
-  nameWithType: SpatialPartitioningSettingsAuthoring.DefaultSettings
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings*
-  name: DefaultSettings
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_DefaultSettings_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.DefaultSettings
-  nameWithType: SpatialPartitioningSettingsAuthoring.DefaultSettings
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
-  name: GetOrCreateEntity()
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity
-  commentId: M:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity()
-  nameWithType: SpatialPartitioningSettingsAuthoring.GetOrCreateEntity()
-- uid: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity*
-  name: GetOrCreateEntity
-  href: api/ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.html#ProjectDawn_Navigation_Hybrid_SpatialPartitioningSettingsAuthoring_GetOrCreateEntity_
-  commentId: Overload:ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.Hybrid.SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
-  nameWithType: SpatialPartitioningSettingsAuthoring.GetOrCreateEntity
 - uid: ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem
   name: WriteAgentRectTransformSystem
   href: api/ProjectDawn.Navigation.Hybrid.WriteAgentRectTransformSystem.html
@@ -7629,22 +7665,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnCreateForCompiler
   nameWithType: NavMeshBoundarySystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: NavMeshBoundarySystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshBoundarySystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshBoundarySystem.html#ProjectDawn_Navigation_NavMeshBoundarySystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshBoundarySystem.OnUpdate
-  nameWithType: NavMeshBoundarySystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshCorners
   name: NavMeshCorners
   href: api/ProjectDawn.Navigation.NavMeshCorners.html
@@ -7749,18 +7769,46 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshDataInstance.Value
   fullName: ProjectDawn.Navigation.NavMeshDataInstance.Value
   nameWithType: NavMeshDataInstance.Value
+- uid: ProjectDawn.Navigation.NavMeshDataInstances
+  name: NavMeshDataInstances
+  href: api/ProjectDawn.Navigation.NavMeshDataInstances.html
+  commentId: T:ProjectDawn.Navigation.NavMeshDataInstances
+  fullName: ProjectDawn.Navigation.NavMeshDataInstances
+  nameWithType: NavMeshDataInstances
+- uid: ProjectDawn.Navigation.NavMeshDataInstances.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Navigation.NavMeshDataInstances.html#ProjectDawn_Navigation_NavMeshDataInstances_Dispose
+  commentId: M:ProjectDawn.Navigation.NavMeshDataInstances.Dispose
+  fullName: ProjectDawn.Navigation.NavMeshDataInstances.Dispose()
+  nameWithType: NavMeshDataInstances.Dispose()
+- uid: ProjectDawn.Navigation.NavMeshDataInstances.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Navigation.NavMeshDataInstances.html#ProjectDawn_Navigation_NavMeshDataInstances_Dispose_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshDataInstances.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshDataInstances.Dispose
+  nameWithType: NavMeshDataInstances.Dispose
+- uid: ProjectDawn.Navigation.NavMeshDataInstances.Instances
+  name: Instances
+  href: api/ProjectDawn.Navigation.NavMeshDataInstances.html#ProjectDawn_Navigation_NavMeshDataInstances_Instances
+  commentId: F:ProjectDawn.Navigation.NavMeshDataInstances.Instances
+  fullName: ProjectDawn.Navigation.NavMeshDataInstances.Instances
+  nameWithType: NavMeshDataInstances.Instances
 - uid: ProjectDawn.Navigation.NavMeshDataSystem
   name: NavMeshDataSystem
   href: api/ProjectDawn.Navigation.NavMeshDataSystem.html
   commentId: T:ProjectDawn.Navigation.NavMeshDataSystem
   fullName: ProjectDawn.Navigation.NavMeshDataSystem
   nameWithType: NavMeshDataSystem
-- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler
-  name: OnCreateForCompiler()
-  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnCreateForCompiler
-  commentId: M:ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler
-  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler()
-  nameWithType: NavMeshDataSystem.OnCreateForCompiler()
+- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: NavMeshDataSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: NavMeshDataSystem.OnCreateForCompiler(SystemState)
 - uid: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler*
   name: OnCreateForCompiler
   href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnCreateForCompiler_
@@ -7768,32 +7816,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnCreateForCompiler
   nameWithType: NavMeshDataSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
-  name: OnDestroy()
-  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnDestroy
-  commentId: M:ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
-  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy()
-  nameWithType: NavMeshDataSystem.OnDestroy()
-- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy*
-  name: OnDestroy
-  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnDestroy_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnDestroy
-  nameWithType: NavMeshDataSystem.OnDestroy
-- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
-  name: OnUpdate()
-  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnUpdate
-  commentId: M:ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
-  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate()
-  nameWithType: NavMeshDataSystem.OnUpdate()
-- uid: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshDataSystem.html#ProjectDawn_Navigation_NavMeshDataSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshDataSystem.OnUpdate
-  nameWithType: NavMeshDataSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshDisplacementSystem
   name: NavMeshDisplacementSystem
   href: api/ProjectDawn.Navigation.NavMeshDisplacementSystem.html
@@ -7816,22 +7838,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshDisplacementSystem.OnCreateForCompiler
   nameWithType: NavMeshDisplacementSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshDisplacementSystem.html#ProjectDawn_Navigation_NavMeshDisplacementSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: NavMeshDisplacementSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshDisplacementSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshDisplacementSystem.html#ProjectDawn_Navigation_NavMeshDisplacementSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshDisplacementSystem.OnUpdate
-  nameWithType: NavMeshDisplacementSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshFunnel
   name: NavMeshFunnel
   href: api/ProjectDawn.Navigation.NavMeshFunnel.html
@@ -7922,6 +7928,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshFunnel.IsEndReachable
   nameWithType: NavMeshFunnel.IsEndReachable
+- uid: ProjectDawn.Navigation.NavMeshFunnel.OptimizePath(UnityEngine.Experimental.AI.NavMeshQuery,Unity.Entities.DynamicBuffer{UnityEngine.Experimental.AI.PolygonId},UnityEngine.Experimental.AI.NavMeshLocation,System.Int32,Unity.Collections.NativeArray{System.Single})
+  name: OptimizePath(NavMeshQuery, DynamicBuffer<PolygonId>, NavMeshLocation, int, NativeArray<float>)
+  href: api/ProjectDawn.Navigation.NavMeshFunnel.html#ProjectDawn_Navigation_NavMeshFunnel_OptimizePath_UnityEngine_Experimental_AI_NavMeshQuery_Unity_Entities_DynamicBuffer_UnityEngine_Experimental_AI_PolygonId__UnityEngine_Experimental_AI_NavMeshLocation_System_Int32_Unity_Collections_NativeArray_System_Single__
+  commentId: M:ProjectDawn.Navigation.NavMeshFunnel.OptimizePath(UnityEngine.Experimental.AI.NavMeshQuery,Unity.Entities.DynamicBuffer{UnityEngine.Experimental.AI.PolygonId},UnityEngine.Experimental.AI.NavMeshLocation,System.Int32,Unity.Collections.NativeArray{System.Single})
+  name.vb: OptimizePath(NavMeshQuery, DynamicBuffer(Of PolygonId), NavMeshLocation, Integer, NativeArray(Of Single))
+  fullName: ProjectDawn.Navigation.NavMeshFunnel.OptimizePath(UnityEngine.Experimental.AI.NavMeshQuery, Unity.Entities.DynamicBuffer<UnityEngine.Experimental.AI.PolygonId>, UnityEngine.Experimental.AI.NavMeshLocation, int, Unity.Collections.NativeArray<float>)
+  fullName.vb: ProjectDawn.Navigation.NavMeshFunnel.OptimizePath(UnityEngine.Experimental.AI.NavMeshQuery, Unity.Entities.DynamicBuffer(Of UnityEngine.Experimental.AI.PolygonId), UnityEngine.Experimental.AI.NavMeshLocation, Integer, Unity.Collections.NativeArray(Of Single))
+  nameWithType: NavMeshFunnel.OptimizePath(NavMeshQuery, DynamicBuffer<PolygonId>, NavMeshLocation, int, NativeArray<float>)
+  nameWithType.vb: NavMeshFunnel.OptimizePath(NavMeshQuery, DynamicBuffer(Of PolygonId), NavMeshLocation, Integer, NativeArray(Of Single))
+- uid: ProjectDawn.Navigation.NavMeshFunnel.OptimizePath*
+  name: OptimizePath
+  href: api/ProjectDawn.Navigation.NavMeshFunnel.html#ProjectDawn_Navigation_NavMeshFunnel_OptimizePath_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshFunnel.OptimizePath
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshFunnel.OptimizePath
+  nameWithType: NavMeshFunnel.OptimizePath
 - uid: ProjectDawn.Navigation.NavMeshFunnel.TryCreateStraightPath(UnityEngine.Experimental.AI.NavMeshQuery,Unity.Collections.NativeSlice{UnityEngine.Experimental.AI.PolygonId},Unity.Mathematics.float3,Unity.Mathematics.float3)
   name: TryCreateStraightPath(NavMeshQuery, NativeSlice<PolygonId>, float3, float3)
   href: api/ProjectDawn.Navigation.NavMeshFunnel.html#ProjectDawn_Navigation_NavMeshFunnel_TryCreateStraightPath_UnityEngine_Experimental_AI_NavMeshQuery_Unity_Collections_NativeSlice_UnityEngine_Experimental_AI_PolygonId__Unity_Mathematics_float3_Unity_Mathematics_float3_
@@ -8035,19 +8057,6 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshPath.AutoRepath
   fullName: ProjectDawn.Navigation.NavMeshPath.AutoRepath
   nameWithType: NavMeshPath.AutoRepath
-- uid: ProjectDawn.Navigation.NavMeshPath.Constrained
-  name: Constrained
-  href: api/ProjectDawn.Navigation.NavMeshPath.html#ProjectDawn_Navigation_NavMeshPath_Constrained
-  commentId: P:ProjectDawn.Navigation.NavMeshPath.Constrained
-  fullName: ProjectDawn.Navigation.NavMeshPath.Constrained
-  nameWithType: NavMeshPath.Constrained
-- uid: ProjectDawn.Navigation.NavMeshPath.Constrained*
-  name: Constrained
-  href: api/ProjectDawn.Navigation.NavMeshPath.html#ProjectDawn_Navigation_NavMeshPath_Constrained_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshPath.Constrained
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshPath.Constrained
-  nameWithType: NavMeshPath.Constrained
 - uid: ProjectDawn.Navigation.NavMeshPath.Default
   name: Default
   href: api/ProjectDawn.Navigation.NavMeshPath.html#ProjectDawn_Navigation_NavMeshPath_Default
@@ -8124,6 +8133,12 @@ references:
   commentId: F:ProjectDawn.Navigation.NavMeshPath.MappingExtent
   fullName: ProjectDawn.Navigation.NavMeshPath.MappingExtent
   nameWithType: NavMeshPath.MappingExtent
+- uid: ProjectDawn.Navigation.NavMeshPath.OptimizePath
+  name: OptimizePath
+  href: api/ProjectDawn.Navigation.NavMeshPath.html#ProjectDawn_Navigation_NavMeshPath_OptimizePath
+  commentId: F:ProjectDawn.Navigation.NavMeshPath.OptimizePath
+  fullName: ProjectDawn.Navigation.NavMeshPath.OptimizePath
+  nameWithType: NavMeshPath.OptimizePath
 - uid: ProjectDawn.Navigation.NavMeshPath.QueryHandle
   name: QueryHandle
   href: api/ProjectDawn.Navigation.NavMeshPath.html#ProjectDawn_Navigation_NavMeshPath_QueryHandle
@@ -8206,22 +8221,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnCreateForCompiler
   nameWithType: NavMeshPathSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState@)
-  name: OnUpdate(ref SystemState)
-  href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState__
-  commentId: M:ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState@)
-  name.vb: OnUpdate(SystemState)
-  fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(ref Unity.Entities.SystemState)
-  fullName.vb: ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState)
-  nameWithType: NavMeshPathSystem.OnUpdate(ref SystemState)
-  nameWithType.vb: NavMeshPathSystem.OnUpdate(SystemState)
-- uid: ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.NavMeshPathSystem.html#ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate
-  nameWithType: NavMeshPathSystem.OnUpdate
 - uid: ProjectDawn.Navigation.NavMeshQueryHandle
   name: NavMeshQueryHandle
   href: api/ProjectDawn.Navigation.NavMeshQueryHandle.html
@@ -8463,24 +8462,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshQuerySystem.OnUpdate
   nameWithType: NavMeshQuerySystem.OnUpdate
-- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Settings
-  name: NavMeshQuerySystem.Settings
-  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html
-  commentId: T:ProjectDawn.Navigation.NavMeshQuerySystem.Settings
-  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Settings
-  nameWithType: NavMeshQuerySystem.Settings
-- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Settings.MaxIterations
-  name: MaxIterations
-  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html#ProjectDawn_Navigation_NavMeshQuerySystem_Settings_MaxIterations
-  commentId: F:ProjectDawn.Navigation.NavMeshQuerySystem.Settings.MaxIterations
-  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Settings.MaxIterations
-  nameWithType: NavMeshQuerySystem.Settings.MaxIterations
-- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Settings.MaxPathSize
-  name: MaxPathSize
-  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Settings.html#ProjectDawn_Navigation_NavMeshQuerySystem_Settings_MaxPathSize
-  commentId: F:ProjectDawn.Navigation.NavMeshQuerySystem.Settings.MaxPathSize
-  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Settings.MaxPathSize
-  nameWithType: NavMeshQuerySystem.Settings.MaxPathSize
 - uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton
   name: NavMeshQuerySystem.Singleton
   href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html
@@ -8670,6 +8651,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.MoveLocation
   nameWithType: NavMeshQuerySystem.Singleton.MoveLocation
+- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath(ProjectDawn.Navigation.NavMeshFunnel@,Unity.Entities.DynamicBuffer{UnityEngine.Experimental.AI.PolygonId},UnityEngine.Experimental.AI.NavMeshLocation,System.Int32,Unity.Collections.NativeArray{System.Single})
+  name: OptimizePath(ref NavMeshFunnel, DynamicBuffer<PolygonId>, NavMeshLocation, int, NativeArray<float>)
+  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html#ProjectDawn_Navigation_NavMeshQuerySystem_Singleton_OptimizePath_ProjectDawn_Navigation_NavMeshFunnel__Unity_Entities_DynamicBuffer_UnityEngine_Experimental_AI_PolygonId__UnityEngine_Experimental_AI_NavMeshLocation_System_Int32_Unity_Collections_NativeArray_System_Single__
+  commentId: M:ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath(ProjectDawn.Navigation.NavMeshFunnel@,Unity.Entities.DynamicBuffer{UnityEngine.Experimental.AI.PolygonId},UnityEngine.Experimental.AI.NavMeshLocation,System.Int32,Unity.Collections.NativeArray{System.Single})
+  name.vb: OptimizePath(NavMeshFunnel, DynamicBuffer(Of PolygonId), NavMeshLocation, Integer, NativeArray(Of Single))
+  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath(ref ProjectDawn.Navigation.NavMeshFunnel, Unity.Entities.DynamicBuffer<UnityEngine.Experimental.AI.PolygonId>, UnityEngine.Experimental.AI.NavMeshLocation, int, Unity.Collections.NativeArray<float>)
+  fullName.vb: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath(ProjectDawn.Navigation.NavMeshFunnel, Unity.Entities.DynamicBuffer(Of UnityEngine.Experimental.AI.PolygonId), UnityEngine.Experimental.AI.NavMeshLocation, Integer, Unity.Collections.NativeArray(Of Single))
+  nameWithType: NavMeshQuerySystem.Singleton.OptimizePath(ref NavMeshFunnel, DynamicBuffer<PolygonId>, NavMeshLocation, int, NativeArray<float>)
+  nameWithType.vb: NavMeshQuerySystem.Singleton.OptimizePath(NavMeshFunnel, DynamicBuffer(Of PolygonId), NavMeshLocation, Integer, NativeArray(Of Single))
+- uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath*
+  name: OptimizePath
+  href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html#ProjectDawn_Navigation_NavMeshQuerySystem_Singleton_OptimizePath_
+  commentId: Overload:ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.OptimizePath
+  nameWithType: NavMeshQuerySystem.Singleton.OptimizePath
 - uid: ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.ProgressPath(Unity.Entities.DynamicBuffer{ProjectDawn.Navigation.NavMeshNode}@,UnityEngine.Experimental.AI.PolygonId,UnityEngine.Experimental.AI.PolygonId)
   name: ProgressPath(ref DynamicBuffer<NavMeshNode>, PolygonId, PolygonId)
   href: api/ProjectDawn.Navigation.NavMeshQuerySystem.Singleton.html#ProjectDawn_Navigation_NavMeshQuerySystem_Singleton_ProgressPath_Unity_Entities_DynamicBuffer_ProjectDawn_Navigation_NavMeshNode___UnityEngine_Experimental_AI_PolygonId_UnityEngine_Experimental_AI_PolygonId_

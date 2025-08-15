@@ -5,21 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum StraightPathFlags
- </title>
+    <title>Grounding </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum StraightPathFlags
- ">
+    <meta name="title" content="Grounding ">
     <meta name="generator" content="docfx ">
   
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
   
-  <meta property="docfx:rel" content="../">
+  <meta property="docfx:rel" content="../../">
   
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -36,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -78,44 +76,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.StraightPathFlags">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="grounding">Grounding</h1>
 
-
-  <h1 id="ProjectDawn_Navigation_StraightPathFlags" data-uid="ProjectDawn.Navigation.StraightPathFlags" class="text-break">Enum StraightPathFlags
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Navigation.html">Navigation</a></h6>
-  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
-  <h5 id="ProjectDawn_Navigation_StraightPathFlags_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">[Flags]
-public enum StraightPathFlags</code></pre>
-  </div>
-  <h3 id="fields">Fields
-</h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    </thead></thead><tbody>
-      <tr>
-        <td id="ProjectDawn_Navigation_StraightPathFlags_End">End</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="ProjectDawn_Navigation_StraightPathFlags_OffMeshConnection">OffMeshConnection</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="ProjectDawn_Navigation_StraightPathFlags_Start">Start</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+<p>This component improves the quality of agent movement along the up axis. It essentially simulates Unity Physics gravity and raycasts the ground for collisions. As a result, it reduces jagged movement when ascending or descending, since navigation surfaces often lose accuracy during generation.</p>
+<p>It is recommended not to use this component if you plan to add physics to your GameObject, as Unity Physics already handles gravity and collisions, making this component redundant.</p>
+<p>For collisions, it uses Unity’s built-in Nvidia PhysX. This means that for it to work, the surfaces you want it to collide with must have built-in colliders. This will not work with ECS Physics.</p>
 </article>
           </div>
 
@@ -123,12 +89,6 @@ public enum StraightPathFlags</code></pre>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_StraightPathFlags.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.StraightPathFlags%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMeshQuery/PathUtils.cs/#L30" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
@@ -154,8 +114,8 @@ public enum StraightPathFlags</code></pre>
       </footer>
     </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

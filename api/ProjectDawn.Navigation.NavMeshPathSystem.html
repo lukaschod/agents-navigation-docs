@@ -151,58 +151,6 @@ public struct NavMeshPathSystem : ISystem, ISystemCompilerGenerated</code></pre>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState__.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/NavMesh/NavMeshPathSystem.cs/#L16">View Source</a>
-  </span>
-  <a id="ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate*"></a>
-  <h4 id="ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.NavMeshPathSystem.OnUpdate(Unity.Entities.SystemState@)">OnUpdate(ref SystemState)</h4>
-  <div class="markdown level1 summary"><p>Implement <code>OnUpdate</code> to perform the major work of this system.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">[BurstCompile]
-public void OnUpdate(ref SystemState state)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SystemState</span></td>
-        <td><span class="parametername">state</span></td>
-        <td><p>The <span class="xref">Unity.Entities.SystemState</span> backing this system instance</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="ProjectDawn_Navigation_NavMeshPathSystem_OnUpdate_Unity_Entities_SystemState___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
- By default, the system invokes `OnUpdate` once every frame on the main thread.
- To skip OnUpdate if all of the system's [EntityQueries] are empty, use the
- [RequireMatchingQueriesForUpdateAttribute]. To limit when OnUpdate is invoked, you can
- specify components that must exist, or queries that match specific Entities. To do
- this, call <span class="xref">Unity.Entities.SystemState.RequireForUpdate&lt;T&gt;()</span> or
- <span class="xref">Unity.Entities.SystemState.RequireForUpdate(Unity.Entities.EntityQuery)</span>
- in the system's OnCreate method. For more information, see <span class="xref">Unity.Entities.SystemState.ShouldRunSystem()</span>.
- </p>
-<p>
- You can instantiate and schedule an <span class="xref">Unity.Entities.IJobChunk</span> instance; you can use the
- [C# Job System] or you can perform work on the main thread. If you call <span class="xref">Unity.Entities.EntityManager</span> methods
- that perform structural changes on the main thread, be sure to arrange the system order to minimize the
- performance impact of the resulting [sync points].
- </p>
-</div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">Unity.Entities.ISystem</span>

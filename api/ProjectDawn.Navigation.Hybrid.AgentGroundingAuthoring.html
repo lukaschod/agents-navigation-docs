@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AgentLocomotionPhysics
+    <title>Class AgentGroundingAuthoring
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AgentLocomotionPhysics
+    <meta name="title" content="Class AgentGroundingAuthoring
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,12 +78,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring">
 
 
-  <h1 id="ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics" data-uid="ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics" class="text-break">Class AgentLocomotionPhysics
+  <h1 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring" class="text-break">Class AgentGroundingAuthoring
 </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Enables collisio with other agents.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +93,7 @@
     <div class="level2"><span class="xref">Component</span></div>
     <div class="level3"><span class="xref">Behaviour</span></div>
     <div class="level4"><span class="xref">MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">AgentLocomotionPhysics</span></div>
+    <div class="level5"><span class="xref">AgentGroundingAuthoring</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -477,27 +478,31 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Navigation.html">Navigation</a>.<a class="xref" href="ProjectDawn.Navigation.Hybrid.html">Hybrid</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.Hybrid.dll</h6>
-  <h5 id="ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang- hljs">[RequireComponent(typeof(AgentAuthoring))]
-[RequireComponent(typeof(Rigidbody))]
-public class AgentLocomotionPhysics : MonoBehaviour</code></pre>
+[AddComponentMenu(&quot;Agents Navigation/Agent Grounding&quot;)]
+[DisallowMultipleComponent]
+[HelpURL(&quot;https://lukaschod.github.io/agents-navigation-docs/manual/game-objects/grounding.html&quot;)]
+public class AgentGroundingAuthoring : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_Locomotion.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_m_Layers.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Layers%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentLocomotionPhysics.cs/#L11">View Source</a>
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentGroundingAuthoring.cs/#L23">View Source</a>
   </span>
-  <h4 id="ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics_Locomotion" data-uid="ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics.Locomotion">Locomotion</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_m_Layers" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Layers">m_Layers</h4>
+  <div class="markdown level1 summary"><p>Enables collisio with other agents.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public AgentLocomotion Locomotion</code></pre>
+    <pre><code class="lang- hljs">[SerializeField]
+protected LayerMask m_Layers</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -509,7 +514,134 @@ public class AgentLocomotionPhysics : MonoBehaviour</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.AgentLocomotion.html">AgentLocomotion</a></td>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_m_Mode.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Mode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentGroundingAuthoring.cs/#L26">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_m_Mode" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.m_Mode">m_Mode</h4>
+  <div class="markdown level1 summary"><p>Enables collisio with other agents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">[SerializeField]
+protected AgentGroundingMode m_Mode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.Hybrid.AgentGroundingMode.html">AgentGroundingMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Grounding.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentGroundingAuthoring.cs/#L56">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Grounding_" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding*"></a>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Grounding" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Grounding">Grounding</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="ProjectDawn.Navigation.AgentGrounding.html">AgentGrounding</a> component of this <a class="xref" href="ProjectDawn.Navigation.Hybrid.AgentAuthoring.html">AgentAuthoring</a> Entity.
+Accessing this property is potentially heavy operation as it will require wait for agent jobs to finish.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public ref AgentGrounding Grounding { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.AgentGrounding.html">AgentGrounding</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Layers.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentGroundingAuthoring.cs/#L28">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Layers_" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers*"></a>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Layers" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Layers">Layers</h4>
+  <div class="markdown level1 summary"><p>Enables collisio with other agents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public LayerMask Layers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Mode.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentGroundingAuthoring.cs/#L39">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Mode_" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode*"></a>
+  <h4 id="ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring_Mode" data-uid="ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring.Mode">Mode</h4>
+  <div class="markdown level1 summary"><p>Enables collisio with other agents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public AgentGroundingMode Mode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.Hybrid.AgentGroundingMode.html">AgentGroundingMode</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -522,10 +654,10 @@ public class AgentLocomotionPhysics : MonoBehaviour</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentLocomotionPhysics.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentLocomotionPhysics%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_Hybrid_AgentGroundingAuthoring.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.Hybrid.AgentGroundingAuthoring%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentLocomotionPhysics.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation.Hybrid/AgentGroundingAuthoring.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

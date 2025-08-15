@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISpatialQueryEntity
+    <title>Struct AgentGroundingSlopeSystem
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISpatialQueryEntity
+    <meta name="title" content="Struct AgentGroundingSlopeSystem
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,35 +78,61 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.ISpatialQueryEntity">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.AgentGroundingSlopeSystem">
 
 
-  <h1 id="ProjectDawn_Navigation_ISpatialQueryEntity" data-uid="ProjectDawn.Navigation.ISpatialQueryEntity" class="text-break">Interface ISpatialQueryEntity
+  <h1 id="ProjectDawn_Navigation_AgentGroundingSlopeSystem" data-uid="ProjectDawn.Navigation.AgentGroundingSlopeSystem" class="text-break">Struct AgentGroundingSlopeSystem
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ISystem</span></div>
+    <div><span class="xref">ISystemCompilerGenerated</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Navigation.html">Navigation</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
-  <h5 id="ProjectDawn_Navigation_ISpatialQueryEntity_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Navigation_AgentGroundingSlopeSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public interface ISpatialQueryEntity</code></pre>
+    <pre><code class="lang- hljs">[BurstCompile]
+[UpdateInGroup(typeof(AgentSystemGroup))]
+[UpdateAfter(typeof(AgentForceSystemGroup))]
+[UpdateBefore(typeof(AgentLocomotionSystemGroup))]
+public struct AgentGroundingSlopeSystem : ISystem, ISystemCompilerGenerated</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_ISpatialQueryEntity_Execute_Unity_Entities_Entity_ProjectDawn_Navigation_AgentBody_ProjectDawn_Navigation_AgentShape_Unity_Transforms_LocalTransform_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.ISpatialQueryEntity.Execute(Unity.Entities.Entity%2CProjectDawn.Navigation.AgentBody%2CProjectDawn.Navigation.AgentShape%2CUnity.Transforms.LocalTransform)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AgentSpatialPartitioningSystem.cs/#L695">View Source</a>
-  </span>
-  <a id="ProjectDawn_Navigation_ISpatialQueryEntity_Execute_" data-uid="ProjectDawn.Navigation.ISpatialQueryEntity.Execute*"></a>
-  <h4 id="ProjectDawn_Navigation_ISpatialQueryEntity_Execute_Unity_Entities_Entity_ProjectDawn_Navigation_AgentBody_ProjectDawn_Navigation_AgentShape_Unity_Transforms_LocalTransform_" data-uid="ProjectDawn.Navigation.ISpatialQueryEntity.Execute(Unity.Entities.Entity,ProjectDawn.Navigation.AgentBody,ProjectDawn.Navigation.AgentShape,Unity.Transforms.LocalTransform)">Execute(Entity, AgentBody, AgentShape, LocalTransform)</h4>
-  <div class="markdown level1 summary"></div>
+
+
+  <a id="ProjectDawn_Navigation_AgentGroundingSlopeSystem_OnCreateForCompiler_" data-uid="ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler*"></a>
+  <h4 id="ProjectDawn_Navigation_AgentGroundingSlopeSystem_OnCreateForCompiler_Unity_Entities_SystemState__" data-uid="ProjectDawn.Navigation.AgentGroundingSlopeSystem.OnCreateForCompiler(Unity.Entities.SystemState@)">OnCreateForCompiler(ref SystemState)</h4>
+  <div class="markdown level1 summary"><p>Generated by compilation pipeline and used internally.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">void Execute(Entity entity, AgentBody body, AgentShape shape, LocalTransform transform)</code></pre>
+    <pre><code class="lang- hljs">public void OnCreateForCompiler(ref SystemState state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,27 +145,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Entity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.AgentBody.html">AgentBody</a></td>
-        <td><span class="parametername">body</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Navigation.AgentShape.html">AgentShape</a></td>
-        <td><span class="parametername">shape</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">LocalTransform</span></td>
-        <td><span class="parametername">transform</span></td>
-        <td></td>
+        <td><span class="xref">SystemState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The <span class="xref">Unity.Entities.SystemState</span> backing this system instance</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Unity.Entities.ISystem</span>
+  </div>
+  <div>
+      <span class="xref">Unity.Entities.ISystemCompilerGenerated</span>
+  </div>
 </article>
           </div>
 
@@ -147,12 +166,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_ISpatialQueryEntity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.ISpatialQueryEntity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AgentSpatialPartitioningSystem.cs/#L693" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
