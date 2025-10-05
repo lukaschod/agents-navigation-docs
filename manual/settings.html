@@ -88,6 +88,12 @@ The first field references project wide settings asset that stores serialized fi
 <h5>Note</h5>
 <p>Then setting asset is referenced it will be automatically stored in player settings <a href="https://docs.unity3d.com/ScriptReference/PlayerSettings.GetPreloadedAssets.html">preloaded assets</a>. In case no asset is referenced the default settings will be used.</p>
 </div>
+<h2 id="regular-update">Regular Update</h2>
+<p>By default, all navigation systems run in <code>FixedStepSimulationSystemGroup</code>. This makes all systems update in fixed steps. It works very similarly to <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/MonoBehaviour.FixedUpdate.html">MonoBehaviour.FixedUpdate</a>, and most of the same principles apply. The time step for fixed updates can be changed in <code>Project Settings -&gt; Time -&gt; Fixed Timestep</code>.</p>
+<p>By enabling the <code>Regular Update</code> option in the settings, all systems will instead run in the regular <code>StepSimulationSystemGroup</code>, similar to <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/MonoBehaviour.Update.html">MonoBehaviour.Update</a>.</p>
+<p>Fixed Update essentially works like this: on each frame, Unity checks how much time has accumulated since the last fixed update. If the accumulated time is greater than the fixed timestep, a fixed update is run. Unity may run multiple fixed updates within a single frame.</p>
+<p>When should you use fixed versus regular updates? It really depends on your game. Fixed Update is typically used when you want more determinism and more stable navigation. Since each step is fixed, it is less likely to produce unpredictable errors caused by varying delta time. However, it is very important to ensure that your game does not fall below the target fixed timestep. Otherwise, it can lead to what is called the “spiral of death,” where each frame accumulates more and more fixed updates, eventually degrading performance drastically.</p>
+<p>Fixed Update can also sometimes cause jagged agent movement. For example, if your game runs faster than the fixed timestep, agents may only move every other frame, creating the illusion of lag.</p>
 </article>
           </div>
 
