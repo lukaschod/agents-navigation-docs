@@ -1,0 +1,874 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct UnsafeBHVTree&lt;TVolume, TValue&gt;
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct UnsafeBHVTree&lt;TVolume, TValue&gt;
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2">
+
+
+  <h1 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2" class="text-break">Struct UnsafeBHVTree&lt;TVolume, TValue&gt;
+</h1>
+  <div class="markdown level0 summary"><p>An unmanaged, resizable bhv tree, without any thread safety check features.
+BHV tree (short for bounding hierarchy volume tree) is a space-partitioning data structure for organizing bounding shapes in space.
+As structure uses generic it is not only usable for boxes, but any shape that implements interfaces.
+Based on <a href="https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf">https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Navigation.html">Navigation</a>.<a class="xref" href="ProjectDawn.Navigation.LowLevel.html">LowLevel</a>.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.html">Unsafe</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Navigation.dll</h6>
+  <h5 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public struct UnsafeBHVTree&lt;TVolume, TValue&gt; : IDisposable where TVolume : unmanaged, ISurfaceArea&lt;TVolume&gt;, IUnion&lt;TVolume&gt; where TValue : unmanaged</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TVolume</span></td>
+        <td><p>The type of the bounding volume.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The stored value in accelerated structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.%23ctor(System.Int32%2CUnity.Collections.AllocatorManager.AllocatorHandle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L87">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2__ctor_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.#ctor*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)">UnsafeBHVTree(int, AllocatorHandle)</h4>
+  <div class="markdown level1 summary"><p>Initialized and returns an instance of NativeAABBTree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public UnsafeBHVTree(int initialCapacity, AllocatorManager.AllocatorHandle allocator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>The initial capacity of the priority queue.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">AllocatorManager</span>.<span class="xref">AllocatorHandle</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>The allocator to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Capacity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L50">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Capacity_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Capacity*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Capacity" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"><p>The number of elements that fit in the current allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public int Capacity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The number of elements that fit in the current allocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.IsCreated%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L56">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsCreated_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsCreated*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsCreated" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsCreated">IsCreated</h4>
+  <div class="markdown level1 summary"><p>Whether this tree has been allocated (and not yet deallocated).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool IsCreated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this tree has been allocated (and not yet deallocated).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsEmpty.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.IsEmpty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L38">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsEmpty_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsEmpty*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsEmpty" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsEmpty">IsEmpty</h4>
+  <div class="markdown level1 summary"><p>Whether the tree is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool IsEmpty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if the tree is empty or the tree has not been constructed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Item_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Item(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L67">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Item_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Item*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Item_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Item(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)">this[Handle]</h4>
+  <div class="markdown level1 summary"><p>The bode at a given handle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public UnsafeBHVTree&lt;TVolume, TValue&gt;.Node this[UnsafeBHVTree&lt;TVolume, TValue&gt;.Handle handle] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html">Handle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Length%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L44">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Length_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Length*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Length" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Length">Length</h4>
+  <div class="markdown level1 summary"><p>The number of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public int Length { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The number of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Root.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Root%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L61">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Root_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Root*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Root" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Root">Root</h4>
+  <div class="markdown level1 summary"><p>Returns the tree root handle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public UnsafeBHVTree&lt;TVolume, TValue&gt;.Handle Root { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html">Handle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Add__0__1_System_Boolean_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Add(%600%2C%601%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L126">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Add_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Add*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Add__0__1_System_Boolean_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Add(`0,`1,System.Boolean)">Add(TVolume, TValue, bool)</h4>
+  <div class="markdown level1 summary"><p>Add element to the tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public UnsafeBHVTree&lt;TVolume, TValue&gt;.Handle Add(TVolume volume, TValue value, bool rebalance = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TVolume</span></td>
+        <td><span class="parametername">volume</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">rebalance</span></td>
+        <td><p>Should it attempt to rebalance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html">Handle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L392">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Clear_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Clear*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Clear" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Removes all nodes of this tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void Clear()</code></pre>
+  </div>
+  <h5 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Clear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Does not change the capacity.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Cost.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Cost%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L262">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Cost_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Cost*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Cost" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Cost">Cost()</h4>
+  <div class="markdown level1 summary"><p>Returns the sum of all non leaf surface area.
+The lower the number is, the more optimal a tree will be.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public float Cost()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountLeafs.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.CountLeafs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L284">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountLeafs_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountLeafs*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountLeafs" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountLeafs">CountLeafs()</h4>
+  <div class="markdown level1 summary"><p>Returns the number leaf nodes in this aabb tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public int CountLeafs()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>Returns the number leaf nodes in this aabb tree.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountNodes.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.CountNodes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L308">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountNodes_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountNodes*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountNodes" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountNodes">CountNodes()</h4>
+  <div class="markdown level1 summary"><p>Returns the number nodes in this tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public int CountNodes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>Returns the number nodes in this tree.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Create(System.Int32%2CUnity.Collections.AllocatorManager.AllocatorHandle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L103">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Create_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Create*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)">Create(int, AllocatorHandle)</h4>
+  <div class="markdown level1 summary"><p>Creates a new container with the specified initial capacity and type of memory allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static UnsafeBHVTree&lt;TVolume, TValue&gt;* Create(int initialCapacity, AllocatorManager.AllocatorHandle allocator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>The initial capacity of the list. If the list grows larger than its capacity,
+the internal array is copied to a new, larger array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">AllocatorManager</span>.<span class="xref">AllocatorHandle</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>A member of the
+<a href="https://docs.unity3d.com/ScriptReference/Unity.Collections.Allocator.html">Unity.Collections.Allocator</a> enumeration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;*</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Destroy_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1___.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%7B%600%2C%601%7D*)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L113">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Destroy_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Destroy*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Destroy_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1___" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}*)">Destroy(UnsafeBHVTree&lt;TVolume, TValue&gt;*)</h4>
+  <div class="markdown level1 summary"><p>Destroys container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public static void Destroy(UnsafeBHVTree&lt;TVolume, TValue&gt;* data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;*</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L403">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Dispose_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Dispose*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Dispose" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Releases all resources (memory and safety handles).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetBalancedTreeFactor.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.GetBalancedTreeFactor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L356">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetBalancedTreeFactor_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetBalancedTreeFactor*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetBalancedTreeFactor" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetBalancedTreeFactor">GetBalancedTreeFactor()</h4>
+  <div class="markdown level1 summary"><p>Returns factor from zero to one. Where one represents if tree is balanced and zero is unbalanced.
+This value can be used to decide if tree needs balancing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public float GetBalancedTreeFactor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><p>Returns factor from zero to one. Where zero represents if tree is balanced and one is unbalanced.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetDepth.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.GetDepth%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L329">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetDepth_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetDepth*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetDepth" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetDepth">GetDepth()</h4>
+  <div class="markdown level1 summary"><p>Returns the depth of the tree. It is the maximum height of all nodes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public int GetDepth()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetNode_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.GetNode(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L76">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetNode_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetNode*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetNode_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetNode(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)">GetNode(Handle)</h4>
+  <div class="markdown level1 summary"><p>An unmanaged, resizable bhv tree, without any thread safety check features.
+BHV tree (short for bounding hierarchy volume tree) is a space-partitioning data structure for organizing bounding shapes in space.
+As structure uses generic it is not only usable for boxes, but any shape that implements interfaces.
+Based on <a href="https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf">https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public UnsafeBHVTree&lt;TVolume, TValue&gt;.Node GetNode(UnsafeBHVTree&lt;TVolume, TValue&gt;.Handle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html">Handle</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_RemoveAt_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602.RemoveAt(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L208">View Source</a>
+  </span>
+  <a id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_RemoveAt_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.RemoveAt*"></a>
+  <h4 id="ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_RemoveAt_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_" data-uid="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.RemoveAt(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)">RemoveAt(Handle)</h4>
+  <div class="markdown level1 summary"><p>Removes node from the tree at givent iterator value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void RemoveAt(UnsafeBHVTree&lt;TVolume, TValue&gt;.Handle iterator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html">UnsafeBHVTree</a>&lt;TVolume, TValue&gt;.<a class="xref" href="ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html">Handle</a></td>
+        <td><span class="parametername">iterator</span></td>
+        <td><p>Position from which node will be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/new/main/apiSpec/new?filename=ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2.md&amp;value=---%0Auid%3A%20ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree%602%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lukaschod/AgentsNavigation/blob/main/Packages/com.projectdawn.navigation/ProjectDawn.Navigation/SpatialPartitioning/AABBTree/UnsafeBHVTree.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

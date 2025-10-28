@@ -1100,12 +1100,15 @@ references:
   commentId: T:ProjectDawn.Navigation.AgentFlockSystem
   fullName: ProjectDawn.Navigation.AgentFlockSystem
   nameWithType: AgentFlockSystem
-- uid: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler
-  name: OnCreateForCompiler()
-  href: api/ProjectDawn.Navigation.AgentFlockSystem.html#ProjectDawn_Navigation_AgentFlockSystem_OnCreateForCompiler
-  commentId: M:ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler
-  fullName: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler()
-  nameWithType: AgentFlockSystem.OnCreateForCompiler()
+- uid: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Navigation.AgentFlockSystem.html#ProjectDawn_Navigation_AgentFlockSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: AgentFlockSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: AgentFlockSystem.OnCreateForCompiler(SystemState)
 - uid: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler*
   name: OnCreateForCompiler
   href: api/ProjectDawn.Navigation.AgentFlockSystem.html#ProjectDawn_Navigation_AgentFlockSystem_OnCreateForCompiler_
@@ -1113,19 +1116,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentFlockSystem.OnCreateForCompiler
   nameWithType: AgentFlockSystem.OnCreateForCompiler
-- uid: ProjectDawn.Navigation.AgentFlockSystem.OnUpdate
-  name: OnUpdate()
-  href: api/ProjectDawn.Navigation.AgentFlockSystem.html#ProjectDawn_Navigation_AgentFlockSystem_OnUpdate
-  commentId: M:ProjectDawn.Navigation.AgentFlockSystem.OnUpdate
-  fullName: ProjectDawn.Navigation.AgentFlockSystem.OnUpdate()
-  nameWithType: AgentFlockSystem.OnUpdate()
-- uid: ProjectDawn.Navigation.AgentFlockSystem.OnUpdate*
-  name: OnUpdate
-  href: api/ProjectDawn.Navigation.AgentFlockSystem.html#ProjectDawn_Navigation_AgentFlockSystem_OnUpdate_
-  commentId: Overload:ProjectDawn.Navigation.AgentFlockSystem.OnUpdate
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentFlockSystem.OnUpdate
-  nameWithType: AgentFlockSystem.OnUpdate
 - uid: ProjectDawn.Navigation.AgentFlockingSystem
   name: AgentFlockingSystem
   href: api/ProjectDawn.Navigation.AgentFlockingSystem.html
@@ -2008,22 +1998,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder
   nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinder
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells*
-  name: QueryCylinderCells
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinderCells_
-  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells``1(Unity.Mathematics.float3,System.Single,System.Single,``0)
-  name: QueryCylinderCells<T>(float3, float, float, T)
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinderCells__1_Unity_Mathematics_float3_System_Single_System_Single___0_
-  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells``1(Unity.Mathematics.float3,System.Single,System.Single,``0)
-  name.vb: QueryCylinderCells(Of T)(float3, Single, Single, T)
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells<T>(Unity.Mathematics.float3, float, float, T)
-  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells(Of T)(Unity.Mathematics.float3, Single, Single, T)
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells<T>(float3, float, float, T)
-  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QueryCylinderCells(Of T)(float3, Single, Single, T)
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QueryCylinder``1(Unity.Mathematics.float3,System.Single,System.Single,System.Int32,``0@,ProjectDawn.Navigation.NavigationLayers)
   name: QueryCylinder<T>(float3, float, float, int, ref T, NavigationLayers)
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QueryCylinder__1_Unity_Mathematics_float3_System_Single_System_Single_System_Int32___0__ProjectDawn_Navigation_NavigationLayers_
@@ -2065,22 +2039,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphere
   nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphere
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells*
-  name: QuerySphereCells
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphereCells_
-  commentId: Overload:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphereCells
-- uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells``1(Unity.Mathematics.float3,System.Single,``0)
-  name: QuerySphereCells<T>(float3, float, T)
-  href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphereCells__1_Unity_Mathematics_float3_System_Single___0_
-  commentId: M:ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells``1(Unity.Mathematics.float3,System.Single,``0)
-  name.vb: QuerySphereCells(Of T)(float3, Single, T)
-  fullName: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells<T>(Unity.Mathematics.float3, float, T)
-  fullName.vb: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphereCells(Of T)(Unity.Mathematics.float3, Single, T)
-  nameWithType: AgentSpatialPartitioningSystem.Singleton.QuerySphereCells<T>(float3, float, T)
-  nameWithType.vb: AgentSpatialPartitioningSystem.Singleton.QuerySphereCells(Of T)(float3, Single, T)
 - uid: ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.QuerySphere``1(Unity.Mathematics.float3,System.Single,``0@,ProjectDawn.Navigation.NavigationLayers)
   name: QuerySphere<T>(float3, float, ref T, NavigationLayers)
   href: api/ProjectDawn.Navigation.AgentSpatialPartitioningSystem.Singleton.html#ProjectDawn_Navigation_AgentSpatialPartitioningSystem_Singleton_QuerySphere__1_Unity_Mathematics_float3_System_Single___0__ProjectDawn_Navigation_NavigationLayers_
@@ -2594,6 +2552,150 @@ references:
   commentId: F:ProjectDawn.Navigation.BirdWander.Step
   fullName: ProjectDawn.Navigation.BirdWander.Step
   nameWithType: BirdWander.Step
+- uid: ProjectDawn.Navigation.CollectionChecks
+  name: CollectionChecks
+  href: api/ProjectDawn.Navigation.CollectionChecks.html
+  commentId: T:ProjectDawn.Navigation.CollectionChecks
+  fullName: ProjectDawn.Navigation.CollectionChecks
+  nameWithType: CollectionChecks
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckAllocator(Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: CheckAllocator(AllocatorHandle)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckAllocator_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckAllocator(Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckAllocator(Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: CollectionChecks.CheckAllocator(AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckAllocator*
+  name: CheckAllocator
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckAllocator_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckAllocator
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckAllocator
+  nameWithType: CollectionChecks.CheckAllocator
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckCapacity(System.Int32)
+  name: CheckCapacity(int)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckCapacity_System_Int32_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckCapacity(System.Int32)
+  name.vb: CheckCapacity(Integer)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckCapacity(int)
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckCapacity(Integer)
+  nameWithType: CollectionChecks.CheckCapacity(int)
+  nameWithType.vb: CollectionChecks.CheckCapacity(Integer)
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckCapacity*
+  name: CheckCapacity
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckCapacity_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckCapacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckCapacity
+  nameWithType: CollectionChecks.CheckCapacity
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange(System.Int32,System.Int32)
+  name: CheckCapacityInRange(int, int)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckCapacityInRange_System_Int32_System_Int32_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange(System.Int32,System.Int32)
+  name.vb: CheckCapacityInRange(Integer, Integer)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange(int, int)
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange(Integer, Integer)
+  nameWithType: CollectionChecks.CheckCapacityInRange(int, int)
+  nameWithType.vb: CollectionChecks.CheckCapacityInRange(Integer, Integer)
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange*
+  name: CheckCapacityInRange
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckCapacityInRange_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckCapacityInRange
+  nameWithType: CollectionChecks.CheckCapacityInRange
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange(System.Int32,System.Int32)
+  name: CheckIndexInRange(int, int)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckIndexInRange_System_Int32_System_Int32_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange(System.Int32,System.Int32)
+  name.vb: CheckIndexInRange(Integer, Integer)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange(int, int)
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange(Integer, Integer)
+  nameWithType: CollectionChecks.CheckIndexInRange(int, int)
+  nameWithType.vb: CollectionChecks.CheckIndexInRange(Integer, Integer)
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange*
+  name: CheckIndexInRange
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckIndexInRange_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckIndexInRange
+  nameWithType: CollectionChecks.CheckIndexInRange
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged*
+  name: CheckIsUnmanaged
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckIsUnmanaged_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged
+  nameWithType: CollectionChecks.CheckIsUnmanaged
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged``1
+  name: CheckIsUnmanaged<T>()
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckIsUnmanaged__1
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged``1
+  name.vb: CheckIsUnmanaged(Of T)()
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged<T>()
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckIsUnmanaged(Of T)()
+  nameWithType: CollectionChecks.CheckIsUnmanaged<T>()
+  nameWithType.vb: CollectionChecks.CheckIsUnmanaged(Of T)()
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckNull*
+  name: CheckNull
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckNull_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckNull
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckNull
+  nameWithType: CollectionChecks.CheckNull
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckNull``1(``0*)
+  name: CheckNull<T>(T*)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckNull__1___0__
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckNull``1(``0*)
+  name.vb: CheckNull(Of T)(T*)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckNull<T>(T*)
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckNull(Of T)(T*)
+  nameWithType: CollectionChecks.CheckNull<T>(T*)
+  nameWithType.vb: CollectionChecks.CheckNull(Of T)(T*)
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckPositive(System.Int32)
+  name: CheckPositive(int)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckPositive_System_Int32_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckPositive(System.Int32)
+  name.vb: CheckPositive(Integer)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckPositive(int)
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckPositive(Integer)
+  nameWithType: CollectionChecks.CheckPositive(int)
+  nameWithType.vb: CollectionChecks.CheckPositive(Integer)
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckPositive*
+  name: CheckPositive
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckPositive_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckPositive
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckPositive
+  nameWithType: CollectionChecks.CheckPositive
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckReinterpret*
+  name: CheckReinterpret
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckReinterpret_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.CheckReinterpret
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckReinterpret
+  nameWithType: CollectionChecks.CheckReinterpret
+- uid: ProjectDawn.Navigation.CollectionChecks.CheckReinterpret``1(System.Int32)
+  name: CheckReinterpret<T>(int)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_CheckReinterpret__1_System_Int32_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.CheckReinterpret``1(System.Int32)
+  name.vb: CheckReinterpret(Of T)(Integer)
+  fullName: ProjectDawn.Navigation.CollectionChecks.CheckReinterpret<T>(int)
+  fullName.vb: ProjectDawn.Navigation.CollectionChecks.CheckReinterpret(Of T)(Integer)
+  nameWithType: CollectionChecks.CheckReinterpret<T>(int)
+  nameWithType.vb: CollectionChecks.CheckReinterpret(Of T)(Integer)
+- uid: ProjectDawn.Navigation.CollectionChecks.ShouldDeallocate(Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: ShouldDeallocate(AllocatorHandle)
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_ShouldDeallocate_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.CollectionChecks.ShouldDeallocate(Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName: ProjectDawn.Navigation.CollectionChecks.ShouldDeallocate(Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: CollectionChecks.ShouldDeallocate(AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.CollectionChecks.ShouldDeallocate*
+  name: ShouldDeallocate
+  href: api/ProjectDawn.Navigation.CollectionChecks.html#ProjectDawn_Navigation_CollectionChecks_ShouldDeallocate_
+  commentId: Overload:ProjectDawn.Navigation.CollectionChecks.ShouldDeallocate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.CollectionChecks.ShouldDeallocate
+  nameWithType: CollectionChecks.ShouldDeallocate
 - uid: ProjectDawn.Navigation.ColliderSubSettings
   name: ColliderSubSettings
   href: api/ProjectDawn.Navigation.ColliderSubSettings.html
@@ -4148,6 +4250,44 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.AgentSmartStopGizmosSystem.OnCreateForCompiler
   nameWithType: AgentSmartStopGizmosSystem.OnCreateForCompiler
+- uid: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem
+  name: AgentSpatilaPartitioningGizmosSystem
+  href: api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.html
+  commentId: T:ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem
+  fullName: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem
+  nameWithType: AgentSpatilaPartitioningGizmosSystem
+- uid: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentSpatilaPartitioningGizmosSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler(SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler*
+  name: OnCreateForCompiler
+  href: api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentSpatilaPartitioningGizmosSystem_OnCreateForCompiler_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler
+  nameWithType: AgentSpatilaPartitioningGizmosSystem.OnCreateForCompiler
+- uid: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name: OnUpdate(ref SystemState)
+  href: api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentSpatilaPartitioningGizmosSystem_OnUpdate_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate(Unity.Entities.SystemState@)
+  name.vb: OnUpdate(SystemState)
+  fullName: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate(Unity.Entities.SystemState)
+  nameWithType: AgentSpatilaPartitioningGizmosSystem.OnUpdate(ref SystemState)
+  nameWithType.vb: AgentSpatilaPartitioningGizmosSystem.OnUpdate(SystemState)
+- uid: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate*
+  name: OnUpdate
+  href: api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.html#ProjectDawn_Navigation_Editor_AgentSpatilaPartitioningGizmosSystem_OnUpdate_
+  commentId: Overload:ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.OnUpdate
+  nameWithType: AgentSpatilaPartitioningGizmosSystem.OnUpdate
 - uid: ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor
   name: AgentsNavigationSettingsEditor
   href: api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.html
@@ -4428,6 +4568,28 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.Editor.RangeDrawer.OnGUI
   nameWithType: RangeDrawer.OnGUI
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField
+  name: ScriptingDefinePopupField
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.html
+  commentId: T:ProjectDawn.Navigation.Editor.ScriptingDefinePopupField
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField
+  nameWithType: ScriptingDefinePopupField
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw(UnityEngine.GUIContent,System.String[],System.String[])
+  name: Draw(GUIContent, string[], string[])
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.html#ProjectDawn_Navigation_Editor_ScriptingDefinePopupField_Draw_UnityEngine_GUIContent_System_String___System_String___
+  commentId: M:ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw(UnityEngine.GUIContent,System.String[],System.String[])
+  name.vb: Draw(GUIContent, String(), String())
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw(UnityEngine.GUIContent, string[], string[])
+  fullName.vb: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw(UnityEngine.GUIContent, String(), String())
+  nameWithType: ScriptingDefinePopupField.Draw(GUIContent, string[], string[])
+  nameWithType.vb: ScriptingDefinePopupField.Draw(GUIContent, String(), String())
+- uid: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw*
+  name: Draw
+  href: api/ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.html#ProjectDawn_Navigation_Editor_ScriptingDefinePopupField_Draw_
+  commentId: Overload:ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.Draw
+  nameWithType: ScriptingDefinePopupField.Draw
 - uid: ProjectDawn.Navigation.Editor.ScriptingDefineToggleField
   name: ScriptingDefineToggleField
   href: api/ProjectDawn.Navigation.Editor.ScriptingDefineToggleField.html
@@ -5062,6 +5224,12 @@ references:
   commentId: F:ProjectDawn.Navigation.HiveMindStop.Enabled
   fullName: ProjectDawn.Navigation.HiveMindStop.Enabled
   nameWithType: HiveMindStop.Enabled
+- uid: ProjectDawn.Navigation.HiveMindStop.MinDistance
+  name: MinDistance
+  href: api/ProjectDawn.Navigation.HiveMindStop.html#ProjectDawn_Navigation_HiveMindStop_MinDistance
+  commentId: F:ProjectDawn.Navigation.HiveMindStop.MinDistance
+  fullName: ProjectDawn.Navigation.HiveMindStop.MinDistance
+  nameWithType: HiveMindStop.MinDistance
 - uid: ProjectDawn.Navigation.HiveMindStop.Radius
   name: Radius
   href: api/ProjectDawn.Navigation.HiveMindStop.html#ProjectDawn_Navigation_HiveMindStop_Radius
@@ -7542,31 +7710,64 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.ISpatialQueryEntity.Execute
   nameWithType: ISpatialQueryEntity.Execute
-- uid: ProjectDawn.Navigation.ISpatialQueryVolume
-  name: ISpatialQueryVolume
-  href: api/ProjectDawn.Navigation.ISpatialQueryVolume.html
-  commentId: T:ProjectDawn.Navigation.ISpatialQueryVolume
-  fullName: ProjectDawn.Navigation.ISpatialQueryVolume
-  nameWithType: ISpatialQueryVolume
-- uid: ProjectDawn.Navigation.ISpatialQueryVolume.Execute(Unity.Mathematics.float3,Unity.Mathematics.float3)
-  name: Execute(float3, float3)
-  href: api/ProjectDawn.Navigation.ISpatialQueryVolume.html#ProjectDawn_Navigation_ISpatialQueryVolume_Execute_Unity_Mathematics_float3_Unity_Mathematics_float3_
-  commentId: M:ProjectDawn.Navigation.ISpatialQueryVolume.Execute(Unity.Mathematics.float3,Unity.Mathematics.float3)
-  fullName: ProjectDawn.Navigation.ISpatialQueryVolume.Execute(Unity.Mathematics.float3, Unity.Mathematics.float3)
-  nameWithType: ISpatialQueryVolume.Execute(float3, float3)
-- uid: ProjectDawn.Navigation.ISpatialQueryVolume.Execute*
-  name: Execute
-  href: api/ProjectDawn.Navigation.ISpatialQueryVolume.html#ProjectDawn_Navigation_ISpatialQueryVolume_Execute_
-  commentId: Overload:ProjectDawn.Navigation.ISpatialQueryVolume.Execute
-  isSpec: "True"
-  fullName: ProjectDawn.Navigation.ISpatialQueryVolume.Execute
-  nameWithType: ISpatialQueryVolume.Execute
 - uid: ProjectDawn.Navigation.ISubSettings
   name: ISubSettings
   href: api/ProjectDawn.Navigation.ISubSettings.html
   commentId: T:ProjectDawn.Navigation.ISubSettings
   fullName: ProjectDawn.Navigation.ISubSettings
   nameWithType: ISubSettings
+- uid: ProjectDawn.Navigation.ISurfaceArea`1
+  name: ISurfaceArea<T>
+  href: api/ProjectDawn.Navigation.ISurfaceArea-1.html
+  commentId: T:ProjectDawn.Navigation.ISurfaceArea`1
+  name.vb: ISurfaceArea(Of T)
+  fullName: ProjectDawn.Navigation.ISurfaceArea<T>
+  fullName.vb: ProjectDawn.Navigation.ISurfaceArea(Of T)
+  nameWithType: ISurfaceArea<T>
+  nameWithType.vb: ISurfaceArea(Of T)
+- uid: ProjectDawn.Navigation.ISurfaceArea`1.SurfaceArea
+  name: SurfaceArea()
+  href: api/ProjectDawn.Navigation.ISurfaceArea-1.html#ProjectDawn_Navigation_ISurfaceArea_1_SurfaceArea
+  commentId: M:ProjectDawn.Navigation.ISurfaceArea`1.SurfaceArea
+  fullName: ProjectDawn.Navigation.ISurfaceArea<T>.SurfaceArea()
+  fullName.vb: ProjectDawn.Navigation.ISurfaceArea(Of T).SurfaceArea()
+  nameWithType: ISurfaceArea<T>.SurfaceArea()
+  nameWithType.vb: ISurfaceArea(Of T).SurfaceArea()
+- uid: ProjectDawn.Navigation.ISurfaceArea`1.SurfaceArea*
+  name: SurfaceArea
+  href: api/ProjectDawn.Navigation.ISurfaceArea-1.html#ProjectDawn_Navigation_ISurfaceArea_1_SurfaceArea_
+  commentId: Overload:ProjectDawn.Navigation.ISurfaceArea`1.SurfaceArea
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.ISurfaceArea<T>.SurfaceArea
+  fullName.vb: ProjectDawn.Navigation.ISurfaceArea(Of T).SurfaceArea
+  nameWithType: ISurfaceArea<T>.SurfaceArea
+  nameWithType.vb: ISurfaceArea(Of T).SurfaceArea
+- uid: ProjectDawn.Navigation.IUnion`1
+  name: IUnion<T>
+  href: api/ProjectDawn.Navigation.IUnion-1.html
+  commentId: T:ProjectDawn.Navigation.IUnion`1
+  name.vb: IUnion(Of T)
+  fullName: ProjectDawn.Navigation.IUnion<T>
+  fullName.vb: ProjectDawn.Navigation.IUnion(Of T)
+  nameWithType: IUnion<T>
+  nameWithType.vb: IUnion(Of T)
+- uid: ProjectDawn.Navigation.IUnion`1.Union(`0)
+  name: Union(T)
+  href: api/ProjectDawn.Navigation.IUnion-1.html#ProjectDawn_Navigation_IUnion_1_Union__0_
+  commentId: M:ProjectDawn.Navigation.IUnion`1.Union(`0)
+  fullName: ProjectDawn.Navigation.IUnion<T>.Union(T)
+  fullName.vb: ProjectDawn.Navigation.IUnion(Of T).Union(T)
+  nameWithType: IUnion<T>.Union(T)
+  nameWithType.vb: IUnion(Of T).Union(T)
+- uid: ProjectDawn.Navigation.IUnion`1.Union*
+  name: Union
+  href: api/ProjectDawn.Navigation.IUnion-1.html#ProjectDawn_Navigation_IUnion_1_Union_
+  commentId: Overload:ProjectDawn.Navigation.IUnion`1.Union
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.IUnion<T>.Union
+  fullName.vb: ProjectDawn.Navigation.IUnion(Of T).Union
+  nameWithType: IUnion<T>.Union
+  nameWithType.vb: IUnion(Of T).Union
 - uid: ProjectDawn.Navigation.LinkTraversal
   name: LinkTraversal
   href: api/ProjectDawn.Navigation.LinkTraversal.html
@@ -7613,6 +7814,1247 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Navigation.LinkTraversalSeekSystem.OnCreateForCompiler
   nameWithType: LinkTraversalSeekSystem.OnCreateForCompiler
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe
+  name: ProjectDawn.Navigation.LowLevel.Unsafe
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.html
+  commentId: N:ProjectDawn.Navigation.LowLevel.Unsafe
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe
+  nameWithType: ProjectDawn.Navigation.LowLevel.Unsafe
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2
+  name: UnsafeBHVTree<TVolume, TValue>
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html
+  commentId: T:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2
+  name.vb: UnsafeBHVTree(Of TVolume, TValue)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: UnsafeBHVTree(int, AllocatorHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name.vb: New(Integer, AllocatorHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.UnsafeBHVTree(int, Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).New(Integer, Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.UnsafeBHVTree(int, AllocatorManager.AllocatorHandle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).New(Integer, AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.#ctor*
+  name: UnsafeBHVTree
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2__ctor_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.UnsafeBHVTree
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).New
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.UnsafeBHVTree
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).New
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Add(`0,`1,System.Boolean)
+  name: Add(TVolume, TValue, bool)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Add__0__1_System_Boolean_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Add(`0,`1,System.Boolean)
+  name.vb: Add(TVolume, TValue, Boolean)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Add(TVolume, TValue, bool)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Add(TVolume, TValue, Boolean)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Add(TVolume, TValue, bool)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Add(TVolume, TValue, Boolean)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Add*
+  name: Add
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Add_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Add
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Add
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Add
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Add
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Add
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Capacity
+  name: Capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Capacity
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Capacity
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Capacity
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Capacity
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Capacity*
+  name: Capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Capacity_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Capacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Capacity
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Capacity
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Clear
+  name: Clear()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Clear
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Clear
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Clear()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Clear()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Clear()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Clear()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Clear*
+  name: Clear
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Clear_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Clear
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Clear
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Clear
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Clear
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Clear
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Cost
+  name: Cost()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Cost
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Cost
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Cost()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Cost()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Cost()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Cost()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Cost*
+  name: Cost
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Cost_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Cost
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Cost
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Cost
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Cost
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Cost
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountLeafs
+  name: CountLeafs()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountLeafs
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountLeafs
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.CountLeafs()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).CountLeafs()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.CountLeafs()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).CountLeafs()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountLeafs*
+  name: CountLeafs
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountLeafs_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountLeafs
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.CountLeafs
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).CountLeafs
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.CountLeafs
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).CountLeafs
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountNodes
+  name: CountNodes()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountNodes
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountNodes
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.CountNodes()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).CountNodes()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.CountNodes()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).CountNodes()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountNodes*
+  name: CountNodes
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_CountNodes_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.CountNodes
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.CountNodes
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).CountNodes
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.CountNodes
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).CountNodes
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: Create(int, AllocatorHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name.vb: Create(Integer, AllocatorHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Create(int, Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Create(Integer, Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Create(int, AllocatorManager.AllocatorHandle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Create(Integer, AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Create*
+  name: Create
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Create_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Create
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Create
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Create
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Create
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Create
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}*)
+  name: Destroy(UnsafeBHVTree<TVolume, TValue>*)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Destroy_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1___
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}*)
+  name.vb: Destroy(UnsafeBHVTree(Of TVolume, TValue)*)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>*)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue)*)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Destroy(UnsafeBHVTree<TVolume, TValue>*)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Destroy(UnsafeBHVTree(Of TVolume, TValue)*)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Destroy*
+  name: Destroy
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Destroy_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Destroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Destroy
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Destroy
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Destroy
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Destroy
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Dispose
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Dispose
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Dispose()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Dispose()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Dispose()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Dispose()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Dispose_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Dispose
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Dispose
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Dispose
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Dispose
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetBalancedTreeFactor
+  name: GetBalancedTreeFactor()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetBalancedTreeFactor
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetBalancedTreeFactor
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.GetBalancedTreeFactor()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).GetBalancedTreeFactor()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.GetBalancedTreeFactor()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).GetBalancedTreeFactor()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetBalancedTreeFactor*
+  name: GetBalancedTreeFactor
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetBalancedTreeFactor_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetBalancedTreeFactor
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.GetBalancedTreeFactor
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).GetBalancedTreeFactor
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.GetBalancedTreeFactor
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).GetBalancedTreeFactor
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetDepth
+  name: GetDepth()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetDepth
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetDepth
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.GetDepth()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).GetDepth()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.GetDepth()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).GetDepth()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetDepth*
+  name: GetDepth
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetDepth_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetDepth
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.GetDepth
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).GetDepth
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.GetDepth
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).GetDepth
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetNode(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name: GetNode(Handle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetNode_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetNode(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.GetNode(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).GetNode(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.GetNode(UnsafeBHVTree<TVolume, TValue>.Handle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).GetNode(UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetNode*
+  name: GetNode
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_GetNode_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.GetNode
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.GetNode
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).GetNode
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.GetNode
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).GetNode
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle
+  name: UnsafeBHVTree<TVolume, TValue>.Handle
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html
+  commentId: T:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle
+  name.vb: UnsafeBHVTree(Of TVolume, TValue).Handle
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.Equals(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name: Equals(Handle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_Equals_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.Equals(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.Equals(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.Equals(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.Equals(UnsafeBHVTree<TVolume, TValue>.Handle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.Equals(UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.Equals(System.Object)
+  name: Equals(object)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_Equals_System_Object_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.Equals(object)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.Equals(Object)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.Equals(object)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.Equals(Object)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.Equals*
+  name: Equals
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_Equals_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.Equals
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.Equals
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.Equals
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.Equals
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.Equals
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.GetHashCode
+  name: GetHashCode()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_GetHashCode
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.GetHashCode
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.GetHashCode()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.GetHashCode()
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.GetHashCode()
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.GetHashCode()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.GetHashCode*
+  name: GetHashCode
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_GetHashCode_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.GetHashCode
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.GetHashCode
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.GetHashCode
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.GetHashCode
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.GetHashCode
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.IsValid
+  name: IsValid
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_IsValid
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.IsValid
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.IsValid
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.IsValid
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.IsValid
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.IsValid
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.IsValid*
+  name: IsValid
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_IsValid_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.IsValid
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.IsValid
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.IsValid
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.IsValid
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.IsValid
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Equality(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle,ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name: operator ==(Handle, Handle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_op_Equality_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Equality(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle,ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name.vb: =(Handle, Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.operator ==(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle, ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.=(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle, ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.operator ==(UnsafeBHVTree<TVolume, TValue>.Handle, UnsafeBHVTree<TVolume, TValue>.Handle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.=(UnsafeBHVTree(Of TVolume, TValue).Handle, UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Equality*
+  name: operator ==
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_op_Equality_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.operator ==
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.=
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.operator ==
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.=
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Implicit(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)~System.Int32
+  name: implicit operator int(Handle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_op_Implicit_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle__System_Int32
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Implicit(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)~System.Int32
+  name.vb: CType(Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.implicit operator int(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.CType(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.implicit operator int(UnsafeBHVTree<TVolume, TValue>.Handle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.CType(UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Implicit*
+  name: implicit operator
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_op_Implicit_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.implicit operator
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.CType
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.implicit operator
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.CType
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Inequality(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle,ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name: operator !=(Handle, Handle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_op_Inequality_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Inequality(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle,ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name.vb: <>(Handle, Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.operator !=(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle, ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.<>(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle, ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.operator !=(UnsafeBHVTree<TVolume, TValue>.Handle, UnsafeBHVTree<TVolume, TValue>.Handle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.<>(UnsafeBHVTree(Of TVolume, TValue).Handle, UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Inequality*
+  name: operator !=
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Handle_op_Inequality_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Handle.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle.operator !=
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle.<>
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Handle.operator !=
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Handle.<>
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsCreated
+  name: IsCreated
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsCreated
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsCreated
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.IsCreated
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).IsCreated
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.IsCreated
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).IsCreated
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsCreated*
+  name: IsCreated
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsCreated_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsCreated
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.IsCreated
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).IsCreated
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.IsCreated
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).IsCreated
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsEmpty
+  name: IsEmpty
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsEmpty
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsEmpty
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.IsEmpty
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).IsEmpty
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.IsEmpty
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).IsEmpty
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsEmpty*
+  name: IsEmpty
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_IsEmpty_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.IsEmpty
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.IsEmpty
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).IsEmpty
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.IsEmpty
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).IsEmpty
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Item(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name: this[Handle]
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Item_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Item(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name.vb: this[](Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.this[ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle]
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).this[](ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.this[UnsafeBHVTree<TVolume, TValue>.Handle]
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).this[](UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Item*
+  name: this
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Item_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.this
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).this[]
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.this
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).this[]
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Length
+  name: Length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Length
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Length
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Length
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Length
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Length
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Length*
+  name: Length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Length_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Length
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Length
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Length
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Length
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node
+  name: UnsafeBHVTree<TVolume, TValue>.Node
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html
+  commentId: T:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node
+  name.vb: UnsafeBHVTree(Of TVolume, TValue).Node
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.IsLeaf
+  name: IsLeaf
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_IsLeaf
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.IsLeaf
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.IsLeaf
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.IsLeaf
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.IsLeaf
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.IsLeaf
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.IsLeaf*
+  name: IsLeaf
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_IsLeaf_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.IsLeaf
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.IsLeaf
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.IsLeaf
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.IsLeaf
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.IsLeaf
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.LeftChild
+  name: LeftChild
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_LeftChild
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.LeftChild
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.LeftChild
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.LeftChild
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.LeftChild
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.LeftChild
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.LeftChild*
+  name: LeftChild
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_LeftChild_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.LeftChild
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.LeftChild
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.LeftChild
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.LeftChild
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.LeftChild
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Parent
+  name: Parent
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_Parent
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Parent
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.Parent
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.Parent
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.Parent
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.Parent
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Parent*
+  name: Parent
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_Parent_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Parent
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.Parent
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.Parent
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.Parent
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.Parent
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.RightChild
+  name: RightChild
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_RightChild
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.RightChild
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.RightChild
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.RightChild
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.RightChild
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.RightChild
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.RightChild*
+  name: RightChild
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_RightChild_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.RightChild
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.RightChild
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.RightChild
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.RightChild
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.RightChild
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Value
+  name: Value
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_Value
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Value
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.Value
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.Value
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.Value
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.Value
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Value*
+  name: Value
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_Value_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Value
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.Value
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.Value
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.Value
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.Value
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Volume
+  name: Volume
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_Volume
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Volume
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.Volume
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.Volume
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.Volume
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.Volume
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Volume*
+  name: Volume
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Node_Volume_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Node.Volume
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Node.Volume
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Node.Volume
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Node.Volume
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Node.Volume
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.RemoveAt(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  name: RemoveAt(Handle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_RemoveAt_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree__0__1__Handle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.RemoveAt(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree{`0,`1}.Handle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.RemoveAt(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Handle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).RemoveAt(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Handle)
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.RemoveAt(UnsafeBHVTree<TVolume, TValue>.Handle)
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).RemoveAt(UnsafeBHVTree(Of TVolume, TValue).Handle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.RemoveAt*
+  name: RemoveAt
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_RemoveAt_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.RemoveAt
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.RemoveAt
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).RemoveAt
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.RemoveAt
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).RemoveAt
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Root
+  name: Root
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Root
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Root
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Root
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Root
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Root
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Root
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Root*
+  name: Root
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeBHVTree_2_Root_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree`2.Root
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree<TVolume, TValue>.Root
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree(Of TVolume, TValue).Root
+  nameWithType: UnsafeBHVTree<TVolume, TValue>.Root
+  nameWithType.vb: UnsafeBHVTree(Of TVolume, TValue).Root
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2
+  name: UnsafeHeap<TKey, TValue>
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html
+  commentId: T:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2
+  name.vb: UnsafeHeap(Of TKey, TValue)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue)
+  nameWithType: UnsafeHeap<TKey, TValue>
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: UnsafeHeap(int, AllocatorHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name.vb: New(Integer, AllocatorHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.UnsafeHeap(int, Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).New(Integer, Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: UnsafeHeap<TKey, TValue>.UnsafeHeap(int, AllocatorManager.AllocatorHandle)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).New(Integer, AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.#ctor*
+  name: UnsafeHeap
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2__ctor_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.UnsafeHeap
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).New
+  nameWithType: UnsafeHeap<TKey, TValue>.UnsafeHeap
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).New
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Capacity
+  name: Capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Capacity
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Capacity
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Capacity
+  nameWithType: UnsafeHeap<TKey, TValue>.Capacity
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Capacity*
+  name: Capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Capacity_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Capacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Capacity
+  nameWithType: UnsafeHeap<TKey, TValue>.Capacity
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Clear
+  name: Clear()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Clear
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Clear
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Clear()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Clear()
+  nameWithType: UnsafeHeap<TKey, TValue>.Clear()
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Clear()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Clear*
+  name: Clear
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Clear_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Clear
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Clear
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Clear
+  nameWithType: UnsafeHeap<TKey, TValue>.Clear
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Clear
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: Create(int, AllocatorHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle)
+  name.vb: Create(Integer, AllocatorHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Create(int, Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Create(Integer, Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: UnsafeHeap<TKey, TValue>.Create(int, AllocatorManager.AllocatorHandle)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Create(Integer, AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Create*
+  name: Create
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Create_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Create
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Create
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Create
+  nameWithType: UnsafeHeap<TKey, TValue>.Create
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Create
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap{`0,`1}*)
+  name: Destroy(UnsafeHeap<TKey, TValue>*)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Destroy_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap__0__1___
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap{`0,`1}*)
+  name.vb: Destroy(UnsafeHeap(Of TKey, TValue)*)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>*)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue)*)
+  nameWithType: UnsafeHeap<TKey, TValue>.Destroy(UnsafeHeap<TKey, TValue>*)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Destroy(UnsafeHeap(Of TKey, TValue)*)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Destroy*
+  name: Destroy
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Destroy_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Destroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Destroy
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Destroy
+  nameWithType: UnsafeHeap<TKey, TValue>.Destroy
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Destroy
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Dispose
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Dispose
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Dispose()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Dispose()
+  nameWithType: UnsafeHeap<TKey, TValue>.Dispose()
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Dispose()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Dispose_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Dispose
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Dispose
+  nameWithType: UnsafeHeap<TKey, TValue>.Dispose
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Dispose
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetKeyArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: GetKeyArray(AllocatorHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_GetKeyArray_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetKeyArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.GetKeyArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).GetKeyArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: UnsafeHeap<TKey, TValue>.GetKeyArray(AllocatorManager.AllocatorHandle)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).GetKeyArray(AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetKeyArray*
+  name: GetKeyArray
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_GetKeyArray_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetKeyArray
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.GetKeyArray
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).GetKeyArray
+  nameWithType: UnsafeHeap<TKey, TValue>.GetKeyArray
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).GetKeyArray
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetValueArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  name: GetValueArray(AllocatorHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_GetValueArray_Unity_Collections_AllocatorManager_AllocatorHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetValueArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.GetValueArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).GetValueArray(Unity.Collections.AllocatorManager.AllocatorHandle)
+  nameWithType: UnsafeHeap<TKey, TValue>.GetValueArray(AllocatorManager.AllocatorHandle)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).GetValueArray(AllocatorManager.AllocatorHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetValueArray*
+  name: GetValueArray
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_GetValueArray_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.GetValueArray
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.GetValueArray
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).GetValueArray
+  nameWithType: UnsafeHeap<TKey, TValue>.GetValueArray
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).GetValueArray
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsCreated
+  name: IsCreated
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_IsCreated
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsCreated
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.IsCreated
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).IsCreated
+  nameWithType: UnsafeHeap<TKey, TValue>.IsCreated
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).IsCreated
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsCreated*
+  name: IsCreated
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_IsCreated_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsCreated
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.IsCreated
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).IsCreated
+  nameWithType: UnsafeHeap<TKey, TValue>.IsCreated
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).IsCreated
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsEmpty
+  name: IsEmpty
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_IsEmpty
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsEmpty
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.IsEmpty
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).IsEmpty
+  nameWithType: UnsafeHeap<TKey, TValue>.IsEmpty
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).IsEmpty
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsEmpty*
+  name: IsEmpty
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_IsEmpty_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.IsEmpty
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.IsEmpty
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).IsEmpty
+  nameWithType: UnsafeHeap<TKey, TValue>.IsEmpty
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).IsEmpty
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Length
+  name: Length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Length
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Length
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Length
+  nameWithType: UnsafeHeap<TKey, TValue>.Length
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Length
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Length*
+  name: Length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Length_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Length
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Length
+  nameWithType: UnsafeHeap<TKey, TValue>.Length
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Length
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Peek
+  name: Peek()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Peek
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Peek
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Peek()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Peek()
+  nameWithType: UnsafeHeap<TKey, TValue>.Peek()
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Peek()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Peek*
+  name: Peek
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Peek_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Peek
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Peek
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Peek
+  nameWithType: UnsafeHeap<TKey, TValue>.Peek
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Peek
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Pop
+  name: Pop()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Pop
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Pop
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Pop()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Pop()
+  nameWithType: UnsafeHeap<TKey, TValue>.Pop()
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Pop()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Pop*
+  name: Pop
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Pop_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Pop
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Pop
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Pop
+  nameWithType: UnsafeHeap<TKey, TValue>.Pop
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Pop
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Push(`0,`1)
+  name: Push(TKey, TValue)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Push__0__1_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Push(`0,`1)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Push(TKey, TValue)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Push(TKey, TValue)
+  nameWithType: UnsafeHeap<TKey, TValue>.Push(TKey, TValue)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Push(TKey, TValue)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Push*
+  name: Push
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Push_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Push
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Push
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Push
+  nameWithType: UnsafeHeap<TKey, TValue>.Push
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Push
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Resize(System.Int32,Unity.Collections.NativeArrayOptions)
+  name: Resize(int, NativeArrayOptions)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Resize_System_Int32_Unity_Collections_NativeArrayOptions_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Resize(System.Int32,Unity.Collections.NativeArrayOptions)
+  name.vb: Resize(Integer, NativeArrayOptions)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Resize(int, Unity.Collections.NativeArrayOptions)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Resize(Integer, Unity.Collections.NativeArrayOptions)
+  nameWithType: UnsafeHeap<TKey, TValue>.Resize(int, NativeArrayOptions)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Resize(Integer, NativeArrayOptions)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Resize*
+  name: Resize
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_Resize_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.Resize
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.Resize
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).Resize
+  nameWithType: UnsafeHeap<TKey, TValue>.Resize
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).Resize
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.SetCapacity(System.Int32)
+  name: SetCapacity(int)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_SetCapacity_System_Int32_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.SetCapacity(System.Int32)
+  name.vb: SetCapacity(Integer)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.SetCapacity(int)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).SetCapacity(Integer)
+  nameWithType: UnsafeHeap<TKey, TValue>.SetCapacity(int)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).SetCapacity(Integer)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.SetCapacity*
+  name: SetCapacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_SetCapacity_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.SetCapacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.SetCapacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).SetCapacity
+  nameWithType: UnsafeHeap<TKey, TValue>.SetCapacity
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).SetCapacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TrimExcess
+  name: TrimExcess()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_TrimExcess
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TrimExcess
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.TrimExcess()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).TrimExcess()
+  nameWithType: UnsafeHeap<TKey, TValue>.TrimExcess()
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).TrimExcess()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TrimExcess*
+  name: TrimExcess
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_TrimExcess_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TrimExcess
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.TrimExcess
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).TrimExcess
+  nameWithType: UnsafeHeap<TKey, TValue>.TrimExcess
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).TrimExcess
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TryPop(`1@)
+  name: TryPop(out TValue)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_TryPop__1__
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TryPop(`1@)
+  name.vb: TryPop(TValue)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.TryPop(out TValue)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).TryPop(TValue)
+  nameWithType: UnsafeHeap<TKey, TValue>.TryPop(out TValue)
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).TryPop(TValue)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TryPop*
+  name: TryPop
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeHeap_2_TryPop_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap`2.TryPop
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap<TKey, TValue>.TryPop
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap(Of TKey, TValue).TryPop
+  nameWithType: UnsafeHeap<TKey, TValue>.TryPop
+  nameWithType.vb: UnsafeHeap(Of TKey, TValue).TryPop
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1
+  name: UnsafeStack<T>
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html
+  commentId: T:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1
+  name.vb: UnsafeStack(Of T)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T)
+  nameWithType: UnsafeStack<T>
+  nameWithType.vb: UnsafeStack(Of T)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,Unity.Collections.NativeArrayOptions)
+  name: UnsafeStack(int, AllocatorHandle, NativeArrayOptions)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_Unity_Collections_NativeArrayOptions_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,Unity.Collections.NativeArrayOptions)
+  name.vb: New(Integer, AllocatorHandle, NativeArrayOptions)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.UnsafeStack(int, Unity.Collections.AllocatorManager.AllocatorHandle, Unity.Collections.NativeArrayOptions)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).New(Integer, Unity.Collections.AllocatorManager.AllocatorHandle, Unity.Collections.NativeArrayOptions)
+  nameWithType: UnsafeStack<T>.UnsafeStack(int, AllocatorManager.AllocatorHandle, NativeArrayOptions)
+  nameWithType.vb: UnsafeStack(Of T).New(Integer, AllocatorManager.AllocatorHandle, NativeArrayOptions)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.#ctor(`0*,System.Int32)
+  name: UnsafeStack(T*, int)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1__ctor__0__System_Int32_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.#ctor(`0*,System.Int32)
+  name.vb: New(T*, Integer)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.UnsafeStack(T*, int)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).New(T*, Integer)
+  nameWithType: UnsafeStack<T>.UnsafeStack(T*, int)
+  nameWithType.vb: UnsafeStack(Of T).New(T*, Integer)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.#ctor*
+  name: UnsafeStack
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1__ctor_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.UnsafeStack
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).New
+  nameWithType: UnsafeStack<T>.UnsafeStack
+  nameWithType.vb: UnsafeStack(Of T).New
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Allocator
+  name: Allocator
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Allocator
+  commentId: F:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Allocator
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Allocator
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Allocator
+  nameWithType: UnsafeStack<T>.Allocator
+  nameWithType.vb: UnsafeStack(Of T).Allocator
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Capacity
+  name: Capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Capacity
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Capacity
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Capacity
+  nameWithType: UnsafeStack<T>.Capacity
+  nameWithType.vb: UnsafeStack(Of T).Capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Capacity*
+  name: Capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Capacity_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Capacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Capacity
+  nameWithType: UnsafeStack<T>.Capacity
+  nameWithType.vb: UnsafeStack(Of T).Capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Clear
+  name: Clear()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Clear
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Clear
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Clear()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Clear()
+  nameWithType: UnsafeStack<T>.Clear()
+  nameWithType.vb: UnsafeStack(Of T).Clear()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Clear*
+  name: Clear
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Clear_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Clear
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Clear
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Clear
+  nameWithType: UnsafeStack<T>.Clear
+  nameWithType.vb: UnsafeStack(Of T).Clear
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,Unity.Collections.NativeArrayOptions)
+  name: Create(int, AllocatorHandle, NativeArrayOptions)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle_Unity_Collections_NativeArrayOptions_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,Unity.Collections.NativeArrayOptions)
+  name.vb: Create(Integer, AllocatorHandle, NativeArrayOptions)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Create(int, Unity.Collections.AllocatorManager.AllocatorHandle, Unity.Collections.NativeArrayOptions)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Create(Integer, Unity.Collections.AllocatorManager.AllocatorHandle, Unity.Collections.NativeArrayOptions)
+  nameWithType: UnsafeStack<T>.Create(int, AllocatorManager.AllocatorHandle, NativeArrayOptions)
+  nameWithType.vb: UnsafeStack(Of T).Create(Integer, AllocatorManager.AllocatorHandle, NativeArrayOptions)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Create*
+  name: Create
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Create_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Create
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Create
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Create
+  nameWithType: UnsafeStack<T>.Create
+  nameWithType.vb: UnsafeStack(Of T).Create
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack{`0}*)
+  name: Destroy(UnsafeStack<T>*)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Destroy_ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack__0___
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack{`0}*)
+  name.vb: Destroy(UnsafeStack(Of T)*)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>*)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Destroy(ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T)*)
+  nameWithType: UnsafeStack<T>.Destroy(UnsafeStack<T>*)
+  nameWithType.vb: UnsafeStack(Of T).Destroy(UnsafeStack(Of T)*)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Destroy*
+  name: Destroy
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Destroy_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Destroy
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Destroy
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Destroy
+  nameWithType: UnsafeStack<T>.Destroy
+  nameWithType.vb: UnsafeStack(Of T).Destroy
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Dispose
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Dispose
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Dispose()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Dispose()
+  nameWithType: UnsafeStack<T>.Dispose()
+  nameWithType.vb: UnsafeStack(Of T).Dispose()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Dispose(Unity.Jobs.JobHandle)
+  name: Dispose(JobHandle)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Dispose_Unity_Jobs_JobHandle_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Dispose(Unity.Jobs.JobHandle)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Dispose(Unity.Jobs.JobHandle)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Dispose(Unity.Jobs.JobHandle)
+  nameWithType: UnsafeStack<T>.Dispose(JobHandle)
+  nameWithType.vb: UnsafeStack(Of T).Dispose(JobHandle)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Dispose_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Dispose
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Dispose
+  nameWithType: UnsafeStack<T>.Dispose
+  nameWithType.vb: UnsafeStack(Of T).Dispose
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsCreated
+  name: IsCreated
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_IsCreated
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsCreated
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.IsCreated
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).IsCreated
+  nameWithType: UnsafeStack<T>.IsCreated
+  nameWithType.vb: UnsafeStack(Of T).IsCreated
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsCreated*
+  name: IsCreated
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_IsCreated_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsCreated
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.IsCreated
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).IsCreated
+  nameWithType: UnsafeStack<T>.IsCreated
+  nameWithType.vb: UnsafeStack(Of T).IsCreated
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsEmpty
+  name: IsEmpty
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_IsEmpty
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsEmpty
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.IsEmpty
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).IsEmpty
+  nameWithType: UnsafeStack<T>.IsEmpty
+  nameWithType.vb: UnsafeStack(Of T).IsEmpty
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsEmpty*
+  name: IsEmpty
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_IsEmpty_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.IsEmpty
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.IsEmpty
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).IsEmpty
+  nameWithType: UnsafeStack<T>.IsEmpty
+  nameWithType.vb: UnsafeStack(Of T).IsEmpty
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Length
+  name: Length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Length
+  commentId: P:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Length
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Length
+  nameWithType: UnsafeStack<T>.Length
+  nameWithType.vb: UnsafeStack(Of T).Length
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Length*
+  name: Length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Length_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Length
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Length
+  nameWithType: UnsafeStack<T>.Length
+  nameWithType.vb: UnsafeStack(Of T).Length
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Pop
+  name: Pop()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Pop
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Pop
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Pop()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Pop()
+  nameWithType: UnsafeStack<T>.Pop()
+  nameWithType.vb: UnsafeStack(Of T).Pop()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Pop*
+  name: Pop
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Pop_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Pop
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Pop
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Pop
+  nameWithType: UnsafeStack<T>.Pop
+  nameWithType.vb: UnsafeStack(Of T).Pop
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Ptr
+  name: Ptr
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Ptr
+  commentId: F:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Ptr
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Ptr
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Ptr
+  nameWithType: UnsafeStack<T>.Ptr
+  nameWithType.vb: UnsafeStack(Of T).Ptr
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Push(`0)
+  name: Push(T)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Push__0_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Push(`0)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Push(T)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Push(T)
+  nameWithType: UnsafeStack<T>.Push(T)
+  nameWithType.vb: UnsafeStack(Of T).Push(T)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Push*
+  name: Push
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_Push_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.Push
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.Push
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).Push
+  nameWithType: UnsafeStack<T>.Push
+  nameWithType.vb: UnsafeStack(Of T).Push
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushNoResize(`0)
+  name: PushNoResize(T)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_PushNoResize__0_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushNoResize(`0)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.PushNoResize(T)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).PushNoResize(T)
+  nameWithType: UnsafeStack<T>.PushNoResize(T)
+  nameWithType.vb: UnsafeStack(Of T).PushNoResize(T)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushNoResize*
+  name: PushNoResize
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_PushNoResize_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushNoResize
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.PushNoResize
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).PushNoResize
+  nameWithType: UnsafeStack<T>.PushNoResize
+  nameWithType.vb: UnsafeStack(Of T).PushNoResize
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushRangeNoResize(System.Void*,System.Int32)
+  name: PushRangeNoResize(void*, int)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_PushRangeNoResize_System_Void__System_Int32_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushRangeNoResize(System.Void*,System.Int32)
+  name.vb: PushRangeNoResize(Void*, Integer)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.PushRangeNoResize(void*, int)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).PushRangeNoResize(Void*, Integer)
+  nameWithType: UnsafeStack<T>.PushRangeNoResize(void*, int)
+  nameWithType.vb: UnsafeStack(Of T).PushRangeNoResize(Void*, Integer)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushRangeNoResize*
+  name: PushRangeNoResize
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_PushRangeNoResize_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.PushRangeNoResize
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.PushRangeNoResize
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).PushRangeNoResize
+  nameWithType: UnsafeStack<T>.PushRangeNoResize
+  nameWithType.vb: UnsafeStack(Of T).PushRangeNoResize
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.SetCapacity(System.Int32)
+  name: SetCapacity(int)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_SetCapacity_System_Int32_
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.SetCapacity(System.Int32)
+  name.vb: SetCapacity(Integer)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.SetCapacity(int)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).SetCapacity(Integer)
+  nameWithType: UnsafeStack<T>.SetCapacity(int)
+  nameWithType.vb: UnsafeStack(Of T).SetCapacity(Integer)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.SetCapacity*
+  name: SetCapacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_SetCapacity_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.SetCapacity
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.SetCapacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).SetCapacity
+  nameWithType: UnsafeStack<T>.SetCapacity
+  nameWithType.vb: UnsafeStack(Of T).SetCapacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TrimExcess
+  name: TrimExcess()
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_TrimExcess
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TrimExcess
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.TrimExcess()
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).TrimExcess()
+  nameWithType: UnsafeStack<T>.TrimExcess()
+  nameWithType.vb: UnsafeStack(Of T).TrimExcess()
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TrimExcess*
+  name: TrimExcess
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_TrimExcess_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TrimExcess
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.TrimExcess
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).TrimExcess
+  nameWithType: UnsafeStack<T>.TrimExcess
+  nameWithType.vb: UnsafeStack(Of T).TrimExcess
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TryPop(`0@)
+  name: TryPop(out T)
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_TryPop__0__
+  commentId: M:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TryPop(`0@)
+  name.vb: TryPop(T)
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.TryPop(out T)
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).TryPop(T)
+  nameWithType: UnsafeStack<T>.TryPop(out T)
+  nameWithType.vb: UnsafeStack(Of T).TryPop(T)
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TryPop*
+  name: TryPop
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_TryPop_
+  commentId: Overload:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.TryPop
+  isSpec: "True"
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.TryPop
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).TryPop
+  nameWithType: UnsafeStack<T>.TryPop
+  nameWithType.vb: UnsafeStack(Of T).TryPop
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.capacity
+  name: capacity
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_capacity
+  commentId: F:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.capacity
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.capacity
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).capacity
+  nameWithType: UnsafeStack<T>.capacity
+  nameWithType.vb: UnsafeStack(Of T).capacity
+- uid: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.length
+  name: length
+  href: api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html#ProjectDawn_Navigation_LowLevel_Unsafe_UnsafeStack_1_length
+  commentId: F:ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack`1.length
+  fullName: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack<T>.length
+  fullName.vb: ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack(Of T).length
+  nameWithType: UnsafeStack<T>.length
+  nameWithType.vb: UnsafeStack(Of T).length
 - uid: ProjectDawn.Navigation.NavMeshAreaCost
   name: NavMeshAreaCost
   href: api/ProjectDawn.Navigation.NavMeshAreaCost.html

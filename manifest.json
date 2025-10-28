@@ -662,6 +662,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.CollectionChecks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.CollectionChecks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.ColliderSubSettings.yml",
       "output": {
         ".html": {
@@ -1002,6 +1012,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Editor.AgentSpatilaPartitioningGizmosSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Navigation.Editor.AgentsNavigationSettingsEditor.yml",
       "output": {
         ".html": {
@@ -1106,6 +1126,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.Editor.RangeDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.Editor.ScriptingDefinePopupField.html"
         }
       },
       "version": ""
@@ -1582,20 +1612,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.yml",
+      "source_relative_path": "api/ProjectDawn.Navigation.ISubSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ISpatialQueryVolume.html"
+          "relative_path": "api/ProjectDawn.Navigation.ISubSettings.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Navigation.ISubSettings.yml",
+      "source_relative_path": "api/ProjectDawn.Navigation.ISurfaceArea-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Navigation.ISubSettings.html"
+          "relative_path": "api/ProjectDawn.Navigation.ISurfaceArea-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.IUnion-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.IUnion-1.html"
         }
       },
       "version": ""
@@ -1626,6 +1666,66 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Navigation.LinkTraversalSeekSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Handle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeBHVTree-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeHeap-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.UnsafeStack-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Navigation.LowLevel.Unsafe.html"
         }
       },
       "version": ""

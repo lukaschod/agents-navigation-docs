@@ -73,6 +73,29 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="440---2025-10-22">[4.4.0] - 2025-10-22</h2>
+<ul>
+<li>Changed collision system no longer to use query capacity and always take all neighbours. I found from many users projects that cases where you would find this optimization useful, would prove too much unstable collision thus rendering it useless.</li>
+<li>Changed default grid hash spatial partitioning with query capacity 0 to take all neighbours instead of falling back to non shape based spatial grid partitioning.</li>
+<li>Added new agents navigation settings called <code>Spatial Partitioning Mode</code> that allow switching between different spatial partitioning backends</li>
+<li>Added new spatial partitioning that uses aabb tree. It is nice alternative to default one as it provides more stable search and also makes it quite optimal for using in game code, which is commonly requested feature</li>
+<li>Added new scene in unity scenarios <code>Unity Physics Locomotion</code> that shows example of integrating with unity ecs physics package</li>
+<li>Added to spatial partitioning aabb tree new overloads <code>QueryLine</code>, <code>QuerySphere</code> and <code>QueryCylinder</code> that are enurator based instead of generics. This make easier API and closer to SystemAPI.Query</li>
+<li>Fxed EntityBehaviour in some cases droping null reference exception on playmode stop</li>
+</ul>
+<h2 id="431---2025-10-17">[4.3.1] - 2025-10-17</h2>
+<ul>
+<li>Fixed compilation errors caused by RegisterUnityEngineComponentType on prior to 1.4.0 ecs version</li>
+</ul>
+<h2 id="430---2025-10-08">[4.3.0] - 2025-10-08</h2>
+<ul>
+<li>Fixed for ECS 1.4 RectTransform and Animator errors</li>
+<li>Fixed NavMeshCorners.TryGetCorners properly work with more than 2 navmesh nodes</li>
+<li>Updated zerg samples not to produce warnings on Unity 6</li>
+<li>Increased performance optimization for smart stop</li>
+<li>Added new sample zerg animatron</li>
+<li>Changed NavMeshSteeringSystem to set AgentBody RemainingDistance to heuristic distance instead of max float value</li>
+</ul>
 <h2 id="425---2025-09-08">[4.2.5] - 2025-09-08</h2>
 <ul>
 <li>Removed wantsToRecalculatePath logging from astar</li>
